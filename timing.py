@@ -1,3 +1,4 @@
+#!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
 Created on Fri Feb 14 10:07:25 2014
@@ -142,6 +143,11 @@ pdio_df.columns = ['pd.histval','pd.len','pd.start','pd.stop','trial','event']
 
 itiIdxs=np.r_[pdio_rleidx[:,0]+pdio_rleidx[:,4]*10, 0, 0] - np.r_[0,0,pdio_rleidx[:,0]+pdio_rleidx[:,4]*10] == 0;
 pdio_df['event'][np.where(itiIdxs)[0]] = 'ITI'
+# retype those pesky strings
+tofloat = [ x for x in pdio_df.columns if x != 'event' ]
+pdio_df[tofloat] = pdio_df[tofloat].astype(float)
+
+
 
 # trial number for trigger, starts at face (value of 4)
 # count up trials based on number of starts
@@ -149,16 +155,34 @@ trial = np.array([ t[0] == 4 for t in ttl_rleidx ]).cumsum()
 ttl_rleidx = np.c_[ttl_rleidx, trial]
 ttl_df = pd.DataFrame(np.c_[ttl_rleidx,np.array([ ttlToLabel[x] for x in  ttl_rleidx[:,0] ])])
 ttl_df.columns = ['tt.histval','tt.len','tt.start','tt.stop','trial','event']
+# retype those pesky strings
+tofloat = [ x for x in ttl_df.columns if x != 'event' ]
+ttl_df[tofloat] = ttl_df[tofloat].astype(float)
+
+### if photodiode doesn't record as we hope trial lengths will be different
+if(pdio_df['trial'][-1] != ttl_df['trail'][-1] ):
+    raise Exception('photodiode and triggers do not align')
+if(ttl_df['trial'][-1] != df_trial['trail'][-1] ):
+    raise Exception('trials from trigger do not match matlab file!')    
+# TODO: Implement
+# while trial lengths not equal
+#      find where pdio face onset is > 1000 ms from ttl onset
+#      add 1 to that and every subsiquent pdio trial number 
+
 
 # merge the two
 df = pd.merge(pdio_df,ttl_df)
+
+## TODO: reshape df so each row is a trial (instead of every 3 as a trial)
 # dflong = pd.wide_to_long(df,["pd.","tt."],i='trial',j='from') 
 # dfmetl = pd.melt(df,id_vars=['event','trial'])
 # dflong.stack()
+# pd.melt(pdio_df.drop(['pd.histval','pd.len'],1),id_vars=['trial','event']).set_index('trial').stack()
+# pd.wide_to_long(pdio_df.drop(['pd.histval','pd.len'],1),["pd."],i='trial',j='from').tail()
 f,axarr = plt.subplots(4,1,sharex=True)
 pi=0
 for t in ['start','stop','len']:
-   diff=df['pd.' + t].astype(int)- df['tt.' + t].astype(int)
+   diff=df['pd.' + t] - df['tt.' + t]
    axarr[pi].hist(diff)
    ttl='pd vs tt @ ' +  t + ' $\mu$' + str(diff.mean()) + ' $\sigma$ '+  str(diff.std()) 
    axarr[pi].set_title(ttl)
@@ -189,3 +213,6 @@ plt.show()
 #plt.plot(times*raw.info['sfreq'],data[1,:],color='red')
 #plt.show()
 
+
+
+alldf = pd.merge(df,df_trial)
