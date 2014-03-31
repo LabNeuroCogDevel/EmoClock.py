@@ -14,10 +14,25 @@ import numpy as np; #, h5py;
 import pandas as pd;
 from itertools import groupby, izip; # for runlenghencode like function
 from ggplot import *;
+import argparse
+
+
+
+# setup arguments
+parser = argparse.ArgumentParser(description='Generate CSV file from mat and fif(photodiode)')
+parser.add_argument('--mat',   '-m',dest="matfile",   help='path to the subjects mat file\neg. MEG_11243_20140213_tc.mat')
+parser.add_argument('--subjid','-s',dest='subjid',    help='subject id\ne.g. 12345_20001231')
+parser.add_argument('--fif',   '-f',dest='fiffile',   help='path to run fif file e.g. 11243_run1_Clock_raw.fif')
+parser.add_argument('--block', '-b',dest='runnum',    help='run number (1-8)')
+parser.add_argument('--output','-o',dest='outputname',help='name for csv file (default: subjid_runnum.csv)')
+
+args = parser.parse_args()
+if(args.outputname==''):
+    args.outputname=args.subjid+'_'+args.runnum+'.csv'
 
 ### BEHAVIORAL
 # task file
-mat   = scipy.io.loadmat('MEG_11243_20140213_tc.mat',struct_as_record=True);
+mat   = scipy.io.loadmat(args.fiffile,struct_as_record=True);
 subj  = mat.get('subject');
 order = subj['order'][0][0];
 
@@ -36,12 +51,14 @@ df = pd.DataFrame(trial,columns=columns)
 ### MEG 
 
 # meg file
-raw = mne.fiff.Raw('11243_run1_Clock_raw.fif')# ,preload=True) # preload to enable editing
-
-subjid=11243
-runnum=1
+raw = mne.fiff.Raw(args.fiffile)# ,preload=True) # preload to enable editing
 
 
+## get only the trials that are in this run
+df_trial = df_trial[df_trial['block']==args.runnum]  
+# re number the trial to start at 1 (fif doesn't know there were any trials before)
+starttrial=min(df_trial['trial'])
+df_trial['trial'] = df_trial['trial'] - starttrial + 1
 # remove 0s -- but there to avoid weird addition when sending TTL triggers
 # ## takes too long
 #for idx in range(0,raw[ttl,:][0].size): 
@@ -162,7 +179,7 @@ ttl_df[tofloat] = ttl_df[tofloat].astype(float)
 ### if photodiode doesn't record as we hope trial lengths will be different
 if(pdio_df['trial'][-1] != ttl_df['trail'][-1] ):
     raise Exception('photodiode and triggers do not align')
-if(ttl_df['trial'][-1] != df_trial['trail'][-1] ):
+if(ttl_df['trial'][-1] != df_trial['trial'][-1] ):
     raise Exception('trials from trigger do not match matlab file!')    
 # TODO: Implement
 # while trial lengths not equal
@@ -174,6 +191,28 @@ if(ttl_df['trial'][-1] != df_trial['trail'][-1] ):
 df = pd.merge(pdio_df,ttl_df)
 
 ## TODO: reshape df so each row is a trial (instead of every 3 as a trial)
+
+# or do it this slow way
+for e in set(pdio_df['event']):
+    ename=e + '.start'
+    df_trial[ename] = 0;
+    
+    for t in set(df_trial['trial']):
+        startidx=pdio_df.loc[ (pdio_df['trial']==t) & (pdio_df['event']==e)]['pd.start']
+        df_trial[ename][(df_trial['trial']==t)] = np.array(startidx) # NaN if not cast to array first (why?)
+        
+#save file
+df_trial.to_csv(args.outputname)
+
+exit()
+
+
+
+
+
+
+### PLOTS
+
 # dflong = pd.wide_to_long(df,["pd.","tt."],i='trial',j='from') 
 # dfmetl = pd.melt(df,id_vars=['event','trial'])
 # dflong.stack()
@@ -188,7 +227,7 @@ for t in ['start','stop','len']:
    axarr[pi].set_title(ttl)
    pi+=1
 
-df_RT = pd.merge(df_trial[['trial','RT']][df_trial['block']==runnum].astype(int), df[['pd.len','trial']][df['event']== 'face'].astype(int),on='trial')
+df_RT = pd.merge(df_trial[['trial','RT']][df_trial['block']==args.runnum].astype(int), df[['pd.len','trial']][df['event']== 'face'].astype(int),on='trial')
 axarr[pi].set_title('matlab RT - photodiode face')
 axarr[pi].hist( df_RT['RT'] - df_RT['pd.len'] ) 
 
