@@ -20,19 +20,19 @@ import argparse
 
 # setup arguments
 parser = argparse.ArgumentParser(description='Generate CSV file from mat and fif(photodiode)')
-parser.add_argument('--mat',   '-m',dest="matfile",   help='path to the subjects mat file\neg. MEG_11243_20140213_tc.mat')
-parser.add_argument('--subjid','-s',dest='subjid',    help='subject id\ne.g. 12345_20001231')
-parser.add_argument('--fif',   '-f',dest='fiffile',   help='path to run fif file e.g. 11243_run1_Clock_raw.fif')
-parser.add_argument('--block', '-b',dest='runnum',    help='run number (1-8)')
+parser.add_argument('--mat',   '-m',dest="matfile",   required=True, help='path to the subjects mat file\neg. MEG_11243_20140213_tc.mat')
+parser.add_argument('--subjid','-s',dest='subjid',    required=True, help='subject id\ne.g. 12345_20001231')
+parser.add_argument('--fif',   '-f',dest='fiffile',   required=True, help='path to run fif file e.g. 11243_run1_Clock_raw.fif')
+parser.add_argument('--block', '-b',dest='runnum',    required=True, help='run number (1-8)',type=int)
 parser.add_argument('--output','-o',dest='outputname',help='name for csv file (default: subjid_runnum.csv)')
 
 args = parser.parse_args()
-if(args.outputname==''):
-    args.outputname=args.subjid+'_'+args.runnum+'.csv'
+if(not args.outputname):
+    args.outputname=args.subjid+'_'+str(args.runnum)+'.csv'
 
 ### BEHAVIORAL
 # task file
-mat   = scipy.io.loadmat(args.fiffile,struct_as_record=True);
+mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
 subj  = mat.get('subject');
 order = subj['order'][0][0];
 
@@ -176,10 +176,10 @@ ttl_df.columns = ['tt.histval','tt.len','tt.start','tt.stop','trial','event']
 tofloat = [ x for x in ttl_df.columns if x != 'event' ]
 ttl_df[tofloat] = ttl_df[tofloat].astype(float)
 
-### if photodiode doesn't record as we hope trial lengths will be different
-if(pdio_df['trial'][-1] != ttl_df['trail'][-1] ):
+### if photodiode doesn't record as we hope, final trial number will be different
+if( (pdio_df['trial'].tail(1) != ttl_df['trial'].tail(1)).item() ):
     raise Exception('photodiode and triggers do not align')
-if(ttl_df['trial'][-1] != df_trial['trial'][-1] ):
+if( (ttl_df['trial'].tail(1) != df_trial['trial'].tail(1)).item()  ):
     raise Exception('trials from trigger do not match matlab file!')    
 # TODO: Implement
 # while trial lengths not equal
@@ -202,7 +202,7 @@ for e in set(pdio_df['event']):
         df_trial[ename][(df_trial['trial']==t)] = np.array(startidx) # NaN if not cast to array first (why?)
         
 #save file
-df_trial.to_csv(args.outputname)
+df_trial.to_csv(args.outputname,index=False)
 
 exit()
 
