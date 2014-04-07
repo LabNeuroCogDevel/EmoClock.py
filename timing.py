@@ -12,7 +12,7 @@ import scipy.io; # for matlab read
 import matplotlib.pyplot as plt;
 import numpy as np; #, h5py;
 import pandas as pd;
-from itertools import groupby, izip; # for runlenghencode like function
+from itertools import groupby #, izip; # for runlenghencode like function
 from ggplot import *;
 import argparse
 
@@ -55,7 +55,11 @@ raw = mne.fiff.Raw(args.fiffile)# ,preload=True) # preload to enable editing
 
 
 ## get only the trials that are in this run
-df_trial = df_trial[df_trial['block']==args.runnum]  
+df_trial = df_trial[df_trial['block']==args.runnum] 
+# originalTrialNums must be exctacted from list, if just =, will hold current values when we want to change 
+originalTrialNums = [ x for x in df_trial['trial'] ]
+
+
 # re number the trial to start at 1 (fif doesn't know there were any trials before)
 starttrial=min(df_trial['trial'])
 df_trial['trial'] = df_trial['trial'] - starttrial + 1
@@ -172,7 +176,7 @@ trial = np.array([ t[0] == 4 for t in ttl_rleidx ]).cumsum()
 ttl_rleidx = np.c_[ttl_rleidx, trial]
 ttl_df = pd.DataFrame(np.c_[ttl_rleidx,np.array([ ttlToLabel[x] for x in  ttl_rleidx[:,0] ])])
 ttl_df.columns = ['tt.histval','tt.len','tt.start','tt.stop','trial','event']
-# retype those pesky strings
+# retype those pesky strings, for all columns that are not event
 tofloat = [ x for x in ttl_df.columns if x != 'event' ]
 ttl_df[tofloat] = ttl_df[tofloat].astype(float)
 
@@ -200,9 +204,47 @@ for e in set(pdio_df['event']):
     for t in set(df_trial['trial']):
         startidx=pdio_df.loc[ (pdio_df['trial']==t) & (pdio_df['event']==e)]['pd.start']
         df_trial[ename][(df_trial['trial']==t)] = np.array(startidx) # NaN if not cast to array first (why?)
+      
+      
+      
+##### save file
         
-#save file
-df_trial.to_csv(args.outputname,index=False)
+# FROM fitclock/R/fitclock.R    
+#' Dataset is a .csv file consisting of the following fields 
+#' 
+#' \itemize{
+#'   \item run. fMRI run (1:8)  
+#'   \item trial. Global trial number (1:400) 
+#'   \item rewFunc. Reward contingency (DEV, IEV, CEV, CEVR)
+#'   \item emotion. Face emotion of central stimulus (scram, fear, happy) 
+#'   \item magnitude. Magnitude of expected reward given RT  
+#'   \item probability. Probability of expected reward given RT
+#'   \item score. Obtained reward (probabilistic receipt of payoff)
+#'   \item ev. Expected value of response given RT (magnitude*probability)
+#'   \item rt. Reaction time (ms)
+#'   \item clock_onset. Run onset time of clock stimulus (sec) 
+#'   \item isi_onset. Run onset time of 50ms ISI (sec)
+#'   \item feedback_onset. Run onset time of 850ms reward feedback (sec)
+#'   \item iti_onset. Run onset time of ITI (sec)
+#'   \item iti_ideal. Desired ITI duration (sec) based on fMRI design optimization.
+#'   \item image. Image file displayed on screen.
+#' }
+
+## TODO:  ITIideal imagefile, score not scoreinc?
+#
+#  experiment order file indexes -- mat file subject.experiment
+#  facenumC, ITIC, ISIC, blockC, emotionC, rewardC 
+
+df_trial['imagefile']='NA'
+df_trial['ITIideal']=0
+df_trial['trial'] = originalTrialNums
+df_trial['totalscore']=df_trial['scoreinc'].cumsum()
+# TODO, run or block
+df_final = df_trial[ ['block','trial', 'function', 'emotion', 'mag','freq','scoreinc','ev','RT',
+                      'face.start','ISI.start','score.start','ITI.start','ITIideal','imagefile'] ]
+df_final.columns=['run','trial','rewFunc','emotion','magnitude','probability','score','ev','rt',
+                  'clock_onset','isi_onset','feedback_onset','iti_onset','iti_ideal','image']         
+df_final.to_csv(args.outputname,index=False)
 
 exit()
 
