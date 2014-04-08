@@ -26,6 +26,7 @@ parser.add_argument('--block', '-b',dest='runnum',    required=True, help='run n
 parser.add_argument('--output','-o',dest='outputname',help='name for csv file (default: subjid_runnum.csv)')
 
 args = parser.parse_args()
+# args = parser.parse_args('-m subjs/11262_20140312/behavior/MEG_11262_20140312_tc.mat -f subjs/11262_20140312/MEG/11262_clock_run8_raw.fif -o 11262_8.csv -s 11262_20140312 -b 8'.split())
 if(not args.outputname):
     args.outputname=args.subjid+'_'+str(args.runnum)+'.csv'
 
@@ -115,6 +116,7 @@ ttlToLabel = {
  2: 'ISI',   # 10
  3: 'ITI',   # 15
  4: 'face',  # 24-130
+ 6: 'done',  #255
 }
 
 # PHOTODIODE 

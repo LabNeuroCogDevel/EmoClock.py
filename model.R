@@ -25,11 +25,11 @@ expDiff_model$add_params(
 #tell model which dataset to use
 expDiff_model$set_data(subj11243_20140213)
 
-#test the incremental contribution of each parameter to AIC (fit)
-incr_fit <- expDiff_model$incremental_fit(njobs=6)
-
-#vector of AIC values
-AICs<-sapply(incr_fit$incremental_fits, "[[", "AIC")
+# #test the incremental contribution of each parameter to AIC (fit)
+# incr_fit <- expDiff_model$incremental_fit(njobs=6)
+# 
+# #vector of AIC values
+# AICs<-sapply(incr_fit$incremental_fits, "[[", "AIC")
 
 #fit full model, using 5 random starts and choosing the best fit
 f <- expDiff_model$fit(random_starts=5)
