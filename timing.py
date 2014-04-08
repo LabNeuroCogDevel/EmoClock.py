@@ -13,7 +13,6 @@ import matplotlib.pyplot as plt;
 import numpy as np; #, h5py;
 import pandas as pd;
 from itertools import groupby #, izip; # for runlenghencode like function
-from ggplot import *;
 import argparse
 
 
@@ -288,6 +287,7 @@ plt.show()
 #    if ttl_inds[idx] == 1:
 #       ttl_inds[idx]=ttl_inds[idx-1]
 #
+#from ggplot import *;
 #ggplot(pd.DataFrame(events,columns=['time','xdat','samples']),aes(x='time',y='xdat'))+geom_point()
 ## use samples instead of time
 #plt.plot(times*raw.info['sfreq'],100+10*data[0,:],color='blue')
