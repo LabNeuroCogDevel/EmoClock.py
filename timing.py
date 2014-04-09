@@ -27,7 +27,11 @@ parser.add_argument('--block', '-b',dest='runnum',    required=True, help='run n
 parser.add_argument('--output','-o',dest='outputname',help='name for csv file (default: subjid_runnum.csv)')
 
 args = parser.parse_args()
+# "working"
 #args = parser.parse_args('-m subjs/11262_20140312/behavior/MEG_11262_20140312_tc.mat -f subjs/11262_20140312/MEG/11262_clock_run8_raw.fif -o 11262_8.csv -s 11262_20140312 -b 8'.split())
+# broken
+#args = parser.parse_args('-m subjs/11255_20140318/behavior/MEG_11255_20140318_tc.mat -f subjs/11255_20140318/MEG/11255_Clock_run2_raw.fif -b 2 -s 11255_20140318'.split())
+
 if(not args.outputname):
     args.outputname=args.subjid+'_'+str(args.runnum)+'.csv'
 
@@ -93,7 +97,8 @@ df_trial['trial'] = df_trial['trial'] - starttrial + 1
 
 ttl = raw.ch_names.index('STI101');
 pdio  = raw.ch_names.index('MISC007');
-data,times = raw[ [pdio,ttl], :]
+bpsh= raw.ch_names.index('STI102');
+data,times = raw[ [pdio,ttl,bpsh], :]
 
 # digitized position, length, startidx, stopidx -- start and stop are inclusuve a a a b b b b -> a,3,0,2; b,2,3,6 
 def rledig(hist):
@@ -142,6 +147,8 @@ ttlToLabel = {
 # 3. score | [204 204 204]
 # 4. ITI   | black
 pdio_inds = np.digitize(data[0,:],np.histogram(data[0,:],bins=3)[1])
+
+
 # remove anything that went too high (why did this happend?)
 pdio_inds[pdio_inds>3] = 3
 
@@ -177,7 +184,10 @@ trial = np.array([ p[0] == 3 for p in pdio_rleidx ]).cumsum()
 # set 5th column to be trial number, 6th to be intertrial type
 pdio_rleidx = np.c_[pdio_rleidx, trial]
 
-pdio_df = pd.DataFrame(np.c_[pdio_rleidx,np.array([ pdioToLabel[x] for x in  pdio_rleidx[:,0] ])])
+# as one step, get bad data conversion
+#pdio_df = pd.DataFrame(np.c_[pdio_rleidx,np.array([ pdioToLabel[x] for x in  pdio_rleidx[:,0] ])])
+pdio_df = pd.DataFrame(pdio_rleidx)
+pdio_df['event'] = np.array([ pdioToLabel[x] for x in  pdio_rleidx[:,0] ])
 pdio_df.columns = ['pd.histval','pd.len','pd.start','pd.stop','trial','event']
 
 # build array of (event + trialnum*10). were this overlaps, there is an ITI
@@ -197,7 +207,8 @@ if len( [t for t,g  in groupby(pdio_df['trial']) if len(list(g))!=4 ] ) > 1:
 # count up trials based on number of starts
 trial = np.array([ t[0] == 4 for t in ttl_rleidx ]).cumsum()
 ttl_rleidx = np.c_[ttl_rleidx, trial]
-ttl_df = pd.DataFrame(np.c_[ttl_rleidx,np.array([ ttlToLabel[x] for x in  ttl_rleidx[:,0] ])])
+ttl_df = pd.DataFrame(ttl_rleidx)
+ttl_df['event'] = [ ttlToLabel[x] for x in  ttl_rleidx[:,0] ]
 ttl_df.columns = ['tt.histval','tt.len','tt.start','tt.stop','trial','event']
 # retype those pesky strings, for all columns that are not event
 tofloat = [ x for x in ttl_df.columns if x != 'event' ]
@@ -205,7 +216,31 @@ ttl_df[tofloat] = ttl_df[tofloat].astype(float)
 
 ### if photodiode doesn't record as we hope, final trial number will be different
 if( (pdio_df['trial'].tail(1) != ttl_df['trial'].tail(1)).item() ):
-    raise Exception('photodiode and triggers do not align')
+    warnings.warn('photodiode (n.t=' +
+                     str(pdio_df['trial'].tail(1).item())+
+                    ') and triggers (n.t='+
+                    str(ttl_df['trial'].tail(1).item())+
+                    ') do not align -- using ttl instead of pdio')
+    
+    ## pretend  ttl channel is the pdio channel
+    #pdio_df_real = pdio_df    
+    pdio_df = ttl_df.copy()
+    pdio_df.columns = ['pd.histval','pd.len','pd.start','pd.stop','trial','event']
+    ## plot triggers
+    plt.plot(data[0,:]);
+    for v in np.histogram(data[0,:],bins=3)[1]:
+        plt.axhline(y=v,color='r')
+    plt.savefig(args.outputname + '_badPDIO.png')
+else:
+    plt.plot(data[0,:]);
+    for v in np.histogram(data[0,:],bins=3)[1]:
+        plt.axhline(y=v,color='r')
+    plt.savefig(args.outputname + '_goodPDIO.png')
+    plt.close()
+    plt.plot(data[2,:]);plt.plot(ttl_inds[:]);plt.plot(pdio_inds[:]);
+    plt.savefig(args.outputname+'_allTrigs.pdf')
+    
+    
 if( (ttl_df['trial'].tail(1) != df_trial['trial'].tail(1)).item()  ):
     raise Exception('trials from trigger do not match matlab file!')    
 # TODO: Implement
@@ -225,14 +260,21 @@ for e in set(pdio_df['event']):
     df_trial[ename] = 0;
     for t in set(df_trial['trial']):
         startidx=pdio_df.loc[ (pdio_df['trial']==t) & (pdio_df['event']==e)]['pd.start']
-        if len(startidx)>1:
+        if len(startidx)!=1:
             warnings.warn(e+" on trial "+str(t)+" has "+str(len(startidx)) + " occurances",Warning)
             startidx=startidx.head(1)
         
         df_trial[ename][(df_trial['trial']==t)] = np.array(startidx) # NaN if not cast to array first (why?)
       
       
-      
+
+##### sanity checks
+## difference of when Button is pushed and when RT is reported
+# [ np.argmax(data[2,s:e]>=1.5)  for s,e in np.array(df_trial[['face.start','ISI.start']]) ] - np.array(df_trial['RT'])
+
+## diff between face,isi,score, and ITI -- should be near constant
+# diff(df_trial[ ['face.start','ISI.start','score.start','ITI.start'] ])
+# diff(df_trial[ ['face.start','ISI.start','score.start','ITI.start'] ]).std(0)
 ##### save file
         
 # FROM fitclock/R/fitclock.R    
@@ -265,11 +307,16 @@ df_trial['imagefile']='NA'
 df_trial['ITIideal']=0
 df_trial['trial'] = originalTrialNums
 df_trial['totalscore']=df_trial['scoreinc'].cumsum()
+# use the button push STI102 trigger to get a more accurate RT
+# -- dependant on face.start beign accurate
+df_trial['pushidx'] = [ np.argmax(data[2,s:e]>=1.5) + s   for s,e in np.array(df_trial[['face.start','ISI.start']]) ]
+df_trial['RT.push'] = [ np.argmax(data[2,s:e]>=1.5)  for s,e in np.array(df_trial[['face.start','ISI.start']]) ]
+
 # TODO, run or block
-df_final = df_trial[ ['block','trial', 'function', 'emotion', 'mag','freq','scoreinc','ev','RT',
-                      'face.start','ISI.start','score.start','ITI.start','ITIideal','imagefile'] ]
+df_final = df_trial[ ['block','trial', 'function', 'emotion', 'mag','freq','scoreinc','ev','RT.push',
+                      'face.start','ISI.start','score.start','ITI.start','ITIideal','imagefile','pushidx'] ]
 df_final.columns=['run','trial','rewFunc','emotion','magnitude','probability','score','ev','rt',
-                  'clock_onset','isi_onset','feedback_onset','iti_onset','iti_ideal','image']         
+                  'clock_onset','isi_onset','feedback_onset','iti_onset','iti_ideal','image','pushidx']         
 df_final.to_csv(args.outputname,index=False)
 
 exit()
