@@ -26,7 +26,7 @@ parser.add_argument('--block', '-b',dest='runnum',    required=True, help='run n
 parser.add_argument('--output','-o',dest='outputname',help='name for csv file (default: subjid_runnum.csv)')
 
 args = parser.parse_args()
-# args = parser.parse_args('-m subjs/11262_20140312/behavior/MEG_11262_20140312_tc.mat -f subjs/11262_20140312/MEG/11262_clock_run8_raw.fif -o 11262_8.csv -s 11262_20140312 -b 8'.split())
+#args = parser.parse_args('-m subjs/11262_20140312/behavior/MEG_11262_20140312_tc.mat -f subjs/11262_20140312/MEG/11262_clock_run8_raw.fif -o 11262_8.csv -s 11262_20140312 -b 8'.split())
 if(not args.outputname):
     args.outputname=args.subjid+'_'+str(args.runnum)+'.csv'
 
@@ -98,10 +98,26 @@ data,times = raw[ [pdio,ttl], :]
 def rledig(hist):
   rle = np.array( [ (i,len(list(j)) ) for i,j in groupby(hist) ] );
   idx = rle[:,1].cumsum();
+  # matrix of:        histval, length,          start,stop
   rleidx = np.vstack((rle.T, (idx - rle[:,1] ).T, idx.T - 1)).T;
-  # remove if only one sample!  (photo diode changing)
-  # TODO: add time to next
-  rleidx = [ i for i in rleidx  if i[1] > 1 ];
+  rleidx= rleidx.tolist() # for faster del operation
+  
+  # remove jumps (len==1) and 
+  #  merge identical histval sections it might have separated
+  i=1;
+  while i  < len(rleidx):
+      j=i+1;
+      while j<len(rleidx) and (rleidx[j][0] == rleidx[i][0] or rleidx[j][1] < 2):
+          # update end position
+          rleidx[i][3] = rleidx[j][3]
+          # reset length
+          rleidx[i][1] = rleidx[i][3] - rleidx[i][2] +1
+          # remove this bogus entry          
+          del(rleidx[j])
+          #np.delete(rleidx,j,0)
+          # j+=1; # b/c of delete next is current
+      i+=1; 
+      
   return np.array(rleidx)
   
 
@@ -163,12 +179,17 @@ pdio_rleidx = np.c_[pdio_rleidx, trial]
 pdio_df = pd.DataFrame(np.c_[pdio_rleidx,np.array([ pdioToLabel[x] for x in  pdio_rleidx[:,0] ])])
 pdio_df.columns = ['pd.histval','pd.len','pd.start','pd.stop','trial','event']
 
+# build array of (event + trialnum*10). were this overlaps, there is an ITI
+# doesn't work when 2 scores in a row?? pdio_df.loc[ (pdio_df['trial']==5)] for 'subjs/11262_20140312/MEG/11262_clock_run8_raw.fif'
 itiIdxs=np.r_[pdio_rleidx[:,0]+pdio_rleidx[:,4]*10, 0, 0] - np.r_[0,0,pdio_rleidx[:,0]+pdio_rleidx[:,4]*10] == 0;
 pdio_df['event'][np.where(itiIdxs)[0]] = 'ITI'
 # retype those pesky strings
 tofloat = [ x for x in pdio_df.columns if x != 'event' ]
 pdio_df[tofloat] = pdio_df[tofloat].astype(float)
 
+# only the last trial should not have 4 pices (face,ISE,score,ITI)
+if any( [k for k,g  in groupby(pdio_df['trial']) if len(list(g))!=4] < 63 ):
+    Exception('do not have face,ISI,score,ITI in trials below 63') 
 
 
 # trial number for trigger, starts at face (value of 4)
@@ -201,7 +222,6 @@ df = pd.merge(pdio_df,ttl_df)
 for e in set(pdio_df['event']):
     ename=e + '.start'
     df_trial[ename] = 0;
-    
     for t in set(df_trial['trial']):
         startidx=pdio_df.loc[ (pdio_df['trial']==t) & (pdio_df['event']==e)]['pd.start']
         df_trial[ename][(df_trial['trial']==t)] = np.array(startidx) # NaN if not cast to array first (why?)
