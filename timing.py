@@ -188,8 +188,8 @@ tofloat = [ x for x in pdio_df.columns if x != 'event' ]
 pdio_df[tofloat] = pdio_df[tofloat].astype(float)
 
 # only the last trial should not have 4 pices (face,ISE,score,ITI)
-if any( [k for k,g  in groupby(pdio_df['trial']) if len(list(g))!=4] < 63 ):
-    Exception('do not have face,ISI,score,ITI in trials below 63') 
+if len( [t for t,g  in groupby(pdio_df['trial']) if len(list(g))!=4 ] ) < 1:
+    Exception('do not have face,ISI,score,ITI for all expected trials (not last)') 
 
 
 # trial number for trigger, starts at face (value of 4)
