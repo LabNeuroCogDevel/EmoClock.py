@@ -14,6 +14,7 @@ import numpy as np; #, h5py;
 import pandas as pd;
 from itertools import groupby #, izip; # for runlenghencode like function
 import argparse
+import warnings
 
 
 
@@ -188,7 +189,7 @@ tofloat = [ x for x in pdio_df.columns if x != 'event' ]
 pdio_df[tofloat] = pdio_df[tofloat].astype(float)
 
 # only the last trial should not have 4 pices (face,ISE,score,ITI)
-if len( [t for t,g  in groupby(pdio_df['trial']) if len(list(g))!=4 ] ) < 1:
+if len( [t for t,g  in groupby(pdio_df['trial']) if len(list(g))!=4 ] ) > 1:
     Exception('do not have face,ISI,score,ITI for all expected trials (not last)') 
 
 
@@ -224,6 +225,10 @@ for e in set(pdio_df['event']):
     df_trial[ename] = 0;
     for t in set(df_trial['trial']):
         startidx=pdio_df.loc[ (pdio_df['trial']==t) & (pdio_df['event']==e)]['pd.start']
+        if len(startidx)>1:
+            warnings.warn(e+" on trial "+str(t)+" has "+str(len(startidx)) + " occurances",Warning)
+            startidx=startidx.head(1)
+        
         df_trial[ename][(df_trial['trial']==t)] = np.array(startidx) # NaN if not cast to array first (why?)
       
       
