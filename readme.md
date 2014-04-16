@@ -10,7 +10,7 @@
      2. run `timing.py` to generate csv files for the `fitclock` R package
 
 ## Structure
-
+```text
   ./
     project root, contains scripts and logs
   
@@ -19,3 +19,4 @@
 
   subjs/id_date/behavior/
     mat and csv files from behavioral 
+```
