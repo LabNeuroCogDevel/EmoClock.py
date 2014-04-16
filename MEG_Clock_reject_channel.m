@@ -121,6 +121,9 @@ bad_channels = unique(bad_channels);
 % end
 
 %% wrote
+
+%1212 is always bad
+bad_channels = [bad_channels; 'MEG1212'];s
 bad_channels = unique(bad_channels);
 fid=fopen(outfile,'wt');
 
