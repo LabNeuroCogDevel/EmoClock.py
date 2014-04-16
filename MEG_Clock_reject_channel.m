@@ -2,7 +2,7 @@ function [ bad_channels ] = MEG_Clock_reject_channel( input, outfile)
 %This function will check for bad channels by doing a FFT analysis on each
 %channels timeseries, and flag channels with high frequency noise.
 %
-%Usage: [ bad_channels ] = MEG_reject_trial( input, outfile )
+%Usage: [ bad_channels ] = MEG_Clock_sreject_trial( input, outfile )
 %   
 %   input - fiff file to be loaded
 %   outfile - text file with list of bad channels
@@ -123,7 +123,7 @@ bad_channels = unique(bad_channels);
 %% wrote
 
 %1212 is always bad
-bad_channels = [bad_channels; 'MEG1212'];s
+bad_channels = [bad_channels; 'MEG1212'];
 bad_channels = unique(bad_channels);
 fid=fopen(outfile,'wt');
 
