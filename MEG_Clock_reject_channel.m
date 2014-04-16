@@ -58,12 +58,12 @@ cfg.taper  = 'hanning';
 [freq] = ft_freqanalysis(cfg, data);
 
 a=zscore(freq.powspctrm(:,60:98));
-[i,~]=find(abs(a)>7);
+[i,~]=find(abs(a)>8);
 bad_channels = freq.label(unique(i));
 %i = unique(i);
 
 a=zscore(freq.powspctrm(:,1:59));
-[i,~]=find(abs(a)>10);
+[i,~]=find(abs(a)>11);
 bad_channels = [bad_channels;freq.label(unique(i))];
 bad_channels = unique(bad_channels);
 
@@ -80,7 +80,7 @@ bad_channels = unique(bad_channels);
 
 % 
 % 
-%  bad_triallist = [];
+%  bvad_triallist = [];
 % % bad_channels = [];
 % % PP=[];
 % for t = 2:3
@@ -125,7 +125,13 @@ bad_channels = unique(bad_channels);
 %1212 is always bad
 bad_channels = [bad_channels; 'MEG1212'];
 bad_channels = unique(bad_channels);
-fid=fopen(outfile,'wt');
+
+if length(bad_channels) > 16
+    outfile = strcat(outfile,'WARNING');
+    fid=fopen(outfile,'wt');
+else
+    fid=fopen(outfile,'wt');
+end
 
 for b = 1:size(bad_channels,1)
     fprintf(fid, '%s\n',cell2mat(bad_channels(b)));

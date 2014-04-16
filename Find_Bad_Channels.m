@@ -5,7 +5,7 @@ if strcmp('wallace.wpic.upmc.edu',hostname)
    subj_dir = '/raid/r3/p2/Luna/Multimodal/Clock';  
 end
 
-Subjects = [10997 11243 11246 11252 11253 11255 11258 11262 11263];
+Subjects = [10637 10662 10997 11243 11246 11252 11253 11255 11258 11262 11263];
 
 
 for s = 1:length(Subjects)
