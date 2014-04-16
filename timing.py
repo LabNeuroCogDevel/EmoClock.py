@@ -1,9 +1,9 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-Created on Fri Feb 14 10:07:25 2014
-
-@author: foranw
+takes matlab behavior and meg recording and creates
+ 1) csv file to feed into R model fitting module
+ 2) eve MNE event file for each run
 """
 
 from __future__ import division;
