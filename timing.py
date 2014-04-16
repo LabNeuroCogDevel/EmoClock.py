@@ -25,6 +25,7 @@ parser.add_argument('--subjid','-s',dest='subjid',    required=True, help='subje
 parser.add_argument('--fif',   '-f',dest='fiffile',   required=True, help='path to run fif file e.g. 11243_run1_Clock_raw.fif')
 parser.add_argument('--block', '-b',dest='runnum',    required=True, help='run number (1-8)',type=int)
 parser.add_argument('--output','-o',dest='outputname',help='name for csv file (default: subjid_runnum.csv)')
+parser.add_argument('--eve','-e',dest='evename',help='name for csv file (default: subjid_runnum.eve)')
 
 args = parser.parse_args()
 # "working"
@@ -34,6 +35,9 @@ args = parser.parse_args()
 
 if(not args.outputname):
     args.outputname=args.subjid+'_'+str(args.runnum)+'.csv'
+    
+if(not args.evename):
+    args.evename=args.subjid+'_'+str(args.runnum)+'.eve'
 
 ### BEHAVIORAL
 # task file
@@ -267,6 +271,65 @@ for e in set(pdio_df['event']):
         df_trial[ename][(df_trial['trial']==t)] = np.array(startidx) # NaN if not cast to array first (why?)
       
       
+
+
+
+
+#### eve file
+# TODO: set volt unique for eg. DEV scam
+# from MEGClockTask/private/defineTrigger.m 
+#   trigger.ITI= 10;
+#    trigger.ISI= 15;
+#    %face 25-130
+#    % score 135 - 235 -- face+107
+
+runTypeToVolt = {
+  #face: 25 - 130 
+  'CEV.fear.face'   : 29,
+  'CEVR.fear.face'  : 38,
+  'DEV.fear.face'   : 47,
+  'IEV.fear.face'   : 56,
+  'CEV.happy.face'  : 65,
+  'CEVR.happy.face' : 74,
+  'DEV.happy.face'  : 83,
+  'IEV.happy.face'  : 92,
+  'CEV.scram.face'  : 101,
+  'CEVR.scram.face' : 110,
+  'DEV.scram.face'  : 119,
+  'IEV.scram.face'  : 128,
+  #score: 135 - 235 == face+107
+  'CEV.fear.score'  : 136,
+  'CEVR.fear.score' : 145,
+  'DEV.fear.score'  : 154,
+  'IEV.fear.score'  : 163,
+  'CEV.happy.score' : 172,
+  'CEVR.happy.score': 181,
+  'DEV.happy.score' : 190,
+  'IEV.happy.score' : 199,
+  'CEV.scram.score' : 208,
+  'CEVR.scram.score': 217,
+  'DEV.scram.score' : 226,
+  'IEV.scram.score' : 235,
+}
+x=df_trial[['face.start','ISI.start','score.start','ITI.start']].stack()
+if( not all( x[:-1] < x[1:]) ):
+    Exception('indexes are not ordered correct (face<ISI<score<ITI!')    
+
+
+funcEmo =  (df_trial['function'].head(1) + '.' +  df_trial['emotion'].head(1)).iget(0)
+triggers = [ runTypeToVolt[ funcEmo + '.face' ], 15,  runTypeToVolt[ funcEmo + '.score' ], 10 ] 
+
+#           index, time,      "volt":     was                                                 is
+eve = np.c_[ x,    x/1000,    np.tile([ triggers[a] for a in [3, 0, 1, 2] ], len(x)/4),    np.tile(triggers, len(x)/4) ]
+# add first row of zeros
+eve = np.vstack(([0,0,0,0],eve))  
+# make actual first transtion value from zero  
+eve[1,2] = 0
+# save 
+np.savetxt(args.evename,eve,fmt='%d %.03f %d %d')
+
+
+
 
 ##### sanity checks
 ## difference of when Button is pushed and when RT is reported
