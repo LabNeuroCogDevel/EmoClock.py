@@ -40,9 +40,9 @@ cfg.dataset = input;
 %cfg.trialdef.ntrials = '1';
 %cfg = ft_definetrial(cfg);
 cfg.channel = {'MEG'};
-cfg.lpfilter = 'yes'
-cfg.lpfreq = 100; %get rid of HPI noise
-cfg.dftfreq = [60];% get rid of line noise
+cfg.lpfilter = 'yes';
+cfg.lpfreq = 200; %get rid of HPI noise
+cfg.dftfreq = [60 120];% get rid of line noise
 cfg.dftfilter = 'yes';
 data = ft_preprocessing(cfg);
 
@@ -50,22 +50,54 @@ data = ft_preprocessing(cfg);
 % do frequency analysis
 cfg =[];
 cfg.method ='mtmfft';
+cfg.channel = 'MEGGRAD';
 cfg.output ='pow';
 %cfg.tapsmofrq = 4;
-cfg.foi = 1:98;
+cfg.foi = 1:150;
 cfg.pad    = 'maxperlen';
 cfg.taper  = 'hanning';
 [freq] = ft_freqanalysis(cfg, data);
 
-a=zscore(freq.powspctrm(:,60:98));
-[i,~]=find(abs(a)>8);
+
+a=zscore(freq.powspctrm(:,101:148));
+[i,~]=find(a>7);
 bad_channels = freq.label(unique(i));
+
+a=zscore(freq.powspctrm(:,60:100));
+[i,~]=find(abs(a)>9);
+bad_channels = [bad_channels;freq.label(unique(i))];
 %i = unique(i);
 
 a=zscore(freq.powspctrm(:,1:59));
-[i,~]=find(abs(a)>11);
+[i,~]=find(abs(a)>12);
 bad_channels = [bad_channels;freq.label(unique(i))];
 bad_channels = unique(bad_channels);
+
+cfg =[];
+cfg.method ='mtmfft';
+cfg.channel = 'MEGMAG';
+cfg.output ='pow';
+%cfg.tapsmofrq = 4;
+cfg.foi = 1:150;
+cfg.pad    = 'maxperlen';
+cfg.taper  = 'hanning';
+[freq] = ft_freqanalysis(cfg, data);
+
+
+a=zscore(freq.powspctrm(:,101:148));
+[i,~]=find(a>7);
+bad_channels = [bad_channels;freq.label(unique(i))];
+
+a=zscore(freq.powspctrm(:,60:100));
+[i,~]=find(abs(a)>9);
+bad_channels = [bad_channels;freq.label(unique(i))];
+%i = unique(i);
+
+a=zscore(freq.powspctrm(:,1:59));
+[i,~]=find(abs(a)>12);
+bad_channels = [bad_channels;freq.label(unique(i))];
+bad_channels = unique(bad_channels);
+
 
 % channel_list = ft_channelselection('MEGMAG',data.label)
 % r=[];
