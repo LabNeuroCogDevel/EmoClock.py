@@ -1,9 +1,14 @@
 # install if not installed
 if (!require(fitclock)) { 
-  install.packages(c("devtools",'doMC','survival','Hmisc'));
+  install.packages(c("devtools",'doMC','survival','Hmisc','colorspace','ggplot2'));
+  library(devtools)
+
   install_github("fitclock", "LabNeuroCogDevel", args="--byte-compile");
   require(fitclock)
 }
+
+library(ggplot2)
+library(plyr)
 
 #subjdata <- read.csv('11243_20140213_1.csv',header=T)
 subjdata <- adply(Sys.glob('11243_20140213*csv'),1,.fun=function(x){read.csv(x,header=T)})
