@@ -11,9 +11,9 @@ library(ggplot2)
 library(plyr)
 
 #subjdata <- read.csv('11243_20140213_1.csv',header=T)
-subjdata <- adply(Sys.glob('11243_20140213*csv'),1,.fun=function(x){read.csv(x,header=T)})
+subjdata <- adply(Sys.glob('subjs/10637_20140312/*csv'),1,.fun=function(x){read.csv(x,header=T)})
 #setup subject
-subj11243_20140213 <- clockdata_subject(subject_ID="11243_20140213", dataset=subjdata)
+subj10637 <- clockdata_subject(subject_ID="10637", dataset=subjdata)
 
 #setup model to fit RT differences
 expDiff_model <- clock_model(fit_RT_diffs=TRUE)
@@ -28,7 +28,7 @@ expDiff_model$add_params(
     )
 
 #tell model which dataset to use
-expDiff_model$set_data(subj11243_20140213)
+expDiff_model$set_data(subj10637)
 
 # #test the incremental contribution of each parameter to AIC (fit)
 # incr_fit <- expDiff_model$incremental_fit(njobs=6)
