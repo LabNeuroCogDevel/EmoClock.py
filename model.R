@@ -15,6 +15,19 @@ subjdata <- adply(Sys.glob('subjs/10637_20140312/*csv'),1,.fun=function(x){read.
 #setup subject
 subj10637 <- clockdata_subject(subject_ID="10637", dataset=subjdata)
 
+#setup model to fit RT
+RT_model <- clock_model()
+
+RT_model$add_params(
+       meanRT(max_value=4000),
+       autocorrPrevRT(),
+       goForGold(),
+       go(),
+       noGo(),
+       meanSlowFast(),
+       exploreBeta()
+    )
+
 #setup model to fit RT differences
 expDiff_model <- clock_model(fit_RT_diffs=TRUE)
 expDiff_model$add_params(
@@ -28,6 +41,7 @@ expDiff_model$add_params(
     )
 
 #tell model which dataset to use
+RT_model$set_data(subj10637)
 expDiff_model$set_data(subj10637)
 
 # #test the incremental contribution of each parameter to AIC (fit)
@@ -37,6 +51,7 @@ expDiff_model$set_data(subj10637)
 # AICs<-sapply(incr_fit$incremental_fits, "[[", "AIC")
 
 #fit full model, using 5 random starts and choosing the best fit
-f <- expDiff_model$fit(random_starts=5)
+fitRT <- RT_model$fit(random_starts=5)
+fitDiffRT <- expDiff_model$fit(random_starts=5)
 
 
