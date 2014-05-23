@@ -2,7 +2,7 @@
 if (!require(fitclock)) { 
   install.packages(c("devtools",'doMC','survival','Hmisc','colorspace','ggplot2'));
   library(devtools)
-
+  
   install_github("fitclock", "LabNeuroCogDevel", args="--byte-compile");
   require(fitclock)
 }
@@ -15,56 +15,63 @@ Subj <- c(10637, 10997, 11243, 11246, 11255, 11258, 11262, 11263)
 
 #loop through subjects and fit
 for (s in Subj) 
-	{
+{
   #setup file name
   file=paste("subjs/",s,"_fitdata.Rdata",sep="")
   
   #only run fitting if output not saved already
   if (!file.exists(file))
-    {
-  
-	  subjdata <- adply(Sys.glob(paste("/Volumes/T800/Multimodal/Clock",s,"MEG/*csv",sep="/")),1,.fun=function(x){read.csv(x,header=T)})
-	  #setup subject
-	  subData <- clockdata_subject(subject_ID=as.character(s), dataset=subjdata)
-	  subDiffData <- clockdata_subject(subject_ID=as.character(s), dataset=subjdata)
+  {
+    
+    subjdata <- adply(Sys.glob(paste("/Volumes/T800/Multimodal/Clock",s,"MEG/*csv",sep="/")),1,.fun=function(x){read.csv(x,header=T)})
+    #setup subject
+    subData <- clockdata_subject(subject_ID=as.character(s), dataset=subjdata)
+    subDiffData <- clockdata_subject(subject_ID=as.character(s), dataset=subjdata)
+    
+    #setup model to fit RT
+    RT_model <- clock_model(fit_RT_diffs=FALSE)
+    RT_model$add_params(
+      meanRT(max_value=4000),
+      autocorrPrevRT(),
+      goForGold(),
+      go(),
+      noGo(),
+      meanSlowFast(),
+      exploreBeta()
+    )
+    
+    #setup model to fit RT differences
+    expDiff_model <- clock_model(fit_RT_diffs=TRUE)
+    expDiff_model$add_params(
+      meanRT(max_value=4000),
+      autocorrPrevRT(),
+      goForGold(),
+      go(),
+      noGo(),
+      meanSlowFast(),
+      exploreBeta()
+    )
+    
+    #tell model which dataset to use
+    RT_model$set_data(subData)
+    expDiff_model$set_data(subDiffData)
+    
+    #fit full model, using 5 random starts and choosing the best fit
+    fitRT <- RT_model$fit(random_starts=5)
+    fitDiffRT <- expDiff_model$fit(random_starts=5)
+    
+    #save data
+    save(file=file,fitRT,fitDiffRT,s)
+  }
+}
 
-	  #setup model to fit RT
-	  RT_model <- clock_model(fit_RT_diffs=FALSE)
-	  RT_model$add_params(
-         	meanRT(max_value=4000),
-         	autocorrPrevRT(),
-       	  goForGold(),
-       	  go(),
-       	  noGo(),
-       	  meanSlowFast(),
-       	  exploreBeta()
-    	  )
+#code for plotting
+#open pdf
+pdf("MEG_Behav_output.pdf", width=8, height=11)
 
-	  #setup model to fit RT differences
-	  expDiff_model <- clock_model(fit_RT_diffs=TRUE)
-	  expDiff_model$add_params(
-       	  meanRT(max_value=4000),
-       	  autocorrPrevRT(),
-       	  goForGold(),
-       	  go(),
-       	  noGo(),
-       	  meanSlowFast(),
-       	  exploreBeta()
-    	  )
-
-	  #tell model which dataset to use
-	  RT_model$set_data(subData)
-	  expDiff_model$set_data(subDiffData)
-
-	  #fit full model, using 5 random starts and choosing the best fit
-	  fitRT <- RT_model$fit(random_starts=5)
-	  fitDiffRT <- expDiff_model$fit(random_starts=5)
-	
-	  #save data
-	  save(file=file,fitRT,fitDiffRT,s)
-    }
-  
-  #code for plotting
+for (s in Subj) 
+{
+  file=paste("subjs/",s,"_fitdata.Rdata",sep="")
   
   #construct dataframe from fit object
   load(file)
@@ -85,23 +92,34 @@ for (s in Subj)
     trialN=1:ncol(fitRT$RTobs),
     emo_condition=rep(fitDiffRT$run_condition, each=ncol(fitDiffRT$RTobs)),
     rew_function=rep(fitDiffRT$rew_function, each=ncol(fitDiffRT$RTobs)),
-    RT=c(as.vector(t(fitDiffRT$RTobs)),as.vector(t(laply(fitDiffRT$pred_contrib[1:8],"[","p_epsilonBeta",1:ncol(fitRT$RTobs))))),
+    RT=c(as.vector(t(fitDiffRT$RTobs)),as.vector(t(laply(fitDiffRT$pred_contrib[1:nrow(fitDiffRT$RTobs)],"[","p_epsilonBeta",1:ncol(fitRT$RTobs))))),
     rt_type=rep(c("RT Diff", "Exploration"), each=length(fitRT$RTobs))
-  )
+  )  
   
-  #pdf("file.pdf", width=8, height=11)
+  #plot PE and reward
   RewardPE_Fig <- ggplot(RTFitDf, aes(trialN,magnitude,colour=mag_type))
   RewardPE_Fig <- RewardPE_Fig+layer(geom="line") + facet_grid(rew_function ~ emo_condition)
+  title = paste(s,' Reward vs. PE')
+  RewardPE_Fig <- RewardPE_Fig + ggtitle (title) + theme (legend.title = element_blank()) + 
+    xlab("Trial Number") +ylab("Magnitude")
   print(RewardPE_Fig)
   
+  #plot RT
   RTobsVRTpred_Fig <- ggplot(RTFitDf, aes(trialN,rt,colour=rt_type))
   RTobsVRTpred_Fig <- RTobsVRTpred_Fig+layer(geom="line") + facet_grid(rew_function ~ emo_condition)
+  title = paste(s,' Predicted RT vs. Observed RT')
+  RTobsVRTpred_Fig <- RTobsVRTpred_Fig + ggtitle (title) + theme (legend.title = element_blank()) +
+    xlab("Trial Number") +ylab("RT (ms)")
   print(RTobsVRTpred_Fig)
   
+  #plot exploration
   RTDiffVExp_Fig <- ggplot(DiffRTFitDf, aes(trialN,RT,colour=rt_type))
   RTDiffVExp_Fig <- RTDiffVExp_Fig+layer(geom="line") + facet_grid(rew_function ~ emo_condition)
+  title = paste(s,' RT Swing vs. Exploration Parameter')
+  RTDiffVExp_Fig <- RTDiffVExp_Fig + ggtitle (title) + theme (legend.title = element_blank()) + 
+    xlab("Trial Number") +ylab("RT (ms)")
   print(RTDiffVExp_Fig)
   
   #print(qplot(,data,data=D,color=type,geom="line", xlab="Trial Number", ylab="Magnitude", main=s)) 
-  #dev.off()
 }
+dev.off()
