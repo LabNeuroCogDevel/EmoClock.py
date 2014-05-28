@@ -1,5 +1,5 @@
 
-export SUBJECTS_DIR=/home/hwangk/Luna1/Multimodal/Clock
+export SUBJECTS_DIR=/data/Luna1/Multimodal/Clock
 for s in 11258 11255 ; do
 
 	while [`jobs | wc -l` -ge 8 ]
