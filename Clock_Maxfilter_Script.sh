@@ -17,7 +17,7 @@ for s in 10637; do
 		
 		/neuro/bin/util/i686-pc-linux-gnu/maxfilter-2.2 \
 		-f /data/Luna1/Multimodal/Clock/${s}/MEG/${s}_clock_run${r}_raw_chpi_sss.fif \
-				-o /data/Luna1/Multimodal/Clock/${s}/MEG/${s}_clock_run${r}_ds_sss_raw.fif \
+		-o /data/Luna1/Multimodal/Clock/${s}/MEG/${s}_clock_run${r}_ds_sss_raw.fif \
 		-origin fit -trans default -frame head -force -v -autobad off -ds 4 \
 		> /data/Luna1/Multimodal/Clock/${s}/MEG/${s}_clock_run${r}_trans.log
 	
