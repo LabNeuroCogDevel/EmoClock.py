@@ -2,7 +2,7 @@
 # this script has to be run on wallace.
 
 
-for s in 10637 10662 10997 11243 11246 11252 11253 11255 11258 11262 11263; do
+for s in 10637; do
 
 	for r in 1 2 3 4 5 6 7 8; do
 		/neuro/bin/util/i686-pc-linux-gnu/maxfilter-2.2 \
@@ -11,8 +11,8 @@ for s in 10637 10662 10997 11243 11246 11252 11253 11255 11258 11262 11263; do
 		-origin fit -autobad off \
 		-bad $(sed s/MEG// /data/Luna1/Multimodal/Clock/${s}/MEG/${s}_clock_bad_run${r}.txt) \
 		-st 10 -movecomp inter -v -force \
-		-ctc /data/hwangk/Luna1/ni_tools/maxfilter_calib/ct_sparse.fif \
-		-cal /data/hwangk/Luna1/ni_tools/maxfilter_calib/sss_cal.dat \
+		-ctc /data/Luna1/ni_tools/maxfilter_calib/ct_sparse.fif \
+		-cal /data/Luna1/ni_tools/maxfilter_calib/sss_cal.dat \
 		> /data/Luna1/Multimodal/Clock/${s}/MEG/${s}_clock_run${r}_sss.log
 		
 		/neuro/bin/util/i686-pc-linux-gnu/maxfilter-2.2 \
