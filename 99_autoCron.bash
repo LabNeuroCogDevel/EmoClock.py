@@ -31,4 +31,5 @@ cd $(cd $(dirname $0);pwd)
 # /data/Luna1/MultiModal/FS_Subjects/ --> /data/Luna1/MultiModal/Clock/
 ./02_linkFStoMM.bash 2>&1 >> log/nightly.log
 
-git diff log/nightly.log
+# print changes to log and update git tracking of log
+git diff log/nightly.log  || $( git add log/nightly.log && git commit -m 'nightly update log change')

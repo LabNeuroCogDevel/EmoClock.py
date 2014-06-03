@@ -2,12 +2,12 @@
 
 ## Data Paths
 
- | data  | location |
- |-------|---------------------------------------|
- | MEG   | `/data/Luna1/MultiModal/MEG_Raw`      |
- | BHV   | `B\bea_res\Data\Tasks\EmoClockMEG`    |
- | HERE  | `/data/Luna1/EmoClockMEG`             |
- | FINAL | `/data/Luna1/MultiModal/Clock`        |
+| data  | location |
+|-------|---------------------------------------|
+| MEG   | `/data/Luna1/MultiModal/MEG_Raw`      |
+| BHV   | `B\bea_res\Data\Tasks\EmoClockMEG`    |
+| HERE  | `/data/Luna1/EmoClockMEG`             |
+| FINAL | `/data/Luna1/MultiModal/Clock`        |
 
 ## Pipeline
 
