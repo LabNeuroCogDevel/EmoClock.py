@@ -18,10 +18,16 @@ cd $(cd $(dirname $0);pwd)
 # stored on B, mounted on reese
 ./00_getBehave.bash  2>&1 > log/nightly.log
 
+ls subjs/*/behavior/*.csv | perl -F/ -slane '$_=$F[$#F]; m/\d{5}_\d{8}/; print $&' |sort |uniq -c > log/behavior.txt
+
 ## make CSV/EVE 
 # link the fif files from /data/Luna1/MultiModal/MEG_Raw to here
 # use timing.py to make csv file
 ./01_behave2CSV.bash  2>&1 >> log/nightly.log
+
+## copy  FIF
+# uses behav dir structre to identify lunaid_date to pull
+./01_copyRaw.bash
 
 ## link csv/eve to FINAL
 #   /data/Luna1/EmoClockMEG --> /data/Luna1/MultiModal/Clock/

@@ -20,6 +20,9 @@ see `99_autoCron.bash` for nightly execution
      1. link in the MEG raw fifs to `subjs/id_date/MEG/*fif`
      2. run `timing.py` to generate csv files for the `fitclock` R package
      3. also create eve event files for MNE 
+  1. `01_copyRawMEG.bash`
+     1. copy raw fif into FINAL
+     1. rename to all lowercase and without date
   1. `02_linkToMMClock.bash` 
      1. link csv/eve to FINAL
   1. `02_linkFStoMM.bash` 

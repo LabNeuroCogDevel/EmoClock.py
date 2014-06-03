@@ -1,83 +1,23 @@
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 89.46K  speedup is 972.42
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 89.28K  speedup is 970.40
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 88.10K  speedup is 957.63
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 94.89K  speedup is 1031.45
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  61.33 bytes/sec
-total size is 89.48K  speedup is 972.60
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 89.34K  speedup is 971.04
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 90.81K  speedup is 987.10
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 90.32K  speedup is 981.74
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 88.89K  speedup is 966.25
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 89.44K  speedup is 972.20
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  61.33 bytes/sec
-total size is 89.24K  speedup is 969.97
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 89.59K  speedup is 973.83
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 88.94K  speedup is 966.71
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 88.75K  speedup is 964.66
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 90.01K  speedup is 978.36
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  61.33 bytes/sec
-total size is 88.91K  speedup is 966.43
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 89.38K  speedup is 971.51
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 88.51K  speedup is 962.04
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 91.85K  speedup is 998.33
-receiving incremental file list
-
-sent 19 bytes  received 73 bytes  184.00 bytes/sec
-total size is 78.08K  speedup is 848.75
+already have MEG_10637_20140312_tc.mat in /data/Luna1/EmoClockMEG/subjs/10637_20140312/behavior
+already have MEG_10638_20140516_tc.mat in /data/Luna1/EmoClockMEG/subjs/10638_20140516/behavior
+already have MEG_10662_20140415_tc.mat in /data/Luna1/EmoClockMEG/subjs/10662_20140415/behavior
+already have MEG_10772_20140509_tc.mat in /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior
+already have MEG_10997_20140221_tc.mat in /data/Luna1/EmoClockMEG/subjs/10997_20140221/behavior
+already have MEG_11178_20140515_tc.mat in /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior
+already have MEG_11229_20140212_tc.mat in /data/Luna1/EmoClockMEG/subjs/11229_20140212/behavior
+already have MEG_11243_20140213_tc.mat in /data/Luna1/EmoClockMEG/subjs/11243_20140213/behavior
+already have MEG_11246_20140218_tc.mat in /data/Luna1/EmoClockMEG/subjs/11246_20140218/behavior
+already have MEG_11250_20140422_tc.mat in /data/Luna1/EmoClockMEG/subjs/11250_20140422/behavior
+already have MEG_11253_20140219_tc.mat in /data/Luna1/EmoClockMEG/subjs/11253_20140219/behavior
+already have MEG_11255_20140318_tc.mat in /data/Luna1/EmoClockMEG/subjs/11255_20140318/behavior
+already have MEG_11258_20140303_tc.mat in /data/Luna1/EmoClockMEG/subjs/11258_20140303/behavior
+already have MEG_11262_20140312_tc.mat in /data/Luna1/EmoClockMEG/subjs/11262_20140312/behavior
+already have MEG_11263_20140324_tc.mat in /data/Luna1/EmoClockMEG/subjs/11263_20140324/behavior
+already have MEG_11274_20140528_tc.mat in /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior
+already have MEG_11277_20140519_tc.mat in /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior
+already have MEG_11278_20140505_tc.mat in /data/Luna1/EmoClockMEG/subjs/11278_20140505/behavior
+already have MEG_11279_20140507_tc.mat in /data/Luna1/EmoClockMEG/subjs/11279_20140507/behavior
+already have MEG_11287_20140522_tc.mat in /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior
 10637 20140312 1 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run1_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/10637_20140312/behavior/MEG_10637_20140312_tc_1.csv
 10637 20140312 2 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run2_raw.fif
@@ -470,53 +410,50 @@ skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_2014052
 skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_5.csv
 11287 20140522 6 /data/Luna1/MultiModal/MEG_Raw/11287_20140522/140522/11287_Clock_run6_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_6.csv
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_1.eve) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_2.eve) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_3.eve) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_4.eve) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_5.eve) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_6.eve) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_7.eve) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_1.eve) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_2.eve) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_3.eve) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_4.eve) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_5.eve) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_6.eve) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_7.eve) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_8.eve) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_1.eve) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_2.eve) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_3.eve) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_4.eve) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_5.eve) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_6.eve) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_7.eve) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_1.csv) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_2.csv) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_3.csv) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_4.csv) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_5.csv) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_6.csv) 
-no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_7.csv) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_1.csv) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_2.csv) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_3.csv) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_4.csv) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_5.csv) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_6.csv) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_7.csv) 
-no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_8.csv) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_1.csv) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_2.csv) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_3.csv) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_4.csv) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_5.csv) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_6.csv) 
-no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_7.csv) 
-NO FS for 11250
-	maybe
-	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11250_20140228
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_1.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_2.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_3.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_4.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_5.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_6.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_7.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_1.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_2.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_3.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_4.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_5.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_6.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_7.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_8.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_1.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_2.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_3.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_4.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_5.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_6.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_7.eve) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_1.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_2.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_3.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_4.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_5.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_6.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_7.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_1.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_2.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_3.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_4.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_5.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_6.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_7.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_8.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_1.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_2.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_3.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_4.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_5.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_6.csv) 
+no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_7.csv) 
 NO FS for 11277
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11277_20140410

@@ -17,7 +17,7 @@ for f in $(pwd)/subjs/*_*/behavior/*.{eve,csv}; do
 
   # make sure we exist in the new place
   newdir=$otherdir/$subj/MEG/
-  [ ! -d $newdir ]  && echo "no dir $newdir ($(basename $f)) " && continue
+  [ ! -d $newdir ]  && echo "no MEG dir $newdir ($(basename $f)) " && continue
 
   # already exists, skip
   [ -r $newdir/$(basename $f) ] && continue 
