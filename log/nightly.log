@@ -1,0 +1,534 @@
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 89.46K  speedup is 972.42
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 89.28K  speedup is 970.40
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 88.10K  speedup is 957.63
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 94.89K  speedup is 1031.45
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  61.33 bytes/sec
+total size is 89.48K  speedup is 972.60
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 89.34K  speedup is 971.04
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 90.81K  speedup is 987.10
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 90.32K  speedup is 981.74
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 88.89K  speedup is 966.25
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 89.44K  speedup is 972.20
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  61.33 bytes/sec
+total size is 89.24K  speedup is 969.97
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 89.59K  speedup is 973.83
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 88.94K  speedup is 966.71
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 88.75K  speedup is 964.66
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 90.01K  speedup is 978.36
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  61.33 bytes/sec
+total size is 88.91K  speedup is 966.43
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 89.38K  speedup is 971.51
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 88.51K  speedup is 962.04
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 91.85K  speedup is 998.33
+receiving incremental file list
+
+sent 19 bytes  received 73 bytes  184.00 bytes/sec
+total size is 78.08K  speedup is 848.75
+10637 20140312 1 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10637_20140312/behavior/MEG_10637_20140312_tc_1.csv
+10637 20140312 2 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10637_20140312/behavior/MEG_10637_20140312_tc_2.csv
+10637 20140312 3 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10637_20140312/behavior/MEG_10637_20140312_tc_3.csv
+10637 20140312 4 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10637_20140312/behavior/MEG_10637_20140312_tc_4.csv
+10637 20140312 5 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10637_20140312/behavior/MEG_10637_20140312_tc_5.csv
+10637 20140312 6 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10637_20140312/behavior/MEG_10637_20140312_tc_6.csv
+10637 20140312 7 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10637_20140312/behavior/MEG_10637_20140312_tc_7.csv
+10637 20140312 8 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run8_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10637_20140312/behavior/MEG_10637_20140312_tc_8.csv
+10997 20140221 1 /data/Luna1/MultiModal/MEG_Raw/10997_20140221/140221/10997_clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10997_20140221/behavior/MEG_10997_20140221_tc_1.csv
+10997 20140221 2 /data/Luna1/MultiModal/MEG_Raw/10997_20140221/140221/10997_clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10997_20140221/behavior/MEG_10997_20140221_tc_2.csv
+10997 20140221 3 /data/Luna1/MultiModal/MEG_Raw/10997_20140221/140221/10997_clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10997_20140221/behavior/MEG_10997_20140221_tc_3.csv
+10997 20140221 4 /data/Luna1/MultiModal/MEG_Raw/10997_20140221/140221/10997_clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10997_20140221/behavior/MEG_10997_20140221_tc_4.csv
+10997 20140221 5 /data/Luna1/MultiModal/MEG_Raw/10997_20140221/140221/10997_clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10997_20140221/behavior/MEG_10997_20140221_tc_5.csv
+10997 20140221 6 /data/Luna1/MultiModal/MEG_Raw/10997_20140221/140221/10997_clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10997_20140221/behavior/MEG_10997_20140221_tc_6.csv
+10997 20140221 7 /data/Luna1/MultiModal/MEG_Raw/10997_20140221/140221/10997_clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10997_20140221/behavior/MEG_10997_20140221_tc_7.csv
+10997 20140221 8 /data/Luna1/MultiModal/MEG_Raw/10997_20140221/140221/10997_clock_run8_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10997_20140221/behavior/MEG_10997_20140221_tc_8.csv
+11229 20140212 1 /data/Luna1/MultiModal/MEG_Raw/11229_20140212/140212/11229_run1_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11229_20140212/behavior/MEG_11229_20140212_tc_1.csv
+11229 20140212 2 /data/Luna1/MultiModal/MEG_Raw/11229_20140212/140212/11229_run2_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11229_20140212/behavior/MEG_11229_20140212_tc_2.csv
+11229 20140212 3 /data/Luna1/MultiModal/MEG_Raw/11229_20140212/140212/11229_run3_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11229_20140212/behavior/MEG_11229_20140212_tc_3.csv
+11229 20140212 4 /data/Luna1/MultiModal/MEG_Raw/11229_20140212/140212/11229_run4_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11229_20140212/behavior/MEG_11229_20140212_tc_4.csv
+11229 20140212 5 /data/Luna1/MultiModal/MEG_Raw/11229_20140212/140212/11229_run5_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11229_20140212/behavior/MEG_11229_20140212_tc_5.csv
+11229 20140212 6 /data/Luna1/MultiModal/MEG_Raw/11229_20140212/140212/11229_run6_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11229_20140212/behavior/MEG_11229_20140212_tc_6.csv
+11229 20140212 7 /data/Luna1/MultiModal/MEG_Raw/11229_20140212/140212/11229_run7_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11229_20140212/behavior/MEG_11229_20140212_tc_7.csv
+11229 20140212 8 /data/Luna1/MultiModal/MEG_Raw/11229_20140212/140212/11229_run8_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11229_20140212/behavior/MEG_11229_20140212_tc_8.csv
+11243 20140213 1 /data/Luna1/MultiModal/MEG_Raw/11243_20140213/140213/11243_run1_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11243_20140213/behavior/MEG_11243_20140213_tc_1.csv
+11243 20140213 2 /data/Luna1/MultiModal/MEG_Raw/11243_20140213/140213/11243_run2_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11243_20140213/behavior/MEG_11243_20140213_tc_2.csv
+11243 20140213 3 /data/Luna1/MultiModal/MEG_Raw/11243_20140213/140213/11243_run3_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11243_20140213/behavior/MEG_11243_20140213_tc_3.csv
+11243 20140213 4 /data/Luna1/MultiModal/MEG_Raw/11243_20140213/140213/11243_run4_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11243_20140213/behavior/MEG_11243_20140213_tc_4.csv
+11243 20140213 5 /data/Luna1/MultiModal/MEG_Raw/11243_20140213/140213/11243_run5_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11243_20140213/behavior/MEG_11243_20140213_tc_5.csv
+11243 20140213 6 /data/Luna1/MultiModal/MEG_Raw/11243_20140213/140213/11243_run6_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11243_20140213/behavior/MEG_11243_20140213_tc_6.csv
+11243 20140213 7 /data/Luna1/MultiModal/MEG_Raw/11243_20140213/140213/11243_run7_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11243_20140213/behavior/MEG_11243_20140213_tc_7.csv
+11243 20140213 8 /data/Luna1/MultiModal/MEG_Raw/11243_20140213/140213/11243_run8_Clock_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11243_20140213/behavior/MEG_11243_20140213_tc_8.csv
+11246 20140218 1 /data/Luna1/MultiModal/MEG_Raw/11246_20140218/140218/11246_clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11246_20140218/behavior/MEG_11246_20140218_tc_1.csv
+11246 20140218 2 /data/Luna1/MultiModal/MEG_Raw/11246_20140218/140218/11246_clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11246_20140218/behavior/MEG_11246_20140218_tc_2.csv
+11246 20140218 3 /data/Luna1/MultiModal/MEG_Raw/11246_20140218/140218/11246_clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11246_20140218/behavior/MEG_11246_20140218_tc_3.csv
+11246 20140218 4 /data/Luna1/MultiModal/MEG_Raw/11246_20140218/140218/11246_clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11246_20140218/behavior/MEG_11246_20140218_tc_4.csv
+11246 20140218 5 /data/Luna1/MultiModal/MEG_Raw/11246_20140218/140218/11246_clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11246_20140218/behavior/MEG_11246_20140218_tc_5.csv
+11246 20140218 6 /data/Luna1/MultiModal/MEG_Raw/11246_20140218/140218/11246_clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11246_20140218/behavior/MEG_11246_20140218_tc_6.csv
+11246 20140218 7 /data/Luna1/MultiModal/MEG_Raw/11246_20140218/140218/11246_clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11246_20140218/behavior/MEG_11246_20140218_tc_7.csv
+11246 20140218 8 /data/Luna1/MultiModal/MEG_Raw/11246_20140218/140218/11246_clock_run8_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11246_20140218/behavior/MEG_11246_20140218_tc_8.csv
+11255 20140318 1 /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11255_20140318/behavior/MEG_11255_20140318_tc_1.csv
+11255 20140318 2 /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11255_20140318/behavior/MEG_11255_20140318_tc_2.csv
+11255 20140318 3 /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11255_20140318/behavior/MEG_11255_20140318_tc_3.csv
+11255 20140318 4 /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11255_20140318/behavior/MEG_11255_20140318_tc_4.csv
+11255 20140318 5 /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11255_20140318/behavior/MEG_11255_20140318_tc_5.csv
+11255 20140318 6 /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11255_20140318/behavior/MEG_11255_20140318_tc_6.csv
+11255 20140318 7 /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11255_20140318/behavior/MEG_11255_20140318_tc_7.csv
+11255 20140318 8 /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run8_raw.fif
+Opening raw data file /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run8_raw.fif...
+    Read a total of 14 projection items:
+        mag_ssp.fif : PCA-v1 (1 x 306)  idle
+        mag_ssp.fif : PCA-v2 (1 x 306)  idle
+        mag_ssp.fif : PCA-v3 (1 x 306)  idle
+        mag_ssp.fif : PCA-v4 (1 x 306)  idle
+        mag_ssp.fif : PCA-v5 (1 x 306)  idle
+        mag_ssp.fif : PCA-v6 (1 x 306)  idle
+        mag_ssp.fif : PCA-v7 (1 x 306)  idle
+        mag_ssp.fif : PCA-v8 (1 x 306)  idle
+        mag_ssp.fif : PCA-v9 (1 x 306)  idle
+        grad_ssp.fif : PCA-v1 (1 x 306)  idle
+        grad_ssp.fif : PCA-v2 (1 x 306)  idle
+        grad_ssp.fif : PCA-v3 (1 x 306)  idle
+        grad_ssp.fif : PCA-v4 (1 x 306)  idle
+        grad_ssp.fif : PCA-v5 (1 x 306)  idle
+Current compensation grade : 0
+    Range : 69000 ... 363999 =     69.000 ...   363.999 secs
+Ready.
+Reading 0 ... 294999  =      0.000 ...   294.999 secs...
+[done]
+11258 20140303 8 /data/Luna1/MultiModal/MEG_Raw/11258_20140303/140303/111258_clock_run8_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11258_20140303/behavior/MEG_11258_20140303_tc_8.csv
+11258 20140303 1 /data/Luna1/MultiModal/MEG_Raw/11258_20140303/140303/11258_clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11258_20140303/behavior/MEG_11258_20140303_tc_1.csv
+11258 20140303 2 /data/Luna1/MultiModal/MEG_Raw/11258_20140303/140303/11258_clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11258_20140303/behavior/MEG_11258_20140303_tc_2.csv
+11258 20140303 3 /data/Luna1/MultiModal/MEG_Raw/11258_20140303/140303/11258_clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11258_20140303/behavior/MEG_11258_20140303_tc_3.csv
+11258 20140303 4 /data/Luna1/MultiModal/MEG_Raw/11258_20140303/140303/11258_clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11258_20140303/behavior/MEG_11258_20140303_tc_4.csv
+11258 20140303 5 /data/Luna1/MultiModal/MEG_Raw/11258_20140303/140303/11258_clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11258_20140303/behavior/MEG_11258_20140303_tc_5.csv
+11258 20140303 6 /data/Luna1/MultiModal/MEG_Raw/11258_20140303/140303/11258_clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11258_20140303/behavior/MEG_11258_20140303_tc_6.csv
+11258 20140303 7 /data/Luna1/MultiModal/MEG_Raw/11258_20140303/140303/11258_clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11258_20140303/behavior/MEG_11258_20140303_tc_7.csv
+11262 20140312 1 /data/Luna1/MultiModal/MEG_Raw/11262_20140312/140312/11262_clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11262_20140312/behavior/MEG_11262_20140312_tc_1.csv
+11262 20140312 2 /data/Luna1/MultiModal/MEG_Raw/11262_20140312/140312/11262_clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11262_20140312/behavior/MEG_11262_20140312_tc_2.csv
+11262 20140312 3 /data/Luna1/MultiModal/MEG_Raw/11262_20140312/140312/11262_clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11262_20140312/behavior/MEG_11262_20140312_tc_3.csv
+11262 20140312 4 /data/Luna1/MultiModal/MEG_Raw/11262_20140312/140312/11262_clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11262_20140312/behavior/MEG_11262_20140312_tc_4.csv
+11262 20140312 5 /data/Luna1/MultiModal/MEG_Raw/11262_20140312/140312/11262_clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11262_20140312/behavior/MEG_11262_20140312_tc_5.csv
+11262 20140312 6 /data/Luna1/MultiModal/MEG_Raw/11262_20140312/140312/11262_clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11262_20140312/behavior/MEG_11262_20140312_tc_6.csv
+11262 20140312 7 /data/Luna1/MultiModal/MEG_Raw/11262_20140312/140312/11262_clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11262_20140312/behavior/MEG_11262_20140312_tc_7.csv
+11262 20140312 8 /data/Luna1/MultiModal/MEG_Raw/11262_20140312/140312/11262_clock_run8_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11262_20140312/behavior/MEG_11262_20140312_tc_8.csv
+11263 20140324 1 /data/Luna1/MultiModal/MEG_Raw/11263_20140324/140324/11263_Clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11263_20140324/behavior/MEG_11263_20140324_tc_1.csv
+11263 20140324 2 /data/Luna1/MultiModal/MEG_Raw/11263_20140324/140324/11263_Clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11263_20140324/behavior/MEG_11263_20140324_tc_2.csv
+11263 20140324 3 /data/Luna1/MultiModal/MEG_Raw/11263_20140324/140324/11263_Clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11263_20140324/behavior/MEG_11263_20140324_tc_3.csv
+11263 20140324 4 /data/Luna1/MultiModal/MEG_Raw/11263_20140324/140324/11263_Clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11263_20140324/behavior/MEG_11263_20140324_tc_4.csv
+11263 20140324 5 /data/Luna1/MultiModal/MEG_Raw/11263_20140324/140324/11263_Clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11263_20140324/behavior/MEG_11263_20140324_tc_5.csv
+11263 20140324 6 /data/Luna1/MultiModal/MEG_Raw/11263_20140324/140324/11263_Clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11263_20140324/behavior/MEG_11263_20140324_tc_6.csv
+11263 20140324 7 /data/Luna1/MultiModal/MEG_Raw/11263_20140324/140324/11263_Clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11263_20140324/behavior/MEG_11263_20140324_tc_7.csv
+11263 20140324 8 /data/Luna1/MultiModal/MEG_Raw/11263_20140324/140324/11263_Clock_run8_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11263_20140324/behavior/MEG_11263_20140324_tc_8.csv
+10638 20140516 3 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10638_20140516/behavior/MEG_10638_20140516_tc_3.csv
+10638 20140516 8 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_run8_raw.fif
+Opening raw data file /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_run8_raw.fif...
+    Read a total of 14 projection items:
+        mag_ssp.fif : PCA-v1 (1 x 306)  idle
+        mag_ssp.fif : PCA-v2 (1 x 306)  idle
+        mag_ssp.fif : PCA-v3 (1 x 306)  idle
+        mag_ssp.fif : PCA-v4 (1 x 306)  idle
+        mag_ssp.fif : PCA-v5 (1 x 306)  idle
+        mag_ssp.fif : PCA-v6 (1 x 306)  idle
+        mag_ssp.fif : PCA-v7 (1 x 306)  idle
+        mag_ssp.fif : PCA-v8 (1 x 306)  idle
+        mag_ssp.fif : PCA-v9 (1 x 306)  idle
+        grad_ssp.fif : PCA-v1 (1 x 306)  idle
+        grad_ssp.fif : PCA-v2 (1 x 306)  idle
+        grad_ssp.fif : PCA-v3 (1 x 306)  idle
+        grad_ssp.fif : PCA-v4 (1 x 306)  idle
+        grad_ssp.fif : PCA-v5 (1 x 306)  idle
+Current compensation grade : 0
+    Range : 20000 ... 217999 =     20.000 ...   217.999 secs
+Ready.
+Reading 0 ... 197999  =      0.000 ...   197.999 secs...
+[done]
+10662 20140415 1 /data/Luna1/MultiModal/MEG_Raw/10662_20140415/140415/10662_clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10662_20140415/behavior/MEG_10662_20140415_tc_1.csv
+10662 20140415 2 /data/Luna1/MultiModal/MEG_Raw/10662_20140415/140415/10662_clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10662_20140415/behavior/MEG_10662_20140415_tc_2.csv
+10662 20140415 3 /data/Luna1/MultiModal/MEG_Raw/10662_20140415/140415/10662_clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10662_20140415/behavior/MEG_10662_20140415_tc_3.csv
+10662 20140415 4 /data/Luna1/MultiModal/MEG_Raw/10662_20140415/140415/10662_clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10662_20140415/behavior/MEG_10662_20140415_tc_4.csv
+10662 20140415 5 /data/Luna1/MultiModal/MEG_Raw/10662_20140415/140415/10662_clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10662_20140415/behavior/MEG_10662_20140415_tc_5.csv
+10662 20140415 6 /data/Luna1/MultiModal/MEG_Raw/10662_20140415/140415/10662_clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10662_20140415/behavior/MEG_10662_20140415_tc_6.csv
+10662 20140415 7 /data/Luna1/MultiModal/MEG_Raw/10662_20140415/140415/10662_clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10662_20140415/behavior/MEG_10662_20140415_tc_7.csv
+10662 20140415 8 /data/Luna1/MultiModal/MEG_Raw/10662_20140415/140415/10662_clock_run8_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10662_20140415/behavior/MEG_10662_20140415_tc_8.csv
+10772 20140509 4 /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior/MEG_10772_20140509_tc_4.csv
+10772 20140509 5 /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior/MEG_10772_20140509_tc_5.csv
+10772 20140509 6 /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior/MEG_10772_20140509_tc_6.csv
+10772 20140509 7 /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior/MEG_10772_20140509_tc_7.csv
+10772 20140509 2 /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior/MEG_10772_20140509_tc_2.csv
+10772 20140509 3 /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior/MEG_10772_20140509_tc_3.csv
+10772 20140509 1 /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior/MEG_10772_20140509_tc_1.csv
+10772 20140509 8 /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run8_raw.fif
+Opening raw data file /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run8_raw.fif...
+    Read a total of 14 projection items:
+        mag_ssp.fif : PCA-v1 (1 x 306)  idle
+        mag_ssp.fif : PCA-v2 (1 x 306)  idle
+        mag_ssp.fif : PCA-v3 (1 x 306)  idle
+        mag_ssp.fif : PCA-v4 (1 x 306)  idle
+        mag_ssp.fif : PCA-v5 (1 x 306)  idle
+        mag_ssp.fif : PCA-v6 (1 x 306)  idle
+        mag_ssp.fif : PCA-v7 (1 x 306)  idle
+        mag_ssp.fif : PCA-v8 (1 x 306)  idle
+        mag_ssp.fif : PCA-v9 (1 x 306)  idle
+        grad_ssp.fif : PCA-v1 (1 x 306)  idle
+        grad_ssp.fif : PCA-v2 (1 x 306)  idle
+        grad_ssp.fif : PCA-v3 (1 x 306)  idle
+        grad_ssp.fif : PCA-v4 (1 x 306)  idle
+        grad_ssp.fif : PCA-v5 (1 x 306)  idle
+Current compensation grade : 0
+    Range : 19000 ... 318999 =     19.000 ...   318.999 secs
+Ready.
+Reading 0 ... 299999  =      0.000 ...   299.999 secs...
+[done]
+11178 20140515 1 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior/MEG_11178_20140515_tc_1.csv
+11178 20140515 2 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior/MEG_11178_20140515_tc_2.csv
+11178 20140515 3 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior/MEG_11178_20140515_tc_3.csv
+11178 20140515 4 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior/MEG_11178_20140515_tc_4.csv
+11178 20140515 5 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior/MEG_11178_20140515_tc_5.csv
+11178 20140515 6 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior/MEG_11178_20140515_tc_6.csv
+11178 20140515 7 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior/MEG_11178_20140515_tc_7.csv
+11178 20140515 8 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run8_raw.fif
+Opening raw data file /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run8_raw.fif...
+    Read a total of 14 projection items:
+        mag_ssp.fif : PCA-v1 (1 x 306)  idle
+        mag_ssp.fif : PCA-v2 (1 x 306)  idle
+        mag_ssp.fif : PCA-v3 (1 x 306)  idle
+        mag_ssp.fif : PCA-v4 (1 x 306)  idle
+        mag_ssp.fif : PCA-v5 (1 x 306)  idle
+        mag_ssp.fif : PCA-v6 (1 x 306)  idle
+        mag_ssp.fif : PCA-v7 (1 x 306)  idle
+        mag_ssp.fif : PCA-v8 (1 x 306)  idle
+        mag_ssp.fif : PCA-v9 (1 x 306)  idle
+        grad_ssp.fif : PCA-v1 (1 x 306)  idle
+        grad_ssp.fif : PCA-v2 (1 x 306)  idle
+        grad_ssp.fif : PCA-v3 (1 x 306)  idle
+        grad_ssp.fif : PCA-v4 (1 x 306)  idle
+        grad_ssp.fif : PCA-v5 (1 x 306)  idle
+Current compensation grade : 0
+    Range : 33000 ... 306999 =     33.000 ...   306.999 secs
+Ready.
+Reading 0 ... 273999  =      0.000 ...   273.999 secs...
+[done]
+11274 20140528 1 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior/MEG_11274_20140528_tc_1.csv
+11274 20140528 2 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior/MEG_11274_20140528_tc_2.csv
+11274 20140528 3 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior/MEG_11274_20140528_tc_3.csv
+11274 20140528 4 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior/MEG_11274_20140528_tc_4.csv
+11274 20140528 5 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior/MEG_11274_20140528_tc_5.csv
+11274 20140528 6 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior/MEG_11274_20140528_tc_6.csv
+11274 20140528 7 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior/MEG_11274_20140528_tc_7.csv
+11274 20140528 8 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run8_raw.fif
+Opening raw data file /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run8_raw.fif...
+    Read a total of 14 projection items:
+        mag_ssp.fif : PCA-v1 (1 x 306)  idle
+        mag_ssp.fif : PCA-v2 (1 x 306)  idle
+        mag_ssp.fif : PCA-v3 (1 x 306)  idle
+        mag_ssp.fif : PCA-v4 (1 x 306)  idle
+        mag_ssp.fif : PCA-v5 (1 x 306)  idle
+        mag_ssp.fif : PCA-v6 (1 x 306)  idle
+        mag_ssp.fif : PCA-v7 (1 x 306)  idle
+        mag_ssp.fif : PCA-v8 (1 x 306)  idle
+        mag_ssp.fif : PCA-v9 (1 x 306)  idle
+        grad_ssp.fif : PCA-v1 (1 x 306)  idle
+        grad_ssp.fif : PCA-v2 (1 x 306)  idle
+        grad_ssp.fif : PCA-v3 (1 x 306)  idle
+        grad_ssp.fif : PCA-v4 (1 x 306)  idle
+        grad_ssp.fif : PCA-v5 (1 x 306)  idle
+Current compensation grade : 0
+    Range : 19000 ... 237999 =     19.000 ...   237.999 secs
+Ready.
+Reading 0 ... 218999  =      0.000 ...   218.999 secs...
+[done]
+11277 20140519 1 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior/MEG_11277_20140519_tc_1.csv
+11277 20140519 2 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior/MEG_11277_20140519_tc_2.csv
+11277 20140519 3 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior/MEG_11277_20140519_tc_3.csv
+11277 20140519 4 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior/MEG_11277_20140519_tc_4.csv
+11277 20140519 5 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior/MEG_11277_20140519_tc_5.csv
+11277 20140519 6 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior/MEG_11277_20140519_tc_6.csv
+11277 20140519 7 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior/MEG_11277_20140519_tc_7.csv
+11277 20140519 8 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run8_raw.fif
+Opening raw data file /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run8_raw.fif...
+    Read a total of 14 projection items:
+        mag_ssp.fif : PCA-v1 (1 x 306)  idle
+        mag_ssp.fif : PCA-v2 (1 x 306)  idle
+        mag_ssp.fif : PCA-v3 (1 x 306)  idle
+        mag_ssp.fif : PCA-v4 (1 x 306)  idle
+        mag_ssp.fif : PCA-v5 (1 x 306)  idle
+        mag_ssp.fif : PCA-v6 (1 x 306)  idle
+        mag_ssp.fif : PCA-v7 (1 x 306)  idle
+        mag_ssp.fif : PCA-v8 (1 x 306)  idle
+        mag_ssp.fif : PCA-v9 (1 x 306)  idle
+        grad_ssp.fif : PCA-v1 (1 x 306)  idle
+        grad_ssp.fif : PCA-v2 (1 x 306)  idle
+        grad_ssp.fif : PCA-v3 (1 x 306)  idle
+        grad_ssp.fif : PCA-v4 (1 x 306)  idle
+        grad_ssp.fif : PCA-v5 (1 x 306)  idle
+Current compensation grade : 0
+    Range : 44000 ... 301999 =     44.000 ...   301.999 secs
+Ready.
+Reading 0 ... 257999  =      0.000 ...   257.999 secs...
+[done]
+11278 20140505 1 /data/Luna1/MultiModal/MEG_Raw/11278_20140505/140505/11278_clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11278_20140505/behavior/MEG_11278_20140505_tc_1.csv
+11278 20140505 2 /data/Luna1/MultiModal/MEG_Raw/11278_20140505/140505/11278_clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11278_20140505/behavior/MEG_11278_20140505_tc_2.csv
+11278 20140505 3 /data/Luna1/MultiModal/MEG_Raw/11278_20140505/140505/11278_clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11278_20140505/behavior/MEG_11278_20140505_tc_3.csv
+11278 20140505 4 /data/Luna1/MultiModal/MEG_Raw/11278_20140505/140505/11278_clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11278_20140505/behavior/MEG_11278_20140505_tc_4.csv
+11278 20140505 5 /data/Luna1/MultiModal/MEG_Raw/11278_20140505/140505/11278_clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11278_20140505/behavior/MEG_11278_20140505_tc_5.csv
+11278 20140505 6 /data/Luna1/MultiModal/MEG_Raw/11278_20140505/140505/11278_clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11278_20140505/behavior/MEG_11278_20140505_tc_6.csv
+11278 20140505 7 /data/Luna1/MultiModal/MEG_Raw/11278_20140505/140505/11278_clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11278_20140505/behavior/MEG_11278_20140505_tc_7.csv
+11278 20140505 8 /data/Luna1/MultiModal/MEG_Raw/11278_20140505/140505/11278_clock_run8_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11278_20140505/behavior/MEG_11278_20140505_tc_8.csv
+11279 20140507 1 /data/Luna1/MultiModal/MEG_Raw/11279_20140507/140507/11279_clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11279_20140507/behavior/MEG_11279_20140507_tc_1.csv
+11279 20140507 2 /data/Luna1/MultiModal/MEG_Raw/11279_20140507/140507/11279_clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11279_20140507/behavior/MEG_11279_20140507_tc_2.csv
+11279 20140507 3 /data/Luna1/MultiModal/MEG_Raw/11279_20140507/140507/11279_clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11279_20140507/behavior/MEG_11279_20140507_tc_3.csv
+11279 20140507 4 /data/Luna1/MultiModal/MEG_Raw/11279_20140507/140507/11279_clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11279_20140507/behavior/MEG_11279_20140507_tc_4.csv
+11279 20140507 5 /data/Luna1/MultiModal/MEG_Raw/11279_20140507/140507/11279_clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11279_20140507/behavior/MEG_11279_20140507_tc_5.csv
+11279 20140507 6 /data/Luna1/MultiModal/MEG_Raw/11279_20140507/140507/11279_clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11279_20140507/behavior/MEG_11279_20140507_tc_6.csv
+11279 20140507 7 /data/Luna1/MultiModal/MEG_Raw/11279_20140507/140507/11279_clock_run7_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11279_20140507/behavior/MEG_11279_20140507_tc_7.csv
+11279 20140507 8 /data/Luna1/MultiModal/MEG_Raw/11279_20140507/140507/11279_clock_run8_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11279_20140507/behavior/MEG_11279_20140507_tc_8.csv
+11287 20140522 1 /data/Luna1/MultiModal/MEG_Raw/11287_20140522/140522/11287_Clock_run1_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_1.csv
+11287 20140522 2 /data/Luna1/MultiModal/MEG_Raw/11287_20140522/140522/11287_Clock_run2_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_2.csv
+11287 20140522 3 /data/Luna1/MultiModal/MEG_Raw/11287_20140522/140522/11287_Clock_run3_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_3.csv
+11287 20140522 4 /data/Luna1/MultiModal/MEG_Raw/11287_20140522/140522/11287_Clock_run4_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_4.csv
+11287 20140522 5 /data/Luna1/MultiModal/MEG_Raw/11287_20140522/140522/11287_Clock_run5_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_5.csv
+11287 20140522 6 /data/Luna1/MultiModal/MEG_Raw/11287_20140522/140522/11287_Clock_run6_raw.fif
+skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_6.csv
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_1.eve) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_2.eve) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_3.eve) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_4.eve) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_5.eve) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_6.eve) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_7.eve) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_1.eve) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_2.eve) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_3.eve) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_4.eve) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_5.eve) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_6.eve) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_7.eve) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_8.eve) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_1.eve) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_2.eve) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_3.eve) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_4.eve) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_5.eve) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_6.eve) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_7.eve) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_1.csv) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_2.csv) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_3.csv) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_4.csv) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_5.csv) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_6.csv) 
+no dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_7.csv) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_1.csv) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_2.csv) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_3.csv) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_4.csv) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_5.csv) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_6.csv) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_7.csv) 
+no dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_8.csv) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_1.csv) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_2.csv) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_3.csv) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_4.csv) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_5.csv) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_6.csv) 
+no dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_7.csv) 
+NO FS for 11250
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11250_20140228
+NO FS for 11277
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11277_20140410
+NO FS for 11278
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 
+NO FS for 11279
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11279_20140423
+NO FS for 11281
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11281_20140416
+NO FS for 11287
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 
