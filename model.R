@@ -11,7 +11,7 @@ library(ggplot2)
 library(plyr)
 
 #list of subjects to fit
-Subj <- c(10637, 10997, 11243, 11246, 11255, 11258, 11262, 11263)
+Subj <- c(10637,10662,10772,10997,11178,11243,11246,11255,11258,11262,11263,11274,11277,11278)
 
 #loop through subjects and fit
 for (s in Subj) 
@@ -56,12 +56,14 @@ for (s in Subj)
     RT_model$set_data(subData)
     expDiff_model$set_data(subDiffData)
     
+    incrFit <- RT_model$incremental_fit(njobs=6)
+    
     #fit full model, using 5 random starts and choosing the best fit
     fitRT <- RT_model$fit(random_starts=5)
     fitDiffRT <- expDiff_model$fit(random_starts=5)
     
     #save data
-    save(file=file,fitRT,fitDiffRT,s)
+    save(file=file,fitRT,fitDiffRT,incrFit,s)
   }
 }
 
@@ -94,7 +96,7 @@ for (s in Subj)
   rt_swing <- as.vector(t(fitDiffRT$RTobs));
   rt_swing[is.na(rt_swing)] <- 0
   rt_swing <- (rt_swing-mean(rt_swing))/sd(rt_swing);
-  corr <- cor(epsilon_beta,rt_swing,use='complete.obs')
+  corr <- cor(epsilon_beta,rt_swing,use='na.or.complete')
   
   DiffRTFitDf <- data.frame(
     run=rep(1:nrow(fitDiffRT$RTobs), each=ncol(fitDiffRT$RTobs)),
@@ -130,6 +132,10 @@ for (s in Subj)
     xlab("Trial Number") +ylab("z score")
   print(RTDiffVExp_Fig)
   
+  #plot AIC info for incremental fit
+  title = paste(s,' AIC values for incremental fit')
+  incrFit$AICplot <- incrFit$AICplot + ggtitle (title)
+  print(incrFit$AICplot)
 }
 dev.off()
 
