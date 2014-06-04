@@ -410,50 +410,9 @@ skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_2014052
 skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_5.csv
 11287 20140522 6 /data/Luna1/MultiModal/MEG_Raw/11287_20140522/140522/11287_Clock_run6_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_6.csv
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_1.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_2.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_3.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_4.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_5.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_6.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_7.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_1.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_2.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_3.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_4.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_5.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_6.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_7.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_8.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_1.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_2.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_3.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_4.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_5.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_6.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_7.eve) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_1.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_2.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_3.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_4.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_5.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_6.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11178/MEG/ (MEG_11178_20140515_tc_7.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_1.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_2.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_3.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_4.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_5.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_6.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_7.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11229/MEG/ (MEG_11229_20140212_tc_8.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_1.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_2.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_3.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_4.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_5.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_6.csv) 
-no MEG dir /data/Luna1/MultiModal/Clock//11274/MEG/ (MEG_11274_20140528_tc_7.csv) 
+NO FS for 11274
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 
 NO FS for 11277
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11277_20140410
@@ -463,9 +422,6 @@ NO FS for 11278
 NO FS for 11279
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11279_20140423
-NO FS for 11281
-	maybe
-	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11281_20140416
 NO FS for 11287
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 
