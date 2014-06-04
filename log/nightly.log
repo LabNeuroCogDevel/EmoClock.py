@@ -413,15 +413,9 @@ skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_2014052
 NO FS for 11274
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 
-NO FS for 11277
-	maybe
-	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11277_20140410
 NO FS for 11278
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 
-NO FS for 11279
-	maybe
-	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11279_20140423
 NO FS for 11287
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 
