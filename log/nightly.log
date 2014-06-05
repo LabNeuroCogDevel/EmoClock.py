@@ -291,11 +291,8 @@ skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_2014052
 11287 20140522 6 /data/Luna1/MultiModal/MEG_Raw/11287_20140522/140522/11287_Clock_run6_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_6.csv
 NO FS for 11274
-	maybe
-	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 
+no MRI for 11274 in /data/Luna1/Raw/MultiModal//11274
 NO FS for 11278
-	maybe
-	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 
+no MRI for 11278 in /data/Luna1/Raw/MultiModal//11278
 NO FS for 11287
-	maybe
-	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 
+no MRI for 11287 in /data/Luna1/Raw/MultiModal//11287
