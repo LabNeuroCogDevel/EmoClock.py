@@ -311,32 +311,6 @@ skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_2014052
 11287 20140522 6 /data/Luna1/MultiModal/MEG_Raw/11287_20140522/140522/11287_Clock_run6_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior/MEG_11287_20140522_tc_6.csv
 10638 20140516 1 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run1_Raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_1.csv
-10638 20140516 2 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run2_Raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_2.csv
-10638 20140516 4 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run4_Raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_4.csv
-10638 20140516 3 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run3_Raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_3.csv
-10638 20140516 5 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run5_Raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_5.csv
-10638 20140516 6 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run6_Raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_6.csv
-10638 20140516 7 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run7_Raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_7.csv
-10638 20140516 8 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run8_Raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_8.csv
-10638 20140516 5 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run5_raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_5.csv
-10638 20140516 6 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run6_raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_6.csv
-10638 20140516 7 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run7_raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_7.csv
-10638 20140516 3 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_run3_raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_3.csv
-10638 20140516 8 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_run8_raw.fif
-skipping /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_8.csv
-10638 20140516 1 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run1_Raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/10638_20140516/behavior/MEG_10638_20140516_tc_1.csv
 10638 20140516 2 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_Run2_Raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/10638_20140516/behavior/MEG_10638_20140516_tc_2.csv
@@ -362,22 +336,6 @@ skipping /data/Luna1/EmoClockMEG/subjs/10638_20140516/behavior/MEG_10638_2014051
 skipping /data/Luna1/EmoClockMEG/subjs/10638_20140516/behavior/MEG_10638_20140516_tc_3.csv
 10638 20140516 8 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_run8_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/10638_20140516/behavior/MEG_10638_20140516_tc_8.csv
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_1.eve
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_2.eve
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_3.eve
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_4.eve
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_5.eve
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_6.eve
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_7.eve
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_8.eve
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_1.csv
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_2.csv
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_3.csv
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_4.csv
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_5.csv
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_6.csv
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_7.csv
-bad name /data/Luna1/EmoClockMEG/subjs/bak.10638_20140516.bak/behavior/MEG_10638_20140516_tc_8.csv
 NO FS for 11274
 no MRI for 11274 in /data/Luna1/Raw/MultiModal//11274
 NO FS for 11278
