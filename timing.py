@@ -25,19 +25,25 @@ parser.add_argument('--subjid','-s',dest='subjid',    required=True, help='subje
 parser.add_argument('--fif',   '-f',dest='fiffile',   required=True, help='path to run fif file e.g. 11243_run1_Clock_raw.fif')
 parser.add_argument('--block', '-b',dest='runnum',    required=True, help='run number (1-8)',type=int)
 parser.add_argument('--output','-o',dest='outputname',help='name for csv file (default: subjid_runnum.csv)')
+parser.add_argument('--ds',    '-d',dest='ds',        help='by what factor to downsampe',type=float)
 parser.add_argument('--eve','-e',dest='evename',help='name for csv file (default: subjid_runnum.eve)')
 
 args = parser.parse_args()
 # "working"
+# import os
+# os.chdir('/home/foranw/src/EmoClock.py')
 #args = parser.parse_args('-m subjs/11262_20140312/behavior/MEG_11262_20140312_tc.mat -f subjs/11262_20140312/MEG/11262_clock_run8_raw.fif -o 11262_8.csv -s 11262_20140312 -b 8'.split())
-# broken
-#args = parser.parse_args('-m subjs/11255_20140318/behavior/MEG_11255_20140318_tc.mat -f subjs/11255_20140318/MEG/11255_Clock_run2_raw.fif -b 2 -s 11255_20140318'.split())
-
+#args = parser.parse_args('-m subjs/11277_20140519/behavior/MEG_11277_20140519_tc.mat -f subjs/11277_20140519/MEG/11277_clock_run8_raw.fif -o 11277_8.csv -s 11277_20140519 -b 8'.split())
+# compare to
+# mne_process_raw --raw 11277_clock_run8_raw.fif --eventsout run8 --digtrig STI101 --allevents
 if(not args.outputname):
     args.outputname=args.subjid+'_'+str(args.runnum)+'.csv'
     
 if(not args.evename):
     args.evename=args.subjid+'_'+str(args.runnum)+'.eve'
+
+if(not args.ds):
+    args.ds=1;
 
 ### BEHAVIORAL
 # task file
@@ -145,12 +151,18 @@ ttlToLabel = {
  6: 'done',  #255
 }
 
+# TODO:
+# stop looking at photodiode after end of trial
+# data[1,:]==255
+IdxEnd=np.where(data[1,:]==255);
+trialIdxEnd=IdxEnd[0][1] if np.size(IdxEnd)>0 and IdxEnd[0][1]>200000 else np.size(data[1,:])
+
 # PHOTODIODE 
 # 1. face  | white
 # 2. ISI   | black
 # 3. score | [204 204 204]
 # 4. ITI   | black
-pdio_inds = np.digitize(data[0,:],np.histogram(data[0,:],bins=3)[1])
+pdio_inds = np.digitize(data[0,1:trialIdxEnd],np.histogram(data[0,:],bins=3)[1])
 
 
 # remove anything that went too high (why did this happend?)
@@ -167,6 +179,8 @@ pdio_inds[pdio_inds>3] = 3
 ttl_inds  = np.digitize(data[1,:],[0,           5,     12,      20,          132,           250 ])
 # turn junk triggers into score
 ttl_inds = [ 5 if x==1 else x for x in ttl_inds ];
+# "6" is end-of-run code
+ttl_inds = [ 3 if x==6 else x for x in ttl_inds ];
 
 # get when there is a change
 ttl_rleidx = rledig(ttl_inds)
@@ -202,9 +216,9 @@ pdio_df['event'][np.where(itiIdxs)[0]] = 'ITI'
 tofloat = [ x for x in pdio_df.columns if x != 'event' ]
 pdio_df[tofloat] = pdio_df[tofloat].astype(float)
 
-# only the last trial should not have 4 pices (face,ISE,score,ITI)
+# only the last trial should not have 4 types (face,ISE,score,ITI)
 if len( [t for t,g  in groupby(pdio_df['trial']) if len(list(g))!=4 ] ) > 1:
-    Exception('do not have face,ISI,score,ITI for all expected trials (not last)') 
+    Exception('do not have pdio face,ISI,score,ITI for all expected trials (not last)') 
 
 
 # trial number for trigger, starts at face (value of 4)
