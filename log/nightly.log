@@ -113,27 +113,7 @@ skipping /data/Luna1/EmoClockMEG/subjs/11255_20140318/behavior/MEG_11255_2014031
 11255 20140318 7 /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run7_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11255_20140318/behavior/MEG_11255_20140318_tc_7.csv
 11255 20140318 8 /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run8_raw.fif
-Opening raw data file /data/Luna1/MultiModal/MEG_Raw/11255_20140318/140318/11255_Clock_run8_raw.fif...
-    Read a total of 14 projection items:
-        mag_ssp.fif : PCA-v1 (1 x 306)  idle
-        mag_ssp.fif : PCA-v2 (1 x 306)  idle
-        mag_ssp.fif : PCA-v3 (1 x 306)  idle
-        mag_ssp.fif : PCA-v4 (1 x 306)  idle
-        mag_ssp.fif : PCA-v5 (1 x 306)  idle
-        mag_ssp.fif : PCA-v6 (1 x 306)  idle
-        mag_ssp.fif : PCA-v7 (1 x 306)  idle
-        mag_ssp.fif : PCA-v8 (1 x 306)  idle
-        mag_ssp.fif : PCA-v9 (1 x 306)  idle
-        grad_ssp.fif : PCA-v1 (1 x 306)  idle
-        grad_ssp.fif : PCA-v2 (1 x 306)  idle
-        grad_ssp.fif : PCA-v3 (1 x 306)  idle
-        grad_ssp.fif : PCA-v4 (1 x 306)  idle
-        grad_ssp.fif : PCA-v5 (1 x 306)  idle
-Current compensation grade : 0
-    Range : 69000 ... 363999 =     69.000 ...   363.999 secs
-Ready.
-Reading 0 ... 294999  =      0.000 ...   294.999 secs...
-[done]
+skipping /data/Luna1/EmoClockMEG/subjs/11255_20140318/behavior/MEG_11255_20140318_tc_8.csv
 11258 20140303 8 /data/Luna1/MultiModal/MEG_Raw/11258_20140303/140303/111258_clock_run8_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11258_20140303/behavior/MEG_11258_20140303_tc_8.csv
 11258 20140303 1 /data/Luna1/MultiModal/MEG_Raw/11258_20140303/140303/11258_clock_run1_raw.fif
@@ -185,27 +165,7 @@ skipping /data/Luna1/EmoClockMEG/subjs/11263_20140324/behavior/MEG_11263_2014032
 10638 20140516 3 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_run3_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/10638_20140516/behavior/MEG_10638_20140516_tc_3.csv
 10638 20140516 8 /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_run8_raw.fif
-Opening raw data file /data/Luna1/MultiModal/MEG_Raw/10638_20140516/140516/10638_Clock_run8_raw.fif...
-    Read a total of 14 projection items:
-        mag_ssp.fif : PCA-v1 (1 x 306)  idle
-        mag_ssp.fif : PCA-v2 (1 x 306)  idle
-        mag_ssp.fif : PCA-v3 (1 x 306)  idle
-        mag_ssp.fif : PCA-v4 (1 x 306)  idle
-        mag_ssp.fif : PCA-v5 (1 x 306)  idle
-        mag_ssp.fif : PCA-v6 (1 x 306)  idle
-        mag_ssp.fif : PCA-v7 (1 x 306)  idle
-        mag_ssp.fif : PCA-v8 (1 x 306)  idle
-        mag_ssp.fif : PCA-v9 (1 x 306)  idle
-        grad_ssp.fif : PCA-v1 (1 x 306)  idle
-        grad_ssp.fif : PCA-v2 (1 x 306)  idle
-        grad_ssp.fif : PCA-v3 (1 x 306)  idle
-        grad_ssp.fif : PCA-v4 (1 x 306)  idle
-        grad_ssp.fif : PCA-v5 (1 x 306)  idle
-Current compensation grade : 0
-    Range : 20000 ... 217999 =     20.000 ...   217.999 secs
-Ready.
-Reading 0 ... 197999  =      0.000 ...   197.999 secs...
-[done]
+skipping /data/Luna1/EmoClockMEG/subjs/10638_20140516/behavior/MEG_10638_20140516_tc_8.csv
 10662 20140415 1 /data/Luna1/MultiModal/MEG_Raw/10662_20140415/140415/10662_clock_run1_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/10662_20140415/behavior/MEG_10662_20140415_tc_1.csv
 10662 20140415 2 /data/Luna1/MultiModal/MEG_Raw/10662_20140415/140415/10662_clock_run2_raw.fif
@@ -237,27 +197,7 @@ skipping /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior/MEG_10772_2014050
 10772 20140509 1 /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run1_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior/MEG_10772_20140509_tc_1.csv
 10772 20140509 8 /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run8_raw.fif
-Opening raw data file /data/Luna1/MultiModal/MEG_Raw/10772_20140509/140509/10772_Clock_run8_raw.fif...
-    Read a total of 14 projection items:
-        mag_ssp.fif : PCA-v1 (1 x 306)  idle
-        mag_ssp.fif : PCA-v2 (1 x 306)  idle
-        mag_ssp.fif : PCA-v3 (1 x 306)  idle
-        mag_ssp.fif : PCA-v4 (1 x 306)  idle
-        mag_ssp.fif : PCA-v5 (1 x 306)  idle
-        mag_ssp.fif : PCA-v6 (1 x 306)  idle
-        mag_ssp.fif : PCA-v7 (1 x 306)  idle
-        mag_ssp.fif : PCA-v8 (1 x 306)  idle
-        mag_ssp.fif : PCA-v9 (1 x 306)  idle
-        grad_ssp.fif : PCA-v1 (1 x 306)  idle
-        grad_ssp.fif : PCA-v2 (1 x 306)  idle
-        grad_ssp.fif : PCA-v3 (1 x 306)  idle
-        grad_ssp.fif : PCA-v4 (1 x 306)  idle
-        grad_ssp.fif : PCA-v5 (1 x 306)  idle
-Current compensation grade : 0
-    Range : 19000 ... 318999 =     19.000 ...   318.999 secs
-Ready.
-Reading 0 ... 299999  =      0.000 ...   299.999 secs...
-[done]
+skipping /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior/MEG_10772_20140509_tc_8.csv
 11178 20140515 1 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run1_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior/MEG_11178_20140515_tc_1.csv
 11178 20140515 2 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run2_raw.fif
@@ -273,27 +213,7 @@ skipping /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior/MEG_11178_2014051
 11178 20140515 7 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run7_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior/MEG_11178_20140515_tc_7.csv
 11178 20140515 8 /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run8_raw.fif
-Opening raw data file /data/Luna1/MultiModal/MEG_Raw/11178_20140515/140515/11178_clock_run8_raw.fif...
-    Read a total of 14 projection items:
-        mag_ssp.fif : PCA-v1 (1 x 306)  idle
-        mag_ssp.fif : PCA-v2 (1 x 306)  idle
-        mag_ssp.fif : PCA-v3 (1 x 306)  idle
-        mag_ssp.fif : PCA-v4 (1 x 306)  idle
-        mag_ssp.fif : PCA-v5 (1 x 306)  idle
-        mag_ssp.fif : PCA-v6 (1 x 306)  idle
-        mag_ssp.fif : PCA-v7 (1 x 306)  idle
-        mag_ssp.fif : PCA-v8 (1 x 306)  idle
-        mag_ssp.fif : PCA-v9 (1 x 306)  idle
-        grad_ssp.fif : PCA-v1 (1 x 306)  idle
-        grad_ssp.fif : PCA-v2 (1 x 306)  idle
-        grad_ssp.fif : PCA-v3 (1 x 306)  idle
-        grad_ssp.fif : PCA-v4 (1 x 306)  idle
-        grad_ssp.fif : PCA-v5 (1 x 306)  idle
-Current compensation grade : 0
-    Range : 33000 ... 306999 =     33.000 ...   306.999 secs
-Ready.
-Reading 0 ... 273999  =      0.000 ...   273.999 secs...
-[done]
+skipping /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior/MEG_11178_20140515_tc_8.csv
 11274 20140528 1 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run1_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior/MEG_11274_20140528_tc_1.csv
 11274 20140528 2 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run2_raw.fif
@@ -309,27 +229,7 @@ skipping /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior/MEG_11274_2014052
 11274 20140528 7 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run7_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior/MEG_11274_20140528_tc_7.csv
 11274 20140528 8 /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run8_raw.fif
-Opening raw data file /data/Luna1/MultiModal/MEG_Raw/11274_20140528/140528/11274_clock_run8_raw.fif...
-    Read a total of 14 projection items:
-        mag_ssp.fif : PCA-v1 (1 x 306)  idle
-        mag_ssp.fif : PCA-v2 (1 x 306)  idle
-        mag_ssp.fif : PCA-v3 (1 x 306)  idle
-        mag_ssp.fif : PCA-v4 (1 x 306)  idle
-        mag_ssp.fif : PCA-v5 (1 x 306)  idle
-        mag_ssp.fif : PCA-v6 (1 x 306)  idle
-        mag_ssp.fif : PCA-v7 (1 x 306)  idle
-        mag_ssp.fif : PCA-v8 (1 x 306)  idle
-        mag_ssp.fif : PCA-v9 (1 x 306)  idle
-        grad_ssp.fif : PCA-v1 (1 x 306)  idle
-        grad_ssp.fif : PCA-v2 (1 x 306)  idle
-        grad_ssp.fif : PCA-v3 (1 x 306)  idle
-        grad_ssp.fif : PCA-v4 (1 x 306)  idle
-        grad_ssp.fif : PCA-v5 (1 x 306)  idle
-Current compensation grade : 0
-    Range : 19000 ... 237999 =     19.000 ...   237.999 secs
-Ready.
-Reading 0 ... 218999  =      0.000 ...   218.999 secs...
-[done]
+skipping /data/Luna1/EmoClockMEG/subjs/11274_20140528/behavior/MEG_11274_20140528_tc_8.csv
 11277 20140519 1 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run1_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior/MEG_11277_20140519_tc_1.csv
 11277 20140519 2 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run2_raw.fif
@@ -345,27 +245,7 @@ skipping /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior/MEG_11277_2014051
 11277 20140519 7 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run7_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior/MEG_11277_20140519_tc_7.csv
 11277 20140519 8 /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run8_raw.fif
-Opening raw data file /data/Luna1/MultiModal/MEG_Raw/11277_20140519/140519/11277_clock_run8_raw.fif...
-    Read a total of 14 projection items:
-        mag_ssp.fif : PCA-v1 (1 x 306)  idle
-        mag_ssp.fif : PCA-v2 (1 x 306)  idle
-        mag_ssp.fif : PCA-v3 (1 x 306)  idle
-        mag_ssp.fif : PCA-v4 (1 x 306)  idle
-        mag_ssp.fif : PCA-v5 (1 x 306)  idle
-        mag_ssp.fif : PCA-v6 (1 x 306)  idle
-        mag_ssp.fif : PCA-v7 (1 x 306)  idle
-        mag_ssp.fif : PCA-v8 (1 x 306)  idle
-        mag_ssp.fif : PCA-v9 (1 x 306)  idle
-        grad_ssp.fif : PCA-v1 (1 x 306)  idle
-        grad_ssp.fif : PCA-v2 (1 x 306)  idle
-        grad_ssp.fif : PCA-v3 (1 x 306)  idle
-        grad_ssp.fif : PCA-v4 (1 x 306)  idle
-        grad_ssp.fif : PCA-v5 (1 x 306)  idle
-Current compensation grade : 0
-    Range : 44000 ... 301999 =     44.000 ...   301.999 secs
-Ready.
-Reading 0 ... 257999  =      0.000 ...   257.999 secs...
-[done]
+skipping /data/Luna1/EmoClockMEG/subjs/11277_20140519/behavior/MEG_11277_20140519_tc_8.csv
 11278 20140505 1 /data/Luna1/MultiModal/MEG_Raw/11278_20140505/140505/11278_clock_run1_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/11278_20140505/behavior/MEG_11278_20140505_tc_1.csv
 11278 20140505 2 /data/Luna1/MultiModal/MEG_Raw/11278_20140505/140505/11278_clock_run2_raw.fif
