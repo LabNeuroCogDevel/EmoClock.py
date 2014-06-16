@@ -27,7 +27,7 @@ ls subjs/*/behavior/*.csv | perl -F/ -slane '$_=$F[$#F]; m/\d{5}_\d{8}/; print $
 
 ## copy  FIF
 # uses behav dir structre to identify lunaid_date to pull
-./01_copyRaw.bash
+./01_copyRawMEG.bash
 
 ## link csv/eve to FINAL
 #   /data/Luna1/EmoClockMEG --> /data/Luna1/MultiModal/Clock/
@@ -38,4 +38,4 @@ ls subjs/*/behavior/*.csv | perl -F/ -slane '$_=$F[$#F]; m/\d{5}_\d{8}/; print $
 ./02_linkFStoMM.bash 2>&1 >> log/nightly.log
 
 # print changes to log and update git tracking of log
-git diff log/nightly.log  || $( git add log/nightly.log && git commit -m 'nightly update log change')
+git --no-pager  diff --exit-code log/nightly.log || ( git add log/nightly.log && git commit -m 'nightly update log change' && git push)

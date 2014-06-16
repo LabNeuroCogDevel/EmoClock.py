@@ -15,6 +15,7 @@ for subjdir in $newdir/*/; do
  if [ -z "$subjFSdir" ]; then 
    echo "NO FS for $subj" 
    subjMRI=$(ls -d $mridir/$subj* 2>/dev/null|sort -nr|sed 1q)
+   [ -z "$subjMRI" ] && echo "no MRI for $subj in $mridir/$subj" && continue
    echo -e "\tmaybe\n\tUSETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i $(basename $subjMRI)"
    continue
  fi

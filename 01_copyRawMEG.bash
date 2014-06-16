@@ -19,7 +19,8 @@ for s in subjs/1*_*/; do
  # make the directory if we need
  [  -d $finalSubjDir ] ||  mkdir -p $finalSubjDir
  # copy all the files that match our needs
- find "$rawSubjDir" -regextype posix-extended -iregex ".*/${subj}.*_clock_(rest|emptyroom|run[1-8])_raw.fif" | while read f; do
+ # 11253_Clock_Run1_Raw.fif
+ find "$rawSubjDir" -regextype posix-extended -iregex ".*/${subj}.*_[Cc]lock_([Rr]est|[Ee]mptyroom|[Rr]un[1-8])_[Rr]aw.fif" | while read f; do
    newname="$finalSubjDir/$(basename "$f" | perl -ne 's/_\d{8}//; print lc($_)')"
    [ -r $newname ] && continue
    echo $newname

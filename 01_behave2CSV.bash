@@ -20,8 +20,8 @@ find $scriptdir/subjs/ -iname 'MEG_*_tc.mat' | while read mat; do
  [ ! -d $fifLnkDir ] && mkdir $fifLnkDir 
 
  find $MEGRAWDIR/${subjid}_${date} -type f -iname '*run*_raw.fif' | while read fif; do
-   [[ ! $(basename $fif) =~ run([1-8]) ]] && continue
-   run=${BASH_REMATCH[1]}
+   [[ ! $(basename $fif) =~ [Rr]un([1-8]) ]] && continue
+   run=$(echo ${BASH_REMATCH[1]}|tr 'R' 'r')
 
    # link
    [ ! -r $fifLnkDir/$(basename $fif) ] && ln -s $fif $fifLnkDir/
