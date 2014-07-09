@@ -31,7 +31,7 @@ find $scriptdir/subjs/ -iname 'MEG_*_tc.mat' | while read mat; do
    output=${fname}_$run.csv
    eveout=${fname}_$run.eve
    [ -r  $output -a -r $eveout ] && echo "skipping $output" && continue
-   $scriptdir/timing.py -s ${subjid}_${date} -f $fif -m $mat -b $run -o $output -e $eveout
+   $scriptdir/timing.py -s ${subjid}_${date} -f $fif -m $mat -b $run -o $output -e $eveout 2>&1
 
  done
 

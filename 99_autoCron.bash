@@ -25,6 +25,9 @@ ls subjs/*/behavior/*.csv | perl -F/ -slane '$_=$F[$#F]; m/\d{5}_\d{8}/; print $
 # use timing.py to make csv file
 ./01_behave2CSV.bash  2>&1 >> log/nightly.log
 
+# break up the eve files made above to smaller bits (RT,ITI,clock, and feedback)
+./01.2_extractFB+Clock+Rsp_eve.pl 2>&1 >> log/nightly.log
+
 ## copy  FIF
 # uses behav dir structre to identify lunaid_date to pull
 ./01_copyRawMEG.bash
@@ -36,6 +39,9 @@ ls subjs/*/behavior/*.csv | perl -F/ -slane '$_=$F[$#F]; m/\d{5}_\d{8}/; print $
 ## link FS to FINAL
 # /data/Luna1/MultiModal/FS_Subjects/ --> /data/Luna1/MultiModal/Clock/
 ./02_linkFStoMM.bash 2>&1 >> log/nightly.log
+
+# generate R models and column vectors of rpe,ev, and Reward
+./03_generateFitClockModels.bash
 
 # print changes to log and update git tracking of log
 git --no-pager  diff --exit-code log/nightly.log || ( git add log/nightly.log && git commit -m 'nightly update log change' && git push)

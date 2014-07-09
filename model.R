@@ -9,62 +9,17 @@ if (!require(fitclock)) {
 
 library(ggplot2)
 library(plyr)
+source('saveModel.R')
 
 #list of subjects to fit
 Subj <- c(10637,10638,10662,10772,10997,11178,11243,11246,11255,11258,11262,11263,11277,11278)
 
+
 #loop through subjects and fit
 for (s in Subj) 
 {
-  #setup file name
-  file=paste("subjs/",s,"_fitdata.Rdata",sep="")
-  
-  #only run fitting if output not saved already
-  if (!file.exists(file))
-  {
-    
-    subjdata <- adply(Sys.glob(paste("/Volumes/T800/Multimodal/Clock",s,"MEG/*csv",sep="/")),1,.fun=function(x){read.csv(x,header=T)})
-    #setup subject
-    subData <- clockdata_subject(subject_ID=as.character(s), dataset=subjdata)
-    subDiffData <- clockdata_subject(subject_ID=as.character(s), dataset=subjdata)
-    
-    #setup model to fit RT
-    RT_model <- clock_model(fit_RT_diffs=FALSE)
-    RT_model$add_params(
-      meanRT(max_value=4000),
-      autocorrPrevRT(),
-      goForGold(),
-      go(),
-      noGo(),
-      meanSlowFast(),
-      exploreBeta()
-    )
-    
-    #setup model to fit RT differences
-    expDiff_model <- clock_model(fit_RT_diffs=TRUE)
-    expDiff_model$add_params(
-      meanRT(max_value=4000),
-      autocorrPrevRT(),
-      goForGold(),
-      go(),
-      noGo(),
-      meanSlowFast(),
-      exploreBeta()
-    )
-    
-    #tell model which dataset to use
-    RT_model$set_data(subData)
-    expDiff_model$set_data(subDiffData)
-    
-    incrFit <- RT_model$incremental_fit(njobs=6)
-    
-    #fit full model, using 5 random starts and choosing the best fit
-    fitRT <- RT_model$fit(random_starts=5)
-    fitDiffRT <- expDiff_model$fit(random_starts=5)
-    
-    #save data
-    save(file=file,fitRT,fitDiffRT,incrFit,s)
-  }
+  # save file if hasn't been saved already
+  file=saveModel(s)
 }
 
 #code for plotting
