@@ -92,6 +92,7 @@ for my $file (@files) {
    # write the actual line
    my @F=split /\s+/;
    $F[0]=sprintf('%d',$F[0]/$DOWNSAMPLE);
+   $F[2]=0; # should say we start at zero, and got to whatver
    say { $filehandles{$t} } join(" ",@F);
   }
 }
