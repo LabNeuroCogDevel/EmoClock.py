@@ -13,6 +13,8 @@ use File::Find::Rule;
 use File::Basename;
 my $scriptdir=dirname($0);
 
+my $DOWNSAMPLE=4;
+
 
 # from MEGClockTask/private/defineTrigger.m 
 #   trigger.ITI= 10;
@@ -53,7 +55,7 @@ for my $file (@files) {
 
 
   # do we already have the files we want?
-  my @alreadyHave = File::Find::Rule->file()->name(qr/${bn}_(ITI|RT|clock|feedback).eve/)->in($dn);
+  my @alreadyHave = File::Find::Rule->file()->name(qr/${bn}_(ITI|RT|clock|feedback)_ds$DOWNSAMPLE.eve/)->in($dn);
   if($#alreadyHave>=3){
     say "$bn: have $#alreadyHave parsed eves";
     next;
@@ -77,7 +79,7 @@ for my $file (@files) {
    # what file (type) does this line belong to?
    my $t=tofile($1);
    # the actual output name
-   my $fn = "$dn/${bn}_".$t.".eve";
+   my $fn = "$dn/${bn}_".$t."_ds$DOWNSAMPLE.eve";
 
    # if we haven't seen this file yet
    if(!  $filehandles{$t}){
@@ -88,7 +90,9 @@ for my $file (@files) {
    }
 
    # write the actual line
-   print { $filehandles{$t} } $_;
+   my @F=split /\s+/;
+   $F[0]=sprintf('%d',$F[0]/$DOWNSAMPLE);
+   say { $filehandles{$t} } join(" ",@F);
   }
 }
 

@@ -74,7 +74,7 @@ writeEveFromModel = function(rdata) {
   load(rdata)
   nametemplate <- sub('MEG_','',sub('_tc_[1-8].csv','',Sys.glob(paste(datapath,s,"MEG/*csv",sep="/"))[1]))
   for(x in c('rpe','Reward','ev')){
-   for(tr in 1:8) {
+   for(tr in 1:dim(fitRT[[x]])[1] ) {
     write.table(fitRT[[x]][tr,],file=paste0(nametemplate,"_",tr,"_",x,".eve"),col.names=F,row.names=F )
    }
   }
