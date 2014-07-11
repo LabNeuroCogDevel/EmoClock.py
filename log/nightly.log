@@ -3,6 +3,11 @@ already have MEG_10638_20140516_tc.mat in /data/Luna1/EmoClockMEG/subjs/10638_20
 already have MEG_10662_20140415_tc.mat in /data/Luna1/EmoClockMEG/subjs/10662_20140415/behavior
 already have MEG_10772_20140509_tc.mat in /data/Luna1/EmoClockMEG/subjs/10772_20140509/behavior
 already have MEG_10822_20140703_tc.mat in /data/Luna1/EmoClockMEG/subjs/10822_20140703/behavior
+receiving incremental file list
+>f+++++++++ MEG_10895_20140709_tc.mat
+
+sent 42 bytes  received 89.91K bytes  179.90K bytes/sec
+total size is 89.78K  speedup is 1.00
 already have MEG_10997_20140221_tc.mat in /data/Luna1/EmoClockMEG/subjs/10997_20140221/behavior
 already have MEG_11162_20140708_tc.mat in /data/Luna1/EmoClockMEG/subjs/11162_20140708/behavior
 already have MEG_11178_20140515_tc.mat in /data/Luna1/EmoClockMEG/subjs/11178_20140515/behavior
@@ -391,6 +396,46 @@ SyntaxError: invalid syntax
                          ^
 SyntaxError: invalid syntax
 11162 20140708 2 /data/Luna1/MultiModal/MEG_Raw/11162_20140708/140708/11162_clock_run2_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+10895 20140709 1 /data/Luna1/MultiModal/MEG_Raw/10895_20140709/140709/10895_Clock_run1_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+10895 20140709 2 /data/Luna1/MultiModal/MEG_Raw/10895_20140709/140709/10895_Clock_run2_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+10895 20140709 3 /data/Luna1/MultiModal/MEG_Raw/10895_20140709/140709/10895_Clock_run3_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+10895 20140709 4 /data/Luna1/MultiModal/MEG_Raw/10895_20140709/140709/10895_Clock_run4_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+10895 20140709 5 /data/Luna1/MultiModal/MEG_Raw/10895_20140709/140709/10895_Clock_run5_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+10895 20140709 6 /data/Luna1/MultiModal/MEG_Raw/10895_20140709/140709/10895_Clock_run6_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+10895 20140709 7 /data/Luna1/MultiModal/MEG_Raw/10895_20140709/140709/10895_Clock_run7_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+10895 20140709 8 /data/Luna1/MultiModal/MEG_Raw/10895_20140709/140709/10895_Clock_run8_raw.fif
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
