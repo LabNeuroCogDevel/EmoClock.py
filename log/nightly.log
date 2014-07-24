@@ -23,6 +23,11 @@ already have MEG_11278_20140505_tc.mat in /data/Luna1/EmoClockMEG/subjs/11278_20
 already have MEG_11279_20140507_tc.mat in /data/Luna1/EmoClockMEG/subjs/11279_20140507/behavior
 already have MEG_11287_20140522_tc.mat in /data/Luna1/EmoClockMEG/subjs/11287_20140522/behavior
 already have MEG_11288_20140711_tc.mat in /data/Luna1/EmoClockMEG/subjs/11288_20140711/behavior
+receiving incremental file list
+>f+++++++++ MEG_11304_20140722_tc.mat
+
+sent 42 bytes  received 91.23K bytes  182.54K bytes/sec
+total size is 91.10K  speedup is 1.00
 10637 20140312 1 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run1_raw.fif
 skipping /data/Luna1/EmoClockMEG/subjs/10637_20140312/behavior/MEG_10637_20140312_tc_1.csv
 10637 20140312 2 /data/Luna1/MultiModal/MEG_Raw/10637_20140312/140312/10637_clock_run2_raw.fif
