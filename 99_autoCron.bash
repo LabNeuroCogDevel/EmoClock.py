@@ -39,9 +39,19 @@ ls subjs/*/behavior/*.csv | perl -F/ -slane '$_=$F[$#F]; m/\d{5}_\d{8}/; print $
 ## link FS to FINAL
 # /data/Luna1/MultiModal/FS_Subjects/ --> /data/Luna1/MultiModal/Clock/
 ./02_linkFStoMM.bash 2>&1 >> log/nightly.log
+# TODO:
+# run clock_mne_model.sh if we have FS
 
 # generate R models and column vectors of rpe,ev, and Reward
-./03_generateFitClockModels.bash
+./03_generateFitClockModels.bash 2>&1 >> log/nightly.log
+ls Rprof* 2>/dev/null && mv Rprof* rout # R profile files
+
+# run clock_maxfilter_Scripts if we have 8 text files for the subject
+#     clock_ICA_denoise_wrapper w/ fieldtrip in path if we have done max filter
+./03_maxFilter_ICA.bash 2>&1 >> log/nightly.log
+#TODO:
+# mail julia if there are missing text files
+
 
 # print changes to log and update git tracking of log
 git --no-pager  diff --exit-code log/nightly.log || ( git add log/nightly.log && git commit -m 'nightly update log change' && git push)
