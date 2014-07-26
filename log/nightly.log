@@ -490,3 +490,270 @@ NO FS for 11287
 no MRI for 11287 in /data/Luna1/Raw/MultiModal//11287
 NO FS for 11288
 no MRI for 11288 in /data/Luna1/Raw/MultiModal//11288
+10895 FinalDataDir/10895/
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.001 0.001 0.001 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0.0020  0.002 0.002 
+0 0 0.0020.002  
+
+Timing stopped at: 0.001 0 0.001 
+11162 FinalDataDir/11162/
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0 0.001 0.001 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0 0.002 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0 0.001 0 
+11250 FinalDataDir/11250/
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0 0.001 0.002 
+Timing stopped at:Initializing clock_model
+ 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at:Timing stopped at:  0.002 0.0010  0.001 0.001 
+0.002 
+Timing stopped at: 0.001 0 0.001 
+11252 FinalDataDir/11252/
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.001 
+11253 FinalDataDir/11253/
+11281 FinalDataDir/11281/
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Timing stopped at:Timing stopped at:  0.002 0.0020  0.0020  0.002 
+
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0 0.001 
+11288 FinalDataDir/11288/
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:     0 0.002 0 0.0010.002 0.002 0.0020 0.002  0 0.0010.001 
+0.002 0.002  0.002 
+ 
+
+
+Initializing clock_model
+Timing stopped at: 0.001 0 0.001 
+## 10637
+already have maxfilter and ICA for 10637
+## 10638
+already have maxfilter and ICA for 10638
+## 10662
+already have maxfilter and ICA for 10662
+## 10772
+missing 10772:1 txt file
+missing 10772:2 txt file
+missing 10772:3 txt file
+missing 10772:4 txt file
+missing 10772:5 txt file
+missing 10772:6 txt file
+missing 10772:7 txt file
+missing 10772:8 txt file
+10772 has only  0 maxfiltered FIFs
+## 10895
+missing 10895:1 txt file
+missing 10895:2 txt file
+missing 10895:3 txt file
+missing 10895:4 txt file
+missing 10895:5 txt file
+missing 10895:6 txt file
+missing 10895:7 txt file
+missing 10895:8 txt file
+10895 has only  0 maxfiltered FIFs
+## 10997
+already have maxfilter and ICA for 10997
+## 11162
+missing 11162:1 txt file
+missing 11162:2 txt file
+missing 11162:3 txt file
+missing 11162:4 txt file
+missing 11162:5 txt file
+missing 11162:6 txt file
+missing 11162:7 txt file
+missing 11162:8 txt file
+11162 has only  0 maxfiltered FIFs
+## 11178
+missing 11178:1 txt file
+missing 11178:2 txt file
+missing 11178:3 txt file
+missing 11178:4 txt file
+missing 11178:5 txt file
+missing 11178:6 txt file
+missing 11178:7 txt file
+missing 11178:8 txt file
+11178 has only  0 maxfiltered FIFs
+## 11229
+missing 11229:1 txt file
+missing 11229:2 txt file
+missing 11229:3 txt file
+missing 11229:4 txt file
+missing 11229:5 txt file
+missing 11229:6 txt file
+missing 11229:7 txt file
+missing 11229:8 txt file
+11229 has only  0 maxfiltered FIFs
+## 11243
+already have maxfilter and ICA for 11243
+## 11246
+already have maxfilter and ICA for 11246
+## 11250
+missing 11250:1 txt file
+missing 11250:2 txt file
+missing 11250:3 txt file
+missing 11250:4 txt file
+missing 11250:5 txt file
+missing 11250:6 txt file
+missing 11250:7 txt file
+missing 11250:8 txt file
+11250 has only  0 maxfiltered FIFs
+## 11252
+already have maxfilter and ICA for 11252
+## 11253
+already have maxfilter and ICA for 11253
+## 11255
+already have maxfilter and ICA for 11255
+## 11258
+already have maxfilter and ICA for 11258
+## 11262
+already have maxfilter and ICA for 11262
+## 11263
+already have maxfilter and ICA for 11263
+## 11274
+missing 11274:1 txt file
+missing 11274:2 txt file
+missing 11274:3 txt file
+missing 11274:4 txt file
+missing 11274:5 txt file
+missing 11274:6 txt file
+missing 11274:7 txt file
+missing 11274:8 txt file
+11274 has only  0 maxfiltered FIFs
+## 11275
+missing 11275:1 txt file
+missing 11275:2 txt file
+missing 11275:3 txt file
+missing 11275:4 txt file
+missing 11275:5 txt file
+missing 11275:6 txt file
+missing 11275:7 txt file
+missing 11275:8 txt file
+11275 has only  0 maxfiltered FIFs
+## 11277
+missing 11277:1 txt file
+missing 11277:2 txt file
+missing 11277:3 txt file
+missing 11277:4 txt file
+missing 11277:5 txt file
+missing 11277:6 txt file
+missing 11277:7 txt file
+missing 11277:8 txt file
+11277 has only  0 maxfiltered FIFs
+## 11278
+missing 11278:1 txt file
+missing 11278:2 txt file
+missing 11278:3 txt file
+missing 11278:4 txt file
+missing 11278:5 txt file
+missing 11278:6 txt file
+missing 11278:7 txt file
+missing 11278:8 txt file
+11278 has only  0 maxfiltered FIFs
+## 11279
+missing 11279:1 txt file
+missing 11279:2 txt file
+missing 11279:3 txt file
+missing 11279:4 txt file
+missing 11279:5 txt file
+missing 11279:6 txt file
+missing 11279:7 txt file
+missing 11279:8 txt file
+11279 has only  0 maxfiltered FIFs
+## 11281
+missing 11281:1 txt file
+missing 11281:2 txt file
+missing 11281:3 txt file
+missing 11281:4 txt file
+missing 11281:5 txt file
+missing 11281:6 txt file
+missing 11281:7 txt file
+missing 11281:8 txt file
+11281 has only  0 maxfiltered FIFs
+## 11287
+missing 11287:1 txt file
+missing 11287:2 txt file
+missing 11287:3 txt file
+missing 11287:4 txt file
+missing 11287:5 txt file
+missing 11287:6 txt file
+missing 11287:7 txt file
+missing 11287:8 txt file
+11287 has only  0 maxfiltered FIFs
+## 11288
+missing 11288:1 txt file
+missing 11288:2 txt file
+missing 11288:3 txt file
+missing 11288:4 txt file
+missing 11288:5 txt file
+missing 11288:6 txt file
+missing 11288:7 txt file
+missing 11288:8 txt file
+11288 has only  0 maxfiltered FIFs
