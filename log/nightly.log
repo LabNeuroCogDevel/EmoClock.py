@@ -54,6 +54,11 @@ already have MEG_11325_20140918_tc.mat in /data/Luna1/EmoClockMEG/subjs/11325_20
 already have MEG_11326_20141006_tc.mat in /data/Luna1/EmoClockMEG/subjs/11326_20141006/behavior
 already have MEG_11328_20141023_tc.mat in /data/Luna1/EmoClockMEG/subjs/11328_20141023/behavior
 already have MEG_11329_20141105_tc.mat in /data/Luna1/EmoClockMEG/subjs/11329_20141105/behavior
+receiving incremental file list
+>f+++++++++ MEG_11331_20141120_tc.mat
+
+sent 42 bytes  received 87.99K bytes  176.06K bytes/sec
+total size is 87.86K  speedup is 1.00
 already have MEG_11335_20141103_tc.mat in /data/Luna1/EmoClockMEG/subjs/11335_20141103/behavior
 already have MEG_11337_20141111_tc.mat in /data/Luna1/EmoClockMEG/subjs/11337_20141111/behavior
 already have MEG_11338_20141110_tc.mat in /data/Luna1/EmoClockMEG/subjs/11338_20141110/behavior
@@ -1777,6 +1782,41 @@ SyntaxError: invalid syntax
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
+11331 20141120 1 /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_Run1_Raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11331 20141120 4 /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_Run4_Raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11331 20141120 5 /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_Run5_Raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11331 20141120 6 /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_Run6_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11331 20141120 2 /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_run2_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11331 20141120 3 /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_run3_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11331 20141120 7 /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_run7_raw.fif
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
 NO FS for 10711
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 10711_20140826
@@ -1871,6 +1911,9 @@ NO FS for 11328
 NO FS for 11329
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11329_20141014
+NO FS for 11331
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11331_20141024
 NO FS for 11335
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11335_20141111
@@ -1889,13 +1932,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.001 
-Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0.002 00 0.0010.002 
+  0.001 0.002 0.002 00.002 
+ 0.002 0.002 
+
 Initializing clock_model
 Timing stopped at: 0.001 0 0.002 
-Timing stopped at:Timing stopped at:  0.002 0 0.002 
-0.002 0 0.001 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.001 
 10767 FinalDataDir/10767/
 Initializing clock_model
 Initializing clock_model
@@ -1906,12 +1949,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.001 
-Initializing clock_model
-Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0.002 0 0 0.002 0.00200.002  
- 
-0.002 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0.001 0.002 
+Initializing clock_model
+Timing stopped at:Timing stopped at: Timing stopped at:  0.001 0 0.002 
+0.002 0 0.002 
+0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 10811 FinalDataDir/10811/
 Initializing clock_model
@@ -1922,13 +1965,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0 0.002 
-Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0 0.002 0.002 
-Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0 0.002 
-0.002 0.002 00  0.002 
-0.001 
+Timing stopped at:Timing stopped at: Timing stopped at: 0.001  0.001 0.001 
+0.001 0 0.002 0.002 
+0 0.002 
 Timing stopped at: 0.001 0 0.001 
 10814 FinalDataDir/10814/
 Initializing clock_model
@@ -1940,12 +1983,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at: 0.001 0 0.002 
-Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0 0.002 0.002 
+Timing stopped at:Timing stopped at:  0 0.002 0.002 0 0.002 0.002 
+Timing stopped at:
+ 0.001 0.001 0.002 
 Timing stopped at: 0.001 0.001 0.002 
+Initializing clock_model
+Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 10873 FinalDataDir/10873/
 Initializing clock_model
@@ -1956,14 +1999,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0 0.001 0.002 
-Initializing clock_model
-Timing stopped at: 0 0.002 0.001 
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at:Timing stopped at:  0.001 0.001 0.002 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at: Timing stopped at:Timing stopped at: 0.001    0.001 0.001 0.002 0.001 
+0.0010.0020.001  
+ 00.001 0.001  0.001 0.0020.0020.002  
+ 
 
-Timing stopped at: 0.003 0 0.002 
+Initializing clock_model
+Timing stopped at: 0.001 0 0.001 
 10891 FinalDataDir/10891/
 Initializing clock_model
 Initializing clock_model
@@ -1973,13 +2016,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0 0.001 0.002 
-Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0 0.001 0 0.002 0.0010.002  0.002 0.002 
-0 00.002 
-0.002  
-
-Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0 0.002 0.002 
+Timing stopped at: 0.002 0 0.001 
+Initializing clock_model
+Timing stopped at:Timing stopped at:Timing stopped at:   0 0.002 0.002 
+0.001 0.001 0 0 0.002 0.002 
+
 Timing stopped at: 0.001 0 0.001 
 10895 FinalDataDir/10895/
 Initializing clock_model
@@ -1990,13 +2033,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0 0.002 
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0 0.001 0.001 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at:Timing stopped at:  0.002 0 0.0010.002  
-0.001 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 11162 FinalDataDir/11162/
 Initializing clock_model
@@ -2008,12 +2051,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0 0.002 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
 Initializing clock_model
-Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0 0 0.0010.002  0 
-0.002 0.001 
-0.002 
-Timing stopped at: 0 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 11216 FinalDataDir/11216/
 Initializing clock_model
@@ -2025,12 +2068,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.001 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at: Timing stopped at:  0.001 0 0.002 
-0.002 0 0.002 0.002 0 
-0.002 
-Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: Timing stopped at:Timing stopped at: 0.002 0  0.002 
+0.002 0 0.001 
+0.002 0 0.001 
 Timing stopped at: 0.001 0 0.001 
 11228 FinalDataDir/11228/
 Initializing clock_model
@@ -2042,12 +2085,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:   0.001 0.001 0.001 0.002 0.001 
+0.002 
+0.004 0 0.004 
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at:Timing stopped at:   0.001 0.0020 0.0010   0.002 0.001 0.0020.002 
-
- 
 Timing stopped at: 0.001 0 0.001 
 11250 FinalDataDir/11250/
 Initializing clock_model
@@ -2058,13 +2101,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:  0.002    0 0.002 
-0.001 0 0.002 0.001 
-0.0020.002 0.0010   0 0.0020.002  
-0.002 
-
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0 0.001 0.002 
+Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 11252 FinalDataDir/11252/
 Initializing clock_model
@@ -2075,13 +2118,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0 0.002 0.002 
+Timing stopped at: 0.001 0.001 0.001 
 Initializing clock_model
 Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at:Timing stopped at:  0.002 0.001 0 0 0.0020.001 
+Timing stopped at:Timing stopped at:Timing stopped at: Timing stopped at:   0.001 0.001 0.0020.0010.002 00  0.001 0.002  0  0.002
  
-Timing stopped at: 0.001 0 0.002 
+
+0.001 
 Timing stopped at: 0.001 0 0.001 
 11253 FinalDataDir/11253/
 11265 FinalDataDir/11265/
@@ -2093,13 +2136,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:  0  0.001  0.001 0.0010.001  0.002 0.001 0.0010.001 0.001 
-
- 
-0.001 0.0020.002  
-0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.002 
 Initializing clock_model
+Timing stopped at:Timing stopped at: 0.002 0 0.002 
+Timing stopped at:  0.001 0 0.002 
+0.001 0.001 0.001 
 Timing stopped at: 0.001 0 0.001 
 11280 FinalDataDir/11280/
 Initializing clock_model
@@ -2110,13 +2153,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at:Timing stopped at:Timing stopped at:   Timing stopped at:0  0.002 0.001 00.001 0.001  0.002 0.001 
-0.002 
-0.002 
-0 0.002 
-Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at:Timing stopped at:Timing stopped at:  Timing stopped at:  0.001 0 0.002 0 0.002 
+0.001 0.002 0.0010 0.0010.002  
+ 
+0.002 
 Timing stopped at: 0.001 0 0.001 
 11281 FinalDataDir/11281/
 Initializing clock_model
@@ -2129,11 +2172,11 @@ Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0.0020.0020.001 0.0010  0.002 0  00  0.001
-0.002   
-
-0.002 
+Timing stopped at: Timing stopped at:0.002  0 0.002 
+0.001 0.001 0.002 
+Timing stopped at: 0.001 0 0.001 
 Timing stopped at: 0.001 0 0.001 
 11282 FinalDataDir/11282/
 Initializing clock_model
@@ -2144,14 +2187,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0.001 0.002 
 Initializing clock_model
-Timing stopped at:Timing stopped at:  0 0.002 0 0.002 
-0.001 0.002 
-Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0 0.0020.002  
+0 0.002 
+0.003 0.001 0.004 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.003 0 0.003 
 11288 FinalDataDir/11288/
 Initializing clock_model
 Initializing clock_model
@@ -2161,13 +2204,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.001Timing stopped at: 
- 0.001 0 0.001 
 Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0.002 0 0.002 0.001
+0.002 00   0.0020.002 
+0  0.0020.001 
+ 
 Initializing clock_model
-Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0 0.002 
-0.0010.001  0.001 0.001 0.0020.002  
-
 Timing stopped at: 0.001 0 0.001 
 11302 FinalDataDir/11302/
 Initializing clock_model
@@ -2178,13 +2221,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at: 0.001 0 0.002 
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.001Timing stopped at:Timing stopped at:   0 0.002 
-0.001 0.002 0.0010  0.0020.002  
-
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:   0.001 0.001 0.001 0.002 
+0.001 0.002 
+0.003 0.001 0.004 
 Timing stopped at: 0.001 0 0.001 
 11310 FinalDataDir/11310/
 Initializing clock_model
@@ -2195,14 +2238,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.001 
-Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0 0.002 0.0020.0010.001  0.001  0.002 0.002 
-0
-0.001  0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:  Timing stopped at:   0.001 0 0.002 
+0.001 0.0010.0010.002 0.0010   0  0.0010.0020 0.001  
+ 
 0.002 
+
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0 0 0.001 
+Timing stopped at: 0.001 0 0.001 
 11311 FinalDataDir/11311/
 Initializing clock_model
 Initializing clock_model
@@ -2212,13 +2255,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.002 0 0.001 
-Initializing clock_model
-Timing stopped at:Timing stopped at:Timing stopped at: Timing stopped at:   0.001 0.001 0.002 0.002 0.0020.0010  0.0020  0.002 
-0.001  0.002
-
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0.002 0.002 0 00.0010.001 0.002  0 0.002 
+0.001 0.002 
  
+0.002 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.003 
 Timing stopped at: 0.001 0 0.001 
 11313 FinalDataDir/11313/
 Initializing clock_model
@@ -2231,11 +2274,11 @@ Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.002 
-Initializing clock_model
-Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0.002 0.0010 0  0.001 0.001 0.001 
-0.002 
-
 Timing stopped at: 0.001 0 0.002 
+Initializing clock_model
+Timing stopped at:Timing stopped at: Timing stopped at:  0.001 0.001 0.002 
+0.002 0 0.002 
+0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 11314 FinalDataDir/11314/
 Initializing clock_model
@@ -2246,13 +2289,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0 0.001 0.001 
-Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0 0.002 0.001 
 Timing stopped at: 0.001 0 0.002 
-Timing stopped at: 0 0.001 0.002 
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.001 
-Timing stopped at: 0 0.002 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0 0.002 
+0.001 0.001 0.001 
+0.001 0 0.001 
 Timing stopped at: 0.001 0 0.001 
 11315 FinalDataDir/11315/
 Initializing clock_model
@@ -2263,14 +2306,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0 0.001 0.002 
-Timing stopped at: 0 0.002 0.002 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.001 
 Initializing clock_model
-Timing stopped at: Timing stopped at:Timing stopped at:Timing stopped at:0.002 0 0.001 
-   0.002 0 0.001 
-0.002 0 0.002 0.002 0 
-0.002 
-Timing stopped at: 0.001 0 0 
+Timing stopped at:Timing stopped at: Timing stopped at:  0.002 0 0.002 
+0.002 0 0.001 
+0.002 0 0.001 
+Timing stopped at: 0 0 0.001 
 11316 FinalDataDir/11316/
 Initializing clock_model
 Initializing clock_model
@@ -2280,13 +2323,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0.001 0.001 0.001 
-0.002 0.0020 0.0010.002 
-  0.001 0 0.0020.002  
-
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0.0020.001 0  0.002 0 
+0.0020  
+0.002 
 Timing stopped at: 0.001 0 0.001 
 11317 FinalDataDir/11317/
 Initializing clock_model
@@ -2298,12 +2341,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.002 
-Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.001 0.001 0.002 
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0.0010.0010.002   0.001 00 0.0010.002 0  0.002 0.002  
+0.002 
+
+
 Timing stopped at: 0.001 0 0.001 
 11318 FinalDataDir/11318/
 Initializing clock_model
@@ -2314,13 +2357,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at:Timing stopped at:Timing stopped at:   0.001 0.001 0.002 00.002 0 0.003 
- 0.0020.002  
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at:Timing stopped at:Timing stopped at:   0.001 0.001 0.0010 0.002  0 0.001 0.001 
+0.002 
 
+Timing stopped at: 0.001 0 0.002 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 11319 FinalDataDir/11319/
 Initializing clock_model
@@ -2331,14 +2374,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at: 0 0.001 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at:Timing stopped at:Timing stopped at:   0.001 0.001 0.0020.001 0 0.001  0.002 
-0.001 
+Timing stopped at: Timing stopped at:Timing stopped at:0.001Timing stopped at:    0.001 0.002 
+0.002 0.0010.0010  0.002 0.001  0.002 0.001 
 0.002 
-Timing stopped at: 0.001 0.002 0.002 
-Timing stopped at: 0.001 0 0 
+
+Timing stopped at: 0.001 0 0.001 
 11320 FinalDataDir/11320/
 Initializing clock_model
 Initializing clock_model
@@ -2348,13 +2391,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0.001 0 0.0020.0010.001 0.001 0.001 
- 0.001 0.002 
-0.001 0.002 
- 0.001 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at:Timing stopped at:  0.002 0 0.001 
+0.001 0.001 0.002 
 Timing stopped at: 0.001 0 0.001 
 11321 FinalDataDir/11321/
 Initializing clock_model
@@ -2366,12 +2409,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0 0.002 0.002 
+Timing stopped at: 0.001 0.001 0.002 
 Initializing clock_model
-Timing stopped at:Timing stopped at:Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at:   0.002 0 0.002 0.001 0 0.002 
-
-0.001 0.001 0.002 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 11322 FinalDataDir/11322/
 Initializing clock_model
@@ -2382,14 +2425,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0.002 0 0.002 0 0.002 
-00.002 0.001 
-0.001  0.001 0.0010.002  
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0.00100.002  0  0.0010.0020.002   0.002 
 
-Timing stopped at: 0 0.002 0.002 
+
+Timing stopped at: 0 0.001 0.002 
 Initializing clock_model
-Timing stopped at: 0 0.001 0.001 
+Timing stopped at: 0.001 0 0.001 
 11324 FinalDataDir/11324/
 Initializing clock_model
 Initializing clock_model
@@ -2399,13 +2442,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
 Initializing clock_model
-Timing stopped at: Timing stopped at:Timing stopped at:0.002   0 0.002 
-0.001 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:  0.001 0 0.002 
 0.001 0.001 0.002 
-Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.001 0 0.001 
 11325 FinalDataDir/11325/
 Initializing clock_model
@@ -2416,13 +2459,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at:Initializing clock_model
-Timing stopped at:   0.001 0.001 0.0020.0010.001  0.002  0 0.0020.001
- 
- 
+Timing stopped at: 0.001 0.001 0.002 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.005 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0 0.001 0.001 
 Timing stopped at: 0.001 0 0.001 
 11326 FinalDataDir/11326/
 Initializing clock_model
@@ -2434,12 +2477,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.001 
 Initializing clock_model
-Timing stopped at:Timing stopped at:Timing stopped at: Timing stopped at:   0.001 0.001 0.002 
-0.0020.0010.002   0.001 0 00.001 0.002  
-0.002 
-
 Timing stopped at: 0.001 0 0.001 
 11328 FinalDataDir/11328/
 Initializing clock_model
@@ -2450,13 +2493,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.001 
 Initializing clock_model
-Timing stopped at:Timing stopped at:Timing stopped at:   0.001 0 0.002 0 0 0.0010.002 
-0.001  
-0.001 
-Timing stopped at: 0.004 0.001 0.004 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:  0.002 0.0020  0.002 0 
+0.002 
 Timing stopped at: 0.001 0 0.001 
 11329 FinalDataDir/11329/
 Initializing clock_model
@@ -2469,11 +2512,28 @@ Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0 0.002 0.001 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at:Timing stopped at:  0.001 0.001 0.002 
-0.003 0.001 0.005 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:  0.001 0 0.002 
+0.002 0 0.002 
+Timing stopped at: 0.001 0 0.001 
+11331 FinalDataDir/11331/
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Initializing clock_model
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0.001 0.002 
 Timing stopped at: 0.001 0 0.001 
 11335 FinalDataDir/11335/
 Initializing clock_model
@@ -2484,13 +2544,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at:Timing stopped at: Timing stopped at:Timing stopped at:   0.001 0.001 0.002 
-0 0.002 0.001 00 0.001  0.002 0.002
-0.002 
- 
+Timing stopped at:Timing stopped at: Timing stopped at:  0.001 0.001 0.001 
+0.001 0 0.001 
+0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 11337 FinalDataDir/11337/
 Initializing clock_model
@@ -2501,13 +2561,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0 0.001 0.002 
+Timing stopped at: Timing stopped at:0.002  0 0.002 
+0.001 0.001 0.002 
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: Timing stopped at: 0.002 0.002 0 00.002  
-0.003 
+Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.001 0 0.001 
 11338 FinalDataDir/11338/
 Initializing clock_model
@@ -2518,13 +2578,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.001 0.001 0.002 
-Initializing clock_model
-Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0.0010.002  0 0 0.0010.002 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at:Timing stopped at:Timing stopped at: Timing stopped at:Timing stopped at:    0.002 0 0.002 
+0.002 00.002  00.002 0.001 0.0010  0.002 
 0.002  
+0.001 
 0.002 
-Timing stopped at: 0.001 0 0.003 
+Initializing clock_model
 Timing stopped at: 0.001 0 0.001 
 ## 10637
 already have maxfilter and ICA for 10637
@@ -2980,6 +3040,16 @@ missing 11329:6 txt file
 missing 11329:7 txt file
 missing 11329:8 txt file
 11329 has only  0 maxfiltered FIFs
+## 11331
+missing 11331:1 txt file
+missing 11331:2 txt file
+missing 11331:3 txt file
+missing 11331:4 txt file
+missing 11331:5 txt file
+missing 11331:6 txt file
+missing 11331:7 txt file
+missing 11331:8 txt file
+11331 has only  0 maxfiltered FIFs
 ## 11335
 missing 11335:1 txt file
 missing 11335:2 txt file
