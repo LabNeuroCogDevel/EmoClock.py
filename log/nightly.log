@@ -2146,6 +2146,12 @@ NO FS for 11288
 NO FS for 11302
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11302_20140919
+NO FS for 11304
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11304_20140812
+NO FS for 11305
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11305_20140805
 NO FS for 11310
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11310_20140731
@@ -2214,6 +2220,9 @@ NO FS for 11337
 NO FS for 11338
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11338_20141213
+NO FS for 11344
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11344_20141209
 NO FS for 11345
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11345_20141211
@@ -2238,14 +2247,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.001 0.001 0.001 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.002 
-Timing stopped at:Timing stopped at:Timing stopped at: Timing stopped at:   0.002 0 0.001 0 0.002 
-0.002 0.0020 0.001 
-0.002 
- 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
 10767 FinalDataDir/10767/
 Initializing clock_model
 Initializing clock_model
@@ -2255,14 +2264,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at:  0.002 0.0020  0.002 0 
-0.002 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.001 
 Initializing clock_model
-Timing stopped at: 0 0.001 0.002 
 Timing stopped at: 0.001 0 0.002 
-Timing stopped at: 0 0 0.001 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
 10811 FinalDataDir/10811/
 Initializing clock_model
 Initializing clock_model
@@ -2271,15 +2280,15 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.002 
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0.001 0.001 
-Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
-Initializing clock_model
-Timing stopped at: 0.002 0 0.001 
 10814 FinalDataDir/10814/
 Initializing clock_model
 Initializing clock_model
@@ -2288,15 +2297,15 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.001 0.001 0.002 
+Initializing clock_model
+Timing stopped at: 0.001 0.001 0.002 
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Initializing clock_model
-Timing stopped at: 0 0.001 0.002 
+Timing stopped at: 0.001 0 0.001 
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.001 0.001 0.001 
-Timing stopped at: 0.001 0 0.001 
 10873 FinalDataDir/10873/
 Initializing clock_model
 Initializing clock_model
@@ -2306,48 +2315,48 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at:Timing stopped at:  0.002 0.001 0 0.002 
-0 0.002 
+Timing stopped at: 0.001 0.001 0.001 
 Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 10891 FinalDataDir/10891/
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Initializing clock_model
-Initializing clock_model
-Initializing clock_model
-Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at:Timing stopped at:Timing stopped at:   0 0.001 0.0010.002 0.0020.002  0  0.001 
-0.002 
-
-Timing stopped at: 0.001 0 0.002 
+Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.001 0 0.002 
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.001 0 0.001 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 10895 FinalDataDir/10895/
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0 0.002 
-Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.002 
 11162 FinalDataDir/11162/
 Initializing clock_model
 Initializing clock_model
@@ -2357,12 +2366,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.001 0.001 0.002 
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.002 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.001 
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 11216 FinalDataDir/11216/
@@ -2374,12 +2383,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.001 
-Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at:  0.002 0.0020  0 0.001 
-0.002 
-Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Timing stopped at: 0 0.002 0.001 
+Timing stopped at: 0.001 0 0.001 
 Timing stopped at: 0.001 0.001 0.001 
 Timing stopped at: 0.002 0 0.001 
 11228 FinalDataDir/11228/
@@ -2391,14 +2400,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0 0.002 
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.001 0.001 0.002 
 11250 FinalDataDir/11250/
 Initializing clock_model
 Initializing clock_model
@@ -2406,16 +2415,16 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.001 0 0.001 
-Initializing clock_model
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.001 
 Timing stopped at: 0.002 0 0.001 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.001 
 11252 FinalDataDir/11252/
 Initializing clock_model
 Initializing clock_model
@@ -2425,14 +2434,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
 Initializing clock_model
 Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.158 
 11253 FinalDataDir/11253/
 11265 FinalDataDir/11265/
 Initializing clock_model
@@ -2444,13 +2453,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.001 
-Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at: Timing stopped at:Timing stopped at:0.001   0.001 0.002 
-0.001 0.001 0.002 
-0.001 0.001 0.002 
-Timing stopped at: 0 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.001 
 11280 FinalDataDir/11280/
 Initializing clock_model
 Initializing clock_model
@@ -2460,14 +2469,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0.001 0.001 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.001 
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at:  0.001 0 0.0010.002  
-0 0.002 
-Timing stopped at: 0 0.001 0.001 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
 11281 FinalDataDir/11281/
 Initializing clock_model
 Initializing clock_model
@@ -2476,15 +2485,15 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Initializing clock_model
 Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at:Timing stopped at:Timing stopped at: 0.001 0.002 0.002 
 Initializing clock_model
-  Timing stopped at: 0.002 0 0.0020.002 
- 0.0020  0.002 
-0 0.002 
 Timing stopped at: 0.001 0 0.001 
+Initializing clock_model
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
 11282 FinalDataDir/11282/
 Initializing clock_model
 Initializing clock_model
@@ -2493,15 +2502,15 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002Timing stopped at:Timing stopped at:   0 0.002 
-0.002 00.001  0 0.0020.002 
- 
 Initializing clock_model
-Timing stopped at: 0.003 0 0.002 
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
 11288 FinalDataDir/11288/
 Initializing clock_model
 Initializing clock_model
@@ -2511,13 +2520,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at:Timing stopped at: Timing stopped at: Timing stopped at:  0.002 0.0020 0.002 
-  0 0.002 
-0.001 0.001 0.001 0.001 0.0020.0020.002 
-  
-0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 11302 FinalDataDir/11302/
 Initializing clock_model
@@ -2529,11 +2538,45 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0.001 0.002 
 Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+11304 FinalDataDir/11304/
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Timing stopped at: 0.003 0 0.003 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.001 
+11305 FinalDataDir/11305/
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0 0.001 
+Initializing clock_model
+Timing stopped at: 0.001 0 0.001 
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0 0.001 0.002 
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.002 
 11310 FinalDataDir/11310/
@@ -2544,14 +2587,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.001 0 0.002 
+Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.002 
-Initializing clock_model
-Timing stopped at: 0 0.001 0.001 
+Timing stopped at: 0 0.002 0.002 
+Timing stopped at: 0 0.001 0.002 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.001 0.001 0.002 
 Timing stopped at: 0.001 0 0.001 
 11311 FinalDataDir/11311/
 Initializing clock_model
@@ -2563,13 +2606,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at:  0.002 0 0.002 
-0.001 0 0.001 
+Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
 11313 FinalDataDir/11313/
 Initializing clock_model
 Initializing clock_model
@@ -2579,14 +2622,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0 0.002 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at:Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+ 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: Timing stopped at:0.002 0 0.002 
- 0.002 0 0.002 
-Initializing clock_model
-Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.001 0 0.002 
 11314 FinalDataDir/11314/
 Initializing clock_model
 Initializing clock_model
@@ -2596,14 +2639,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0.001 0.002 
-Initializing clock_model
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0 0.001 0.002 
 Timing stopped at: 0.001 0 0.002 
+Initializing clock_model
 Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.001 0 0.002 
 11315 FinalDataDir/11315/
 Initializing clock_model
 Initializing clock_model
@@ -2613,14 +2656,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
+Initializing clock_model
 Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.002 0 0.002 
-Initializing clock_model
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0 0.001 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0 0.001 0.001 
 11316 FinalDataDir/11316/
 Initializing clock_model
 Initializing clock_model
@@ -2629,32 +2672,32 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0 0.001 0.002 
-Timing stopped at: 0.002 0 0.001 
-Timing stopped at: 0.002 0 0.001 
-Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
-Initializing clock_model
-Timing stopped at: 0.001 0.001 0.001 
-Timing stopped at: 0.001 0 0.001 
 Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
+Initializing clock_model
+Timing stopped at: 0.001 0 0.001 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 Timing stopped at: 0.001 0 0.001 
+0 0.002 
 11317 FinalDataDir/11317/
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
 Initializing clock_model
-Initializing clock_model
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at:Timing stopped at: Initializing clock_model
+ 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.001 
 Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.001 0.001 0.001 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0.001 0.001 
-Timing stopped at: Timing stopped at: 0.001 0.001 0.002 
-0.002 0 0.002 
+0.001 0 0.001 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0 0.002 
 11318 FinalDataDir/11318/
 Initializing clock_model
 Initializing clock_model
@@ -2662,15 +2705,15 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Initializing clock_model
-Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Timing stopped at: 0 0.001 0.002 
+Initializing clock_model
 Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.002 0 0.002 
 11319 FinalDataDir/11319/
 Initializing clock_model
@@ -2681,14 +2724,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
 Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.002 
 11320 FinalDataDir/11320/
 Initializing clock_model
 Initializing clock_model
@@ -2696,16 +2739,16 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.001 0 0.002 
+Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Initializing clock_model
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0 0 0.001 
 11321 FinalDataDir/11321/
 Initializing clock_model
 Initializing clock_model
@@ -2715,13 +2758,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0 0.001 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.001 0.001 0.001 
 Timing stopped at: 0.001 0 0.001 
 11322 FinalDataDir/11322/
 Initializing clock_model
@@ -2732,13 +2775,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at:Timing stopped at:  0.002 0.0020  0.002 
-0 0.002 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0.001 0.002 
 Timing stopped at: 0.002 0 0.002 
 11323 FinalDataDir/11323/
 Initializing clock_model
@@ -2750,13 +2793,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:     0.0010.002  0.002 0.002 0.0010  00.0010 00.002 0.002 
-   0.002
-0.002 0.002 
- 
-
+Timing stopped at:Timing stopped at:  0.002 0 0.002 
+0.002 0 0.001 
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.001 
 11324 FinalDataDir/11324/
 Initializing clock_model
 Initializing clock_model
@@ -2766,14 +2809,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.002 
-Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0.001 0.001 
+Initializing clock_model
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at:Timing stopped at: 0.001 0 0.001 
+ 0.002 0 0.001 
 11325 FinalDataDir/11325/
 Initializing clock_model
 Initializing clock_model
@@ -2782,15 +2825,15 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.001 0.001 0.001 
 Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
-Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0 0.0010.002  0.0020.001 
-0.002  
-0 0.002 
 Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.002 
 11326 FinalDataDir/11326/
 Initializing clock_model
 Initializing clock_model
@@ -2799,15 +2842,15 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: Timing stopped at: 0.002 0 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.001 
+0.002 
+Initializing clock_model
 Timing stopped at: 0.001 0 0.002 
-Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
 11328 FinalDataDir/11328/
 Initializing clock_model
 Initializing clock_model
@@ -2817,14 +2860,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0 0.001 
 Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at:Timing stopped at: Timing stopped at:  0.002  0 0.002 
-0.001 0.0010.001 0.0020.001   0.0020.001 
-0  
-0.002 
-Initializing clock_model
-Timing stopped at: 0.001 0 0.001 
 11329 FinalDataDir/11329/
 Initializing clock_model
 Initializing clock_model
@@ -2834,12 +2877,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at:Timing stopped at:  0.001 0.001 0.002 0.001 
-0 0.002 
-Timing stopped at: 0.001 0 0.001 
 Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
 11331 FinalDataDir/11331/
@@ -2854,11 +2897,11 @@ Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0.003 0 0.002 
-Timing stopped at: 0 0.002 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0 0.001 0.002 
 Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0 0.001 0.001 
 11335 FinalDataDir/11335/
 Initializing clock_model
 Initializing clock_model
@@ -2868,14 +2911,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: Timing stopped at:0.001  0.001 0.002 
-0.001 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.002 
 Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
 11336 FinalDataDir/11336/
 Initializing clock_model
 Initializing clock_model
@@ -2885,14 +2928,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0 0.001 0.001 
+Timing stopped at: 0 0.001 0.001 
+Timing stopped at: 0.001 0 0.001 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Timing stopped at:  0.001 0.001 0.001 00.002  
-0.001 
-Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0 0.001 0.002 
 Initializing clock_model
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at:Timing stopped at:  0.001 0 0.001 
-0.002 0 0.002 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0 0.001 
 11337 FinalDataDir/11337/
 Initializing clock_model
 Initializing clock_model
@@ -2902,13 +2945,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.002 
 Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.001 
 Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at:Timing stopped at:  0.002 0 0.001 
-0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.003 
 Timing stopped at: 0.001 0 0.001 
 11338 FinalDataDir/11338/
 Initializing clock_model
@@ -2918,15 +2961,32 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0 0.001 0.001 
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
-Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.002 
 Timing stopped at: 0.001 0 0.002 
-Timing stopped at: 0 0.001 0.002 
-Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Timing stopped at: 0.001 0.001 0.001 
 Timing stopped at: 0.001 0 0.001 
+11344 FinalDataDir/11344/
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.002 0 0.002 
 11345 FinalDataDir/11345/
 Initializing clock_model
 Initializing clock_model
@@ -2936,14 +2996,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.001 
 Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.001 0 0.002 
-Timing stopped at:Timing stopped at:  0.002 0 0.002 0 0.002 
-0.002 
-Timing stopped at: 0.001 0 0.001 
-Timing stopped at: 0.001 0 0.002 
-Timing stopped at: 0.003 0 0.003 
 11346 FinalDataDir/11346/
 Initializing clock_model
 Initializing clock_model
@@ -2953,13 +3013,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
+Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at:Initializing clock_model
- 0.001 0.001 0.002 
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0 0.001 0.002 
+Initializing clock_model
 Timing stopped at: 0.001 0 0.001 
 11347 FinalDataDir/11347/
 Initializing clock_model
@@ -2969,15 +3029,15 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
 Initializing clock_model
-Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.002 
 Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Timing stopped at: 0.001 0.001 0.001 
 11350 FinalDataDir/11350/
 Initializing clock_model
 Initializing clock_model
@@ -2988,13 +3048,13 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: Timing stopped at:Timing stopped at: 0.001 0.001 0.001  
-0 0.001 0.002 
-0.001 0.001 0.002 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.002 
 Initializing clock_model
-Timing stopped at: 0 0.002 0.003 
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.002 0 0.002 
 11353 FinalDataDir/11353/
 Initializing clock_model
 Initializing clock_model
@@ -3004,14 +3064,14 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0 0.001 0.002 
-Timing stopped at: 0.001 0.001 0.002 
-Initializing clock_model
-Timing stopped at: 0.001 0.001 0.002 
-Timing stopped at: 0.002 0 0.001 
 Timing stopped at: 0.002 0 0.002 
-Timing stopped at: 0.001 0 0.002 
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at: 0.001 0.001 0.001 
+Timing stopped at: 0.002 0 0.002 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
 Timing stopped at: 0.001 0 0.001 
+Timing stopped at: 0.002 0 0.002 
 ## 10637
 already have maxfilter and ICA for 10637
 ## 10638
@@ -3019,55 +3079,15 @@ already have maxfilter and ICA for 10638
 ## 10662
 already have maxfilter and ICA for 10662
 ## 10711
-missing 10711:1 txt file
-missing 10711:2 txt file
-missing 10711:3 txt file
-missing 10711:4 txt file
-missing 10711:5 txt file
-missing 10711:6 txt file
-missing 10711:7 txt file
-missing 10711:8 txt file
-10711 has only  0 maxfiltered FIFs
+already have maxfilter and ICA for 10711
 ## 10767
-missing 10767:1 txt file
-missing 10767:2 txt file
-missing 10767:3 txt file
-missing 10767:4 txt file
-missing 10767:5 txt file
-missing 10767:6 txt file
-missing 10767:7 txt file
-missing 10767:8 txt file
-10767 has only  0 maxfiltered FIFs
+already have maxfilter and ICA for 10767
 ## 10772
-missing 10772:1 txt file
-missing 10772:2 txt file
-missing 10772:3 txt file
-missing 10772:4 txt file
-missing 10772:5 txt file
-missing 10772:6 txt file
-missing 10772:7 txt file
-missing 10772:8 txt file
-10772 has only  0 maxfiltered FIFs
+already have maxfilter and ICA for 10772
 ## 10811
-missing 10811:1 txt file
-missing 10811:2 txt file
-missing 10811:3 txt file
-missing 10811:4 txt file
-missing 10811:5 txt file
-missing 10811:6 txt file
-missing 10811:7 txt file
-missing 10811:8 txt file
-10811 has only  0 maxfiltered FIFs
+already have maxfilter and ICA for 10811
 ## 10814
-missing 10814:1 txt file
-missing 10814:2 txt file
-missing 10814:3 txt file
-missing 10814:4 txt file
-missing 10814:5 txt file
-missing 10814:6 txt file
-missing 10814:7 txt file
-missing 10814:8 txt file
-10814 has only  0 maxfiltered FIFs
+already have maxfilter and ICA for 10814
 ## 10873
 missing 10873:1 txt file
 missing 10873:2 txt file
@@ -3079,484 +3099,165 @@ missing 10873:7 txt file
 missing 10873:8 txt file
 10873 has only  0 maxfiltered FIFs
 ## 10891
-missing 10891:1 txt file
-missing 10891:2 txt file
-missing 10891:3 txt file
-missing 10891:4 txt file
-missing 10891:5 txt file
-missing 10891:6 txt file
-missing 10891:7 txt file
-missing 10891:8 txt file
-10891 has only  0 maxfiltered FIFs
-## 10895
-missing 10895:1 txt file
-missing 10895:2 txt file
-missing 10895:3 txt file
-missing 10895:4 txt file
-missing 10895:5 txt file
-missing 10895:6 txt file
-missing 10895:7 txt file
-missing 10895:8 txt file
-10895 has only  0 maxfiltered FIFs
-## 10997
-already have maxfilter and ICA for 10997
-## 11162
-missing 11162:1 txt file
-missing 11162:2 txt file
-missing 11162:3 txt file
-missing 11162:4 txt file
-missing 11162:5 txt file
-missing 11162:6 txt file
-missing 11162:7 txt file
-missing 11162:8 txt file
-11162 has only  0 maxfiltered FIFs
-## 11178
-missing 11178:1 txt file
-missing 11178:2 txt file
-missing 11178:3 txt file
-missing 11178:4 txt file
-missing 11178:5 txt file
-missing 11178:6 txt file
-missing 11178:7 txt file
-missing 11178:8 txt file
-11178 has only  0 maxfiltered FIFs
-## 11216
-missing 11216:1 txt file
-missing 11216:2 txt file
-missing 11216:3 txt file
-missing 11216:4 txt file
-missing 11216:5 txt file
-missing 11216:6 txt file
-missing 11216:7 txt file
-missing 11216:8 txt file
-11216 has only  0 maxfiltered FIFs
-## 11228
-missing 11228:1 txt file
-missing 11228:2 txt file
-missing 11228:3 txt file
-missing 11228:4 txt file
-missing 11228:5 txt file
-missing 11228:6 txt file
-missing 11228:7 txt file
-missing 11228:8 txt file
-11228 has only  0 maxfiltered FIFs
-## 11229
-missing 11229:1 txt file
-missing 11229:2 txt file
-missing 11229:3 txt file
-missing 11229:4 txt file
-missing 11229:5 txt file
-missing 11229:6 txt file
-missing 11229:7 txt file
-missing 11229:8 txt file
-11229 has only  0 maxfiltered FIFs
-## 11243
-already have maxfilter and ICA for 11243
-## 11246
-already have maxfilter and ICA for 11246
-## 11250
-missing 11250:1 txt file
-missing 11250:2 txt file
-missing 11250:3 txt file
-missing 11250:4 txt file
-missing 11250:5 txt file
-missing 11250:6 txt file
-missing 11250:7 txt file
-missing 11250:8 txt file
-11250 has only  0 maxfiltered FIFs
-## 11252
-already have maxfilter and ICA for 11252
-## 11253
-already have maxfilter and ICA for 11253
-## 11255
-already have maxfilter and ICA for 11255
-## 11258
-already have maxfilter and ICA for 11258
-## 11262
-already have maxfilter and ICA for 11262
-## 11263
-already have maxfilter and ICA for 11263
-## 11265
-missing 11265:1 txt file
-missing 11265:2 txt file
-missing 11265:3 txt file
-missing 11265:4 txt file
-missing 11265:5 txt file
-missing 11265:6 txt file
-missing 11265:7 txt file
-missing 11265:8 txt file
-11265 has only  0 maxfiltered FIFs
-## 11274
-missing 11274:1 txt file
-missing 11274:2 txt file
-missing 11274:3 txt file
-missing 11274:4 txt file
-missing 11274:5 txt file
-missing 11274:6 txt file
-missing 11274:7 txt file
-missing 11274:8 txt file
-11274 has only  0 maxfiltered FIFs
-## 11275
-missing 11275:1 txt file
-missing 11275:2 txt file
-missing 11275:3 txt file
-missing 11275:4 txt file
-missing 11275:5 txt file
-missing 11275:6 txt file
-missing 11275:7 txt file
-missing 11275:8 txt file
-11275 has only  0 maxfiltered FIFs
-## 11277
-missing 11277:1 txt file
-missing 11277:2 txt file
-missing 11277:3 txt file
-missing 11277:4 txt file
-missing 11277:5 txt file
-missing 11277:6 txt file
-missing 11277:7 txt file
-missing 11277:8 txt file
-11277 has only  0 maxfiltered FIFs
-## 11278
-missing 11278:1 txt file
-missing 11278:2 txt file
-missing 11278:3 txt file
-missing 11278:4 txt file
-missing 11278:5 txt file
-missing 11278:6 txt file
-missing 11278:7 txt file
-missing 11278:8 txt file
-11278 has only  0 maxfiltered FIFs
-## 11279
-missing 11279:1 txt file
-missing 11279:2 txt file
-missing 11279:3 txt file
-missing 11279:4 txt file
-missing 11279:5 txt file
-missing 11279:6 txt file
-missing 11279:7 txt file
-missing 11279:8 txt file
-11279 has only  0 maxfiltered FIFs
-## 11280
-missing 11280:1 txt file
-missing 11280:2 txt file
-missing 11280:3 txt file
-missing 11280:4 txt file
-missing 11280:5 txt file
-missing 11280:6 txt file
-missing 11280:7 txt file
-missing 11280:8 txt file
-11280 has only  0 maxfiltered FIFs
-## 11281
-missing 11281:1 txt file
-missing 11281:2 txt file
-missing 11281:3 txt file
-missing 11281:4 txt file
-missing 11281:5 txt file
-missing 11281:6 txt file
-missing 11281:7 txt file
-missing 11281:8 txt file
-11281 has only  0 maxfiltered FIFs
-## 11282
-missing 11282:1 txt file
-missing 11282:2 txt file
-missing 11282:3 txt file
-missing 11282:4 txt file
-missing 11282:5 txt file
-missing 11282:6 txt file
-missing 11282:7 txt file
-missing 11282:8 txt file
-11282 has only  0 maxfiltered FIFs
-## 11287
-missing 11287:1 txt file
-missing 11287:2 txt file
-missing 11287:3 txt file
-missing 11287:4 txt file
-missing 11287:5 txt file
-missing 11287:6 txt file
-missing 11287:7 txt file
-missing 11287:8 txt file
-11287 has only  0 maxfiltered FIFs
-## 11288
-missing 11288:1 txt file
-missing 11288:2 txt file
-missing 11288:3 txt file
-missing 11288:4 txt file
-missing 11288:5 txt file
-missing 11288:6 txt file
-missing 11288:7 txt file
-missing 11288:8 txt file
-11288 has only  0 maxfiltered FIFs
-## 11302
-missing 11302:1 txt file
-missing 11302:2 txt file
-missing 11302:3 txt file
-missing 11302:4 txt file
-missing 11302:5 txt file
-missing 11302:6 txt file
-missing 11302:7 txt file
-missing 11302:8 txt file
-11302 has only  0 maxfiltered FIFs
-## 11310
-missing 11310:1 txt file
-missing 11310:2 txt file
-missing 11310:3 txt file
-missing 11310:4 txt file
-missing 11310:5 txt file
-missing 11310:6 txt file
-missing 11310:7 txt file
-missing 11310:8 txt file
-11310 has only  0 maxfiltered FIFs
-## 11311
-missing 11311:1 txt file
-missing 11311:2 txt file
-missing 11311:3 txt file
-missing 11311:4 txt file
-missing 11311:5 txt file
-missing 11311:6 txt file
-missing 11311:7 txt file
-missing 11311:8 txt file
-11311 has only  0 maxfiltered FIFs
-## 11313
-missing 11313:1 txt file
-missing 11313:2 txt file
-missing 11313:3 txt file
-missing 11313:4 txt file
-missing 11313:5 txt file
-missing 11313:6 txt file
-missing 11313:7 txt file
-missing 11313:8 txt file
-11313 has only  0 maxfiltered FIFs
-## 11314
-missing 11314:1 txt file
-missing 11314:2 txt file
-missing 11314:3 txt file
-missing 11314:4 txt file
-missing 11314:5 txt file
-missing 11314:6 txt file
-missing 11314:7 txt file
-missing 11314:8 txt file
-11314 has only  0 maxfiltered FIFs
-## 11315
-missing 11315:1 txt file
-missing 11315:2 txt file
-missing 11315:3 txt file
-missing 11315:4 txt file
-missing 11315:5 txt file
-missing 11315:6 txt file
-missing 11315:7 txt file
-missing 11315:8 txt file
-11315 has only  0 maxfiltered FIFs
-## 11316
-missing 11316:1 txt file
-missing 11316:2 txt file
-missing 11316:3 txt file
-missing 11316:4 txt file
-missing 11316:5 txt file
-missing 11316:6 txt file
-missing 11316:7 txt file
-missing 11316:8 txt file
-11316 has only  0 maxfiltered FIFs
-## 11317
-missing 11317:1 txt file
-missing 11317:2 txt file
-missing 11317:3 txt file
-missing 11317:4 txt file
-missing 11317:5 txt file
-missing 11317:6 txt file
-missing 11317:7 txt file
-missing 11317:8 txt file
-11317 has only  0 maxfiltered FIFs
-## 11318
-missing 11318:1 txt file
-missing 11318:2 txt file
-missing 11318:3 txt file
-missing 11318:4 txt file
-missing 11318:5 txt file
-missing 11318:6 txt file
-missing 11318:7 txt file
-missing 11318:8 txt file
-11318 has only  0 maxfiltered FIFs
-## 11319
-missing 11319:1 txt file
-missing 11319:2 txt file
-missing 11319:3 txt file
-missing 11319:4 txt file
-missing 11319:5 txt file
-missing 11319:6 txt file
-missing 11319:7 txt file
-missing 11319:8 txt file
-11319 has only  0 maxfiltered FIFs
-## 11320
-missing 11320:1 txt file
-missing 11320:2 txt file
-missing 11320:3 txt file
-missing 11320:4 txt file
-missing 11320:5 txt file
-missing 11320:6 txt file
-missing 11320:7 txt file
-missing 11320:8 txt file
-11320 has only  0 maxfiltered FIFs
-## 11321
-missing 11321:1 txt file
-missing 11321:2 txt file
-missing 11321:3 txt file
-missing 11321:4 txt file
-missing 11321:5 txt file
-missing 11321:6 txt file
-missing 11321:7 txt file
-missing 11321:8 txt file
-11321 has only  0 maxfiltered FIFs
-## 11322
-missing 11322:1 txt file
-missing 11322:2 txt file
-missing 11322:3 txt file
-missing 11322:4 txt file
-missing 11322:5 txt file
-missing 11322:6 txt file
-missing 11322:7 txt file
-missing 11322:8 txt file
-11322 has only  0 maxfiltered FIFs
-## 11323
-missing 11323:1 txt file
-missing 11323:2 txt file
-missing 11323:3 txt file
-missing 11323:4 txt file
-missing 11323:5 txt file
-missing 11323:6 txt file
-missing 11323:7 txt file
-missing 11323:8 txt file
-11323 has only  0 maxfiltered FIFs
-## 11324
-missing 11324:1 txt file
-missing 11324:2 txt file
-missing 11324:3 txt file
-missing 11324:4 txt file
-missing 11324:5 txt file
-missing 11324:6 txt file
-missing 11324:7 txt file
-missing 11324:8 txt file
-11324 has only  0 maxfiltered FIFs
-## 11325
-missing 11325:1 txt file
-missing 11325:2 txt file
-missing 11325:3 txt file
-missing 11325:4 txt file
+[2015-03-19 04:34] running maxfilter on 10891 1
+running maxfilter on 11319 3
+running maxfilter on 11325 4
+running maxfilter on 11325 4
+running maxfilter on 11325 4
+[2015-03-19 05:51] finished maxfilter on 11265 5
+[2015-03-19 05:51] running maxfilter on 11265 6
+running maxfilter on 11325 4
+running maxfilter on 11325 4
+[2015-03-19 06:56] finished maxfilter on 10891 1
+[2015-03-19 06:56] running maxfilter on 10891 2
 missing 11325:5 txt file
-missing 11325:6 txt file
-missing 11325:7 txt file
-missing 11325:8 txt file
-11325 has only  0 maxfiltered FIFs
+running maxfilter on 11325 6
+running maxfilter on 11319 4
+missing 11325:5 txt file
+running maxfilter on 11325 6
+[2015-03-19 07:41] finished maxfilter on 11265 6
+[2015-03-19 07:41] running maxfilter on 11265 7
+missing 11325:5 txt file
+running maxfilter on 11325 6
+missing 11325:5 txt file
+running maxfilter on 11325 6
+missing 11325:5 txt file
+running maxfilter on 11325 6
+[2015-03-19 09:20] finished maxfilter on 10891 2
+[2015-03-19 09:20] running maxfilter on 10891 3
+running maxfilter on 11319 5
+running maxfilter on 11325 7
+running maxfilter on 11325 7
+running maxfilter on 11325 7
+[2015-03-19 11:07] finished maxfilter on 11265 7
+[2015-03-19 11:07] running maxfilter on 11265 8
+running maxfilter on 11325 7
+[2015-03-19 12:43] finished maxfilter on 10891 3
+[2015-03-19 12:43] running maxfilter on 10891 4
+running maxfilter on 11325 7
+running maxfilter on 11319 6
+[2015-03-19 14:31] finished maxfilter on 11265 8
+running ICA on 11265 8
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2013 The MathWorks, Inc.
+                    R2013a (8.1.0.604) 64-bit (glnxa64)
+                             February 15, 2013
+
+[Warning: Name is nonexistent or not a directory: $MATLABPATH] 
+[Warning: Name is nonexistent or not a directory: $MATLABPATH] 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: Name is nonexistent or not a directory: /matlab] 
+[> In path at 110
+  In startup at 5
+  In matlabrc at 188] 
+
+ans =
+
+/raid/r3/p2/Luna/EmoClockMEG
+
+[Warning: adding /data/Luna1/ni_tools/fieldtrip/external/mne toolbox to your
+Matlab path] 
+==============================================================================
+
+Copyright (c) 2011, Matti Hamalainen and Alexandre Gramfort
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+    * Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+    * Redistributions in binary form must reproduce the above copyright
+      notice, this list of conditions and the following disclaimer in the
+      documentation and/or other materials provided with the distribution.
+    * Neither the name of the Massachusetts General Hospital nor the
+      names of its contributors may be used to endorse or promote products
+      derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL MASSACHUSETTS GENERAL HOSPITAL BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+==============================================================================
+	306 MEG channel locations transformed
+Opening raw data file /raid/r3/p2/Luna/Multimodal/Clock/11265/MEG/11265_clock_run1_ds_sss_raw.fif...
+	Range : 118000 ... 203999  =    472.000 ...   815.996 secs
+Ready.
+[Warning: could be Yokogawa system] 
+[> In fileio/private/warning_once at 81
+  In fileio/private/ft_senstype at 283
+  In ft_chantype at 86
+  In ft_chantype at 494
+  In fileio/private/ft_datatype_sens at 128
+  In ft_read_header at 1648
+  In ft_preprocessing at 345
+  In MEG_ICA_denoising_th at 20
+  In Clock_ICA_denoising_wrapper at 30] 
+processing channel { 'MEG0113' 'MEG0112' 'MEG0111' 'MEG0122' 'MEG0123' 'MEG0121' 'MEG0132' 'MEG0133' 'MEG0131' 'MEG0143' 'MEG0142' 'MEG0141' 'MEG0213' 'MEG0212' 'MEG0211' 'MEG0222' 'MEG0223' 'MEG0221' 'MEG0232' 'MEG0233' 'MEG0231' 'MEG0243' 'MEG0242' 'MEG0241' 'MEG0313' 'MEG0312' 'MEG0311' 'MEG0322' 'MEG0323' 'MEG0321' 'MEG0333' 'MEG0332' 'MEG0331' 'MEG0343' 'MEG0342' 'MEG0341' 'MEG0413' 'MEG0412' 'MEG0411' 'MEG0422' 'MEG0423' 'MEG0421' 'MEG0432' 'MEG0433' 'MEG0431' 'MEG0443' 'MEG0442' 'MEG0441' 'MEG0513' 'MEG0512' 'MEG0511' 'MEG0523' 'MEG0522' 'MEG0521' 'MEG0532' 'MEG0533' 'MEG0531' 'MEG0542' 'MEG0543' 'MEG0541' 'MEG0613' 'MEG0612' 'MEG0611' 'MEG0622' 'MEG0623' 'MEG0621' 'MEG0633' 'MEG0632' 'MEG0631' 'MEG0642' 'MEG0643' 'MEG0641' 'MEG0713' 'MEG0712' 'MEG0711' 'MEG0723' 'MEG0722' 'MEG0721' 'MEG0733' 'MEG0732' 'MEG0731' 'MEG0743' 'MEG0742' 'MEG0741' 'MEG0813' 'MEG0812' 'MEG0811' 'MEG0822' 'MEG0823' 'MEG0821' 'MEG0913' 'MEG0912' 'MEG0911' 'MEG0923' 'MEG0922' 'MEG0921' 'MEG0932' 'MEG0933' 'MEG0931' 'MEG0942' 'MEG0943' 'MEG0941' 'MEG1013' 'MEG1012' 'MEG1011' 'MEG1023' 'MEG1022' 'MEG1021' 'MEG1032' 'MEG1033' 'MEG1031' 'MEG1043' 'MEG1042' 'MEG1041' 'MEG1112' 'MEG1113' 'MEG1111' 'MEG1123' 'MEG1122' 'MEG1121' 'MEG1133' 'MEG1132' 'MEG1131' 'MEG1142' 'MEG1143' 'MEG1141' 'MEG1213' 'MEG1212' 'MEG1211' 'MEG1223' 'MEG1222' 'MEG1221' 'MEG1232' 'MEG1233' 'MEG1231' 'MEG1243' 'MEG1242' 'MEG1241' 'MEG1312' 'MEG1313' 'MEG1311' 'MEG1323' 'MEG1322' 'MEG1321' 'MEG1333' 'MEG1332' 'MEG1331' 'MEG1342' 'MEG1343' 'MEG1341' 'MEG1412' 'MEG1413' 'MEG1411' 'MEG1423' 'MEG1422' 'MEG1421' 'MEG1433' 'MEG1432' 'MEG1431' 'MEG1442' 'MEG1443' 'MEG1441' 'MEG1512' 'MEG1513' 'MEG1511' 'MEG1522' 'MEG1523' 'MEG1521' 'MEG1533' 'MEG1532' 'MEG1531' 'MEG1543' 'MEG1542' 'MEG1541' 'MEG1613' 'MEG1612' 'MEG1611' 'MEG1622' 'MEG1623' 'MEG1621' 'MEG1632' 'MEG1633' 'MEG1631' 'MEG1643' 'MEG1642' 'MEG1641' 'MEG1713' 'MEG1712' 'MEG1711' 'MEG1722' 'MEG1723' 'MEG1721' 'MEG1732' 'MEG1733' 'MEG1731' 'MEG1743' 'MEG1742' 'MEG1741' 'MEG1813' 'MEG1812' 'MEG1811' 'MEG1822' 'MEG1823' 'MEG1821' 'MEG1832' 'MEG1833' 'MEG1831' 'MEG1843' 'MEG1842' 'MEG1841' 'MEG1912' 'MEG1913' 'MEG1911' 'MEG1923' 'MEG1922' 'MEG1921' 'MEG1932' 'MEG1933' 'MEG1931' 'MEG1943' 'MEG1942' 'MEG1941' 'MEG2013' 'MEG2012' 'MEG2011' 'MEG2023' 'MEG2022' 'MEG2021' 'MEG2032' 'MEG2033' 'MEG2031' 'MEG2042' 'MEG2043' 'MEG2041' 'MEG2113' 'MEG2112' 'MEG2111' 'MEG2122' 'MEG2123' 'MEG2121' 'MEG2133' 'MEG2132' 'MEG2131' 'MEG2143' 'MEG2142' 'MEG2141' 'MEG2212' 'MEG2213' 'MEG2211' 'MEG2223' 'MEG2222' 'MEG2221' 'MEG2233' 'MEG2232' 'MEG2231' 'MEG2242' 'MEG2243' 'MEG2241' 'MEG2312' 'MEG2313' 'MEG2311' 'MEG2323' 'MEG2322' 'MEG2321' 'MEG2332' 'MEG2333' 'MEG2331' 'MEG2343' 'MEG2342' 'MEG2341' 'MEG2412' 'MEG2413' 'MEG2411' 'MEG2423' 'MEG2422' 'MEG2421' 'MEG2433' 'MEG2432' 'MEG2431' 'MEG2442' 'MEG2443' 'MEG2441' 'MEG2512' 'MEG2513' 'MEG2511' 'MEG2522' 'MEG2523' 'MEG2521' 'MEG2533' 'MEG2532' 'MEG2531' 'MEG2543' 'MEG2542' 'MEG2541' 'MEG2612' 'MEG2613' 'MEG2611' 'MEG2623' 'MEG2622' 'MEG2621' 'MEG2633' 'MEG2632' 'MEG2631' 'MEG2642' 'MEG2643' 'MEG2641' 'EOG061' 'EOG062' 'ECG063' 'MISC007' 'STI101' 'STI102' 'STI201' 'STI301' 'CHPI001' 'CHPI002' 'CHPI003' 'CHPI004' 'CHPI005' 'CHPI006' 'CHPI007' 'CHPI008' 'CHPI009' }
+reading and preprocessing
+reading and preprocessing trial 1 from 1
+Reading 118000 ... 203999  =    472.000 ...   815.996 secs... [done]
+the call to "ft_preprocessing" took 17 seconds and an estimated 246 MB
+Opening raw data file /raid/r3/p2/Luna/Multimodal/Clock/11265/MEG/11265_clock_run1_ds_sss_raw.fif...
+	Range : 118000 ... 203999  =    472.000 ...   815.996 secs
+Ready.
+Reading 118000 ... 203999  =    472.000 ...   815.996 secs... [done]
+the input is raw data with 323 channels and 1 trials
+selecting 102 channels
+baseline correcting data 
+scaling data with 1 over 0.000000
+concatenating data.
+concatenated data matrix size 102x86000
+starting decomposition using runica
+[Warning: adding /data/Luna1/ni_tools/fieldtrip/external/eeglab toolbox to your
+Matlab path] 
+
+Input data size [64,86000] = 64 channels, 86000 frames/nAfter PCA dimension reduction,
+  finding 64 ICA components using logistic ICA.
+Decomposing 20 frames per ICA weight ((4096)^2 = 86000 weights, Initial learning rate will be 0.001, block size 57.
+Learning rate will be multiplied by 0.9 whenever angledelta >= 60 deg.
+More than 32 channels: default stopping weight change 1E-7
+Training will end when wchange < 1e-07 or after 512 steps.
+Online bias adjustment will be used.
+Removing mean of each channel ...
+Final training data range: -1.96581 to 1.71222
+Reducing the data to 64 principal dimensions...
+Computing the sphering matrix...
+Starting weights are the identity matrix ...
+Sphering the data ...
+Beginning ICA training ...
+## 11274
+already have maxfilter and ICA for 11274
+## 11275
+already did 11275:1
+already did 11275:2
+[2015-03-19 14:32] running maxfilter on 11275 3
+running maxfilter on 11319 7
+[2015-03-19 14:32] finished maxfilter on 10891 4
+[2015-03-19 14:32] running maxfilter on 10891 5
+running maxfilter on 11325 8
+running maxfilter on 11325 8
+running maxfilter on 11325 8
+running maxfilter on 11325 8
+running maxfilter on 11325 8
+11325 has only  3 maxfiltered FIFs
 ## 11326
-missing 11326:1 txt file
-missing 11326:2 txt file
-missing 11326:3 txt file
-missing 11326:4 txt file
-missing 11326:5 txt file
-missing 11326:6 txt file
-missing 11326:7 txt file
-missing 11326:8 txt file
-11326 has only  0 maxfiltered FIFs
-## 11328
-missing 11328:1 txt file
-missing 11328:2 txt file
-missing 11328:3 txt file
-missing 11328:4 txt file
-missing 11328:5 txt file
-missing 11328:6 txt file
-missing 11328:7 txt file
-missing 11328:8 txt file
-11328 has only  0 maxfiltered FIFs
-## 11329
-missing 11329:1 txt file
-missing 11329:2 txt file
-missing 11329:3 txt file
-missing 11329:4 txt file
-missing 11329:5 txt file
-missing 11329:6 txt file
-missing 11329:7 txt file
-missing 11329:8 txt file
-11329 has only  0 maxfiltered FIFs
-## 11331
-missing 11331:1 txt file
-missing 11331:2 txt file
-missing 11331:3 txt file
-missing 11331:4 txt file
-missing 11331:5 txt file
-missing 11331:6 txt file
-missing 11331:7 txt file
-missing 11331:8 txt file
-11331 has only  0 maxfiltered FIFs
-## 11335
-missing 11335:1 txt file
-missing 11335:2 txt file
-missing 11335:3 txt file
-missing 11335:4 txt file
-missing 11335:5 txt file
-missing 11335:6 txt file
-missing 11335:7 txt file
-missing 11335:8 txt file
-11335 has only  0 maxfiltered FIFs
-## 11336
-missing 11336:1 txt file
-missing 11336:2 txt file
-missing 11336:3 txt file
-missing 11336:4 txt file
-missing 11336:5 txt file
-missing 11336:6 txt file
-missing 11336:7 txt file
-missing 11336:8 txt file
-11336 has only  0 maxfiltered FIFs
-## 11337
-missing 11337:1 txt file
-missing 11337:2 txt file
-missing 11337:3 txt file
-missing 11337:4 txt file
-missing 11337:5 txt file
-missing 11337:6 txt file
-missing 11337:7 txt file
-missing 11337:8 txt file
-11337 has only  0 maxfiltered FIFs
-## 11338
-missing 11338:1 txt file
-missing 11338:2 txt file
-missing 11338:3 txt file
-missing 11338:4 txt file
-missing 11338:5 txt file
-missing 11338:6 txt file
-missing 11338:7 txt file
-missing 11338:8 txt file
-11338 has only  0 maxfiltered FIFs
-## 11345
-already have maxfilter and ICA for 11345
-## 11346
-already have maxfilter and ICA for 11346
-## 11347
-missing 11347:1 txt file
-missing 11347:2 txt file
-missing 11347:3 txt file
-missing 11347:4 txt file
-missing 11347:5 txt file
-missing 11347:6 txt file
-missing 11347:7 txt file
-missing 11347:8 txt file
-11347 has only  0 maxfiltered FIFs
-## 11350
-missing 11350:1 txt file
-missing 11350:2 txt file
-missing 11350:3 txt file
-missing 11350:4 txt file
-missing 11350:5 txt file
-missing 11350:6 txt file
-missing 11350:7 txt file
-missing 11350:8 txt file
-11350 has only  0 maxfiltered FIFs
-## 11353
-running maxfilter on 11353 1
-running maxfilter on 11353 2
-running maxfilter on 11353 3
-missing 11353:4 txt file
-missing 11353:5 txt file
-missing 11353:6 txt file
-missing 11353:7 txt file
-missing 11353:8 txt file
-11353 has only  0 maxfiltered FIFs
+[2015-03-19 14:32] finished maxfilter on 11275 3
+[2015-03-19 14:32] running maxfilter on 11275 4
+running maxfilter on 11326 1
+11325 has only  3 maxfiltered FIFs
+running maxfilter on 11319 8
+## 11326
+running maxfilter on 11326 1
+[2015-03-19 14:32] finished maxfilter on 10891 5
+[2015-03-19 14:32] running maxfilter on 10891 6
