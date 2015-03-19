@@ -3261,3 +3261,6 @@ running maxfilter on 11319 8
 running maxfilter on 11326 1
 [2015-03-19 14:32] finished maxfilter on 10891 5
 [2015-03-19 14:32] running maxfilter on 10891 6
+11325 has only  3 maxfiltered FIFs
+## 11326
+running maxfilter on 11326 1
