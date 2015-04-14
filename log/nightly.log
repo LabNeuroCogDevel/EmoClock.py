@@ -752,12 +752,6 @@ no MRI for 11320 in /data/Luna1/Raw/MultiModal//11320
 NO FS for 11321
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11321_20140925
-NO FS for 11342
-	maybe
-	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11342_20150228
-NO FS for 11343
-	maybe
-	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11343_20141213
 10811: have skipfile, remove FinalDataDir/10811//MEG/skipme*!
 10814: have skipfile, remove FinalDataDir/10814//MEG/skipme*!
 10822_20140703: have skipfile, remove FinalDataDir/10822_20140703//MEG/skipme*!
@@ -802,12 +796,12 @@ Initializing clock_model
 Initializing clock_model
 Initializing clock_model
 Initializing clock_model
-Timing stopped at: 0.002 0 0.001 
+Timing stopped at: 0.001 0.001 0.002 
+Timing stopped at: 0.001 0.001 0.002 
 Initializing clock_model
-Timing stopped at: 0.001 0 0.002 
-Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0.002 0.0010  0.002 0.0010.001 0.0010.001 
-  0 0.0020.001 
-0.002  
+Timing stopped at:Timing stopped at:Timing stopped at:Timing stopped at:    0 0 0.001 0.001 0.002 0.0020 
+0.002 00.002  0.002 
+ 0.002 
 
 Timing stopped at: 0.001 0 0.001 
 11344: have skipfile, remove FinalDataDir/11344//MEG/skipme*!
@@ -1128,14 +1122,14 @@ missing 11342:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/113
 missing 11342:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run8.txt)
 11342 has only  0 maxfiltered FIFs
 ## 11343
-[2015-04-13 04:30] running maxfilter on 11343 1
-[2015-04-13 04:30] running maxfilter on 11343 2
-[2015-04-13 04:30] running maxfilter on 11343 3
-[2015-04-13 04:30] running maxfilter on 11343 4
-[2015-04-13 04:30] running maxfilter on 11343 5
-[2015-04-13 04:30] running maxfilter on 11343 6
-[2015-04-13 04:30] running maxfilter on 11343 7
-[2015-04-13 04:30] running maxfilter on 11343 8
+[2015-04-14 04:30] running maxfilter on 11343 1
+[2015-04-14 04:30] running maxfilter on 11343 2
+[2015-04-14 04:30] running maxfilter on 11343 3
+[2015-04-14 04:30] running maxfilter on 11343 4
+[2015-04-14 04:30] running maxfilter on 11343 5
+[2015-04-14 04:30] running maxfilter on 11343 6
+[2015-04-14 04:30] running maxfilter on 11343 7
+[2015-04-14 04:30] running maxfilter on 11343 8
 11343 has only  0 maxfiltered FIFs
 ## 11344
 11344:1 started but not finished (rm /data/Luna1/Multimodal/Clock/11344/MEG/maxfilter_1.log # remove procfile to continue)
