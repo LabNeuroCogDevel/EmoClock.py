@@ -819,7 +819,7 @@ missing 10822_20140703:7 bad channel txt file (/data/Luna1/Multimodal/Clock/1082
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 10822_20140703:8 bad channel txt file (/data/Luna1/Multimodal/Clock/10822_20140703/MEG/10822_20140703_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-04-22 04:31] 10822_20140703 has only  5 maxfiltered FIFs
+[2015-04-23 04:32] 10822_20140703 has only  5 maxfiltered FIFs
 ## 10873
 already have maxfilter and ICA for 10873
 ## 10891
@@ -865,7 +865,7 @@ already did 11216:5
           rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_8.log # remove procfile to retry
 	[2015-04-20 12:06] running maxfilter on 11216 8
 	[2015-04-20 12:06] finished maxfilter on 11216 8
-[2015-04-22 04:31] 11216 has only  2 maxfiltered FIFs
+[2015-04-23 04:32] 11216 has only  2 maxfiltered FIFs
 ## 11228
 already have maxfilter and ICA for 11228
 ## 11229
@@ -917,7 +917,7 @@ missing 11287:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/112
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11287:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/11287_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-04-22 04:31] 11287 has only  6 maxfiltered FIFs
+[2015-04-23 04:32] 11287 has only  6 maxfiltered FIFs
 ## 11288
 already have maxfilter and ICA for 11288
 ## 11302
@@ -957,13 +957,13 @@ already did 11323:3
 * do not have /data/Luna1/Multimodal/Clock/11323/MEG/11323_clock_run4_ds_sss_raw.fif 
 11323:4 started 
           rm /data/Luna1/Multimodal/Clock/11323/MEG/maxfilter_4.log # remove procfile to retry
-	[2015-04-20 18:17] running maxfilter on 11323 4
-	[2015-04-20 18:17] 11323:4 no raw /data/Luna1/Multimodal/Clock/11323/MEG/{11323_clock_run4_raw.fif,11323_run4_clock_raw.fif}
+	[2015-04-22 09:50] running maxfilter on 11323 4
+	[2015-04-22 09:50] 11323:4 no raw /data/Luna1/Multimodal/Clock/11323/MEG/{,}
 already did 11323:5
 already did 11323:6
 already did 11323:7
 already did 11323:8
-[2015-04-22 04:31] 11323 has only  7 maxfiltered FIFs
+[2015-04-23 04:32] 11323 has only  7 maxfiltered FIFs
 ## 11324
 already did 11324:1
 already did 11324:2
@@ -974,7 +974,7 @@ missing 11324:5 bad channel txt file (/data/Luna1/Multimodal/Clock/11324/MEG/113
 already did 11324:6
 already did 11324:7
 already did 11324:8
-[2015-04-22 04:31] 11324 has only  7 maxfiltered FIFs
+[2015-04-23 04:32] 11324 has only  7 maxfiltered FIFs
 ## 11325
 already have maxfilter and ICA for 11325
 ## 11326
@@ -1021,7 +1021,7 @@ already have maxfilter and ICA for 11329
 	[2015-04-21 13:18] failed to sss 11331 7
 missing 11331:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-04-22 04:31] 11331 has only  0 maxfiltered FIFs
+[2015-04-23 04:32] 11331 has only  0 maxfiltered FIFs
 ## 11335
 already have maxfilter and ICA for 11335
 ## 11336
@@ -1047,7 +1047,7 @@ missing 11342:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/113
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11342:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-04-22 04:31] 11342 has only  0 maxfiltered FIFs
+[2015-04-23 04:32] 11342 has only  0 maxfiltered FIFs
 ## 11343
 already have maxfilter and ICA for 11343
 ## 11344
@@ -1097,4 +1097,4 @@ already did 11353:4
           rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_8.log # remove procfile to retry
 	[2015-04-21 12:35] running maxfilter on 11353 8
 	[2015-04-21 12:42] failed to sss 11353 8
-[2015-04-22 04:31] 11353 has only  1 maxfiltered FIFs
+[2015-04-23 04:32] 11353 has only  1 maxfiltered FIFs
