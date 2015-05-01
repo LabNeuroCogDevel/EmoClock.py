@@ -69,6 +69,11 @@ already have MEG_11346_20141230_tc.mat in /data/Luna1/EmoClockMEG/subjs/11346_20
 already have MEG_11347_20141217_tc.mat in /data/Luna1/EmoClockMEG/subjs/11347_20141217/behavior
 already have MEG_11350_20141204_tc.mat in /data/Luna1/EmoClockMEG/subjs/11350_20141204/behavior
 already have MEG_11353_20141230_tc.mat in /data/Luna1/EmoClockMEG/subjs/11353_20141230/behavior
+receiving incremental file list
+>f+++++++++ MEG_11366_20150430_tc.mat
+
+sent 42 bytes  received 88.18K bytes  58.82K bytes/sec
+total size is 88.05K  speedup is 1.00
 linking all /data/Luna1/MultiModal/MEG_Raw to /data/Luna1/EmoClockMEG/subjs/
 behave2csv: 10637 20140312 1: skipping (have both eve and csv)
 behave2csv: 10637 20140312 2: skipping (have both eve and csv)
@@ -745,6 +750,46 @@ behave2csv: 11353 20141230 5: skipping (have both eve and csv)
 behave2csv: 11353 20141230 6: skipping (have both eve and csv)
 behave2csv: 11353 20141230 7: skipping (have both eve and csv)
 behave2csv: 11353 20141230 8: skipping (have both eve and csv)
+11366 20150430 1 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run1_raw.fif 
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11366 20150430 2 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run2_raw.fif 
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11366 20150430 3 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run3_raw.fif 
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11366 20150430 4 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run4_raw.fif 
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11366 20150430 5 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run5_raw.fif 
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11366 20150430 6 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run6_raw.fif 
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11366 20150430 7 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run7_raw.fif 
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
+11366 20150430 8 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run8_raw.fif 
+  File "/data/Luna1/EmoClockMEG/timing.py", line 57
+    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                         ^
+SyntaxError: invalid syntax
 NO FS for 10822_20140703
 no MRI for 10822_20140703 in /data/Luna1/Raw/MultiModal//10822_20140703
 NO FS for 11320
@@ -752,6 +797,9 @@ no MRI for 11320 in /data/Luna1/Raw/MultiModal//11320
 NO FS for 11321
 	maybe
 	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11321_20140925
+NO FS for 11366
+	maybe
+	USETMUX=1 ~/src/freesurfersearcher-general/surfOne.sh -t MM -i 11366_20150425
 10811: have skipfile, remove FinalDataDir/10811//MEG/skipme*!
 10814: have skipfile, remove FinalDataDir/10814//MEG/skipme*!
 10822_20140703: have skipfile, remove FinalDataDir/10822_20140703//MEG/skipme*!
@@ -791,6 +839,23 @@ NO FS for 11321
 11344: have skipfile, remove FinalDataDir/11344//MEG/skipme*!
 11345: have skipfile, remove FinalDataDir/11345//MEG/skipme*!
 11350: have skipfile, remove FinalDataDir/11350//MEG/skipme*!
+11366 FinalDataDir/11366/
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Initializing clock_model
+Timing stopped at: 0.001 0.001 0.002 
+Initializing clock_model
+Timing stopped at: 0.002 0 0.002 
+Timing stopped at:Timing stopped at:Timing stopped at:   0.002 0.0010 0.0020.002 
+  0.001 0 0.002 0.002 
+
+Timing stopped at: 0.002 0.001 0.002 
+Timing stopped at: 0.001 0 0.001 
 ## 10637
 already have maxfilter and ICA for 10637
 ## 10638
@@ -819,7 +884,7 @@ missing 10822_20140703:7 bad channel txt file (/data/Luna1/Multimodal/Clock/1082
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 10822_20140703:8 bad channel txt file (/data/Luna1/Multimodal/Clock/10822_20140703/MEG/10822_20140703_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-04-30 04:30] 10822_20140703 has only  5 maxfiltered FIFs
+[2015-05-01 04:32] 10822_20140703 has only  5 maxfiltered FIFs
 ## 10873
 already have maxfilter and ICA for 10873
 ## 10891
@@ -865,7 +930,7 @@ already did 11216:5
           rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_8.log # remove procfile to retry
 	[2015-04-20 12:06] running maxfilter on 11216 8
 	[2015-04-20 12:06] finished maxfilter on 11216 8
-[2015-04-30 04:30] 11216 has only  2 maxfiltered FIFs
+[2015-05-01 04:32] 11216 has only  2 maxfiltered FIFs
 ## 11228
 already have maxfilter and ICA for 11228
 ## 11229
@@ -917,7 +982,7 @@ missing 11287:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/112
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11287:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/11287_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-04-30 04:30] 11287 has only  6 maxfiltered FIFs
+[2015-05-01 04:32] 11287 has only  6 maxfiltered FIFs
 ## 11288
 already have maxfilter and ICA for 11288
 ## 11302
@@ -963,7 +1028,7 @@ already did 11323:5
 already did 11323:6
 already did 11323:7
 already did 11323:8
-[2015-04-30 04:30] 11323 has only  7 maxfiltered FIFs
+[2015-05-01 04:32] 11323 has only  7 maxfiltered FIFs
 ## 11324
 already did 11324:1
 already did 11324:2
@@ -974,7 +1039,7 @@ missing 11324:5 bad channel txt file (/data/Luna1/Multimodal/Clock/11324/MEG/113
 already did 11324:6
 already did 11324:7
 already did 11324:8
-[2015-04-30 04:30] 11324 has only  7 maxfiltered FIFs
+[2015-05-01 04:32] 11324 has only  7 maxfiltered FIFs
 ## 11325
 already have maxfilter and ICA for 11325
 ## 11326
@@ -1021,7 +1086,7 @@ already have maxfilter and ICA for 11329
 	[2015-04-21 13:18] failed to sss 11331 7
 missing 11331:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-04-30 04:30] 11331 has only  0 maxfiltered FIFs
+[2015-05-01 04:32] 11331 has only  0 maxfiltered FIFs
 ## 11335
 already have maxfilter and ICA for 11335
 ## 11336
@@ -1047,7 +1112,7 @@ missing 11342:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/113
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11342:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-04-30 04:30] 11342 has only  0 maxfiltered FIFs
+[2015-05-01 04:32] 11342 has only  0 maxfiltered FIFs
 ## 11343
 already have maxfilter and ICA for 11343
 ## 11344
@@ -1096,4 +1161,22 @@ already did 11353:4
           rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_8.log # remove procfile to retry
 	[2015-04-21 12:35] running maxfilter on 11353 8
 	[2015-04-21 12:42] failed to sss 11353 8
-[2015-04-30 04:30] 11353 has only  1 maxfiltered FIFs
+[2015-05-01 04:32] 11353 has only  1 maxfiltered FIFs
+## 11366
+missing 11366:1 bad channel txt file (/data/Luna1/Multimodal/Clock/11366/MEG/11366_clock_bad_run1.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11366:2 bad channel txt file (/data/Luna1/Multimodal/Clock/11366/MEG/11366_clock_bad_run2.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11366:3 bad channel txt file (/data/Luna1/Multimodal/Clock/11366/MEG/11366_clock_bad_run3.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11366:4 bad channel txt file (/data/Luna1/Multimodal/Clock/11366/MEG/11366_clock_bad_run4.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11366:5 bad channel txt file (/data/Luna1/Multimodal/Clock/11366/MEG/11366_clock_bad_run5.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11366:6 bad channel txt file (/data/Luna1/Multimodal/Clock/11366/MEG/11366_clock_bad_run6.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11366:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11366/MEG/11366_clock_bad_run7.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11366:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11366/MEG/11366_clock_bad_run8.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+[2015-05-01 04:32] 11366 has only  0 maxfiltered FIFs
