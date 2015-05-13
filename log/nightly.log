@@ -233,48 +233,39 @@ behave2csv: 11328 20141023 5: skipping (have both eve and csv)
 behave2csv: 11328 20141023 6: skipping (have both eve and csv)
 behave2csv: 11328 20141023 7: skipping (have both eve and csv)
 behave2csv: 11328 20141023 8: skipping (have both eve and csv)
-11318 20141029 1 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11318_20141029/141029/11318_Clock_run1_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11318 20141029 2 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11318_20141029/141029/11318_Clock_run2_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11318 20141029 3 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11318_20141029/141029/11318_Clock_run3_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11318 20141029 4 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11318_20141029/141029/11318_Clock_run4_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11318 20141029 5 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11318_20141029/141029/11318_Clock_run5_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11318 20141029 6 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11318_20141029/141029/11318_Clock_run6_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11318 20141029 7 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11318_20141029/141029/11318_Clock_run7_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11318 20141029 8 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11318_20141029/141029/11318_Clock_run8_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
 behave2csv: 11313 20141104 1: skipping (have both eve and csv)
-11313 20141104 2 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11313_20141104/141104/11313_Clock_run2_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
@@ -285,42 +276,34 @@ behave2csv: 11313 20141104 5: skipping (have both eve and csv)
 behave2csv: 11313 20141104 6: skipping (have both eve and csv)
 behave2csv: 11313 20141104 7: skipping (have both eve and csv)
 behave2csv: 11313 20141104 8: skipping (have both eve and csv)
-11335 20141103 1 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11335_20141103/141103/11335_Clock_run1_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11335 20141103 2 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11335_20141103/141103/11335_Clock_run2_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11335 20141103 3 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11335_20141103/141103/11335_Clock_run3_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11335 20141103 4 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11335_20141103/141103/11335_Clock_run4_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11335 20141103 5 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11335_20141103/141103/11335_Clock_run5_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11335 20141103 6 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11335_20141103/141103/11335_Clock_run6_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11335 20141103 7 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11335_20141103/141103/11335_Clock_run7_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11335 20141103 8 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11335_20141103/141103/11335_Clock_run8_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
@@ -333,82 +316,74 @@ behave2csv: 11337 20141111 5: skipping (have both eve and csv)
 behave2csv: 11337 20141111 6: skipping (have both eve and csv)
 behave2csv: 11337 20141111 7: skipping (have both eve and csv)
 behave2csv: 11337 20141111 8: skipping (have both eve and csv)
-11336 20141121 1 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11336_20141121/141121/11336_Clock_run1_raw.fif 
+behave2csv: 11344 20141118 1: skipping (have both eve and csv)
+behave2csv: 11344 20141118 2: skipping (have both eve and csv)
+behave2csv: 11344 20141118 3: skipping (have both eve and csv)
+behave2csv: 11344 20141118 4: skipping (have both eve and csv)
+behave2csv: 11344 20141118 5: skipping (have both eve and csv)
+behave2csv: 11344 20141118 6: skipping (have both eve and csv)
+behave2csv: 11344 20141118 7: skipping (have both eve and csv)
+behave2csv: 11344 20141118 8: skipping (have both eve and csv)
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11336 20141121 2 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11336_20141121/141121/11336_Clock_run2_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11336 20141121 3 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11336_20141121/141121/11336_Clock_run3_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11336 20141121 4 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11336_20141121/141121/11336_Clock_run4_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11336 20141121 5 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11336_20141121/141121/11336_Clock_run5_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11336 20141121 6 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11336_20141121/141121/11336_Clock_run6_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11336 20141121 7 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11336_20141121/141121/11336_Clock_run7_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11336 20141121 8 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11336_20141121/141121/11336_Clock_run8_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11350 20141204 1 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11350_20141204/141204/11350_Clock_run1_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11350 20141204 2 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11350_20141204/141204/11350_Clock_run2_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11350 20141204 3 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11350_20141204/141204/11350_Clock_run3_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11350 20141204 4 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11350_20141204/141204/11350_Clock_run4_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11350 20141204 5 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11350_20141204/141204/11350_Clock_run5_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11350 20141204 6 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11350_20141204/141204/11350_Clock_run6_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11350 20141204 7 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11350_20141204/141204/11350_Clock_run7_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11350 20141204 8 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11350_20141204/141204/11350_Clock_run8_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
@@ -421,6 +396,14 @@ behave2csv: 11347 20141217 5: skipping (have both eve and csv)
 behave2csv: 11347 20141217 6: skipping (have both eve and csv)
 behave2csv: 11347 20141217 7: skipping (have both eve and csv)
 behave2csv: 11347 20141217 8: skipping (have both eve and csv)
+behave2csv: 11343 20150110 1: skipping (have both eve and csv)
+behave2csv: 11343 20150110 2: skipping (have both eve and csv)
+behave2csv: 11343 20150110 3: skipping (have both eve and csv)
+behave2csv: 11343 20150110 4: skipping (have both eve and csv)
+behave2csv: 11343 20150110 5: skipping (have both eve and csv)
+behave2csv: 11343 20150110 6: skipping (have both eve and csv)
+behave2csv: 11343 20150110 7: skipping (have both eve and csv)
+behave2csv: 11343 20150110 8: skipping (have both eve and csv)
 behave2csv: 11346 20141230 1: skipping (have both eve and csv)
 behave2csv: 11346 20141230 2: skipping (have both eve and csv)
 behave2csv: 11346 20141230 3: skipping (have both eve and csv)
@@ -437,6 +420,14 @@ behave2csv: 11342 20150228 5: skipping (have both eve and csv)
 behave2csv: 11342 20150228 6: skipping (have both eve and csv)
 behave2csv: 11342 20150228 7: skipping (have both eve and csv)
 behave2csv: 11342 20150228 8: skipping (have both eve and csv)
+behave2csv: 11250 20140422 1: skipping (have both eve and csv)
+behave2csv: 11250 20140422 2: skipping (have both eve and csv)
+behave2csv: 11250 20140422 3: skipping (have both eve and csv)
+behave2csv: 11250 20140422 4: skipping (have both eve and csv)
+behave2csv: 11250 20140422 5: skipping (have both eve and csv)
+behave2csv: 11250 20140422 6: skipping (have both eve and csv)
+behave2csv: 11250 20140422 7: skipping (have both eve and csv)
+behave2csv: 11250 20140422 8: skipping (have both eve and csv)
 behave2csv: 10638 20140516 1: skipping (have both eve and csv)
 behave2csv: 10638 20140516 2: skipping (have both eve and csv)
 behave2csv: 10638 20140516 4: skipping (have both eve and csv)
@@ -450,6 +441,14 @@ behave2csv: 10638 20140516 6: skipping (have both eve and csv)
 behave2csv: 10638 20140516 7: skipping (have both eve and csv)
 behave2csv: 10638 20140516 3: skipping (have both eve and csv)
 behave2csv: 10638 20140516 8: skipping (have both eve and csv)
+behave2csv: 11250 20140422 1: skipping (have both eve and csv)
+behave2csv: 11250 20140422 2: skipping (have both eve and csv)
+behave2csv: 11250 20140422 3: skipping (have both eve and csv)
+behave2csv: 11250 20140422 4: skipping (have both eve and csv)
+behave2csv: 11250 20140422 5: skipping (have both eve and csv)
+behave2csv: 11250 20140422 6: skipping (have both eve and csv)
+behave2csv: 11250 20140422 7: skipping (have both eve and csv)
+behave2csv: 11250 20140422 8: skipping (have both eve and csv)
 behave2csv: 11275 20140620 1: skipping (have both eve and csv)
 behave2csv: 11275 20140620 2: skipping (have both eve and csv)
 behave2csv: 11275 20140620 3: skipping (have both eve and csv)
@@ -458,6 +457,14 @@ behave2csv: 11275 20140620 5: skipping (have both eve and csv)
 behave2csv: 11275 20140620 6: skipping (have both eve and csv)
 behave2csv: 11275 20140620 7: skipping (have both eve and csv)
 behave2csv: 11275 20140620 8: skipping (have both eve and csv)
+behave2csv: 10822 20140703 1: skipping (have both eve and csv)
+behave2csv: 10822 20140703 2: skipping (have both eve and csv)
+behave2csv: 10822 20140703 3: skipping (have both eve and csv)
+behave2csv: 10822 20140703 4: skipping (have both eve and csv)
+behave2csv: 10822 20140703 5: skipping (have both eve and csv)
+behave2csv: 10822 20140703 6: skipping (have both eve and csv)
+behave2csv: 10822 20140703 7: skipping (have both eve and csv)
+behave2csv: 10822 20140703 8: skipping (have both eve and csv)
 behave2csv: 11162 20140708 1: skipping (have both eve and csv)
 behave2csv: 11162 20140708 3: skipping (have both eve and csv)
 behave2csv: 11162 20140708 4: skipping (have both eve and csv)
@@ -482,6 +489,14 @@ behave2csv: 11288 20140711 5: skipping (have both eve and csv)
 behave2csv: 11288 20140711 6: skipping (have both eve and csv)
 behave2csv: 11288 20140711 7: skipping (have both eve and csv)
 behave2csv: 11288 20140711 8: skipping (have both eve and csv)
+behave2csv: 11304 20140722 1: skipping (have both eve and csv)
+behave2csv: 11304 20140722 2: skipping (have both eve and csv)
+behave2csv: 11304 20140722 3: skipping (have both eve and csv)
+behave2csv: 11304 20140722 4: skipping (have both eve and csv)
+behave2csv: 11304 20140722 5: skipping (have both eve and csv)
+behave2csv: 11304 20140722 6: skipping (have both eve and csv)
+behave2csv: 11304 20140722 7: skipping (have both eve and csv)
+behave2csv: 11304 20140722 8: skipping (have both eve and csv)
 behave2csv: 10811 20140801 1: skipping (have both eve and csv)
 behave2csv: 10811 20140801 2: skipping (have both eve and csv)
 behave2csv: 10811 20140801 3: skipping (have both eve and csv)
@@ -522,6 +537,14 @@ behave2csv: 10711 20140825 5: skipping (have both eve and csv)
 behave2csv: 10711 20140825 6: skipping (have both eve and csv)
 behave2csv: 10711 20140825 7: skipping (have both eve and csv)
 behave2csv: 10711 20140825 8: skipping (have both eve and csv)
+behave2csv: 11305 20140825 1: skipping (have both eve and csv)
+behave2csv: 11305 20140825 2: skipping (have both eve and csv)
+behave2csv: 11305 20140825 3: skipping (have both eve and csv)
+behave2csv: 11305 20140825 4: skipping (have both eve and csv)
+behave2csv: 11305 20140825 5: skipping (have both eve and csv)
+behave2csv: 11305 20140825 6: skipping (have both eve and csv)
+behave2csv: 11305 20140825 7: skipping (have both eve and csv)
+behave2csv: 11305 20140825 8: skipping (have both eve and csv)
 behave2csv: 11315 20140815 1: skipping (have both eve and csv)
 behave2csv: 11315 20140815 2: skipping (have both eve and csv)
 behave2csv: 11315 20140815 3: skipping (have both eve and csv)
@@ -687,37 +710,30 @@ behave2csv: 11338 20141110 5: skipping (have both eve and csv)
 behave2csv: 11338 20141110 6: skipping (have both eve and csv)
 behave2csv: 11338 20141110 7: skipping (have both eve and csv)
 behave2csv: 11338 20141110 8: skipping (have both eve and csv)
-11331 20141120 1 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_Run1_Raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11331 20141120 4 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_Run4_Raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11331 20141120 5 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_Run5_Raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11331 20141120 6 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_Run6_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11331 20141120 2 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_run2_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11331 20141120 3 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_run3_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
 SyntaxError: invalid syntax
-11331 20141120 7 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11331_20141120/141120/11331_Clock_run7_raw.fif 
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
@@ -730,6 +746,7 @@ behave2csv: 11323 20141209 5: skipping (have both eve and csv)
 behave2csv: 11323 20141209 6: skipping (have both eve and csv)
 behave2csv: 11323 20141209 7: skipping (have both eve and csv)
 behave2csv: 11323 20141209 8: skipping (have both eve and csv)
+behave2csv: 11323 20141209 4: skipping (have both eve and csv)
 behave2csv: 11345 20141229 1: skipping (have both eve and csv)
 behave2csv: 11345 20141229 2: skipping (have both eve and csv)
 behave2csv: 11345 20141229 3: skipping (have both eve and csv)
@@ -746,46 +763,14 @@ behave2csv: 11353 20141230 5: skipping (have both eve and csv)
 behave2csv: 11353 20141230 6: skipping (have both eve and csv)
 behave2csv: 11353 20141230 7: skipping (have both eve and csv)
 behave2csv: 11353 20141230 8: skipping (have both eve and csv)
-11366 20150430 1 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run1_raw.fif 
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-11366 20150430 2 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run2_raw.fif 
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-11366 20150430 3 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run3_raw.fif 
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-11366 20150430 4 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run4_raw.fif 
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-11366 20150430 5 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run5_raw.fif 
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-11366 20150430 6 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run6_raw.fif 
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-11366 20150430 7 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run7_raw.fif 
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-11366 20150430 8 pdio timing adjustment for /data/Luna1/MultiModal/MEG_Raw/11366_20150430/150430/11366_Clock_run8_raw.fif 
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
+behave2csv: 11366 20150430 1: skipping (have both eve and csv)
+behave2csv: 11366 20150430 2: skipping (have both eve and csv)
+behave2csv: 11366 20150430 3: skipping (have both eve and csv)
+behave2csv: 11366 20150430 4: skipping (have both eve and csv)
+behave2csv: 11366 20150430 5: skipping (have both eve and csv)
+behave2csv: 11366 20150430 6: skipping (have both eve and csv)
+behave2csv: 11366 20150430 7: skipping (have both eve and csv)
+behave2csv: 11366 20150430 8: skipping (have both eve and csv)
 NO FS for 11320
 no MRI for 11320 in /data/Luna1/Raw/MultiModal//11320
 10811: have skipfile, remove FinalDataDir/10811//MEG/skipme*!
@@ -861,7 +846,7 @@ missing 10822:7 bad channel txt file (/data/Luna1/Multimodal/Clock/10822/MEG/108
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 10822:8 bad channel txt file (/data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-05-11 04:31] 10822 has only  0 maxfiltered FIFs
+[2015-05-13 04:31] 10822 has only  0 maxfiltered FIFs
 ## 10873
 already have maxfilter and ICA for 10873
 ## 10891
@@ -907,7 +892,7 @@ already did 11216:5
           rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_8.log # remove procfile to retry
 	[2015-04-20 12:06] running maxfilter on 11216 8
 	[2015-04-20 12:06] finished maxfilter on 11216 8
-[2015-05-11 04:31] 11216 has only  2 maxfiltered FIFs
+[2015-05-13 04:31] 11216 has only  2 maxfiltered FIFs
 ## 11228
 already have maxfilter and ICA for 11228
 ## 11229
@@ -959,7 +944,7 @@ missing 11287:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/112
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11287:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/11287_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-05-11 04:31] 11287 has only  6 maxfiltered FIFs
+[2015-05-13 04:31] 11287 has only  6 maxfiltered FIFs
 ## 11288
 already have maxfilter and ICA for 11288
 ## 11302
@@ -1004,7 +989,7 @@ missing 11324:5 bad channel txt file (/data/Luna1/Multimodal/Clock/11324/MEG/113
 already did 11324:6
 already did 11324:7
 already did 11324:8
-[2015-05-11 04:31] 11324 has only  7 maxfiltered FIFs
+[2015-05-13 04:31] 11324 has only  7 maxfiltered FIFs
 ## 11325
 already have maxfilter and ICA for 11325
 ## 11326
@@ -1051,7 +1036,7 @@ already have maxfilter and ICA for 11329
 	[2015-04-21 13:18] failed to sss 11331 7
 missing 11331:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-05-11 04:31] 11331 has only  0 maxfiltered FIFs
+[2015-05-13 04:31] 11331 has only  0 maxfiltered FIFs
 ## 11335
 already have maxfilter and ICA for 11335
 ## 11336
@@ -1077,7 +1062,7 @@ missing 11342:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/113
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11342:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-05-11 04:31] 11342 has only  0 maxfiltered FIFs
+[2015-05-13 04:31] 11342 has only  0 maxfiltered FIFs
 ## 11343
 already have maxfilter and ICA for 11343
 ## 11344
@@ -1126,6 +1111,6 @@ already did 11353:4
           rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_8.log # remove procfile to retry
 	[2015-04-21 12:35] running maxfilter on 11353 8
 	[2015-04-21 12:42] failed to sss 11353 8
-[2015-05-11 04:31] 11353 has only  1 maxfiltered FIFs
+[2015-05-13 04:31] 11353 has only  1 maxfiltered FIFs
 ## 11366
 already have maxfilter and ICA for 11366
