@@ -66,7 +66,9 @@ df = pd.DataFrame(trial,columns=columns)
 ### MEG 
 
 # meg file
+#raw = mne.io.Raw(args.fiffile) # 2015008 -- newer mne call
 raw = mne.fiff.Raw(args.fiffile)# ,preload=True) # preload to enable editing
+
 
 
 ## get only the trials that are in this run

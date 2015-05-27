@@ -21,10 +21,5 @@ for s in 1*/; do
   for r in 1 2 3 4 5 6 7 8; do
     $scriptdir/03_01_maxFilter.bash $s $r
   done
-  # wait for any unfinished jobs
-  wait
-
-
-  $scriptdir/03_02_ICA.bash $s
 
 done

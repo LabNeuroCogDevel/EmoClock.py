@@ -14,17 +14,20 @@ for s in subjs/1*_*/; do
  # before we create folders for subject MEG 
  # make sure they have MEG data
  rawSubjDir=$rawdir/$subj_date 
- [ ! -d $rawSubjDir ] && echo "no MEG data for $subj_date!" && continue
+ [ ! -d $rawSubjDir ] && echo "no MEG data for $subj_date! ($rawSubjDir dne)" && continue
 
  # make the directory if we need
  [  -d $finalSubjDir ] ||  mkdir -p $finalSubjDir
  # copy all the files that match our needs
  # 11253_Clock_Run1_Raw.fif
- find "$rawSubjDir" -regextype posix-extended -iregex ".*/${subj}.*_[Cc]lock_([Rr]est|[Ee]mptyroom|[Rr]un[1-8])_[Rr]aw.fif" | while read f; do
+ find -L "$rawSubjDir" -regextype posix-extended -iregex ".*/${subj}.*_[Cc]lock_([Rr]est|[Ee]mptyroom|[Rr]un[1-8])_[Rr]aw.fif" | while read f; do
    newname="$finalSubjDir/$(basename "$f" | perl -ne 's/_\d{8}//; print lc($_)')"
    [ -r $newname ] && continue
    echo $newname
    cp $f $newname
+   # these copies are big
+   # maybe we should link
+   # and remove write permissions
  done
 
 done

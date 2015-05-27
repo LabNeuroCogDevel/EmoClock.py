@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+echo "# Get Behave data"
 scriptdir=$(cd $(dirname $0); pwd)
 
 ## TODO: mount on wallace and save this struggle
@@ -13,9 +14,13 @@ ssh lncd@reese 'find /mnt/B/bea_res/Data/Tasks/EmoClockMEG/ -type f -iname "MEG*
   bedir=$scriptdir/subjs/$subjid/behavior
   [ ! -d $bedir ] && mkdir -p $bedir
 
-  [ -r $bedir/$(basename $mat) ] && echo "already have $(basename $mat) in $bedir" && continue
+  #[ -r $bedir/$(basename $mat) ] && echo "already have $(basename $mat) in $bedir" && continue
+  [ -r $bedir/$(basename $mat) ] && continue
 
   # grab it (with rsync)
   rsync -avhi lncd@reese:$mat  $bedir/
 
 done
+
+
+awk '($3==0){print $1 "_" $2}' $scriptdir/subj_date_drop_note.txt |sort| while read ld; do [ -d $scriptdir/subjs/$ld ] || echo "missing .mat behave for $ld"; done

@@ -9,7 +9,7 @@ for s in 10637; do
 		-f /data/Luna1/Multimodal/Clock/${s}/MEG/${s}_clock_run${r}_raw.fif \
 		-o /data/Luna1/Multimodal/Clock/${s}/MEG/${s}_clock_run${r}_raw_chpi_sss.fif \
 		-origin fit -autobad off \
-		-bad $(sed s/MEG// /data/Luna1/Multimodal/Clock/${s}/MEG/${s}_clock_bad_run${r}.txt) \
+		-bad $(sed 's/MEG//;s/#.*//' /data/Luna1/Multimodal/Clock/${s}/MEG/${s}_clock_bad_run${r}.txt) \
 		-st 10 -movecomp inter -v -force \
 		-ctc /data/Luna1/ni_tools/maxfilter_calib/ct_sparse.fif \
 		-cal /data/Luna1/ni_tools/maxfilter_calib/sss_cal.dat \

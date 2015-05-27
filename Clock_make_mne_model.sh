@@ -1,6 +1,10 @@
 #!/bin/bash
+set -xe
 # this is the script that will process anatomical MRI data (processed by freesurfer)
 # to create source space for MNE analyses.
+
+[ -z "$1" ] && echo "no subject given as first argument to $0!" && exit 1
+[ ! -d "$SUBJECTS_DIR/$1" ] && echo "$SUBJECTS_DIR/$1 DNE" && exit 1
 
 # only parameter is the subject name
 cd $SUBJECTS_DIR
@@ -27,7 +31,8 @@ mne_surf2bem --surf $SUBJECTS_DIR/$1/surf/lh.seghead --id 4 --check --fif $SUBJE
 											#seghead for old version
 cd  $SUBJECTS_DIR/$1/bem
 mv $1-head.fif $1-head-sparse.fif
-cp $1-head-dense.fif $1-head.fif
+ln $1-head-dense.fif $1-head.fif
+
 cd $SUBJECTS_DIR
 
 #run transformation to fsaverage

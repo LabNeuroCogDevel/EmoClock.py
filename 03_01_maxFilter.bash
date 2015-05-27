@@ -35,10 +35,17 @@ transfile="$sdir/${s}_clock_run${r}_trans.log"
 
 echo "[$(date +%F\ %H:%M)] running maxfilter on $s $r" | tee $procfile
 
-pattern="${s}_clock_run${r}_raw.fif"
-inputfile=$(find $sdir -iname $pattern|tail -n1 )
+findcond="$(
+ for pat in "${s}_clock_run${r}_raw.fif" "${s}_run${r}_clock_raw.fif"\
+           "${s%%_*}_run${r}_clock_raw.fif" "${s%%_*}_clock_run${r}_raw.fif"; do
+      echo -n "  -iname $pat -or"
+ done| sed 's/...$//' # remove last 3 chars: the left over "-or"
+)"
+set -x
+inputfile=$(find -L $sdir $findcond |tail -n1 )
+set +x
 
-[ -z "$inputfile" ] && log "$s:$r no raw $sdir/$pattern" $procfile && exit 1
+[ -z "$inputfile" ] && log "$s:$r no raw $sdir/{$pattern1,$pattern2}" $procfile && exit 1
 
 if ! maxfilter-2.2 \
       -f $inputfile \

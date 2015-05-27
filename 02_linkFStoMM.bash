@@ -22,7 +22,7 @@ for subjdir in $newdir/*/; do
 
  for fsitem in $subjFSdir/*; do
   newloc="$newdir/$subj/$(basename $fsitem)"
-  [ -r $newloc ] && continue
+  [ -r "$newloc" ] && continue
   ln -s $fsitem $newloc
  done
 

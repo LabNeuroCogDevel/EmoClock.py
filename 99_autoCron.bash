@@ -11,12 +11,15 @@
 # FINAL /data/Luna1/MultiModal/Clock/
 
 ## run from HERE: /data/Luna1/EmoClockMEG
-cd $(cd $(dirname $0);pwd)
+cd $(dirname $0);
+
+# read db to get a subject list (with notes and drops)
+./00_0_subjectlistFromSql.bash 2>&1 > log/nightly.log
 
 ## get MAT
 # retrive the button press timings and conditions (.mat)
 # stored on B, mounted on reese
-./00_getBehave.bash  2>&1 > log/nightly.log
+./00_getBehave.bash  2>&1 >> log/nightly.log
 
 ls subjs/*/behavior/*.csv | perl -F/ -slane '$_=$F[$#F]; m/\d{5}_\d{8}/; print $&' |sort |uniq -c > log/behavior.txt
 
@@ -40,7 +43,7 @@ ls subjs/*/behavior/*.csv | perl -F/ -slane '$_=$F[$#F]; m/\d{5}_\d{8}/; print $
 # /data/Luna1/MultiModal/FS_Subjects/ --> /data/Luna1/MultiModal/Clock/
 ./02_linkFStoMM.bash 2>&1 >> log/nightly.log
 # TODO:
-# run clock_mne_model.sh if we have FS
+# run Clock_make_mne_model.sh if we have FS
 
 # generate R models and column vectors of rpe,ev, and Reward
 ./03_generateFitClockModels.bash 2>&1 >> log/nightly.log
@@ -49,6 +52,7 @@ ls Rprof* 2>/dev/null && mv Rprof* rout # R profile files
 # run clock_maxfilter_Scripts if we have 8 text files for the subject
 #     clock_ICA_denoise_wrapper w/ fieldtrip in path if we have done max filter
 ./03_maxFilter_ICA.bash 2>&1 >> log/nightly.log
+#WARNING maxfilter never finishes on some people -- see log for procfile
 #TODO:
 # mail julia if there are missing text files
 

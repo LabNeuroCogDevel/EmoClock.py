@@ -233,81 +233,264 @@ behave2csv: 11328 20141023 5: skipping (have both eve and csv)
 behave2csv: 11328 20141023 6: skipping (have both eve and csv)
 behave2csv: 11328 20141023 7: skipping (have both eve and csv)
 behave2csv: 11328 20141023 8: skipping (have both eve and csv)
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
 behave2csv: 11313 20141104 1: skipping (have both eve and csv)
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
+/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/mne/utils.py:475: DeprecationWarning: Class Raw is deprecated; Use mne.io.Raw as mne.fiff.Raw is deprecated and will be removed in v0.9.
+  warnings.warn(msg, category=DeprecationWarning)
+Opening raw data file /raid/r3/p2/Luna/Multimodal/MEG_Raw/11313_20141104/141104/11313_Clock_run2_raw.fif...
+    Read a total of 14 projection items:
+        mag_ssp.fif : PCA-v1 (1 x 306)  idle
+        mag_ssp.fif : PCA-v2 (1 x 306)  idle
+        mag_ssp.fif : PCA-v3 (1 x 306)  idle
+        mag_ssp.fif : PCA-v4 (1 x 306)  idle
+        mag_ssp.fif : PCA-v5 (1 x 306)  idle
+        mag_ssp.fif : PCA-v6 (1 x 306)  idle
+        mag_ssp.fif : PCA-v7 (1 x 306)  idle
+        mag_ssp.fif : PCA-v8 (1 x 306)  idle
+        mag_ssp.fif : PCA-v9 (1 x 306)  idle
+        grad_ssp.fif : PCA-v1 (1 x 306)  idle
+        grad_ssp.fif : PCA-v2 (1 x 306)  idle
+        grad_ssp.fif : PCA-v3 (1 x 306)  idle
+        grad_ssp.fif : PCA-v4 (1 x 306)  idle
+        grad_ssp.fif : PCA-v5 (1 x 306)  idle
+Current compensation grade : 0
+    Range : 19000 ... 269999 =     19.000 ...   269.999 secs
+Ready.
+Reading 0 ... 250999  =      0.000 ...   250.999 secs...
+[done]
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 265, in <module>
+    raise Exception('trials from trigger do not match matlab file!')    
+Exception: trials from trigger do not match matlab file!
 behave2csv: 11313 20141104 3: skipping (have both eve and csv)
 behave2csv: 11313 20141104 4: skipping (have both eve and csv)
 behave2csv: 11313 20141104 5: skipping (have both eve and csv)
 behave2csv: 11313 20141104 6: skipping (have both eve and csv)
 behave2csv: 11313 20141104 7: skipping (have both eve and csv)
 behave2csv: 11313 20141104 8: skipping (have both eve and csv)
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance code
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance code
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance code
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance code
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance code
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance code
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance code
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance code
 behave2csv: 11337 20141111 1: skipping (have both eve and csv)
 behave2csv: 11337 20141111 2: skipping (have both eve and csv)
 behave2csv: 11337 20141111 3: skipping (have both eve and csv)
@@ -324,70 +507,230 @@ behave2csv: 11344 20141118 5: skipping (have both eve and csv)
 behave2csv: 11344 20141118 6: skipping (have both eve and csv)
 behave2csv: 11344 20141118 7: skipping (have both eve and csv)
 behave2csv: 11344 20141118 8: skipping (have both eve and csv)
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 50, in <module>
+    mat   = scipy.io.loadmat(args.matfile,struct_as_record=True);
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio.py", line 132, in loadmat
+    matfile_dict = MR.get_variables(variable_names)
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 272, in get_variables
+    hdr, next_position = self.read_var_header()
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/scipy-0.14.0-py2.7-linux-x86_64.egg/scipy/io/matlab/mio5.py", line 226, in read_var_header
+    mdtype, byte_count = self._matrix_reader.read_full_tag()
+  File "mio5_utils.pyx", line 498, in scipy.io.matlab.mio5_utils.VarReader5.read_full_tag (scipy/io/matlab/mio5_utils.c:4361)
+  File "mio5_utils.pyx", line 506, in scipy.io.matlab.mio5_utils.VarReader5.cread_full_tag (scipy/io/matlab/mio5_utils.c:4427)
+  File "streams.pyx", line 169, in scipy.io.matlab.streams.ZlibInputStream.read_into (scipy/io/matlab/streams.c:2430)
+  File "streams.pyx", line 156, in scipy.io.matlab.streams.ZlibInputStream._fill_buffer (scipy/io/matlab/streams.c:2323)
+zlib.error: Error -3 while decompressing: invalid distance too far back
 behave2csv: 11347 20141217 1: skipping (have both eve and csv)
 behave2csv: 11347 20141217 2: skipping (have both eve and csv)
 behave2csv: 11347 20141217 3: skipping (have both eve and csv)
@@ -710,34 +1053,52 @@ behave2csv: 11338 20141110 5: skipping (have both eve and csv)
 behave2csv: 11338 20141110 6: skipping (have both eve and csv)
 behave2csv: 11338 20141110 7: skipping (have both eve and csv)
 behave2csv: 11338 20141110 8: skipping (have both eve and csv)
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
-  File "/data/Luna1/EmoClockMEG/timing.py", line 57
-    trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
-                         ^
-SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 10, in <module>
+    import mne;
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/mne/__init__.py", line 7, in <module>
+    from .utils import (set_log_level, set_log_file, verbose, set_config,
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/mne/utils.py", line 28, in <module>
+    import numpy as np
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/numpy/__init__.py", line 137, in <module>
+    import add_newdocs
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/numpy/add_newdocs.py", line 9, in <module>
+    from numpy.lib import add_newdoc
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/numpy/lib/__init__.py", line 13, in <module>
+    from polynomial import *
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/numpy/lib/polynomial.py", line 17, in <module>
+    from numpy.linalg import eigvals, lstsq
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/numpy/linalg/__init__.py", line 48, in <module>
+    from linalg import *
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/numpy/linalg/linalg.py", line 23, in <module>
+    from numpy.linalg import lapack_lite
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 10, in <module>
+    import mne;
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/mne/__init__.py", line 7, in <module>
+    from .utils import (set_log_level, set_log_file, verbose, set_config,
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/mne/utils.py", line 28, in <module>
+    import numpy as np
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/numpy/__init__.py", line 131, in <module>
+    from _import_tools import PackageLoader
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site-packages/numpy/_import_tools.py", line 1, in <module>
+    import os
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/site.py", line 62, in <module>
+    import os
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/os.py", line 398, in <module>
+    import UserDict
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/UserDict.py", line 83, in <module>
+    import _abcoll
+  File "/data/Luna1/ni_tools/python/2.7.3/lib/python2.7/_abcoll.py", line 9, in <module>
+    """
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/data/Luna1/EmoClockMEG/timing.py", line 10, in <module>
+    import mne;
+
 behave2csv: 11323 20141209 4: skipping (have both eve and csv)
 behave2csv: 11323 20141209 1: skipping (have both eve and csv)
 behave2csv: 11323 20141209 2: skipping (have both eve and csv)
@@ -771,6 +1132,791 @@ behave2csv: 11366 20150430 5: skipping (have both eve and csv)
 behave2csv: 11366 20150430 6: skipping (have both eve and csv)
 behave2csv: 11366 20150430 7: skipping (have both eve and csv)
 behave2csv: 11366 20150430 8: skipping (have both eve and csv)
+MEG_10637_20140312_1: have 3 parsed eves
+MEG_10637_20140312_2: have 3 parsed eves
+MEG_10637_20140312_3: have 3 parsed eves
+MEG_10637_20140312_4: have 3 parsed eves
+MEG_10637_20140312_5: have 3 parsed eves
+MEG_10637_20140312_6: have 3 parsed eves
+MEG_10637_20140312_7: have 3 parsed eves
+MEG_10637_20140312_8: have 3 parsed eves
+MEG_10997_20140221_1: have 3 parsed eves
+MEG_10997_20140221_2: have 3 parsed eves
+MEG_10997_20140221_3: have 3 parsed eves
+MEG_10997_20140221_4: have 3 parsed eves
+MEG_10997_20140221_5: have 3 parsed eves
+MEG_10997_20140221_6: have 3 parsed eves
+MEG_10997_20140221_7: have 3 parsed eves
+MEG_10997_20140221_8: have 3 parsed eves
+MEG_11229_20140212_1: have 3 parsed eves
+MEG_11229_20140212_2: have 3 parsed eves
+MEG_11229_20140212_3: have 3 parsed eves
+MEG_11229_20140212_4: have 3 parsed eves
+MEG_11229_20140212_5: have 3 parsed eves
+MEG_11229_20140212_6: have 3 parsed eves
+MEG_11229_20140212_7: have 3 parsed eves
+MEG_11229_20140212_8: have 3 parsed eves
+MEG_11243_20140213_1: have 3 parsed eves
+MEG_11243_20140213_2: have 3 parsed eves
+MEG_11243_20140213_3: have 3 parsed eves
+MEG_11243_20140213_4: have 3 parsed eves
+MEG_11243_20140213_5: have 3 parsed eves
+MEG_11243_20140213_6: have 3 parsed eves
+MEG_11243_20140213_7: have 3 parsed eves
+MEG_11243_20140213_8: have 3 parsed eves
+MEG_11246_20140218_1: have 3 parsed eves
+MEG_11246_20140218_2: have 3 parsed eves
+MEG_11246_20140218_3: have 3 parsed eves
+MEG_11246_20140218_4: have 3 parsed eves
+MEG_11246_20140218_5: have 3 parsed eves
+MEG_11246_20140218_6: have 3 parsed eves
+MEG_11246_20140218_7: have 3 parsed eves
+MEG_11246_20140218_8: have 3 parsed eves
+MEG_11253_20140219_1: have 3 parsed eves
+MEG_11253_20140219_2: have 3 parsed eves
+MEG_11253_20140219_3: have 3 parsed eves
+MEG_11253_20140219_5: have 3 parsed eves
+MEG_11253_20140219_6: have 3 parsed eves
+MEG_11253_20140219_7: have 3 parsed eves
+MEG_11253_20140219_8: have 3 parsed eves
+MEG_11255_20140318_1: have 3 parsed eves
+MEG_11255_20140318_2: have 3 parsed eves
+MEG_11255_20140318_3: have 3 parsed eves
+MEG_11255_20140318_4: have 3 parsed eves
+MEG_11255_20140318_5: have 3 parsed eves
+MEG_11255_20140318_6: have 3 parsed eves
+MEG_11255_20140318_7: have 3 parsed eves
+MEG_11255_20140318_8: have 3 parsed eves
+MEG_11258_20140303_8: have 3 parsed eves
+MEG_11258_20140303_1: have 3 parsed eves
+MEG_11258_20140303_2: have 3 parsed eves
+MEG_11258_20140303_3: have 3 parsed eves
+MEG_11258_20140303_4: have 3 parsed eves
+MEG_11258_20140303_5: have 3 parsed eves
+MEG_11258_20140303_6: have 3 parsed eves
+MEG_11258_20140303_7: have 3 parsed eves
+MEG_11262_20140312_1: have 3 parsed eves
+MEG_11262_20140312_2: have 3 parsed eves
+MEG_11262_20140312_3: have 3 parsed eves
+MEG_11262_20140312_4: have 3 parsed eves
+MEG_11262_20140312_5: have 3 parsed eves
+MEG_11262_20140312_6: have 3 parsed eves
+MEG_11262_20140312_7: have 3 parsed eves
+MEG_11262_20140312_8: have 3 parsed eves
+MEG_11263_20140324_1: have 3 parsed eves
+MEG_11263_20140324_2: have 3 parsed eves
+MEG_11263_20140324_3: have 3 parsed eves
+MEG_11263_20140324_4: have 3 parsed eves
+MEG_11263_20140324_5: have 3 parsed eves
+MEG_11263_20140324_6: have 3 parsed eves
+MEG_11263_20140324_7: have 3 parsed eves
+MEG_11263_20140324_8: have 3 parsed eves
+MEG_10662_20140415_1: have 3 parsed eves
+MEG_10662_20140415_2: have 3 parsed eves
+MEG_10662_20140415_3: have 3 parsed eves
+MEG_10662_20140415_4: have 3 parsed eves
+MEG_10662_20140415_5: have 3 parsed eves
+MEG_10662_20140415_6: have 3 parsed eves
+MEG_10662_20140415_7: have 3 parsed eves
+MEG_10662_20140415_8: have 3 parsed eves
+MEG_10772_20140509_4: have 3 parsed eves
+MEG_10772_20140509_5: have 3 parsed eves
+MEG_10772_20140509_6: have 3 parsed eves
+MEG_10772_20140509_7: have 3 parsed eves
+MEG_10772_20140509_2: have 3 parsed eves
+MEG_10772_20140509_3: have 3 parsed eves
+MEG_10772_20140509_1: have 3 parsed eves
+MEG_10772_20140509_8: have 3 parsed eves
+MEG_11178_20140515_1: have 3 parsed eves
+MEG_11178_20140515_2: have 3 parsed eves
+MEG_11178_20140515_3: have 3 parsed eves
+MEG_11178_20140515_4: have 3 parsed eves
+MEG_11178_20140515_5: have 3 parsed eves
+MEG_11178_20140515_6: have 3 parsed eves
+MEG_11178_20140515_7: have 3 parsed eves
+MEG_11178_20140515_8: have 3 parsed eves
+MEG_11274_20140528_1: have 3 parsed eves
+MEG_11274_20140528_2: have 3 parsed eves
+MEG_11274_20140528_3: have 3 parsed eves
+MEG_11274_20140528_4: have 3 parsed eves
+MEG_11274_20140528_5: have 3 parsed eves
+MEG_11274_20140528_6: have 3 parsed eves
+MEG_11274_20140528_7: have 3 parsed eves
+MEG_11274_20140528_8: have 3 parsed eves
+MEG_11277_20140519_1: have 3 parsed eves
+MEG_11277_20140519_2: have 3 parsed eves
+MEG_11277_20140519_3: have 3 parsed eves
+MEG_11277_20140519_4: have 3 parsed eves
+MEG_11277_20140519_5: have 3 parsed eves
+MEG_11277_20140519_6: have 3 parsed eves
+MEG_11277_20140519_7: have 3 parsed eves
+MEG_11277_20140519_8: have 3 parsed eves
+MEG_11278_20140505_1: have 3 parsed eves
+MEG_11278_20140505_2: have 3 parsed eves
+MEG_11278_20140505_3: have 3 parsed eves
+MEG_11278_20140505_4: have 3 parsed eves
+MEG_11278_20140505_5: have 3 parsed eves
+MEG_11278_20140505_6: have 3 parsed eves
+MEG_11278_20140505_7: have 3 parsed eves
+MEG_11278_20140505_8: have 3 parsed eves
+MEG_11279_20140507_1: have 3 parsed eves
+MEG_11279_20140507_2: have 3 parsed eves
+MEG_11279_20140507_3: have 3 parsed eves
+MEG_11279_20140507_4: have 3 parsed eves
+MEG_11279_20140507_5: have 3 parsed eves
+MEG_11279_20140507_6: have 3 parsed eves
+MEG_11279_20140507_7: have 3 parsed eves
+MEG_11279_20140507_8: have 3 parsed eves
+MEG_11287_20140522_1: have 3 parsed eves
+MEG_11287_20140522_2: have 3 parsed eves
+MEG_11287_20140522_3: have 3 parsed eves
+MEG_11287_20140522_4: have 3 parsed eves
+MEG_11287_20140522_5: have 3 parsed eves
+MEG_11287_20140522_6: have 3 parsed eves
+MEG_10873_20141014_1: have 3 parsed eves
+MEG_10873_20141014_2: have 3 parsed eves
+MEG_10873_20141014_3: have 3 parsed eves
+MEG_10873_20141014_4: have 3 parsed eves
+MEG_10873_20141014_5: have 3 parsed eves
+MEG_10873_20141014_6: have 3 parsed eves
+MEG_10873_20141014_7: have 3 parsed eves
+MEG_10873_20141014_8: have 3 parsed eves
+MEG_11328_20141023_1: have 3 parsed eves
+MEG_11328_20141023_2: have 3 parsed eves
+MEG_11328_20141023_3: have 3 parsed eves
+MEG_11328_20141023_4: have 3 parsed eves
+MEG_11328_20141023_5: have 3 parsed eves
+MEG_11328_20141023_6: have 3 parsed eves
+MEG_11328_20141023_7: have 3 parsed eves
+MEG_11328_20141023_8: have 3 parsed eves
+MEG_11313_20141104_1: have 3 parsed eves
+MEG_11313_20141104_3: have 3 parsed eves
+MEG_11313_20141104_4: have 3 parsed eves
+MEG_11313_20141104_5: have 3 parsed eves
+MEG_11313_20141104_6: have 3 parsed eves
+MEG_11313_20141104_7: have 3 parsed eves
+MEG_11313_20141104_8: have 3 parsed eves
+MEG_11337_20141111_1: have 3 parsed eves
+MEG_11337_20141111_2: have 3 parsed eves
+MEG_11337_20141111_3: have 3 parsed eves
+MEG_11337_20141111_4: have 3 parsed eves
+MEG_11337_20141111_5: have 3 parsed eves
+MEG_11337_20141111_6: have 3 parsed eves
+MEG_11337_20141111_7: have 3 parsed eves
+MEG_11337_20141111_8: have 3 parsed eves
+MEG_11344_20141118_1
+	subjs/11344_20141118/behavior//MEG_11344_20141118_1_clock_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_1_RT_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_1_feedback_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_1_ITI_ds4.eve
+MEG_11344_20141118_2
+	subjs/11344_20141118/behavior//MEG_11344_20141118_2_clock_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_2_RT_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_2_feedback_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_2_ITI_ds4.eve
+MEG_11344_20141118_3
+	subjs/11344_20141118/behavior//MEG_11344_20141118_3_clock_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_3_RT_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_3_feedback_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_3_ITI_ds4.eve
+MEG_11344_20141118_4
+	subjs/11344_20141118/behavior//MEG_11344_20141118_4_clock_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_4_RT_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_4_feedback_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_4_ITI_ds4.eve
+MEG_11344_20141118_5
+	subjs/11344_20141118/behavior//MEG_11344_20141118_5_clock_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_5_RT_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_5_feedback_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_5_ITI_ds4.eve
+MEG_11344_20141118_6
+	subjs/11344_20141118/behavior//MEG_11344_20141118_6_clock_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_6_RT_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_6_feedback_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_6_ITI_ds4.eve
+MEG_11344_20141118_7
+	subjs/11344_20141118/behavior//MEG_11344_20141118_7_clock_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_7_RT_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_7_feedback_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_7_ITI_ds4.eve
+MEG_11344_20141118_8
+	subjs/11344_20141118/behavior//MEG_11344_20141118_8_clock_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_8_RT_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_8_feedback_ds4.eve
+	subjs/11344_20141118/behavior//MEG_11344_20141118_8_ITI_ds4.eve
+MEG_11347_20141217_1: have 3 parsed eves
+MEG_11347_20141217_2: have 3 parsed eves
+MEG_11347_20141217_3: have 3 parsed eves
+MEG_11347_20141217_4: have 3 parsed eves
+MEG_11347_20141217_5: have 3 parsed eves
+MEG_11347_20141217_6: have 3 parsed eves
+MEG_11347_20141217_7: have 3 parsed eves
+MEG_11347_20141217_8: have 3 parsed eves
+MEG_11343_20150110_1
+	subjs/11343_20150110/behavior//MEG_11343_20150110_1_clock_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_1_RT_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_1_feedback_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_1_ITI_ds4.eve
+MEG_11343_20150110_2
+	subjs/11343_20150110/behavior//MEG_11343_20150110_2_clock_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_2_RT_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_2_feedback_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_2_ITI_ds4.eve
+MEG_11343_20150110_3
+	subjs/11343_20150110/behavior//MEG_11343_20150110_3_clock_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_3_RT_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_3_feedback_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_3_ITI_ds4.eve
+MEG_11343_20150110_4
+	subjs/11343_20150110/behavior//MEG_11343_20150110_4_clock_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_4_RT_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_4_feedback_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_4_ITI_ds4.eve
+MEG_11343_20150110_5
+	subjs/11343_20150110/behavior//MEG_11343_20150110_5_clock_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_5_RT_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_5_feedback_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_5_ITI_ds4.eve
+MEG_11343_20150110_6
+	subjs/11343_20150110/behavior//MEG_11343_20150110_6_clock_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_6_RT_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_6_feedback_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_6_ITI_ds4.eve
+MEG_11343_20150110_7
+	subjs/11343_20150110/behavior//MEG_11343_20150110_7_clock_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_7_RT_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_7_feedback_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_7_ITI_ds4.eve
+MEG_11343_20150110_8
+	subjs/11343_20150110/behavior//MEG_11343_20150110_8_clock_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_8_RT_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_8_feedback_ds4.eve
+	subjs/11343_20150110/behavior//MEG_11343_20150110_8_ITI_ds4.eve
+MEG_11346_20141230_1: have 3 parsed eves
+MEG_11346_20141230_2: have 3 parsed eves
+MEG_11346_20141230_3: have 3 parsed eves
+MEG_11346_20141230_4: have 3 parsed eves
+MEG_11346_20141230_5: have 3 parsed eves
+MEG_11346_20141230_6: have 3 parsed eves
+MEG_11346_20141230_7: have 3 parsed eves
+MEG_11346_20141230_8: have 3 parsed eves
+MEG_11342_20150228_1: have 3 parsed eves
+MEG_11342_20150228_2: have 3 parsed eves
+MEG_11342_20150228_3: have 3 parsed eves
+MEG_11342_20150228_4: have 3 parsed eves
+MEG_11342_20150228_5: have 3 parsed eves
+MEG_11342_20150228_6: have 3 parsed eves
+MEG_11342_20150228_7: have 3 parsed eves
+MEG_11342_20150228_8: have 3 parsed eves
+MEG_11250_20140422_1
+	subjs/11250_20140421/behavior//MEG_11250_20140422_1_clock_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_1_RT_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_1_feedback_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_1_ITI_ds4.eve
+MEG_11250_20140422_2
+	subjs/11250_20140421/behavior//MEG_11250_20140422_2_clock_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_2_RT_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_2_feedback_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_2_ITI_ds4.eve
+MEG_11250_20140422_3
+	subjs/11250_20140421/behavior//MEG_11250_20140422_3_clock_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_3_RT_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_3_feedback_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_3_ITI_ds4.eve
+MEG_11250_20140422_4
+	subjs/11250_20140421/behavior//MEG_11250_20140422_4_clock_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_4_RT_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_4_feedback_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_4_ITI_ds4.eve
+MEG_11250_20140422_5
+	subjs/11250_20140421/behavior//MEG_11250_20140422_5_clock_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_5_RT_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_5_feedback_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_5_ITI_ds4.eve
+MEG_11250_20140422_6
+	subjs/11250_20140421/behavior//MEG_11250_20140422_6_clock_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_6_RT_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_6_feedback_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_6_ITI_ds4.eve
+MEG_11250_20140422_7
+	subjs/11250_20140421/behavior//MEG_11250_20140422_7_clock_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_7_RT_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_7_feedback_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_7_ITI_ds4.eve
+MEG_11250_20140422_8
+	subjs/11250_20140421/behavior//MEG_11250_20140422_8_clock_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_8_RT_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_8_feedback_ds4.eve
+	subjs/11250_20140421/behavior//MEG_11250_20140422_8_ITI_ds4.eve
+MEG_10638_20140516_3: have 3 parsed eves
+MEG_10638_20140516_8: have 3 parsed eves
+MEG_10638_20140516_1: have 3 parsed eves
+MEG_10638_20140516_2: have 3 parsed eves
+MEG_10638_20140516_4: have 3 parsed eves
+MEG_10638_20140516_5: have 3 parsed eves
+MEG_10638_20140516_6: have 3 parsed eves
+MEG_10638_20140516_7: have 3 parsed eves
+MEG_11250_20140422_1
+	subjs/11250_20140422/behavior//MEG_11250_20140422_1_clock_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_1_RT_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_1_feedback_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_1_ITI_ds4.eve
+MEG_11250_20140422_2
+	subjs/11250_20140422/behavior//MEG_11250_20140422_2_clock_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_2_RT_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_2_feedback_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_2_ITI_ds4.eve
+MEG_11250_20140422_3
+	subjs/11250_20140422/behavior//MEG_11250_20140422_3_clock_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_3_RT_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_3_feedback_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_3_ITI_ds4.eve
+MEG_11250_20140422_4
+	subjs/11250_20140422/behavior//MEG_11250_20140422_4_clock_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_4_RT_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_4_feedback_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_4_ITI_ds4.eve
+MEG_11250_20140422_5
+	subjs/11250_20140422/behavior//MEG_11250_20140422_5_clock_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_5_RT_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_5_feedback_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_5_ITI_ds4.eve
+MEG_11250_20140422_6
+	subjs/11250_20140422/behavior//MEG_11250_20140422_6_clock_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_6_RT_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_6_feedback_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_6_ITI_ds4.eve
+MEG_11250_20140422_7
+	subjs/11250_20140422/behavior//MEG_11250_20140422_7_clock_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_7_RT_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_7_feedback_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_7_ITI_ds4.eve
+MEG_11250_20140422_8
+	subjs/11250_20140422/behavior//MEG_11250_20140422_8_clock_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_8_RT_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_8_feedback_ds4.eve
+	subjs/11250_20140422/behavior//MEG_11250_20140422_8_ITI_ds4.eve
+MEG_11275_20140620_1: have 3 parsed eves
+MEG_11275_20140620_2: have 3 parsed eves
+MEG_11275_20140620_3: have 3 parsed eves
+MEG_11275_20140620_4: have 3 parsed eves
+MEG_11275_20140620_5: have 3 parsed eves
+MEG_11275_20140620_6: have 3 parsed eves
+MEG_11275_20140620_7: have 3 parsed eves
+MEG_11275_20140620_8: have 3 parsed eves
+MEG_10822_20140703_1
+	subjs/10822_20140703/behavior//MEG_10822_20140703_1_clock_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_1_RT_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_1_feedback_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_1_ITI_ds4.eve
+MEG_10822_20140703_2
+	subjs/10822_20140703/behavior//MEG_10822_20140703_2_clock_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_2_RT_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_2_feedback_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_2_ITI_ds4.eve
+MEG_10822_20140703_3
+	subjs/10822_20140703/behavior//MEG_10822_20140703_3_clock_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_3_RT_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_3_feedback_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_3_ITI_ds4.eve
+MEG_10822_20140703_4
+	subjs/10822_20140703/behavior//MEG_10822_20140703_4_clock_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_4_RT_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_4_feedback_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_4_ITI_ds4.eve
+MEG_10822_20140703_5
+	subjs/10822_20140703/behavior//MEG_10822_20140703_5_clock_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_5_RT_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_5_feedback_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_5_ITI_ds4.eve
+MEG_10822_20140703_6
+	subjs/10822_20140703/behavior//MEG_10822_20140703_6_clock_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_6_RT_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_6_feedback_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_6_ITI_ds4.eve
+MEG_10822_20140703_7
+	subjs/10822_20140703/behavior//MEG_10822_20140703_7_clock_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_7_RT_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_7_feedback_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_7_ITI_ds4.eve
+MEG_10822_20140703_8
+	subjs/10822_20140703/behavior//MEG_10822_20140703_8_clock_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_8_RT_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_8_feedback_ds4.eve
+	subjs/10822_20140703/behavior//MEG_10822_20140703_8_ITI_ds4.eve
+MEG_11162_20140708_1: have 3 parsed eves
+MEG_11162_20140708_3: have 3 parsed eves
+MEG_11162_20140708_4: have 3 parsed eves
+MEG_11162_20140708_5: have 3 parsed eves
+MEG_11162_20140708_6: have 3 parsed eves
+MEG_11162_20140708_7: have 3 parsed eves
+MEG_11162_20140708_8: have 3 parsed eves
+MEG_11162_20140708_2: have 3 parsed eves
+MEG_10895_20140709_1: have 3 parsed eves
+MEG_10895_20140709_2: have 3 parsed eves
+MEG_10895_20140709_3: have 3 parsed eves
+MEG_10895_20140709_4: have 3 parsed eves
+MEG_10895_20140709_5: have 3 parsed eves
+MEG_10895_20140709_6: have 3 parsed eves
+MEG_10895_20140709_7: have 3 parsed eves
+MEG_10895_20140709_8: have 3 parsed eves
+MEG_11288_20140711_1: have 3 parsed eves
+MEG_11288_20140711_2: have 3 parsed eves
+MEG_11288_20140711_3: have 3 parsed eves
+MEG_11288_20140711_4: have 3 parsed eves
+MEG_11288_20140711_5: have 3 parsed eves
+MEG_11288_20140711_6: have 3 parsed eves
+MEG_11288_20140711_7: have 3 parsed eves
+MEG_11288_20140711_8: have 3 parsed eves
+MEG_11304_20140722_1
+	subjs/11304_20140722/behavior//MEG_11304_20140722_1_clock_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_1_RT_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_1_feedback_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_1_ITI_ds4.eve
+MEG_11304_20140722_2
+	subjs/11304_20140722/behavior//MEG_11304_20140722_2_clock_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_2_RT_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_2_feedback_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_2_ITI_ds4.eve
+MEG_11304_20140722_3
+	subjs/11304_20140722/behavior//MEG_11304_20140722_3_clock_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_3_RT_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_3_feedback_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_3_ITI_ds4.eve
+MEG_11304_20140722_4
+	subjs/11304_20140722/behavior//MEG_11304_20140722_4_clock_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_4_RT_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_4_feedback_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_4_ITI_ds4.eve
+MEG_11304_20140722_5
+	subjs/11304_20140722/behavior//MEG_11304_20140722_5_clock_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_5_RT_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_5_feedback_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_5_ITI_ds4.eve
+MEG_11304_20140722_6
+	subjs/11304_20140722/behavior//MEG_11304_20140722_6_clock_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_6_RT_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_6_feedback_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_6_ITI_ds4.eve
+MEG_11304_20140722_7
+	subjs/11304_20140722/behavior//MEG_11304_20140722_7_clock_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_7_RT_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_7_feedback_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_7_ITI_ds4.eve
+MEG_11304_20140722_8
+	subjs/11304_20140722/behavior//MEG_11304_20140722_8_clock_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_8_RT_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_8_feedback_ds4.eve
+	subjs/11304_20140722/behavior//MEG_11304_20140722_8_ITI_ds4.eve
+MEG_10811_20140801_1: have 3 parsed eves
+MEG_10811_20140801_2: have 3 parsed eves
+MEG_10811_20140801_3: have 3 parsed eves
+MEG_10811_20140801_4: have 3 parsed eves
+MEG_10811_20140801_5: have 3 parsed eves
+MEG_10811_20140801_6: have 3 parsed eves
+MEG_10811_20140801_7: have 3 parsed eves
+MEG_10811_20140801_8: have 3 parsed eves
+MEG_10814_20140807_1: have 3 parsed eves
+MEG_10814_20140807_2: have 3 parsed eves
+MEG_10814_20140807_3: have 3 parsed eves
+MEG_10814_20140807_4: have 3 parsed eves
+MEG_10814_20140807_5: have 3 parsed eves
+MEG_10814_20140807_6: have 3 parsed eves
+MEG_10814_20140807_7: have 3 parsed eves
+MEG_10814_20140807_8: have 3 parsed eves
+MEG_11310_20140807_1: have 3 parsed eves
+MEG_11310_20140807_2: have 3 parsed eves
+MEG_11310_20140807_3: have 3 parsed eves
+MEG_11310_20140807_4: have 3 parsed eves
+MEG_11310_20140807_5: have 3 parsed eves
+MEG_11310_20140807_6: have 3 parsed eves
+MEG_11310_20140807_7: have 3 parsed eves
+MEG_11310_20140807_8: have 3 parsed eves
+MEG_11311_20140808_1: have 3 parsed eves
+MEG_11311_20140808_2: have 3 parsed eves
+MEG_11311_20140808_3: have 3 parsed eves
+MEG_11311_20140808_4: have 3 parsed eves
+MEG_11311_20140808_5: have 3 parsed eves
+MEG_11311_20140808_6: have 3 parsed eves
+MEG_11311_20140808_7: have 3 parsed eves
+MEG_11311_20140808_8: have 3 parsed eves
+MEG_10711_20140825_1: have 3 parsed eves
+MEG_10711_20140825_2: have 3 parsed eves
+MEG_10711_20140825_3: have 3 parsed eves
+MEG_10711_20140825_4: have 3 parsed eves
+MEG_10711_20140825_5: have 3 parsed eves
+MEG_10711_20140825_6: have 3 parsed eves
+MEG_10711_20140825_7: have 3 parsed eves
+MEG_10711_20140825_8: have 3 parsed eves
+MEG_11305_20140825_1
+	subjs/11305_20140825/behavior//MEG_11305_20140825_1_clock_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_1_RT_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_1_feedback_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_1_ITI_ds4.eve
+MEG_11305_20140825_2
+	subjs/11305_20140825/behavior//MEG_11305_20140825_2_clock_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_2_RT_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_2_feedback_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_2_ITI_ds4.eve
+MEG_11305_20140825_3
+	subjs/11305_20140825/behavior//MEG_11305_20140825_3_clock_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_3_RT_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_3_feedback_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_3_ITI_ds4.eve
+MEG_11305_20140825_4
+	subjs/11305_20140825/behavior//MEG_11305_20140825_4_clock_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_4_RT_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_4_feedback_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_4_ITI_ds4.eve
+MEG_11305_20140825_5
+	subjs/11305_20140825/behavior//MEG_11305_20140825_5_clock_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_5_RT_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_5_feedback_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_5_ITI_ds4.eve
+MEG_11305_20140825_6
+	subjs/11305_20140825/behavior//MEG_11305_20140825_6_clock_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_6_RT_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_6_feedback_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_6_ITI_ds4.eve
+MEG_11305_20140825_7
+	subjs/11305_20140825/behavior//MEG_11305_20140825_7_clock_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_7_RT_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_7_feedback_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_7_ITI_ds4.eve
+MEG_11305_20140825_8
+	subjs/11305_20140825/behavior//MEG_11305_20140825_8_clock_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_8_RT_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_8_feedback_ds4.eve
+	subjs/11305_20140825/behavior//MEG_11305_20140825_8_ITI_ds4.eve
+MEG_11315_20140815_1: have 3 parsed eves
+MEG_11315_20140815_2: have 3 parsed eves
+MEG_11315_20140815_3: have 3 parsed eves
+MEG_11315_20140815_4: have 3 parsed eves
+MEG_11315_20140815_5: have 3 parsed eves
+MEG_11315_20140815_6: have 3 parsed eves
+MEG_11315_20140815_7: have 3 parsed eves
+MEG_11315_20140815_8: have 3 parsed eves
+MEG_11302_20140826_1: have 3 parsed eves
+MEG_11302_20140826_2: have 3 parsed eves
+MEG_11302_20140826_3: have 3 parsed eves
+MEG_11302_20140826_4: have 3 parsed eves
+MEG_11302_20140826_5: have 3 parsed eves
+MEG_11302_20140826_6: have 3 parsed eves
+MEG_11302_20140826_7: have 3 parsed eves
+MEG_11302_20140826_8: have 3 parsed eves
+MEG_10767_20140828_1: have 3 parsed eves
+MEG_10767_20140828_2: have 3 parsed eves
+MEG_10767_20140828_3: have 3 parsed eves
+MEG_10767_20140828_4: have 3 parsed eves
+MEG_10767_20140828_5: have 3 parsed eves
+MEG_10767_20140828_6: have 3 parsed eves
+MEG_10767_20140828_7: have 3 parsed eves
+MEG_10767_20140828_8: have 3 parsed eves
+MEG_11316_20140829_1: have 3 parsed eves
+MEG_11316_20140829_2: have 3 parsed eves
+MEG_11316_20140829_3: have 3 parsed eves
+MEG_11316_20140829_4: have 3 parsed eves
+MEG_11316_20140829_5: have 3 parsed eves
+MEG_11316_20140829_6: have 3 parsed eves
+MEG_11316_20140829_7: have 3 parsed eves
+MEG_11316_20140829_8: have 3 parsed eves
+MEG_11321_20140904_1: have 3 parsed eves
+MEG_11321_20140904_2: have 3 parsed eves
+MEG_11321_20140904_3: have 3 parsed eves
+MEG_11321_20140904_4: have 3 parsed eves
+MEG_11321_20140904_5: have 3 parsed eves
+MEG_11321_20140904_6: have 3 parsed eves
+MEG_11321_20140904_7: have 3 parsed eves
+MEG_11321_20140904_8: have 3 parsed eves
+MEG_11320_20140908_1: have 3 parsed eves
+MEG_11320_20140908_2: have 3 parsed eves
+MEG_11320_20140908_3: have 3 parsed eves
+MEG_11320_20140908_4: have 3 parsed eves
+MEG_11320_20140908_5: have 3 parsed eves
+MEG_11320_20140908_7: have 3 parsed eves
+MEG_11320_20140908_8: have 3 parsed eves
+MEG_11228_20140911_1: have 3 parsed eves
+MEG_11228_20140911_2: have 3 parsed eves
+MEG_11228_20140911_3: have 3 parsed eves
+MEG_11228_20140911_4: have 3 parsed eves
+MEG_11228_20140911_5: have 3 parsed eves
+MEG_11228_20140911_6: have 3 parsed eves
+MEG_11228_20140911_7: have 3 parsed eves
+MEG_11228_20140911_8: have 3 parsed eves
+MEG_11325_20140918_1: have 3 parsed eves
+MEG_11325_20140918_2: have 3 parsed eves
+MEG_11325_20140918_3: have 3 parsed eves
+MEG_11325_20140918_4: have 3 parsed eves
+MEG_11325_20140918_6: have 3 parsed eves
+MEG_11325_20140918_7: have 3 parsed eves
+MEG_11325_20140918_8: have 3 parsed eves
+MEG_11325_20140918_5: have 3 parsed eves
+MEG_11265_20140923_1: have 3 parsed eves
+MEG_11265_20140923_2: have 3 parsed eves
+MEG_11265_20140923_3: have 3 parsed eves
+MEG_11265_20140923_4: have 3 parsed eves
+MEG_11265_20140923_5: have 3 parsed eves
+MEG_11265_20140923_6: have 3 parsed eves
+MEG_11265_20140923_7: have 3 parsed eves
+MEG_11265_20140923_8: have 3 parsed eves
+MEG_11319_20140924_1: have 3 parsed eves
+MEG_11319_20140924_2: have 3 parsed eves
+MEG_11319_20140924_3: have 3 parsed eves
+MEG_11319_20140924_4: have 3 parsed eves
+MEG_11319_20140924_5: have 3 parsed eves
+MEG_11319_20140924_6: have 3 parsed eves
+MEG_11319_20140924_7: have 3 parsed eves
+MEG_11319_20140924_8: have 3 parsed eves
+MEG_11322_20140918_1: have 3 parsed eves
+MEG_11322_20140918_2: have 3 parsed eves
+MEG_11322_20140918_3: have 3 parsed eves
+MEG_11322_20140918_4: have 3 parsed eves
+MEG_11322_20140918_6: have 3 parsed eves
+MEG_11322_20140918_7: have 3 parsed eves
+MEG_11322_20140918_8: have 3 parsed eves
+MEG_10891_20140925_1: have 3 parsed eves
+MEG_10891_20140925_2: have 3 parsed eves
+MEG_10891_20140925_3: have 3 parsed eves
+MEG_10891_20140925_4: have 3 parsed eves
+MEG_10891_20140925_5: have 3 parsed eves
+MEG_10891_20140925_6: have 3 parsed eves
+MEG_10891_20140925_7: have 3 parsed eves
+MEG_10891_20140925_8: have 3 parsed eves
+MEG_11280_20140926_1: have 3 parsed eves
+MEG_11280_20140926_2: have 3 parsed eves
+MEG_11280_20140926_3: have 3 parsed eves
+MEG_11280_20140926_4: have 3 parsed eves
+MEG_11280_20140926_5: have 3 parsed eves
+MEG_11280_20140926_6: have 3 parsed eves
+MEG_11280_20140926_7: have 3 parsed eves
+MEG_11280_20140926_8: have 3 parsed eves
+MEG_11326_20141006_1: have 3 parsed eves
+MEG_11326_20141006_2: have 3 parsed eves
+MEG_11326_20141006_3: have 3 parsed eves
+MEG_11326_20141006_4: have 3 parsed eves
+MEG_11326_20141006_5: have 3 parsed eves
+MEG_11326_20141006_6: have 3 parsed eves
+MEG_11326_20141006_7: have 3 parsed eves
+MEG_11326_20141006_8: have 3 parsed eves
+MEG_11216_20141008_1: have 3 parsed eves
+MEG_11216_20141008_2: have 3 parsed eves
+MEG_11216_20141008_3: have 3 parsed eves
+MEG_11216_20141008_4: have 3 parsed eves
+MEG_11216_20141008_5: have 3 parsed eves
+MEG_11216_20141008_6: have 3 parsed eves
+MEG_11216_20141008_7: have 3 parsed eves
+MEG_11216_20141008_8: have 3 parsed eves
+MEG_11324_20141009_1: have 3 parsed eves
+MEG_11324_20141009_2: have 3 parsed eves
+MEG_11324_20141009_3: have 3 parsed eves
+MEG_11324_20141009_4: have 3 parsed eves
+MEG_11324_20141009_6: have 3 parsed eves
+MEG_11324_20141009_7: have 3 parsed eves
+MEG_11324_20141009_8: have 3 parsed eves
+MEG_11317_20141009_1: have 3 parsed eves
+MEG_11317_20141009_2: have 3 parsed eves
+MEG_11317_20141009_3: have 3 parsed eves
+MEG_11317_20141009_4: have 3 parsed eves
+MEG_11317_20141009_5: have 3 parsed eves
+MEG_11317_20141009_6: have 3 parsed eves
+MEG_11317_20141009_7: have 3 parsed eves
+MEG_11317_20141009_8: have 3 parsed eves
+MEG_11314_20141020_1: have 3 parsed eves
+MEG_11314_20141020_2: have 3 parsed eves
+MEG_11314_20141020_3: have 3 parsed eves
+MEG_11314_20141020_4: have 3 parsed eves
+MEG_11314_20141020_5: have 3 parsed eves
+MEG_11314_20141020_6: have 3 parsed eves
+MEG_11314_20141020_7: have 3 parsed eves
+MEG_11314_20141020_8: have 3 parsed eves
+MEG_11282_20141030_1: have 3 parsed eves
+MEG_11282_20141030_2: have 3 parsed eves
+MEG_11282_20141030_3: have 3 parsed eves
+MEG_11282_20141030_4: have 3 parsed eves
+MEG_11282_20141030_5: have 3 parsed eves
+MEG_11282_20141030_6: have 3 parsed eves
+MEG_11282_20141030_7: have 3 parsed eves
+MEG_11282_20141030_8: have 3 parsed eves
+MEG_11329_20141105_1: have 3 parsed eves
+MEG_11329_20141105_2: have 3 parsed eves
+MEG_11329_20141105_3: have 3 parsed eves
+MEG_11329_20141105_4: have 3 parsed eves
+MEG_11329_20141105_5: have 3 parsed eves
+MEG_11329_20141105_6: have 3 parsed eves
+MEG_11329_20141105_7: have 3 parsed eves
+MEG_11329_20141105_8: have 3 parsed eves
+MEG_11338_20141110_1: have 3 parsed eves
+MEG_11338_20141110_2: have 3 parsed eves
+MEG_11338_20141110_3: have 3 parsed eves
+MEG_11338_20141110_4: have 3 parsed eves
+MEG_11338_20141110_5: have 3 parsed eves
+MEG_11338_20141110_6: have 3 parsed eves
+MEG_11338_20141110_7: have 3 parsed eves
+MEG_11338_20141110_8: have 3 parsed eves
+MEG_11323_20141209_4: have 3 parsed eves
+MEG_11323_20141209_1: have 3 parsed eves
+MEG_11323_20141209_2: have 3 parsed eves
+MEG_11323_20141209_3: have 3 parsed eves
+MEG_11323_20141209_5: have 3 parsed eves
+MEG_11323_20141209_6: have 3 parsed eves
+MEG_11323_20141209_7: have 3 parsed eves
+MEG_11323_20141209_8: have 3 parsed eves
+MEG_11345_20141229_1: have 3 parsed eves
+MEG_11345_20141229_2: have 3 parsed eves
+MEG_11345_20141229_3: have 3 parsed eves
+MEG_11345_20141229_4: have 3 parsed eves
+MEG_11345_20141229_5: have 3 parsed eves
+MEG_11345_20141229_6: have 3 parsed eves
+MEG_11345_20141229_7: have 3 parsed eves
+MEG_11345_20141229_8: have 3 parsed eves
+MEG_11353_20141230_1: have 3 parsed eves
+MEG_11353_20141230_2: have 3 parsed eves
+MEG_11353_20141230_3: have 3 parsed eves
+MEG_11353_20141230_4: have 3 parsed eves
+MEG_11353_20141230_5: have 3 parsed eves
+MEG_11353_20141230_6: have 3 parsed eves
+MEG_11353_20141230_7: have 3 parsed eves
+MEG_11353_20141230_8: have 3 parsed eves
+MEG_11366_20150430_1
+	subjs/11366_20150430/behavior//MEG_11366_20150430_1_clock_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_1_RT_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_1_feedback_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_1_ITI_ds4.eve
+MEG_11366_20150430_2
+	subjs/11366_20150430/behavior//MEG_11366_20150430_2_clock_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_2_RT_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_2_feedback_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_2_ITI_ds4.eve
+MEG_11366_20150430_3
+	subjs/11366_20150430/behavior//MEG_11366_20150430_3_clock_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_3_RT_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_3_feedback_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_3_ITI_ds4.eve
+MEG_11366_20150430_4
+	subjs/11366_20150430/behavior//MEG_11366_20150430_4_clock_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_4_RT_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_4_feedback_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_4_ITI_ds4.eve
+MEG_11366_20150430_5
+	subjs/11366_20150430/behavior//MEG_11366_20150430_5_clock_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_5_RT_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_5_feedback_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_5_ITI_ds4.eve
+MEG_11366_20150430_6
+	subjs/11366_20150430/behavior//MEG_11366_20150430_6_clock_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_6_RT_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_6_feedback_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_6_ITI_ds4.eve
+MEG_11366_20150430_7
+	subjs/11366_20150430/behavior//MEG_11366_20150430_7_clock_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_7_RT_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_7_feedback_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_7_ITI_ds4.eve
+MEG_11366_20150430_8
+	subjs/11366_20150430/behavior//MEG_11366_20150430_8_clock_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_8_RT_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_8_feedback_ds4.eve
+	subjs/11366_20150430/behavior//MEG_11366_20150430_8_ITI_ds4.eve
 NO FS for 11320
 no MRI for 11320 in /data/Luna1/Raw/MultiModal//11320
 10811: have skipfile, remove FinalDataDir/10811//MEG/skipme*!
@@ -846,7 +1992,7 @@ missing 10822:7 bad channel txt file (/data/Luna1/Multimodal/Clock/10822/MEG/108
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 10822:8 bad channel txt file (/data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-05-27 04:30] 10822 has only  0 maxfiltered FIFs
+[2015-05-27 13:20] 10822 has only  0 maxfiltered FIFs
 ## 10873
 already have maxfilter and ICA for 10873
 ## 10891
@@ -892,7 +2038,7 @@ already did 11216:5
           rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_8.log # remove procfile to retry
 	[2015-04-20 12:06] running maxfilter on 11216 8
 	[2015-04-20 12:06] finished maxfilter on 11216 8
-[2015-05-27 04:30] 11216 has only  2 maxfiltered FIFs
+[2015-05-27 13:20] 11216 has only  2 maxfiltered FIFs
 ## 11228
 already have maxfilter and ICA for 11228
 ## 11229
@@ -944,7 +2090,7 @@ missing 11287:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/112
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11287:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/11287_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-05-27 04:30] 11287 has only  6 maxfiltered FIFs
+[2015-05-27 13:20] 11287 has only  6 maxfiltered FIFs
 ## 11288
 already have maxfilter and ICA for 11288
 ## 11302
@@ -989,7 +2135,7 @@ missing 11324:5 bad channel txt file (/data/Luna1/Multimodal/Clock/11324/MEG/113
 already did 11324:6
 already did 11324:7
 already did 11324:8
-[2015-05-27 04:30] 11324 has only  7 maxfiltered FIFs
+[2015-05-27 13:20] 11324 has only  7 maxfiltered FIFs
 ## 11325
 already have maxfilter and ICA for 11325
 ## 11326
@@ -1036,7 +2182,7 @@ already have maxfilter and ICA for 11329
 	[2015-04-21 13:18] failed to sss 11331 7
 missing 11331:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-05-27 04:30] 11331 has only  0 maxfiltered FIFs
+[2015-05-27 13:20] 11331 has only  0 maxfiltered FIFs
 ## 11335
 already have maxfilter and ICA for 11335
 ## 11336
@@ -1062,7 +2208,7 @@ missing 11342:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/113
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11342:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2015-05-27 04:30] 11342 has only  0 maxfiltered FIFs
+[2015-05-27 13:20] 11342 has only  0 maxfiltered FIFs
 ## 11343
 already have maxfilter and ICA for 11343
 ## 11344
@@ -1089,28 +2235,3 @@ already have maxfilter and ICA for 11350
 * do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run3_ds_sss_raw.fif 
 11353:3 started 
           rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_3.log # remove procfile to retry
-	[2015-04-20 18:31] running maxfilter on 11353 3
-	[2015-04-20 18:45] failed to sss 11353 3
-already did 11353:4
-* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run5_ds_sss_raw.fif 
-11353:5 started 
-          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_5.log # remove procfile to retry
-	[2015-04-20 18:45] running maxfilter on 11353 5
-* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run6_ds_sss_raw.fif 
-11353:6 started 
-          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_6.log # remove procfile to retry
-	[2015-04-21 12:22] running maxfilter on 11353 6
-	[2015-04-21 12:29] failed to sss 11353 6
-* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run7_ds_sss_raw.fif 
-11353:7 started 
-          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_7.log # remove procfile to retry
-	[2015-04-21 12:29] running maxfilter on 11353 7
-	[2015-04-21 12:35] failed to sss 11353 7
-* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run8_ds_sss_raw.fif 
-11353:8 started 
-          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_8.log # remove procfile to retry
-	[2015-04-21 12:35] running maxfilter on 11353 8
-	[2015-04-21 12:42] failed to sss 11353 8
-[2015-05-27 04:30] 11353 has only  1 maxfiltered FIFs
-## 11366
-already have maxfilter and ICA for 11366
