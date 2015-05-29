@@ -7,7 +7,7 @@ origdir="/data/Luna1/MultiModal/FS_Subjects/"
 newdir="/data/Luna1/MultiModal/Clock/"
 mridir="/data/Luna1/Raw/MultiModal/"
 
-for subjdir in $newdir/*/; do 
+for subjdir in $newdir/1*/; do 
  subj=$(basename $subjdir)
  # grab the newest (by subj_date ) that matches this subj
  subjFSdir=$(ls -d $origdir/$subj* 2>/dev/null|sort -nr|sed 1q)
