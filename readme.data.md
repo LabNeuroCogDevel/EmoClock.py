@@ -1,4 +1,4 @@
-see `[txt/completed.txt](txt/completed.txt)`
+see [`txt/completed.txt`](txt/completed.txt)
 
 ## Missing bad channels
 10822_20140703 
