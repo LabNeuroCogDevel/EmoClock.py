@@ -23,4 +23,4 @@ ssh lncd@reese 'find /mnt/B/bea_res/Data/Tasks/EmoClockMEG/ -type f -iname "MEG*
 done
 
 
-awk '($3==0){print $1 "_" $2}' $scriptdir/subj_date_drop_note.txt |sort| while read ld; do [ -d $scriptdir/subjs/$ld ] || echo "missing .mat behave for $ld"; done
+awk '($3==0){print $1 "_" $2}' $scriptdir/txt/subj_date_drop_note.txt |sort| while read ld; do [ -d $scriptdir/subjs/$ld ] || echo "missing .mat behave for $ld"; done

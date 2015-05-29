@@ -1,4 +1,5 @@
 #!/bin/bash
+export SUBJECTS_DIR=/data/Luna1/Multimodal/Clock
 set -xe
 # this is the script that will process anatomical MRI data (processed by freesurfer)
 # to create source space for MNE analyses.

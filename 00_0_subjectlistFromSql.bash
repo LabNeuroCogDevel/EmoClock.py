@@ -17,4 +17,4 @@ select
  where vt.TaskName like "EmoClockMEG" and subsection like "completed"
  group by vt.visitid 
  order by dropped,lunaid,vd
-' | tee subj_date_drop_note.txt
+' | tee txt/subj_date_drop_note.txt

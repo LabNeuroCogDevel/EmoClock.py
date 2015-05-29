@@ -18,11 +18,12 @@ r="$2"
 sdir="$CLOCKDIR/${s}/MEG"
 badfile="$sdir/${s}_clock_bad_run${r}.txt"
 finalfile="$sdir/${s}_clock_run${r}_ds_sss_raw.fif"
+chpifile="$sdir/${s}_clock_run${r}_raw_chpi_sss.fif"
 procfile="$sdir/maxfilter_${r}.log"
 
      
 # skip if we've already done
-[ -r "$finalfile" ] && echo "already did $s:$r" && exit 0
+[ -r "$finalfile" -a -r "$chpifile" ] && echo "already did $s:$r" && exit 0
 # skip if we don't have the text file
 [ ! -r "$badfile" ] && exiterr "missing $s:$r bad channel txt file ($badfile)" 
 
