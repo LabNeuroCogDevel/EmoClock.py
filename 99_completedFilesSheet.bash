@@ -31,7 +31,7 @@
 #   
 
 interests=(ld db MAT CSV MEG PD EVE BC FS MF1 MF2 ICA BEM R note)
-(for i in ${interests[@]}; do [ "$i" == "ld" ] && i="ld       "; echo -ne "$i\t"; done|sed 's/\t$//'; echo) | tee  completed.txt
+(for i in ${interests[@]}; do [ "$i" == "ld" ] && i="ld       "; echo -ne "$i\t"; done|sed 's/\t$//'; echo) | tee  txt/completed.txt
 # create a base for each row
 declare -A line
 declare -A baseline

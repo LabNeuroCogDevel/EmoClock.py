@@ -37,4 +37,4 @@ ln $1-head-dense.fif $1-head.fif
 cd $SUBJECTS_DIR
 
 #run transformation to fsaverage
-mne_make_morph_maps --from ${s} --to fsaverage --redo
+mne_make_morph_maps --from ${1} --to fsaverage --redo
