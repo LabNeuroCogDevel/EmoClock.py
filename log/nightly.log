@@ -1,643 +1,1929 @@
 # Get Behave data
 linking all /data/Luna1/MultiModal/MEG_Raw to /data/Luna1/EmoClockMEG/subjs/
+linking all /data/Luna1/MultiModal/MEG_Raw to /data/Luna1/EmoClockMEG/subjs/
+linking all /data/Luna1/MultiModal/MEG_Raw to /data/Luna1/EmoClockMEG/subjs/
+behave2csv: 10637 20140312 1: skipping (have both eve and csv)
+behave2csv: 10637 20140312 1: skipping (have both eve and csv)
 behave2csv: 10637 20140312 1: skipping (have both eve and csv)
 behave2csv: 10637 20140312 2: skipping (have both eve and csv)
+behave2csv: 10637 20140312 2: skipping (have both eve and csv)
+behave2csv: 10637 20140312 2: skipping (have both eve and csv)
+behave2csv: 10637 20140312 3: skipping (have both eve and csv)
+behave2csv: 10637 20140312 3: skipping (have both eve and csv)
 behave2csv: 10637 20140312 3: skipping (have both eve and csv)
 behave2csv: 10637 20140312 4: skipping (have both eve and csv)
+behave2csv: 10637 20140312 4: skipping (have both eve and csv)
+behave2csv: 10637 20140312 4: skipping (have both eve and csv)
+behave2csv: 10637 20140312 5: skipping (have both eve and csv)
+behave2csv: 10637 20140312 5: skipping (have both eve and csv)
 behave2csv: 10637 20140312 5: skipping (have both eve and csv)
 behave2csv: 10637 20140312 6: skipping (have both eve and csv)
+behave2csv: 10637 20140312 6: skipping (have both eve and csv)
+behave2csv: 10637 20140312 6: skipping (have both eve and csv)
+behave2csv: 10637 20140312 7: skipping (have both eve and csv)
+behave2csv: 10637 20140312 7: skipping (have both eve and csv)
 behave2csv: 10637 20140312 7: skipping (have both eve and csv)
 behave2csv: 10637 20140312 8: skipping (have both eve and csv)
+behave2csv: 10637 20140312 8: skipping (have both eve and csv)
+behave2csv: 10637 20140312 8: skipping (have both eve and csv)
+behave2csv: 10997 20140221 1: skipping (have both eve and csv)
+behave2csv: 10997 20140221 1: skipping (have both eve and csv)
 behave2csv: 10997 20140221 1: skipping (have both eve and csv)
 behave2csv: 10997 20140221 2: skipping (have both eve and csv)
+behave2csv: 10997 20140221 2: skipping (have both eve and csv)
+behave2csv: 10997 20140221 2: skipping (have both eve and csv)
+behave2csv: 10997 20140221 3: skipping (have both eve and csv)
+behave2csv: 10997 20140221 3: skipping (have both eve and csv)
 behave2csv: 10997 20140221 3: skipping (have both eve and csv)
 behave2csv: 10997 20140221 4: skipping (have both eve and csv)
+behave2csv: 10997 20140221 4: skipping (have both eve and csv)
+behave2csv: 10997 20140221 4: skipping (have both eve and csv)
+behave2csv: 10997 20140221 5: skipping (have both eve and csv)
+behave2csv: 10997 20140221 5: skipping (have both eve and csv)
 behave2csv: 10997 20140221 5: skipping (have both eve and csv)
 behave2csv: 10997 20140221 6: skipping (have both eve and csv)
+behave2csv: 10997 20140221 6: skipping (have both eve and csv)
+behave2csv: 10997 20140221 6: skipping (have both eve and csv)
+behave2csv: 10997 20140221 7: skipping (have both eve and csv)
+behave2csv: 10997 20140221 7: skipping (have both eve and csv)
 behave2csv: 10997 20140221 7: skipping (have both eve and csv)
 behave2csv: 10997 20140221 8: skipping (have both eve and csv)
+behave2csv: 10997 20140221 8: skipping (have both eve and csv)
+behave2csv: 10997 20140221 8: skipping (have both eve and csv)
+behave2csv: 11229 20140212 1: skipping (have both eve and csv)
+behave2csv: 11229 20140212 1: skipping (have both eve and csv)
 behave2csv: 11229 20140212 1: skipping (have both eve and csv)
 behave2csv: 11229 20140212 2: skipping (have both eve and csv)
+behave2csv: 11229 20140212 2: skipping (have both eve and csv)
+behave2csv: 11229 20140212 2: skipping (have both eve and csv)
+behave2csv: 11229 20140212 3: skipping (have both eve and csv)
+behave2csv: 11229 20140212 3: skipping (have both eve and csv)
 behave2csv: 11229 20140212 3: skipping (have both eve and csv)
 behave2csv: 11229 20140212 4: skipping (have both eve and csv)
+behave2csv: 11229 20140212 4: skipping (have both eve and csv)
+behave2csv: 11229 20140212 4: skipping (have both eve and csv)
+behave2csv: 11229 20140212 5: skipping (have both eve and csv)
+behave2csv: 11229 20140212 5: skipping (have both eve and csv)
 behave2csv: 11229 20140212 5: skipping (have both eve and csv)
 behave2csv: 11229 20140212 6: skipping (have both eve and csv)
+behave2csv: 11229 20140212 6: skipping (have both eve and csv)
+behave2csv: 11229 20140212 6: skipping (have both eve and csv)
+behave2csv: 11229 20140212 7: skipping (have both eve and csv)
+behave2csv: 11229 20140212 7: skipping (have both eve and csv)
 behave2csv: 11229 20140212 7: skipping (have both eve and csv)
 behave2csv: 11229 20140212 8: skipping (have both eve and csv)
+behave2csv: 11229 20140212 8: skipping (have both eve and csv)
+behave2csv: 11229 20140212 8: skipping (have both eve and csv)
+behave2csv: 11243 20140213 1: skipping (have both eve and csv)
+behave2csv: 11243 20140213 1: skipping (have both eve and csv)
 behave2csv: 11243 20140213 1: skipping (have both eve and csv)
 behave2csv: 11243 20140213 2: skipping (have both eve and csv)
+behave2csv: 11243 20140213 2: skipping (have both eve and csv)
+behave2csv: 11243 20140213 2: skipping (have both eve and csv)
+behave2csv: 11243 20140213 3: skipping (have both eve and csv)
+behave2csv: 11243 20140213 3: skipping (have both eve and csv)
 behave2csv: 11243 20140213 3: skipping (have both eve and csv)
 behave2csv: 11243 20140213 4: skipping (have both eve and csv)
+behave2csv: 11243 20140213 4: skipping (have both eve and csv)
+behave2csv: 11243 20140213 4: skipping (have both eve and csv)
+behave2csv: 11243 20140213 5: skipping (have both eve and csv)
+behave2csv: 11243 20140213 5: skipping (have both eve and csv)
 behave2csv: 11243 20140213 5: skipping (have both eve and csv)
 behave2csv: 11243 20140213 6: skipping (have both eve and csv)
+behave2csv: 11243 20140213 6: skipping (have both eve and csv)
+behave2csv: 11243 20140213 6: skipping (have both eve and csv)
+behave2csv: 11243 20140213 7: skipping (have both eve and csv)
+behave2csv: 11243 20140213 7: skipping (have both eve and csv)
 behave2csv: 11243 20140213 7: skipping (have both eve and csv)
 behave2csv: 11243 20140213 8: skipping (have both eve and csv)
+behave2csv: 11243 20140213 8: skipping (have both eve and csv)
+behave2csv: 11243 20140213 8: skipping (have both eve and csv)
+behave2csv: 11246 20140218 1: skipping (have both eve and csv)
+behave2csv: 11246 20140218 1: skipping (have both eve and csv)
 behave2csv: 11246 20140218 1: skipping (have both eve and csv)
 behave2csv: 11246 20140218 2: skipping (have both eve and csv)
+behave2csv: 11246 20140218 2: skipping (have both eve and csv)
+behave2csv: 11246 20140218 2: skipping (have both eve and csv)
+behave2csv: 11246 20140218 3: skipping (have both eve and csv)
+behave2csv: 11246 20140218 3: skipping (have both eve and csv)
 behave2csv: 11246 20140218 3: skipping (have both eve and csv)
 behave2csv: 11246 20140218 4: skipping (have both eve and csv)
+behave2csv: 11246 20140218 4: skipping (have both eve and csv)
+behave2csv: 11246 20140218 4: skipping (have both eve and csv)
+behave2csv: 11246 20140218 5: skipping (have both eve and csv)
+behave2csv: 11246 20140218 5: skipping (have both eve and csv)
 behave2csv: 11246 20140218 5: skipping (have both eve and csv)
 behave2csv: 11246 20140218 6: skipping (have both eve and csv)
+behave2csv: 11246 20140218 6: skipping (have both eve and csv)
+behave2csv: 11246 20140218 6: skipping (have both eve and csv)
+behave2csv: 11246 20140218 7: skipping (have both eve and csv)
+behave2csv: 11246 20140218 7: skipping (have both eve and csv)
 behave2csv: 11246 20140218 7: skipping (have both eve and csv)
 behave2csv: 11246 20140218 8: skipping (have both eve and csv)
+behave2csv: 11246 20140218 8: skipping (have both eve and csv)
+behave2csv: 11246 20140218 8: skipping (have both eve and csv)
+behave2csv: 11253 20140219 1: skipping (have both eve and csv)
+behave2csv: 11253 20140219 1: skipping (have both eve and csv)
 behave2csv: 11253 20140219 1: skipping (have both eve and csv)
 behave2csv: 11253 20140219 2: skipping (have both eve and csv)
+behave2csv: 11253 20140219 2: skipping (have both eve and csv)
+behave2csv: 11253 20140219 2: skipping (have both eve and csv)
+behave2csv: 11253 20140219 3: skipping (have both eve and csv)
+behave2csv: 11253 20140219 3: skipping (have both eve and csv)
 behave2csv: 11253 20140219 3: skipping (have both eve and csv)
 behave2csv: 11253 20140219 5: skipping (have both eve and csv)
+behave2csv: 11253 20140219 5: skipping (have both eve and csv)
+behave2csv: 11253 20140219 5: skipping (have both eve and csv)
+behave2csv: 11253 20140219 6: skipping (have both eve and csv)
+behave2csv: 11253 20140219 6: skipping (have both eve and csv)
 behave2csv: 11253 20140219 6: skipping (have both eve and csv)
 behave2csv: 11253 20140219 7: skipping (have both eve and csv)
+behave2csv: 11253 20140219 7: skipping (have both eve and csv)
+behave2csv: 11253 20140219 8: skipping (have both eve and csv)
+behave2csv: 11253 20140219 7: skipping (have both eve and csv)
+behave2csv: 11253 20140219 8: skipping (have both eve and csv)
 behave2csv: 11253 20140219 8: skipping (have both eve and csv)
 behave2csv: 11255 20140318 1: skipping (have both eve and csv)
+behave2csv: 11255 20140318 1: skipping (have both eve and csv)
+behave2csv: 11255 20140318 1: skipping (have both eve and csv)
+behave2csv: 11255 20140318 2: skipping (have both eve and csv)
+behave2csv: 11255 20140318 2: skipping (have both eve and csv)
 behave2csv: 11255 20140318 2: skipping (have both eve and csv)
 behave2csv: 11255 20140318 3: skipping (have both eve and csv)
+behave2csv: 11255 20140318 3: skipping (have both eve and csv)
+behave2csv: 11255 20140318 3: skipping (have both eve and csv)
+behave2csv: 11255 20140318 4: skipping (have both eve and csv)
+behave2csv: 11255 20140318 4: skipping (have both eve and csv)
 behave2csv: 11255 20140318 4: skipping (have both eve and csv)
 behave2csv: 11255 20140318 5: skipping (have both eve and csv)
+behave2csv: 11255 20140318 5: skipping (have both eve and csv)
+behave2csv: 11255 20140318 5: skipping (have both eve and csv)
+behave2csv: 11255 20140318 6: skipping (have both eve and csv)
+behave2csv: 11255 20140318 6: skipping (have both eve and csv)
 behave2csv: 11255 20140318 6: skipping (have both eve and csv)
 behave2csv: 11255 20140318 7: skipping (have both eve and csv)
+behave2csv: 11255 20140318 7: skipping (have both eve and csv)
+behave2csv: 11255 20140318 7: skipping (have both eve and csv)
+behave2csv: 11255 20140318 8: skipping (have both eve and csv)
+behave2csv: 11255 20140318 8: skipping (have both eve and csv)
 behave2csv: 11255 20140318 8: skipping (have both eve and csv)
 behave2csv: 11258 20140303 8: skipping (have both eve and csv)
+behave2csv: 11258 20140303 8: skipping (have both eve and csv)
+behave2csv: 11258 20140303 8: skipping (have both eve and csv)
+behave2csv: 11258 20140303 1: skipping (have both eve and csv)
+behave2csv: 11258 20140303 1: skipping (have both eve and csv)
 behave2csv: 11258 20140303 1: skipping (have both eve and csv)
 behave2csv: 11258 20140303 2: skipping (have both eve and csv)
+behave2csv: 11258 20140303 2: skipping (have both eve and csv)
+behave2csv: 11258 20140303 2: skipping (have both eve and csv)
+behave2csv: 11258 20140303 3: skipping (have both eve and csv)
+behave2csv: 11258 20140303 3: skipping (have both eve and csv)
 behave2csv: 11258 20140303 3: skipping (have both eve and csv)
 behave2csv: 11258 20140303 4: skipping (have both eve and csv)
+behave2csv: 11258 20140303 4: skipping (have both eve and csv)
+behave2csv: 11258 20140303 4: skipping (have both eve and csv)
 behave2csv: 11258 20140303 5: skipping (have both eve and csv)
+behave2csv: 11258 20140303 5: skipping (have both eve and csv)
+behave2csv: 11258 20140303 6: skipping (have both eve and csv)
+behave2csv: 11258 20140303 6: skipping (have both eve and csv)
+behave2csv: 11258 20140303 5: skipping (have both eve and csv)
+behave2csv: 11258 20140303 7: skipping (have both eve and csv)
+behave2csv: 11258 20140303 7: skipping (have both eve and csv)
 behave2csv: 11258 20140303 6: skipping (have both eve and csv)
 behave2csv: 11258 20140303 7: skipping (have both eve and csv)
 behave2csv: 11262 20140312 1: skipping (have both eve and csv)
+behave2csv: 11262 20140312 1: skipping (have both eve and csv)
+behave2csv: 11262 20140312 2: skipping (have both eve and csv)
+behave2csv: 11262 20140312 1: skipping (have both eve and csv)
+behave2csv: 11262 20140312 2: skipping (have both eve and csv)
+behave2csv: 11262 20140312 3: skipping (have both eve and csv)
 behave2csv: 11262 20140312 2: skipping (have both eve and csv)
 behave2csv: 11262 20140312 3: skipping (have both eve and csv)
 behave2csv: 11262 20140312 4: skipping (have both eve and csv)
+behave2csv: 11262 20140312 3: skipping (have both eve and csv)
+behave2csv: 11262 20140312 4: skipping (have both eve and csv)
+behave2csv: 11262 20140312 5: skipping (have both eve and csv)
+behave2csv: 11262 20140312 4: skipping (have both eve and csv)
+behave2csv: 11262 20140312 5: skipping (have both eve and csv)
+behave2csv: 11262 20140312 6: skipping (have both eve and csv)
 behave2csv: 11262 20140312 5: skipping (have both eve and csv)
 behave2csv: 11262 20140312 6: skipping (have both eve and csv)
 behave2csv: 11262 20140312 7: skipping (have both eve and csv)
+behave2csv: 11262 20140312 6: skipping (have both eve and csv)
+behave2csv: 11262 20140312 7: skipping (have both eve and csv)
+behave2csv: 11262 20140312 7: skipping (have both eve and csv)
+behave2csv: 11262 20140312 8: skipping (have both eve and csv)
+behave2csv: 11262 20140312 8: skipping (have both eve and csv)
 behave2csv: 11262 20140312 8: skipping (have both eve and csv)
 behave2csv: 11263 20140324 1: skipping (have both eve and csv)
+behave2csv: 11263 20140324 1: skipping (have both eve and csv)
+behave2csv: 11263 20140324 1: skipping (have both eve and csv)
+behave2csv: 11263 20140324 2: skipping (have both eve and csv)
+behave2csv: 11263 20140324 2: skipping (have both eve and csv)
 behave2csv: 11263 20140324 2: skipping (have both eve and csv)
 behave2csv: 11263 20140324 3: skipping (have both eve and csv)
+behave2csv: 11263 20140324 3: skipping (have both eve and csv)
+behave2csv: 11263 20140324 3: skipping (have both eve and csv)
+behave2csv: 11263 20140324 4: skipping (have both eve and csv)
+behave2csv: 11263 20140324 4: skipping (have both eve and csv)
 behave2csv: 11263 20140324 4: skipping (have both eve and csv)
 behave2csv: 11263 20140324 5: skipping (have both eve and csv)
+behave2csv: 11263 20140324 5: skipping (have both eve and csv)
+behave2csv: 11263 20140324 5: skipping (have both eve and csv)
+behave2csv: 11263 20140324 6: skipping (have both eve and csv)
+behave2csv: 11263 20140324 6: skipping (have both eve and csv)
 behave2csv: 11263 20140324 6: skipping (have both eve and csv)
 behave2csv: 11263 20140324 7: skipping (have both eve and csv)
+behave2csv: 11263 20140324 7: skipping (have both eve and csv)
+behave2csv: 11263 20140324 7: skipping (have both eve and csv)
+behave2csv: 11263 20140324 8: skipping (have both eve and csv)
+behave2csv: 11263 20140324 8: skipping (have both eve and csv)
 behave2csv: 11263 20140324 8: skipping (have both eve and csv)
 behave2csv: 10662 20140415 1: skipping (have both eve and csv)
+behave2csv: 10662 20140415 1: skipping (have both eve and csv)
+behave2csv: 10662 20140415 1: skipping (have both eve and csv)
+behave2csv: 10662 20140415 2: skipping (have both eve and csv)
+behave2csv: 10662 20140415 2: skipping (have both eve and csv)
 behave2csv: 10662 20140415 2: skipping (have both eve and csv)
 behave2csv: 10662 20140415 3: skipping (have both eve and csv)
+behave2csv: 10662 20140415 3: skipping (have both eve and csv)
+behave2csv: 10662 20140415 3: skipping (have both eve and csv)
+behave2csv: 10662 20140415 4: skipping (have both eve and csv)
+behave2csv: 10662 20140415 4: skipping (have both eve and csv)
 behave2csv: 10662 20140415 4: skipping (have both eve and csv)
 behave2csv: 10662 20140415 5: skipping (have both eve and csv)
+behave2csv: 10662 20140415 5: skipping (have both eve and csv)
+behave2csv: 10662 20140415 5: skipping (have both eve and csv)
+behave2csv: 10662 20140415 6: skipping (have both eve and csv)
+behave2csv: 10662 20140415 6: skipping (have both eve and csv)
 behave2csv: 10662 20140415 6: skipping (have both eve and csv)
 behave2csv: 10662 20140415 7: skipping (have both eve and csv)
+behave2csv: 10662 20140415 7: skipping (have both eve and csv)
+behave2csv: 10662 20140415 7: skipping (have both eve and csv)
+behave2csv: 10662 20140415 8: skipping (have both eve and csv)
+behave2csv: 10662 20140415 8: skipping (have both eve and csv)
 behave2csv: 10662 20140415 8: skipping (have both eve and csv)
 behave2csv: 10772 20140509 4: skipping (have both eve and csv)
+behave2csv: 10772 20140509 4: skipping (have both eve and csv)
+behave2csv: 10772 20140509 4: skipping (have both eve and csv)
+behave2csv: 10772 20140509 5: skipping (have both eve and csv)
+behave2csv: 10772 20140509 5: skipping (have both eve and csv)
 behave2csv: 10772 20140509 5: skipping (have both eve and csv)
 behave2csv: 10772 20140509 6: skipping (have both eve and csv)
+behave2csv: 10772 20140509 6: skipping (have both eve and csv)
+behave2csv: 10772 20140509 6: skipping (have both eve and csv)
+behave2csv: 10772 20140509 7: skipping (have both eve and csv)
+behave2csv: 10772 20140509 7: skipping (have both eve and csv)
 behave2csv: 10772 20140509 7: skipping (have both eve and csv)
 behave2csv: 10772 20140509 2: skipping (have both eve and csv)
-behave2csv: 10772 20140509 3: skipping (have both eve and csv)
-behave2csv: 10772 20140509 1: skipping (have both eve and csv)
-behave2csv: 10772 20140509 8: skipping (have both eve and csv)
-behave2csv: 10772 20140509 1: skipping (have both eve and csv)
+behave2csv: 10772 20140509 2: skipping (have both eve and csv)
 behave2csv: 10772 20140509 2: skipping (have both eve and csv)
 behave2csv: 10772 20140509 3: skipping (have both eve and csv)
+behave2csv: 10772 20140509 3: skipping (have both eve and csv)
+behave2csv: 10772 20140509 3: skipping (have both eve and csv)
+behave2csv: 10772 20140509 1: skipping (have both eve and csv)
+behave2csv: 10772 20140509 1: skipping (have both eve and csv)
+behave2csv: 10772 20140509 1: skipping (have both eve and csv)
+behave2csv: 10772 20140509 8: skipping (have both eve and csv)
+behave2csv: 10772 20140509 8: skipping (have both eve and csv)
+behave2csv: 10772 20140509 8: skipping (have both eve and csv)
+behave2csv: 10772 20140509 1: skipping (have both eve and csv)
+behave2csv: 10772 20140509 1: skipping (have both eve and csv)
+behave2csv: 10772 20140509 1: skipping (have both eve and csv)
+behave2csv: 10772 20140509 2: skipping (have both eve and csv)
+behave2csv: 10772 20140509 2: skipping (have both eve and csv)
+behave2csv: 10772 20140509 2: skipping (have both eve and csv)
+behave2csv: 10772 20140509 3: skipping (have both eve and csv)
+behave2csv: 10772 20140509 3: skipping (have both eve and csv)
+behave2csv: 10772 20140509 3: skipping (have both eve and csv)
+behave2csv: 10772 20140509 8: skipping (have both eve and csv)
+behave2csv: 10772 20140509 8: skipping (have both eve and csv)
 behave2csv: 10772 20140509 8: skipping (have both eve and csv)
 behave2csv: 11178 20140515 1: skipping (have both eve and csv)
+behave2csv: 11178 20140515 1: skipping (have both eve and csv)
+behave2csv: 11178 20140515 1: skipping (have both eve and csv)
+behave2csv: 11178 20140515 2: skipping (have both eve and csv)
+behave2csv: 11178 20140515 2: skipping (have both eve and csv)
 behave2csv: 11178 20140515 2: skipping (have both eve and csv)
 behave2csv: 11178 20140515 3: skipping (have both eve and csv)
+behave2csv: 11178 20140515 3: skipping (have both eve and csv)
+behave2csv: 11178 20140515 3: skipping (have both eve and csv)
+behave2csv: 11178 20140515 4: skipping (have both eve and csv)
+behave2csv: 11178 20140515 4: skipping (have both eve and csv)
 behave2csv: 11178 20140515 4: skipping (have both eve and csv)
 behave2csv: 11178 20140515 5: skipping (have both eve and csv)
+behave2csv: 11178 20140515 5: skipping (have both eve and csv)
+behave2csv: 11178 20140515 5: skipping (have both eve and csv)
+behave2csv: 11178 20140515 6: skipping (have both eve and csv)
+behave2csv: 11178 20140515 6: skipping (have both eve and csv)
 behave2csv: 11178 20140515 6: skipping (have both eve and csv)
 behave2csv: 11178 20140515 7: skipping (have both eve and csv)
+behave2csv: 11178 20140515 7: skipping (have both eve and csv)
+behave2csv: 11178 20140515 7: skipping (have both eve and csv)
+behave2csv: 11178 20140515 8: skipping (have both eve and csv)
+behave2csv: 11178 20140515 8: skipping (have both eve and csv)
 behave2csv: 11178 20140515 8: skipping (have both eve and csv)
 behave2csv: 11274 20140528 1: skipping (have both eve and csv)
+behave2csv: 11274 20140528 1: skipping (have both eve and csv)
+behave2csv: 11274 20140528 1: skipping (have both eve and csv)
+behave2csv: 11274 20140528 2: skipping (have both eve and csv)
+behave2csv: 11274 20140528 2: skipping (have both eve and csv)
 behave2csv: 11274 20140528 2: skipping (have both eve and csv)
 behave2csv: 11274 20140528 3: skipping (have both eve and csv)
+behave2csv: 11274 20140528 3: skipping (have both eve and csv)
+behave2csv: 11274 20140528 3: skipping (have both eve and csv)
+behave2csv: 11274 20140528 4: skipping (have both eve and csv)
+behave2csv: 11274 20140528 4: skipping (have both eve and csv)
 behave2csv: 11274 20140528 4: skipping (have both eve and csv)
 behave2csv: 11274 20140528 5: skipping (have both eve and csv)
+behave2csv: 11274 20140528 5: skipping (have both eve and csv)
+behave2csv: 11274 20140528 5: skipping (have both eve and csv)
+behave2csv: 11274 20140528 6: skipping (have both eve and csv)
+behave2csv: 11274 20140528 6: skipping (have both eve and csv)
 behave2csv: 11274 20140528 6: skipping (have both eve and csv)
 behave2csv: 11274 20140528 7: skipping (have both eve and csv)
+behave2csv: 11274 20140528 7: skipping (have both eve and csv)
+behave2csv: 11274 20140528 7: skipping (have both eve and csv)
+behave2csv: 11274 20140528 8: skipping (have both eve and csv)
+behave2csv: 11274 20140528 8: skipping (have both eve and csv)
 behave2csv: 11274 20140528 8: skipping (have both eve and csv)
 behave2csv: 11277 20140519 1: skipping (have both eve and csv)
+behave2csv: 11277 20140519 1: skipping (have both eve and csv)
+behave2csv: 11277 20140519 1: skipping (have both eve and csv)
+behave2csv: 11277 20140519 2: skipping (have both eve and csv)
+behave2csv: 11277 20140519 2: skipping (have both eve and csv)
 behave2csv: 11277 20140519 2: skipping (have both eve and csv)
 behave2csv: 11277 20140519 3: skipping (have both eve and csv)
+behave2csv: 11277 20140519 3: skipping (have both eve and csv)
+behave2csv: 11277 20140519 3: skipping (have both eve and csv)
+behave2csv: 11277 20140519 4: skipping (have both eve and csv)
+behave2csv: 11277 20140519 4: skipping (have both eve and csv)
 behave2csv: 11277 20140519 4: skipping (have both eve and csv)
 behave2csv: 11277 20140519 5: skipping (have both eve and csv)
+behave2csv: 11277 20140519 5: skipping (have both eve and csv)
+behave2csv: 11277 20140519 5: skipping (have both eve and csv)
+behave2csv: 11277 20140519 6: skipping (have both eve and csv)
+behave2csv: 11277 20140519 6: skipping (have both eve and csv)
 behave2csv: 11277 20140519 6: skipping (have both eve and csv)
 behave2csv: 11277 20140519 7: skipping (have both eve and csv)
+behave2csv: 11277 20140519 7: skipping (have both eve and csv)
+behave2csv: 11277 20140519 7: skipping (have both eve and csv)
+behave2csv: 11277 20140519 8: skipping (have both eve and csv)
+behave2csv: 11277 20140519 8: skipping (have both eve and csv)
 behave2csv: 11277 20140519 8: skipping (have both eve and csv)
 behave2csv: 11278 20140505 1: skipping (have both eve and csv)
+behave2csv: 11278 20140505 1: skipping (have both eve and csv)
+behave2csv: 11278 20140505 1: skipping (have both eve and csv)
+behave2csv: 11278 20140505 2: skipping (have both eve and csv)
+behave2csv: 11278 20140505 2: skipping (have both eve and csv)
 behave2csv: 11278 20140505 2: skipping (have both eve and csv)
 behave2csv: 11278 20140505 3: skipping (have both eve and csv)
+behave2csv: 11278 20140505 3: skipping (have both eve and csv)
+behave2csv: 11278 20140505 3: skipping (have both eve and csv)
+behave2csv: 11278 20140505 4: skipping (have both eve and csv)
+behave2csv: 11278 20140505 4: skipping (have both eve and csv)
 behave2csv: 11278 20140505 4: skipping (have both eve and csv)
 behave2csv: 11278 20140505 5: skipping (have both eve and csv)
+behave2csv: 11278 20140505 5: skipping (have both eve and csv)
+behave2csv: 11278 20140505 5: skipping (have both eve and csv)
+behave2csv: 11278 20140505 6: skipping (have both eve and csv)
+behave2csv: 11278 20140505 6: skipping (have both eve and csv)
 behave2csv: 11278 20140505 6: skipping (have both eve and csv)
 behave2csv: 11278 20140505 7: skipping (have both eve and csv)
+behave2csv: 11278 20140505 7: skipping (have both eve and csv)
+behave2csv: 11278 20140505 7: skipping (have both eve and csv)
+behave2csv: 11278 20140505 8: skipping (have both eve and csv)
+behave2csv: 11278 20140505 8: skipping (have both eve and csv)
 behave2csv: 11278 20140505 8: skipping (have both eve and csv)
 behave2csv: 11279 20140507 1: skipping (have both eve and csv)
+behave2csv: 11279 20140507 1: skipping (have both eve and csv)
+behave2csv: 11279 20140507 1: skipping (have both eve and csv)
+behave2csv: 11279 20140507 2: skipping (have both eve and csv)
+behave2csv: 11279 20140507 2: skipping (have both eve and csv)
 behave2csv: 11279 20140507 2: skipping (have both eve and csv)
 behave2csv: 11279 20140507 3: skipping (have both eve and csv)
+behave2csv: 11279 20140507 3: skipping (have both eve and csv)
+behave2csv: 11279 20140507 3: skipping (have both eve and csv)
+behave2csv: 11279 20140507 4: skipping (have both eve and csv)
+behave2csv: 11279 20140507 4: skipping (have both eve and csv)
 behave2csv: 11279 20140507 4: skipping (have both eve and csv)
 behave2csv: 11279 20140507 5: skipping (have both eve and csv)
+behave2csv: 11279 20140507 5: skipping (have both eve and csv)
+behave2csv: 11279 20140507 5: skipping (have both eve and csv)
+behave2csv: 11279 20140507 6: skipping (have both eve and csv)
+behave2csv: 11279 20140507 6: skipping (have both eve and csv)
 behave2csv: 11279 20140507 6: skipping (have both eve and csv)
 behave2csv: 11279 20140507 7: skipping (have both eve and csv)
+behave2csv: 11279 20140507 7: skipping (have both eve and csv)
+behave2csv: 11279 20140507 7: skipping (have both eve and csv)
+behave2csv: 11279 20140507 8: skipping (have both eve and csv)
+behave2csv: 11279 20140507 8: skipping (have both eve and csv)
 behave2csv: 11279 20140507 8: skipping (have both eve and csv)
 behave2csv: 11287 20140522 1: skipping (have both eve and csv)
+behave2csv: 11287 20140522 1: skipping (have both eve and csv)
+behave2csv: 11287 20140522 1: skipping (have both eve and csv)
+behave2csv: 11287 20140522 2: skipping (have both eve and csv)
+behave2csv: 11287 20140522 2: skipping (have both eve and csv)
 behave2csv: 11287 20140522 2: skipping (have both eve and csv)
 behave2csv: 11287 20140522 3: skipping (have both eve and csv)
+behave2csv: 11287 20140522 3: skipping (have both eve and csv)
+behave2csv: 11287 20140522 3: skipping (have both eve and csv)
+behave2csv: 11287 20140522 4: skipping (have both eve and csv)
+behave2csv: 11287 20140522 4: skipping (have both eve and csv)
 behave2csv: 11287 20140522 4: skipping (have both eve and csv)
 behave2csv: 11287 20140522 5: skipping (have both eve and csv)
+behave2csv: 11287 20140522 5: skipping (have both eve and csv)
+behave2csv: 11287 20140522 5: skipping (have both eve and csv)
+behave2csv: 11287 20140522 6: skipping (have both eve and csv)
+behave2csv: 11287 20140522 6: skipping (have both eve and csv)
 behave2csv: 11287 20140522 6: skipping (have both eve and csv)
 behave2csv: 10873 20141014 1: skipping (have both eve and csv)
+behave2csv: 10873 20141014 1: skipping (have both eve and csv)
+behave2csv: 10873 20141014 1: skipping (have both eve and csv)
+behave2csv: 10873 20141014 2: skipping (have both eve and csv)
+behave2csv: 10873 20141014 2: skipping (have both eve and csv)
 behave2csv: 10873 20141014 2: skipping (have both eve and csv)
 behave2csv: 10873 20141014 3: skipping (have both eve and csv)
+behave2csv: 10873 20141014 3: skipping (have both eve and csv)
+behave2csv: 10873 20141014 3: skipping (have both eve and csv)
+behave2csv: 10873 20141014 4: skipping (have both eve and csv)
+behave2csv: 10873 20141014 4: skipping (have both eve and csv)
 behave2csv: 10873 20141014 4: skipping (have both eve and csv)
 behave2csv: 10873 20141014 5: skipping (have both eve and csv)
+behave2csv: 10873 20141014 5: skipping (have both eve and csv)
+behave2csv: 10873 20141014 5: skipping (have both eve and csv)
+behave2csv: 10873 20141014 6: skipping (have both eve and csv)
+behave2csv: 10873 20141014 6: skipping (have both eve and csv)
 behave2csv: 10873 20141014 6: skipping (have both eve and csv)
 behave2csv: 10873 20141014 7: skipping (have both eve and csv)
+behave2csv: 10873 20141014 7: skipping (have both eve and csv)
+behave2csv: 10873 20141014 7: skipping (have both eve and csv)
+behave2csv: 10873 20141014 8: skipping (have both eve and csv)
+behave2csv: 10873 20141014 8: skipping (have both eve and csv)
 behave2csv: 10873 20141014 8: skipping (have both eve and csv)
 behave2csv: 11328 20141023 1: skipping (have both eve and csv)
+behave2csv: 11328 20141023 1: skipping (have both eve and csv)
+behave2csv: 11328 20141023 1: skipping (have both eve and csv)
+behave2csv: 11328 20141023 2: skipping (have both eve and csv)
+behave2csv: 11328 20141023 2: skipping (have both eve and csv)
 behave2csv: 11328 20141023 2: skipping (have both eve and csv)
 behave2csv: 11328 20141023 3: skipping (have both eve and csv)
+behave2csv: 11328 20141023 3: skipping (have both eve and csv)
+behave2csv: 11328 20141023 3: skipping (have both eve and csv)
+behave2csv: 11328 20141023 4: skipping (have both eve and csv)
+behave2csv: 11328 20141023 4: skipping (have both eve and csv)
 behave2csv: 11328 20141023 4: skipping (have both eve and csv)
 behave2csv: 11328 20141023 5: skipping (have both eve and csv)
+behave2csv: 11328 20141023 5: skipping (have both eve and csv)
+behave2csv: 11328 20141023 5: skipping (have both eve and csv)
+behave2csv: 11328 20141023 6: skipping (have both eve and csv)
+behave2csv: 11328 20141023 6: skipping (have both eve and csv)
 behave2csv: 11328 20141023 6: skipping (have both eve and csv)
 behave2csv: 11328 20141023 7: skipping (have both eve and csv)
+behave2csv: 11328 20141023 7: skipping (have both eve and csv)
+behave2csv: 11328 20141023 7: skipping (have both eve and csv)
+behave2csv: 11328 20141023 8: skipping (have both eve and csv)
+behave2csv: 11328 20141023 8: skipping (have both eve and csv)
 behave2csv: 11328 20141023 8: skipping (have both eve and csv)
 behave2csv: 11318 20141029 1: skipping (have both eve and csv)
+behave2csv: 11318 20141029 1: skipping (have both eve and csv)
+behave2csv: 11318 20141029 1: skipping (have both eve and csv)
+behave2csv: 11318 20141029 2: skipping (have both eve and csv)
+behave2csv: 11318 20141029 2: skipping (have both eve and csv)
 behave2csv: 11318 20141029 2: skipping (have both eve and csv)
 behave2csv: 11318 20141029 3: skipping (have both eve and csv)
+behave2csv: 11318 20141029 3: skipping (have both eve and csv)
+behave2csv: 11318 20141029 3: skipping (have both eve and csv)
+behave2csv: 11318 20141029 4: skipping (have both eve and csv)
+behave2csv: 11318 20141029 4: skipping (have both eve and csv)
 behave2csv: 11318 20141029 4: skipping (have both eve and csv)
 behave2csv: 11318 20141029 5: skipping (have both eve and csv)
+behave2csv: 11318 20141029 5: skipping (have both eve and csv)
+behave2csv: 11318 20141029 5: skipping (have both eve and csv)
+behave2csv: 11318 20141029 6: skipping (have both eve and csv)
+behave2csv: 11318 20141029 6: skipping (have both eve and csv)
 behave2csv: 11318 20141029 6: skipping (have both eve and csv)
 behave2csv: 11318 20141029 7: skipping (have both eve and csv)
+behave2csv: 11318 20141029 7: skipping (have both eve and csv)
+behave2csv: 11318 20141029 7: skipping (have both eve and csv)
 behave2csv: 11318 20141029 8: skipping (have both eve and csv)
+behave2csv: 11318 20141029 8: skipping (have both eve and csv)
+behave2csv: 11318 20141029 8: skipping (have both eve and csv)
+behave2csv: 11313 20141104 1: skipping (have both eve and csv)
+behave2csv: 11313 20141104 1: skipping (have both eve and csv)
 behave2csv: 11313 20141104 1: skipping (have both eve and csv)
   File "/data/Luna1/EmoClockMEG/timing.py", line 57
     trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
                          ^
+SyntaxError:   File "invalid syntax  File "/data/Luna1/EmoClockMEG/timing.py", line 
+/data/Luna1/EmoClockMEG/timing.py57", line 
+57    behave2csv: 11313 20141104 3: skipping (have both eve and csv)
+
+trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+        trial.append( [i[0] if isinstance(i[0],basestring) else  i[0][0] for i in t[0][0]]  )
+                 behave2csv: 11313 20141104 4: skipping (have both eve and csv)
+                   behave2csv: 11313 20141104 5: skipping (have both eve and csv)
+     ^
+ SyntaxErrorbehave2csv: 11313 20141104 6: skipping (have both eve and csv)
+ :  invalid syntax behave2csv: 11313 20141104 7: skipping (have both eve and csv)
+
+ ^
 SyntaxError: invalid syntax
+behave2csv: 11313 20141104 8: skipping (have both eve and csv)
+behave2csv: 11313 20141104 3: skipping (have both eve and csv)
 behave2csv: 11313 20141104 3: skipping (have both eve and csv)
 behave2csv: 11313 20141104 4: skipping (have both eve and csv)
-behave2csv: 11313 20141104 5: skipping (have both eve and csv)
-behave2csv: 11313 20141104 6: skipping (have both eve and csv)
-behave2csv: 11313 20141104 7: skipping (have both eve and csv)
-behave2csv: 11313 20141104 8: skipping (have both eve and csv)
+behave2csv: 11313 20141104 4: skipping (have both eve and csv)
 behave2csv: 11335 20141103 1: skipping (have both eve and csv)
+behave2csv: 11313 20141104 5: skipping (have both eve and csv)
+behave2csv: 11313 20141104 5: skipping (have both eve and csv)
 behave2csv: 11335 20141103 2: skipping (have both eve and csv)
+behave2csv: 11313 20141104 6: skipping (have both eve and csv)
+behave2csv: 11313 20141104 6: skipping (have both eve and csv)
 behave2csv: 11335 20141103 3: skipping (have both eve and csv)
+behave2csv: 11313 20141104 7: skipping (have both eve and csv)
+behave2csv: 11313 20141104 7: skipping (have both eve and csv)
 behave2csv: 11335 20141103 4: skipping (have both eve and csv)
+behave2csv: 11313 20141104 8: skipping (have both eve and csv)
+behave2csv: 11313 20141104 8: skipping (have both eve and csv)
 behave2csv: 11335 20141103 5: skipping (have both eve and csv)
 behave2csv: 11335 20141103 6: skipping (have both eve and csv)
+behave2csv: 11335 20141103 1: skipping (have both eve and csv)
+behave2csv: 11335 20141103 1: skipping (have both eve and csv)
+behave2csv: 11335 20141103 7: skipping (have both eve and csv)
+behave2csv: 11335 20141103 2: skipping (have both eve and csv)
+behave2csv: 11335 20141103 2: skipping (have both eve and csv)
+behave2csv: 11335 20141103 3: skipping (have both eve and csv)
+behave2csv: 11335 20141103 3: skipping (have both eve and csv)
+behave2csv: 11335 20141103 8: skipping (have both eve and csv)
+behave2csv: 11335 20141103 4: skipping (have both eve and csv)
+behave2csv: 11335 20141103 4: skipping (have both eve and csv)
+behave2csv: 11335 20141103 5: skipping (have both eve and csv)
+behave2csv: 11335 20141103 5: skipping (have both eve and csv)
+behave2csv: 11335 20141103 6: skipping (have both eve and csv)
+behave2csv: 11337 20141111 1: skipping (have both eve and csv)
+behave2csv: 11335 20141103 6: skipping (have both eve and csv)
+behave2csv: 11335 20141103 7: skipping (have both eve and csv)
+behave2csv: 11337 20141111 2: skipping (have both eve and csv)
 behave2csv: 11335 20141103 7: skipping (have both eve and csv)
 behave2csv: 11335 20141103 8: skipping (have both eve and csv)
-behave2csv: 11337 20141111 1: skipping (have both eve and csv)
-behave2csv: 11337 20141111 2: skipping (have both eve and csv)
+behave2csv: 11335 20141103 8: skipping (have both eve and csv)
 behave2csv: 11337 20141111 3: skipping (have both eve and csv)
+behave2csv: 11337 20141111 1: skipping (have both eve and csv)
 behave2csv: 11337 20141111 4: skipping (have both eve and csv)
 behave2csv: 11337 20141111 5: skipping (have both eve and csv)
+behave2csv: 11337 20141111 1: skipping (have both eve and csv)
+behave2csv: 11337 20141111 2: skipping (have both eve and csv)
+behave2csv: 11337 20141111 6: skipping (have both eve and csv)
+behave2csv: 11337 20141111 2: skipping (have both eve and csv)
+behave2csv: 11337 20141111 3: skipping (have both eve and csv)
+behave2csv: 11337 20141111 7: skipping (have both eve and csv)
+behave2csv: 11337 20141111 3: skipping (have both eve and csv)
+behave2csv: 11337 20141111 4: skipping (have both eve and csv)
+behave2csv: 11337 20141111 4: skipping (have both eve and csv)
+behave2csv: 11337 20141111 8: skipping (have both eve and csv)
+behave2csv: 11337 20141111 5: skipping (have both eve and csv)
+behave2csv: 11337 20141111 5: skipping (have both eve and csv)
+behave2csv: 11337 20141111 6: skipping (have both eve and csv)
 behave2csv: 11337 20141111 6: skipping (have both eve and csv)
 behave2csv: 11337 20141111 7: skipping (have both eve and csv)
-behave2csv: 11337 20141111 8: skipping (have both eve and csv)
 behave2csv: 11344 20141118 1: skipping (have both eve and csv)
+behave2csv: 11337 20141111 7: skipping (have both eve and csv)
+behave2csv: 11337 20141111 8: skipping (have both eve and csv)
 behave2csv: 11344 20141118 2: skipping (have both eve and csv)
+behave2csv: 11337 20141111 8: skipping (have both eve and csv)
 behave2csv: 11344 20141118 3: skipping (have both eve and csv)
 behave2csv: 11344 20141118 4: skipping (have both eve and csv)
+behave2csv: 11344 20141118 1: skipping (have both eve and csv)
+behave2csv: 11344 20141118 1: skipping (have both eve and csv)
+behave2csv: 11344 20141118 2: skipping (have both eve and csv)
 behave2csv: 11344 20141118 5: skipping (have both eve and csv)
+behave2csv: 11344 20141118 2: skipping (have both eve and csv)
+behave2csv: 11344 20141118 3: skipping (have both eve and csv)
 behave2csv: 11344 20141118 6: skipping (have both eve and csv)
+behave2csv: 11344 20141118 4: skipping (have both eve and csv)
+behave2csv: 11344 20141118 3: skipping (have both eve and csv)
 behave2csv: 11344 20141118 7: skipping (have both eve and csv)
+behave2csv: 11344 20141118 5: skipping (have both eve and csv)
+behave2csv: 11344 20141118 4: skipping (have both eve and csv)
 behave2csv: 11344 20141118 8: skipping (have both eve and csv)
+behave2csv: 11344 20141118 6: skipping (have both eve and csv)
+behave2csv: 11344 20141118 5: skipping (have both eve and csv)
+behave2csv: 11344 20141118 7: skipping (have both eve and csv)
 behave2csv: 11336 20141121 1: skipping (have both eve and csv)
+behave2csv: 11344 20141118 6: skipping (have both eve and csv)
+behave2csv: 11344 20141118 8: skipping (have both eve and csv)
 behave2csv: 11336 20141121 2: skipping (have both eve and csv)
+behave2csv: 11344 20141118 7: skipping (have both eve and csv)
+behave2csv: 11336 20141121 1: skipping (have both eve and csv)
+behave2csv: 11344 20141118 8: skipping (have both eve and csv)
 behave2csv: 11336 20141121 3: skipping (have both eve and csv)
+behave2csv: 11336 20141121 2: skipping (have both eve and csv)
 behave2csv: 11336 20141121 4: skipping (have both eve and csv)
+behave2csv: 11336 20141121 3: skipping (have both eve and csv)
+behave2csv: 11336 20141121 1: skipping (have both eve and csv)
 behave2csv: 11336 20141121 5: skipping (have both eve and csv)
+behave2csv: 11336 20141121 4: skipping (have both eve and csv)
+behave2csv: 11336 20141121 2: skipping (have both eve and csv)
 behave2csv: 11336 20141121 6: skipping (have both eve and csv)
+behave2csv: 11336 20141121 5: skipping (have both eve and csv)
+behave2csv: 11336 20141121 3: skipping (have both eve and csv)
 behave2csv: 11336 20141121 7: skipping (have both eve and csv)
+behave2csv: 11336 20141121 6: skipping (have both eve and csv)
+behave2csv: 11336 20141121 4: skipping (have both eve and csv)
+behave2csv: 11336 20141121 8: skipping (have both eve and csv)
+behave2csv: 11336 20141121 7: skipping (have both eve and csv)
+behave2csv: 11336 20141121 5: skipping (have both eve and csv)
+behave2csv: 11336 20141121 8: skipping (have both eve and csv)
+behave2csv: 11336 20141121 6: skipping (have both eve and csv)
+behave2csv: 11350 20141204 1: skipping (have both eve and csv)
+behave2csv: 11336 20141121 7: skipping (have both eve and csv)
+behave2csv: 11350 20141204 2: skipping (have both eve and csv)
 behave2csv: 11336 20141121 8: skipping (have both eve and csv)
 behave2csv: 11350 20141204 1: skipping (have both eve and csv)
-behave2csv: 11350 20141204 2: skipping (have both eve and csv)
 behave2csv: 11350 20141204 3: skipping (have both eve and csv)
+behave2csv: 11350 20141204 2: skipping (have both eve and csv)
 behave2csv: 11350 20141204 4: skipping (have both eve and csv)
+behave2csv: 11350 20141204 3: skipping (have both eve and csv)
+behave2csv: 11350 20141204 1: skipping (have both eve and csv)
+behave2csv: 11350 20141204 5: skipping (have both eve and csv)
+behave2csv: 11350 20141204 4: skipping (have both eve and csv)
+behave2csv: 11350 20141204 2: skipping (have both eve and csv)
 behave2csv: 11350 20141204 5: skipping (have both eve and csv)
 behave2csv: 11350 20141204 6: skipping (have both eve and csv)
+behave2csv: 11350 20141204 3: skipping (have both eve and csv)
+behave2csv: 11350 20141204 6: skipping (have both eve and csv)
+behave2csv: 11350 20141204 7: skipping (have both eve and csv)
+behave2csv: 11350 20141204 4: skipping (have both eve and csv)
 behave2csv: 11350 20141204 7: skipping (have both eve and csv)
 behave2csv: 11350 20141204 8: skipping (have both eve and csv)
+behave2csv: 11350 20141204 5: skipping (have both eve and csv)
+behave2csv: 11350 20141204 8: skipping (have both eve and csv)
+behave2csv: 11350 20141204 6: skipping (have both eve and csv)
+behave2csv: 11350 20141204 7: skipping (have both eve and csv)
 behave2csv: 11347 20141217 1: skipping (have both eve and csv)
+behave2csv: 11347 20141217 1: skipping (have both eve and csv)
+behave2csv: 11350 20141204 8: skipping (have both eve and csv)
+behave2csv: 11347 20141217 2: skipping (have both eve and csv)
 behave2csv: 11347 20141217 2: skipping (have both eve and csv)
 behave2csv: 11347 20141217 3: skipping (have both eve and csv)
+behave2csv: 11347 20141217 3: skipping (have both eve and csv)
+behave2csv: 11347 20141217 1: skipping (have both eve and csv)
 behave2csv: 11347 20141217 4: skipping (have both eve and csv)
+behave2csv: 11347 20141217 4: skipping (have both eve and csv)
+behave2csv: 11347 20141217 2: skipping (have both eve and csv)
 behave2csv: 11347 20141217 5: skipping (have both eve and csv)
+behave2csv: 11347 20141217 5: skipping (have both eve and csv)
+behave2csv: 11347 20141217 3: skipping (have both eve and csv)
+behave2csv: 11347 20141217 6: skipping (have both eve and csv)
+behave2csv: 11347 20141217 4: skipping (have both eve and csv)
 behave2csv: 11347 20141217 6: skipping (have both eve and csv)
 behave2csv: 11347 20141217 7: skipping (have both eve and csv)
+behave2csv: 11347 20141217 5: skipping (have both eve and csv)
 behave2csv: 11347 20141217 8: skipping (have both eve and csv)
+behave2csv: 11347 20141217 7: skipping (have both eve and csv)
+behave2csv: 11347 20141217 6: skipping (have both eve and csv)
+behave2csv: 11347 20141217 8: skipping (have both eve and csv)
+behave2csv: 11347 20141217 7: skipping (have both eve and csv)
+behave2csv: 11343 20150110 1: skipping (have both eve and csv)
+behave2csv: 11347 20141217 8: skipping (have both eve and csv)
+behave2csv: 11343 20150110 2: skipping (have both eve and csv)
+behave2csv: 11343 20150110 1: skipping (have both eve and csv)
+behave2csv: 11343 20150110 3: skipping (have both eve and csv)
 behave2csv: 11343 20150110 1: skipping (have both eve and csv)
 behave2csv: 11343 20150110 2: skipping (have both eve and csv)
+behave2csv: 11343 20150110 4: skipping (have both eve and csv)
+behave2csv: 11343 20150110 2: skipping (have both eve and csv)
+behave2csv: 11343 20150110 3: skipping (have both eve and csv)
 behave2csv: 11343 20150110 3: skipping (have both eve and csv)
 behave2csv: 11343 20150110 4: skipping (have both eve and csv)
 behave2csv: 11343 20150110 5: skipping (have both eve and csv)
+behave2csv: 11343 20150110 4: skipping (have both eve and csv)
+behave2csv: 11343 20150110 5: skipping (have both eve and csv)
+behave2csv: 11343 20150110 6: skipping (have both eve and csv)
+behave2csv: 11343 20150110 5: skipping (have both eve and csv)
+behave2csv: 11343 20150110 6: skipping (have both eve and csv)
+behave2csv: 11343 20150110 7: skipping (have both eve and csv)
 behave2csv: 11343 20150110 6: skipping (have both eve and csv)
 behave2csv: 11343 20150110 7: skipping (have both eve and csv)
 behave2csv: 11343 20150110 8: skipping (have both eve and csv)
+behave2csv: 11343 20150110 8: skipping (have both eve and csv)
+behave2csv: 11343 20150110 7: skipping (have both eve and csv)
+behave2csv: 11346 20141230 1: skipping (have both eve and csv)
+behave2csv: 11343 20150110 8: skipping (have both eve and csv)
+behave2csv: 11346 20141230 2: skipping (have both eve and csv)
+behave2csv: 11346 20141230 1: skipping (have both eve and csv)
+behave2csv: 11346 20141230 3: skipping (have both eve and csv)
 behave2csv: 11346 20141230 1: skipping (have both eve and csv)
 behave2csv: 11346 20141230 2: skipping (have both eve and csv)
+behave2csv: 11346 20141230 4: skipping (have both eve and csv)
+behave2csv: 11346 20141230 2: skipping (have both eve and csv)
+behave2csv: 11346 20141230 3: skipping (have both eve and csv)
+behave2csv: 11346 20141230 5: skipping (have both eve and csv)
 behave2csv: 11346 20141230 3: skipping (have both eve and csv)
 behave2csv: 11346 20141230 4: skipping (have both eve and csv)
+behave2csv: 11346 20141230 4: skipping (have both eve and csv)
+behave2csv: 11346 20141230 6: skipping (have both eve and csv)
+behave2csv: 11346 20141230 5: skipping (have both eve and csv)
 behave2csv: 11346 20141230 5: skipping (have both eve and csv)
 behave2csv: 11346 20141230 6: skipping (have both eve and csv)
 behave2csv: 11346 20141230 7: skipping (have both eve and csv)
+behave2csv: 11346 20141230 6: skipping (have both eve and csv)
+behave2csv: 11346 20141230 7: skipping (have both eve and csv)
 behave2csv: 11346 20141230 8: skipping (have both eve and csv)
+behave2csv: 11346 20141230 7: skipping (have both eve and csv)
+behave2csv: 11346 20141230 8: skipping (have both eve and csv)
+behave2csv: 11346 20141230 8: skipping (have both eve and csv)
+behave2csv: 11342 20150228 1: skipping (have both eve and csv)
+behave2csv: 11342 20150228 1: skipping (have both eve and csv)
+behave2csv: 11342 20150228 2: skipping (have both eve and csv)
 behave2csv: 11342 20150228 1: skipping (have both eve and csv)
 behave2csv: 11342 20150228 2: skipping (have both eve and csv)
 behave2csv: 11342 20150228 3: skipping (have both eve and csv)
+behave2csv: 11342 20150228 3: skipping (have both eve and csv)
+behave2csv: 11342 20150228 2: skipping (have both eve and csv)
 behave2csv: 11342 20150228 4: skipping (have both eve and csv)
+behave2csv: 11342 20150228 4: skipping (have both eve and csv)
+behave2csv: 11342 20150228 3: skipping (have both eve and csv)
 behave2csv: 11342 20150228 5: skipping (have both eve and csv)
+behave2csv: 11342 20150228 5: skipping (have both eve and csv)
+behave2csv: 11342 20150228 4: skipping (have both eve and csv)
 behave2csv: 11342 20150228 6: skipping (have both eve and csv)
+behave2csv: 11342 20150228 6: skipping (have both eve and csv)
+behave2csv: 11342 20150228 5: skipping (have both eve and csv)
+behave2csv: 11342 20150228 7: skipping (have both eve and csv)
+behave2csv: 11342 20150228 7: skipping (have both eve and csv)
+behave2csv: 11342 20150228 6: skipping (have both eve and csv)
+behave2csv: 11342 20150228 8: skipping (have both eve and csv)
+behave2csv: 11342 20150228 8: skipping (have both eve and csv)
 behave2csv: 11342 20150228 7: skipping (have both eve and csv)
 behave2csv: 11342 20150228 8: skipping (have both eve and csv)
 behave2csv: 11250 20140422 1: skipping (have both eve and csv)
+behave2csv: 11250 20140422 1: skipping (have both eve and csv)
 behave2csv: 11250 20140422 2: skipping (have both eve and csv)
-behave2csv: 11250 20140422 3: skipping (have both eve and csv)
-behave2csv: 11250 20140422 4: skipping (have both eve and csv)
-behave2csv: 11250 20140422 5: skipping (have both eve and csv)
-behave2csv: 11250 20140422 6: skipping (have both eve and csv)
-behave2csv: 11250 20140422 7: skipping (have both eve and csv)
-behave2csv: 11250 20140422 8: skipping (have both eve and csv)
-behave2csv: 11250 20140421 1: skipping (have both eve and csv)
-behave2csv: 11250 20140421 2: skipping (have both eve and csv)
-behave2csv: 11250 20140421 3: skipping (have both eve and csv)
-behave2csv: 11250 20140421 4: skipping (have both eve and csv)
-behave2csv: 11250 20140421 5: skipping (have both eve and csv)
-behave2csv: 11250 20140421 6: skipping (have both eve and csv)
-behave2csv: 11250 20140421 7: skipping (have both eve and csv)
-behave2csv: 11250 20140421 8: skipping (have both eve and csv)
-behave2csv: 10638 20140516 1: skipping (have both eve and csv)
-behave2csv: 10638 20140516 2: skipping (have both eve and csv)
-behave2csv: 10638 20140516 4: skipping (have both eve and csv)
-behave2csv: 10638 20140516 3: skipping (have both eve and csv)
-behave2csv: 10638 20140516 5: skipping (have both eve and csv)
-behave2csv: 10638 20140516 6: skipping (have both eve and csv)
-behave2csv: 10638 20140516 7: skipping (have both eve and csv)
-behave2csv: 10638 20140516 8: skipping (have both eve and csv)
-behave2csv: 10638 20140516 5: skipping (have both eve and csv)
-behave2csv: 10638 20140516 6: skipping (have both eve and csv)
-behave2csv: 10638 20140516 7: skipping (have both eve and csv)
-behave2csv: 10638 20140516 3: skipping (have both eve and csv)
-behave2csv: 10638 20140516 8: skipping (have both eve and csv)
 behave2csv: 11250 20140422 1: skipping (have both eve and csv)
 behave2csv: 11250 20140422 2: skipping (have both eve and csv)
 behave2csv: 11250 20140422 3: skipping (have both eve and csv)
+behave2csv: 11250 20140422 2: skipping (have both eve and csv)
+behave2csv: 11250 20140422 3: skipping (have both eve and csv)
+behave2csv: 11250 20140422 3: skipping (have both eve and csv)
+behave2csv: 11250 20140422 4: skipping (have both eve and csv)
+behave2csv: 11250 20140422 4: skipping (have both eve and csv)
 behave2csv: 11250 20140422 4: skipping (have both eve and csv)
 behave2csv: 11250 20140422 5: skipping (have both eve and csv)
+behave2csv: 11250 20140422 5: skipping (have both eve and csv)
+behave2csv: 11250 20140422 5: skipping (have both eve and csv)
+behave2csv: 11250 20140422 6: skipping (have both eve and csv)
+behave2csv: 11250 20140422 6: skipping (have both eve and csv)
 behave2csv: 11250 20140422 6: skipping (have both eve and csv)
 behave2csv: 11250 20140422 7: skipping (have both eve and csv)
+behave2csv: 11250 20140422 7: skipping (have both eve and csv)
+behave2csv: 11250 20140422 7: skipping (have both eve and csv)
+behave2csv: 11250 20140422 8: skipping (have both eve and csv)
+behave2csv: 11250 20140422 8: skipping (have both eve and csv)
+behave2csv: 11250 20140422 8: skipping (have both eve and csv)
+behave2csv: 11250 20140421 1: skipping (have both eve and csv)
+behave2csv: 11250 20140421 1: skipping (have both eve and csv)
+behave2csv: 11250 20140421 1: skipping (have both eve and csv)
+behave2csv: 11250 20140421 2: skipping (have both eve and csv)
+behave2csv: 11250 20140421 2: skipping (have both eve and csv)
+behave2csv: 11250 20140421 2: skipping (have both eve and csv)
+behave2csv: 11250 20140421 3: skipping (have both eve and csv)
+behave2csv: 11250 20140421 3: skipping (have both eve and csv)
+behave2csv: 11250 20140421 3: skipping (have both eve and csv)
+behave2csv: 11250 20140421 4: skipping (have both eve and csv)
+behave2csv: 11250 20140421 4: skipping (have both eve and csv)
+behave2csv: 11250 20140421 4: skipping (have both eve and csv)
+behave2csv: 11250 20140421 5: skipping (have both eve and csv)
+behave2csv: 11250 20140421 5: skipping (have both eve and csv)
+behave2csv: 11250 20140421 6: skipping (have both eve and csv)
+behave2csv: 11250 20140421 5: skipping (have both eve and csv)
+behave2csv: 11250 20140421 6: skipping (have both eve and csv)
+behave2csv: 11250 20140421 6: skipping (have both eve and csv)
+behave2csv: 11250 20140421 7: skipping (have both eve and csv)
+behave2csv: 11250 20140421 7: skipping (have both eve and csv)
+behave2csv: 11250 20140421 7: skipping (have both eve and csv)
+behave2csv: 11250 20140421 8: skipping (have both eve and csv)
+behave2csv: 11250 20140421 8: skipping (have both eve and csv)
+behave2csv: 11250 20140421 8: skipping (have both eve and csv)
+behave2csv: 10638 20140516 1: skipping (have both eve and csv)
+behave2csv: 10638 20140516 1: skipping (have both eve and csv)
+behave2csv: 10638 20140516 1: skipping (have both eve and csv)
+behave2csv: 10638 20140516 2: skipping (have both eve and csv)
+behave2csv: 10638 20140516 2: skipping (have both eve and csv)
+behave2csv: 10638 20140516 2: skipping (have both eve and csv)
+behave2csv: 10638 20140516 4: skipping (have both eve and csv)
+behave2csv: 10638 20140516 4: skipping (have both eve and csv)
+behave2csv: 10638 20140516 4: skipping (have both eve and csv)
+behave2csv: 10638 20140516 3: skipping (have both eve and csv)
+behave2csv: 10638 20140516 3: skipping (have both eve and csv)
+behave2csv: 10638 20140516 3: skipping (have both eve and csv)
+behave2csv: 10638 20140516 5: skipping (have both eve and csv)
+behave2csv: 10638 20140516 5: skipping (have both eve and csv)
+behave2csv: 10638 20140516 5: skipping (have both eve and csv)
+behave2csv: 10638 20140516 6: skipping (have both eve and csv)
+behave2csv: 10638 20140516 6: skipping (have both eve and csv)
+behave2csv: 10638 20140516 6: skipping (have both eve and csv)
+behave2csv: 10638 20140516 7: skipping (have both eve and csv)
+behave2csv: 10638 20140516 7: skipping (have both eve and csv)
+behave2csv: 10638 20140516 7: skipping (have both eve and csv)
+behave2csv: 10638 20140516 8: skipping (have both eve and csv)
+behave2csv: 10638 20140516 8: skipping (have both eve and csv)
+behave2csv: 10638 20140516 8: skipping (have both eve and csv)
+behave2csv: 10638 20140516 5: skipping (have both eve and csv)
+behave2csv: 10638 20140516 5: skipping (have both eve and csv)
+behave2csv: 10638 20140516 5: skipping (have both eve and csv)
+behave2csv: 10638 20140516 6: skipping (have both eve and csv)
+behave2csv: 10638 20140516 6: skipping (have both eve and csv)
+behave2csv: 10638 20140516 6: skipping (have both eve and csv)
+behave2csv: 10638 20140516 7: skipping (have both eve and csv)
+behave2csv: 10638 20140516 7: skipping (have both eve and csv)
+behave2csv: 10638 20140516 7: skipping (have both eve and csv)
+behave2csv: 10638 20140516 3: skipping (have both eve and csv)
+behave2csv: 10638 20140516 3: skipping (have both eve and csv)
+behave2csv: 10638 20140516 3: skipping (have both eve and csv)
+behave2csv: 10638 20140516 8: skipping (have both eve and csv)
+behave2csv: 10638 20140516 8: skipping (have both eve and csv)
+behave2csv: 10638 20140516 8: skipping (have both eve and csv)
+behave2csv: 11250 20140422 1: skipping (have both eve and csv)
+behave2csv: 11250 20140422 1: skipping (have both eve and csv)
+behave2csv: 11250 20140422 1: skipping (have both eve and csv)
+behave2csv: 11250 20140422 2: skipping (have both eve and csv)
+behave2csv: 11250 20140422 2: skipping (have both eve and csv)
+behave2csv: 11250 20140422 2: skipping (have both eve and csv)
+behave2csv: 11250 20140422 3: skipping (have both eve and csv)
+behave2csv: 11250 20140422 3: skipping (have both eve and csv)
+behave2csv: 11250 20140422 3: skipping (have both eve and csv)
+behave2csv: 11250 20140422 4: skipping (have both eve and csv)
+behave2csv: 11250 20140422 4: skipping (have both eve and csv)
+behave2csv: 11250 20140422 4: skipping (have both eve and csv)
+behave2csv: 11250 20140422 5: skipping (have both eve and csv)
+behave2csv: 11250 20140422 5: skipping (have both eve and csv)
+behave2csv: 11250 20140422 5: skipping (have both eve and csv)
+behave2csv: 11250 20140422 6: skipping (have both eve and csv)
+behave2csv: 11250 20140422 6: skipping (have both eve and csv)
+behave2csv: 11250 20140422 6: skipping (have both eve and csv)
+behave2csv: 11250 20140422 7: skipping (have both eve and csv)
+behave2csv: 11250 20140422 7: skipping (have both eve and csv)
+behave2csv: 11250 20140422 7: skipping (have both eve and csv)
+behave2csv: 11250 20140422 8: skipping (have both eve and csv)
+behave2csv: 11250 20140422 8: skipping (have both eve and csv)
 behave2csv: 11250 20140422 8: skipping (have both eve and csv)
 behave2csv: 11275 20140620 1: skipping (have both eve and csv)
+behave2csv: 11275 20140620 1: skipping (have both eve and csv)
+behave2csv: 11275 20140620 1: skipping (have both eve and csv)
+behave2csv: 11275 20140620 2: skipping (have both eve and csv)
+behave2csv: 11275 20140620 2: skipping (have both eve and csv)
 behave2csv: 11275 20140620 2: skipping (have both eve and csv)
 behave2csv: 11275 20140620 3: skipping (have both eve and csv)
+behave2csv: 11275 20140620 3: skipping (have both eve and csv)
+behave2csv: 11275 20140620 3: skipping (have both eve and csv)
+behave2csv: 11275 20140620 4: skipping (have both eve and csv)
+behave2csv: 11275 20140620 4: skipping (have both eve and csv)
 behave2csv: 11275 20140620 4: skipping (have both eve and csv)
 behave2csv: 11275 20140620 5: skipping (have both eve and csv)
+behave2csv: 11275 20140620 5: skipping (have both eve and csv)
+behave2csv: 11275 20140620 5: skipping (have both eve and csv)
+behave2csv: 11275 20140620 6: skipping (have both eve and csv)
+behave2csv: 11275 20140620 6: skipping (have both eve and csv)
 behave2csv: 11275 20140620 6: skipping (have both eve and csv)
 behave2csv: 11275 20140620 7: skipping (have both eve and csv)
+behave2csv: 11275 20140620 7: skipping (have both eve and csv)
+behave2csv: 11275 20140620 7: skipping (have both eve and csv)
+behave2csv: 11275 20140620 8: skipping (have both eve and csv)
+behave2csv: 11275 20140620 8: skipping (have both eve and csv)
 behave2csv: 11275 20140620 8: skipping (have both eve and csv)
 behave2csv: 10822 20140703 1: skipping (have both eve and csv)
+behave2csv: 10822 20140703 1: skipping (have both eve and csv)
+behave2csv: 10822 20140703 1: skipping (have both eve and csv)
+behave2csv: 10822 20140703 2: skipping (have both eve and csv)
+behave2csv: 10822 20140703 2: skipping (have both eve and csv)
 behave2csv: 10822 20140703 2: skipping (have both eve and csv)
 behave2csv: 10822 20140703 3: skipping (have both eve and csv)
+behave2csv: 10822 20140703 3: skipping (have both eve and csv)
+behave2csv: 10822 20140703 3: skipping (have both eve and csv)
+behave2csv: 10822 20140703 4: skipping (have both eve and csv)
+behave2csv: 10822 20140703 4: skipping (have both eve and csv)
 behave2csv: 10822 20140703 4: skipping (have both eve and csv)
 behave2csv: 10822 20140703 5: skipping (have both eve and csv)
+behave2csv: 10822 20140703 5: skipping (have both eve and csv)
+behave2csv: 10822 20140703 5: skipping (have both eve and csv)
+behave2csv: 10822 20140703 6: skipping (have both eve and csv)
+behave2csv: 10822 20140703 6: skipping (have both eve and csv)
 behave2csv: 10822 20140703 6: skipping (have both eve and csv)
 behave2csv: 10822 20140703 7: skipping (have both eve and csv)
+behave2csv: 10822 20140703 7: skipping (have both eve and csv)
+behave2csv: 10822 20140703 7: skipping (have both eve and csv)
+behave2csv: 10822 20140703 8: skipping (have both eve and csv)
+behave2csv: 10822 20140703 8: skipping (have both eve and csv)
 behave2csv: 10822 20140703 8: skipping (have both eve and csv)
 behave2csv: 11162 20140708 1: skipping (have both eve and csv)
+behave2csv: 11162 20140708 1: skipping (have both eve and csv)
+behave2csv: 11162 20140708 1: skipping (have both eve and csv)
+behave2csv: 11162 20140708 3: skipping (have both eve and csv)
+behave2csv: 11162 20140708 3: skipping (have both eve and csv)
 behave2csv: 11162 20140708 3: skipping (have both eve and csv)
 behave2csv: 11162 20140708 4: skipping (have both eve and csv)
+behave2csv: 11162 20140708 4: skipping (have both eve and csv)
+behave2csv: 11162 20140708 4: skipping (have both eve and csv)
+behave2csv: 11162 20140708 5: skipping (have both eve and csv)
+behave2csv: 11162 20140708 5: skipping (have both eve and csv)
 behave2csv: 11162 20140708 5: skipping (have both eve and csv)
 behave2csv: 11162 20140708 6: skipping (have both eve and csv)
+behave2csv: 11162 20140708 6: skipping (have both eve and csv)
+behave2csv: 11162 20140708 6: skipping (have both eve and csv)
+behave2csv: 11162 20140708 7: skipping (have both eve and csv)
+behave2csv: 11162 20140708 7: skipping (have both eve and csv)
 behave2csv: 11162 20140708 7: skipping (have both eve and csv)
 behave2csv: 11162 20140708 8: skipping (have both eve and csv)
+behave2csv: 11162 20140708 8: skipping (have both eve and csv)
+behave2csv: 11162 20140708 8: skipping (have both eve and csv)
+behave2csv: 11162 20140708 2: skipping (have both eve and csv)
+behave2csv: 11162 20140708 2: skipping (have both eve and csv)
 behave2csv: 11162 20140708 2: skipping (have both eve and csv)
 behave2csv: 10895 20140709 1: skipping (have both eve and csv)
+behave2csv: 10895 20140709 1: skipping (have both eve and csv)
+behave2csv: 10895 20140709 1: skipping (have both eve and csv)
+behave2csv: 10895 20140709 2: skipping (have both eve and csv)
+behave2csv: 10895 20140709 2: skipping (have both eve and csv)
 behave2csv: 10895 20140709 2: skipping (have both eve and csv)
 behave2csv: 10895 20140709 3: skipping (have both eve and csv)
+behave2csv: 10895 20140709 3: skipping (have both eve and csv)
+behave2csv: 10895 20140709 3: skipping (have both eve and csv)
+behave2csv: 10895 20140709 4: skipping (have both eve and csv)
+behave2csv: 10895 20140709 4: skipping (have both eve and csv)
 behave2csv: 10895 20140709 4: skipping (have both eve and csv)
 behave2csv: 10895 20140709 5: skipping (have both eve and csv)
+behave2csv: 10895 20140709 5: skipping (have both eve and csv)
+behave2csv: 10895 20140709 5: skipping (have both eve and csv)
+behave2csv: 10895 20140709 6: skipping (have both eve and csv)
+behave2csv: 10895 20140709 6: skipping (have both eve and csv)
 behave2csv: 10895 20140709 6: skipping (have both eve and csv)
 behave2csv: 10895 20140709 7: skipping (have both eve and csv)
+behave2csv: 10895 20140709 7: skipping (have both eve and csv)
+behave2csv: 10895 20140709 7: skipping (have both eve and csv)
+behave2csv: 10895 20140709 8: skipping (have both eve and csv)
+behave2csv: 10895 20140709 8: skipping (have both eve and csv)
 behave2csv: 10895 20140709 8: skipping (have both eve and csv)
 behave2csv: 11288 20140711 1: skipping (have both eve and csv)
+behave2csv: 11288 20140711 1: skipping (have both eve and csv)
+behave2csv: 11288 20140711 1: skipping (have both eve and csv)
+behave2csv: 11288 20140711 2: skipping (have both eve and csv)
+behave2csv: 11288 20140711 2: skipping (have both eve and csv)
 behave2csv: 11288 20140711 2: skipping (have both eve and csv)
 behave2csv: 11288 20140711 3: skipping (have both eve and csv)
+behave2csv: 11288 20140711 3: skipping (have both eve and csv)
+behave2csv: 11288 20140711 3: skipping (have both eve and csv)
+behave2csv: 11288 20140711 4: skipping (have both eve and csv)
+behave2csv: 11288 20140711 4: skipping (have both eve and csv)
 behave2csv: 11288 20140711 4: skipping (have both eve and csv)
 behave2csv: 11288 20140711 5: skipping (have both eve and csv)
+behave2csv: 11288 20140711 5: skipping (have both eve and csv)
+behave2csv: 11288 20140711 5: skipping (have both eve and csv)
+behave2csv: 11288 20140711 6: skipping (have both eve and csv)
+behave2csv: 11288 20140711 6: skipping (have both eve and csv)
 behave2csv: 11288 20140711 6: skipping (have both eve and csv)
 behave2csv: 11288 20140711 7: skipping (have both eve and csv)
+behave2csv: 11288 20140711 7: skipping (have both eve and csv)
+behave2csv: 11288 20140711 7: skipping (have both eve and csv)
+behave2csv: 11288 20140711 8: skipping (have both eve and csv)
+behave2csv: 11288 20140711 8: skipping (have both eve and csv)
 behave2csv: 11288 20140711 8: skipping (have both eve and csv)
 behave2csv: 11304 20140722 1: skipping (have both eve and csv)
+behave2csv: 11304 20140722 1: skipping (have both eve and csv)
+behave2csv: 11304 20140722 1: skipping (have both eve and csv)
+behave2csv: 11304 20140722 2: skipping (have both eve and csv)
+behave2csv: 11304 20140722 2: skipping (have both eve and csv)
 behave2csv: 11304 20140722 2: skipping (have both eve and csv)
 behave2csv: 11304 20140722 3: skipping (have both eve and csv)
+behave2csv: 11304 20140722 3: skipping (have both eve and csv)
+behave2csv: 11304 20140722 3: skipping (have both eve and csv)
+behave2csv: 11304 20140722 4: skipping (have both eve and csv)
+behave2csv: 11304 20140722 4: skipping (have both eve and csv)
 behave2csv: 11304 20140722 4: skipping (have both eve and csv)
 behave2csv: 11304 20140722 5: skipping (have both eve and csv)
+behave2csv: 11304 20140722 5: skipping (have both eve and csv)
+behave2csv: 11304 20140722 5: skipping (have both eve and csv)
+behave2csv: 11304 20140722 6: skipping (have both eve and csv)
+behave2csv: 11304 20140722 6: skipping (have both eve and csv)
 behave2csv: 11304 20140722 6: skipping (have both eve and csv)
 behave2csv: 11304 20140722 7: skipping (have both eve and csv)
+behave2csv: 11304 20140722 7: skipping (have both eve and csv)
+behave2csv: 11304 20140722 7: skipping (have both eve and csv)
+behave2csv: 11304 20140722 8: skipping (have both eve and csv)
+behave2csv: 11304 20140722 8: skipping (have both eve and csv)
 behave2csv: 11304 20140722 8: skipping (have both eve and csv)
 behave2csv: 10811 20140801 1: skipping (have both eve and csv)
+behave2csv: 10811 20140801 1: skipping (have both eve and csv)
+behave2csv: 10811 20140801 1: skipping (have both eve and csv)
+behave2csv: 10811 20140801 2: skipping (have both eve and csv)
+behave2csv: 10811 20140801 2: skipping (have both eve and csv)
 behave2csv: 10811 20140801 2: skipping (have both eve and csv)
 behave2csv: 10811 20140801 3: skipping (have both eve and csv)
+behave2csv: 10811 20140801 3: skipping (have both eve and csv)
+behave2csv: 10811 20140801 3: skipping (have both eve and csv)
+behave2csv: 10811 20140801 4: skipping (have both eve and csv)
+behave2csv: 10811 20140801 4: skipping (have both eve and csv)
 behave2csv: 10811 20140801 4: skipping (have both eve and csv)
 behave2csv: 10811 20140801 5: skipping (have both eve and csv)
+behave2csv: 10811 20140801 5: skipping (have both eve and csv)
+behave2csv: 10811 20140801 5: skipping (have both eve and csv)
+behave2csv: 10811 20140801 6: skipping (have both eve and csv)
+behave2csv: 10811 20140801 6: skipping (have both eve and csv)
 behave2csv: 10811 20140801 6: skipping (have both eve and csv)
 behave2csv: 10811 20140801 7: skipping (have both eve and csv)
+behave2csv: 10811 20140801 7: skipping (have both eve and csv)
+behave2csv: 10811 20140801 7: skipping (have both eve and csv)
+behave2csv: 10811 20140801 8: skipping (have both eve and csv)
+behave2csv: 10811 20140801 8: skipping (have both eve and csv)
 behave2csv: 10811 20140801 8: skipping (have both eve and csv)
 behave2csv: 10814 20140807 1: skipping (have both eve and csv)
+behave2csv: 10814 20140807 1: skipping (have both eve and csv)
+behave2csv: 10814 20140807 1: skipping (have both eve and csv)
+behave2csv: 10814 20140807 2: skipping (have both eve and csv)
+behave2csv: 10814 20140807 2: skipping (have both eve and csv)
 behave2csv: 10814 20140807 2: skipping (have both eve and csv)
 behave2csv: 10814 20140807 3: skipping (have both eve and csv)
+behave2csv: 10814 20140807 3: skipping (have both eve and csv)
+behave2csv: 10814 20140807 3: skipping (have both eve and csv)
+behave2csv: 10814 20140807 4: skipping (have both eve and csv)
+behave2csv: 10814 20140807 4: skipping (have both eve and csv)
 behave2csv: 10814 20140807 4: skipping (have both eve and csv)
 behave2csv: 10814 20140807 5: skipping (have both eve and csv)
+behave2csv: 10814 20140807 5: skipping (have both eve and csv)
+behave2csv: 10814 20140807 5: skipping (have both eve and csv)
+behave2csv: 10814 20140807 6: skipping (have both eve and csv)
+behave2csv: 10814 20140807 6: skipping (have both eve and csv)
 behave2csv: 10814 20140807 6: skipping (have both eve and csv)
 behave2csv: 10814 20140807 7: skipping (have both eve and csv)
+behave2csv: 10814 20140807 7: skipping (have both eve and csv)
+behave2csv: 10814 20140807 7: skipping (have both eve and csv)
+behave2csv: 10814 20140807 8: skipping (have both eve and csv)
+behave2csv: 10814 20140807 8: skipping (have both eve and csv)
 behave2csv: 10814 20140807 8: skipping (have both eve and csv)
 behave2csv: 11310 20140807 1: skipping (have both eve and csv)
+behave2csv: 11310 20140807 1: skipping (have both eve and csv)
 behave2csv: 11310 20140807 2: skipping (have both eve and csv)
+behave2csv: 11310 20140807 1: skipping (have both eve and csv)
+behave2csv: 11310 20140807 2: skipping (have both eve and csv)
+behave2csv: 11310 20140807 2: skipping (have both eve and csv)
+behave2csv: 11310 20140807 3: skipping (have both eve and csv)
+behave2csv: 11310 20140807 3: skipping (have both eve and csv)
+behave2csv: 11310 20140807 4: skipping (have both eve and csv)
 behave2csv: 11310 20140807 3: skipping (have both eve and csv)
 behave2csv: 11310 20140807 4: skipping (have both eve and csv)
 behave2csv: 11310 20140807 5: skipping (have both eve and csv)
+behave2csv: 11310 20140807 5: skipping (have both eve and csv)
+behave2csv: 11310 20140807 4: skipping (have both eve and csv)
 behave2csv: 11310 20140807 6: skipping (have both eve and csv)
+behave2csv: 11310 20140807 6: skipping (have both eve and csv)
+behave2csv: 11310 20140807 5: skipping (have both eve and csv)
+behave2csv: 11310 20140807 7: skipping (have both eve and csv)
+behave2csv: 11310 20140807 7: skipping (have both eve and csv)
+behave2csv: 11310 20140807 6: skipping (have both eve and csv)
+behave2csv: 11310 20140807 8: skipping (have both eve and csv)
+behave2csv: 11310 20140807 8: skipping (have both eve and csv)
 behave2csv: 11310 20140807 7: skipping (have both eve and csv)
 behave2csv: 11310 20140807 8: skipping (have both eve and csv)
 behave2csv: 11311 20140808 1: skipping (have both eve and csv)
+behave2csv: 11311 20140808 1: skipping (have both eve and csv)
 behave2csv: 11311 20140808 2: skipping (have both eve and csv)
+behave2csv: 11311 20140808 2: skipping (have both eve and csv)
+behave2csv: 11311 20140808 1: skipping (have both eve and csv)
+behave2csv: 11311 20140808 3: skipping (have both eve and csv)
+behave2csv: 11311 20140808 3: skipping (have both eve and csv)
+behave2csv: 11311 20140808 2: skipping (have both eve and csv)
+behave2csv: 11311 20140808 4: skipping (have both eve and csv)
 behave2csv: 11311 20140808 3: skipping (have both eve and csv)
 behave2csv: 11311 20140808 4: skipping (have both eve and csv)
 behave2csv: 11311 20140808 5: skipping (have both eve and csv)
+behave2csv: 11311 20140808 4: skipping (have both eve and csv)
+behave2csv: 11311 20140808 5: skipping (have both eve and csv)
+behave2csv: 11311 20140808 6: skipping (have both eve and csv)
+behave2csv: 11311 20140808 5: skipping (have both eve and csv)
+behave2csv: 11311 20140808 6: skipping (have both eve and csv)
+behave2csv: 11311 20140808 7: skipping (have both eve and csv)
 behave2csv: 11311 20140808 6: skipping (have both eve and csv)
 behave2csv: 11311 20140808 7: skipping (have both eve and csv)
 behave2csv: 11311 20140808 8: skipping (have both eve and csv)
+behave2csv: 11311 20140808 7: skipping (have both eve and csv)
+behave2csv: 11311 20140808 8: skipping (have both eve and csv)
+behave2csv: 11311 20140808 8: skipping (have both eve and csv)
+behave2csv: 10711 20140825 1: skipping (have both eve and csv)
 behave2csv: 10711 20140825 1: skipping (have both eve and csv)
 behave2csv: 10711 20140825 2: skipping (have both eve and csv)
+behave2csv: 10711 20140825 1: skipping (have both eve and csv)
+behave2csv: 10711 20140825 2: skipping (have both eve and csv)
+behave2csv: 10711 20140825 2: skipping (have both eve and csv)
 behave2csv: 10711 20140825 3: skipping (have both eve and csv)
+behave2csv: 10711 20140825 3: skipping (have both eve and csv)
+behave2csv: 10711 20140825 3: skipping (have both eve and csv)
+behave2csv: 10711 20140825 4: skipping (have both eve and csv)
+behave2csv: 10711 20140825 4: skipping (have both eve and csv)
+behave2csv: 10711 20140825 5: skipping (have both eve and csv)
 behave2csv: 10711 20140825 4: skipping (have both eve and csv)
 behave2csv: 10711 20140825 5: skipping (have both eve and csv)
 behave2csv: 10711 20140825 6: skipping (have both eve and csv)
+behave2csv: 10711 20140825 5: skipping (have both eve and csv)
+behave2csv: 10711 20140825 6: skipping (have both eve and csv)
+behave2csv: 10711 20140825 6: skipping (have both eve and csv)
+behave2csv: 10711 20140825 7: skipping (have both eve and csv)
+behave2csv: 10711 20140825 7: skipping (have both eve and csv)
 behave2csv: 10711 20140825 7: skipping (have both eve and csv)
 behave2csv: 10711 20140825 8: skipping (have both eve and csv)
+behave2csv: 10711 20140825 8: skipping (have both eve and csv)
+behave2csv: 10711 20140825 8: skipping (have both eve and csv)
+behave2csv: 11305 20140825 1: skipping (have both eve and csv)
+behave2csv: 11305 20140825 1: skipping (have both eve and csv)
 behave2csv: 11305 20140825 1: skipping (have both eve and csv)
 behave2csv: 11305 20140825 2: skipping (have both eve and csv)
+behave2csv: 11305 20140825 2: skipping (have both eve and csv)
+behave2csv: 11305 20140825 2: skipping (have both eve and csv)
+behave2csv: 11305 20140825 3: skipping (have both eve and csv)
+behave2csv: 11305 20140825 3: skipping (have both eve and csv)
 behave2csv: 11305 20140825 3: skipping (have both eve and csv)
 behave2csv: 11305 20140825 4: skipping (have both eve and csv)
+behave2csv: 11305 20140825 4: skipping (have both eve and csv)
+behave2csv: 11305 20140825 4: skipping (have both eve and csv)
+behave2csv: 11305 20140825 5: skipping (have both eve and csv)
+behave2csv: 11305 20140825 5: skipping (have both eve and csv)
 behave2csv: 11305 20140825 5: skipping (have both eve and csv)
 behave2csv: 11305 20140825 6: skipping (have both eve and csv)
+behave2csv: 11305 20140825 6: skipping (have both eve and csv)
+behave2csv: 11305 20140825 6: skipping (have both eve and csv)
+behave2csv: 11305 20140825 7: skipping (have both eve and csv)
+behave2csv: 11305 20140825 7: skipping (have both eve and csv)
 behave2csv: 11305 20140825 7: skipping (have both eve and csv)
 behave2csv: 11305 20140825 8: skipping (have both eve and csv)
+behave2csv: 11305 20140825 8: skipping (have both eve and csv)
+behave2csv: 11305 20140825 8: skipping (have both eve and csv)
+behave2csv: 11315 20140815 1: skipping (have both eve and csv)
+behave2csv: 11315 20140815 1: skipping (have both eve and csv)
 behave2csv: 11315 20140815 1: skipping (have both eve and csv)
 behave2csv: 11315 20140815 2: skipping (have both eve and csv)
+behave2csv: 11315 20140815 2: skipping (have both eve and csv)
+behave2csv: 11315 20140815 2: skipping (have both eve and csv)
+behave2csv: 11315 20140815 3: skipping (have both eve and csv)
+behave2csv: 11315 20140815 3: skipping (have both eve and csv)
 behave2csv: 11315 20140815 3: skipping (have both eve and csv)
 behave2csv: 11315 20140815 4: skipping (have both eve and csv)
+behave2csv: 11315 20140815 4: skipping (have both eve and csv)
+behave2csv: 11315 20140815 4: skipping (have both eve and csv)
+behave2csv: 11315 20140815 5: skipping (have both eve and csv)
+behave2csv: 11315 20140815 5: skipping (have both eve and csv)
 behave2csv: 11315 20140815 5: skipping (have both eve and csv)
 behave2csv: 11315 20140815 6: skipping (have both eve and csv)
+behave2csv: 11315 20140815 6: skipping (have both eve and csv)
+behave2csv: 11315 20140815 6: skipping (have both eve and csv)
+behave2csv: 11315 20140815 7: skipping (have both eve and csv)
+behave2csv: 11315 20140815 7: skipping (have both eve and csv)
 behave2csv: 11315 20140815 7: skipping (have both eve and csv)
 behave2csv: 11315 20140815 8: skipping (have both eve and csv)
+behave2csv: 11315 20140815 8: skipping (have both eve and csv)
+behave2csv: 11315 20140815 8: skipping (have both eve and csv)
+behave2csv: 11302 20140826 1: skipping (have both eve and csv)
+behave2csv: 11302 20140826 1: skipping (have both eve and csv)
 behave2csv: 11302 20140826 1: skipping (have both eve and csv)
 behave2csv: 11302 20140826 2: skipping (have both eve and csv)
+behave2csv: 11302 20140826 2: skipping (have both eve and csv)
+behave2csv: 11302 20140826 2: skipping (have both eve and csv)
+behave2csv: 11302 20140826 3: skipping (have both eve and csv)
+behave2csv: 11302 20140826 3: skipping (have both eve and csv)
 behave2csv: 11302 20140826 3: skipping (have both eve and csv)
 behave2csv: 11302 20140826 4: skipping (have both eve and csv)
+behave2csv: 11302 20140826 4: skipping (have both eve and csv)
+behave2csv: 11302 20140826 4: skipping (have both eve and csv)
+behave2csv: 11302 20140826 5: skipping (have both eve and csv)
+behave2csv: 11302 20140826 5: skipping (have both eve and csv)
 behave2csv: 11302 20140826 5: skipping (have both eve and csv)
 behave2csv: 11302 20140826 6: skipping (have both eve and csv)
+behave2csv: 11302 20140826 6: skipping (have both eve and csv)
+behave2csv: 11302 20140826 6: skipping (have both eve and csv)
 behave2csv: 11302 20140826 7: skipping (have both eve and csv)
+behave2csv: 11302 20140826 7: skipping (have both eve and csv)
+behave2csv: 11302 20140826 7: skipping (have both eve and csv)
+behave2csv: 11302 20140826 8: skipping (have both eve and csv)
+behave2csv: 11302 20140826 8: skipping (have both eve and csv)
 behave2csv: 11302 20140826 8: skipping (have both eve and csv)
 behave2csv: 10767 20140828 1: skipping (have both eve and csv)
 behave2csv: 10767 20140828 2: skipping (have both eve and csv)
+behave2csv: 10767 20140828 1: skipping (have both eve and csv)
 behave2csv: 10767 20140828 3: skipping (have both eve and csv)
+behave2csv: 10767 20140828 1: skipping (have both eve and csv)
+behave2csv: 10767 20140828 2: skipping (have both eve and csv)
+behave2csv: 10767 20140828 4: skipping (have both eve and csv)
+behave2csv: 10767 20140828 3: skipping (have both eve and csv)
+behave2csv: 10767 20140828 2: skipping (have both eve and csv)
+behave2csv: 10767 20140828 5: skipping (have both eve and csv)
+behave2csv: 10767 20140828 3: skipping (have both eve and csv)
+behave2csv: 10767 20140828 6: skipping (have both eve and csv)
+behave2csv: 10767 20140828 4: skipping (have both eve and csv)
 behave2csv: 10767 20140828 4: skipping (have both eve and csv)
 behave2csv: 10767 20140828 5: skipping (have both eve and csv)
+behave2csv: 10767 20140828 7: skipping (have both eve and csv)
+behave2csv: 10767 20140828 5: skipping (have both eve and csv)
+behave2csv: 10767 20140828 8: skipping (have both eve and csv)
+behave2csv: 10767 20140828 6: skipping (have both eve and csv)
 behave2csv: 10767 20140828 6: skipping (have both eve and csv)
 behave2csv: 10767 20140828 7: skipping (have both eve and csv)
+behave2csv: 10767 20140828 7: skipping (have both eve and csv)
+behave2csv: 10767 20140828 8: skipping (have both eve and csv)
 behave2csv: 10767 20140828 8: skipping (have both eve and csv)
 behave2csv: 11316 20140829 1: skipping (have both eve and csv)
 behave2csv: 11316 20140829 2: skipping (have both eve and csv)
 behave2csv: 11316 20140829 3: skipping (have both eve and csv)
+behave2csv: 11316 20140829 1: skipping (have both eve and csv)
+behave2csv: 11316 20140829 1: skipping (have both eve and csv)
+behave2csv: 11316 20140829 2: skipping (have both eve and csv)
+behave2csv: 11316 20140829 2: skipping (have both eve and csv)
 behave2csv: 11316 20140829 4: skipping (have both eve and csv)
+behave2csv: 11316 20140829 3: skipping (have both eve and csv)
+behave2csv: 11316 20140829 3: skipping (have both eve and csv)
+behave2csv: 11316 20140829 5: skipping (have both eve and csv)
+behave2csv: 11316 20140829 4: skipping (have both eve and csv)
+behave2csv: 11316 20140829 4: skipping (have both eve and csv)
+behave2csv: 11316 20140829 6: skipping (have both eve and csv)
+behave2csv: 11316 20140829 5: skipping (have both eve and csv)
 behave2csv: 11316 20140829 5: skipping (have both eve and csv)
 behave2csv: 11316 20140829 6: skipping (have both eve and csv)
 behave2csv: 11316 20140829 7: skipping (have both eve and csv)
+behave2csv: 11316 20140829 6: skipping (have both eve and csv)
+behave2csv: 11316 20140829 7: skipping (have both eve and csv)
+behave2csv: 11316 20140829 7: skipping (have both eve and csv)
+behave2csv: 11316 20140829 8: skipping (have both eve and csv)
+behave2csv: 11316 20140829 8: skipping (have both eve and csv)
 behave2csv: 11316 20140829 8: skipping (have both eve and csv)
 behave2csv: 11321 20140904 1: skipping (have both eve and csv)
+behave2csv: 11321 20140904 1: skipping (have both eve and csv)
+behave2csv: 11321 20140904 1: skipping (have both eve and csv)
+behave2csv: 11321 20140904 2: skipping (have both eve and csv)
+behave2csv: 11321 20140904 2: skipping (have both eve and csv)
 behave2csv: 11321 20140904 2: skipping (have both eve and csv)
 behave2csv: 11321 20140904 3: skipping (have both eve and csv)
+behave2csv: 11321 20140904 3: skipping (have both eve and csv)
+behave2csv: 11321 20140904 3: skipping (have both eve and csv)
+behave2csv: 11321 20140904 4: skipping (have both eve and csv)
+behave2csv: 11321 20140904 4: skipping (have both eve and csv)
 behave2csv: 11321 20140904 4: skipping (have both eve and csv)
 behave2csv: 11321 20140904 5: skipping (have both eve and csv)
+behave2csv: 11321 20140904 5: skipping (have both eve and csv)
+behave2csv: 11321 20140904 5: skipping (have both eve and csv)
+behave2csv: 11321 20140904 6: skipping (have both eve and csv)
+behave2csv: 11321 20140904 6: skipping (have both eve and csv)
 behave2csv: 11321 20140904 6: skipping (have both eve and csv)
 behave2csv: 11321 20140904 7: skipping (have both eve and csv)
+behave2csv: 11321 20140904 7: skipping (have both eve and csv)
+behave2csv: 11321 20140904 7: skipping (have both eve and csv)
+behave2csv: 11321 20140904 8: skipping (have both eve and csv)
+behave2csv: 11321 20140904 8: skipping (have both eve and csv)
 behave2csv: 11321 20140904 8: skipping (have both eve and csv)
 behave2csv: 11320 20140908 1: skipping (have both eve and csv)
+behave2csv: 11320 20140908 1: skipping (have both eve and csv)
+behave2csv: 11320 20140908 1: skipping (have both eve and csv)
+behave2csv: 11320 20140908 2: skipping (have both eve and csv)
+behave2csv: 11320 20140908 2: skipping (have both eve and csv)
 behave2csv: 11320 20140908 2: skipping (have both eve and csv)
 behave2csv: 11320 20140908 3: skipping (have both eve and csv)
+behave2csv: 11320 20140908 3: skipping (have both eve and csv)
+behave2csv: 11320 20140908 3: skipping (have both eve and csv)
+behave2csv: 11320 20140908 4: skipping (have both eve and csv)
+behave2csv: 11320 20140908 4: skipping (have both eve and csv)
 behave2csv: 11320 20140908 4: skipping (have both eve and csv)
 behave2csv: 11320 20140908 5: skipping (have both eve and csv)
+behave2csv: 11320 20140908 5: skipping (have both eve and csv)
+behave2csv: 11320 20140908 5: skipping (have both eve and csv)
+behave2csv: 11320 20140908 7: skipping (have both eve and csv)
+behave2csv: 11320 20140908 7: skipping (have both eve and csv)
 behave2csv: 11320 20140908 7: skipping (have both eve and csv)
 behave2csv: 11320 20140908 8: skipping (have both eve and csv)
+behave2csv: 11320 20140908 8: skipping (have both eve and csv)
+behave2csv: 11320 20140908 8: skipping (have both eve and csv)
+behave2csv: 11228 20140911 1: skipping (have both eve and csv)
+behave2csv: 11228 20140911 1: skipping (have both eve and csv)
 behave2csv: 11228 20140911 1: skipping (have both eve and csv)
 behave2csv: 11228 20140911 2: skipping (have both eve and csv)
+behave2csv: 11228 20140911 2: skipping (have both eve and csv)
+behave2csv: 11228 20140911 2: skipping (have both eve and csv)
+behave2csv: 11228 20140911 3: skipping (have both eve and csv)
+behave2csv: 11228 20140911 3: skipping (have both eve and csv)
 behave2csv: 11228 20140911 3: skipping (have both eve and csv)
 behave2csv: 11228 20140911 4: skipping (have both eve and csv)
+behave2csv: 11228 20140911 4: skipping (have both eve and csv)
+behave2csv: 11228 20140911 4: skipping (have both eve and csv)
+behave2csv: 11228 20140911 5: skipping (have both eve and csv)
+behave2csv: 11228 20140911 5: skipping (have both eve and csv)
 behave2csv: 11228 20140911 5: skipping (have both eve and csv)
 behave2csv: 11228 20140911 6: skipping (have both eve and csv)
+behave2csv: 11228 20140911 6: skipping (have both eve and csv)
+behave2csv: 11228 20140911 6: skipping (have both eve and csv)
+behave2csv: 11228 20140911 7: skipping (have both eve and csv)
+behave2csv: 11228 20140911 7: skipping (have both eve and csv)
 behave2csv: 11228 20140911 7: skipping (have both eve and csv)
 behave2csv: 11228 20140911 8: skipping (have both eve and csv)
+behave2csv: 11228 20140911 8: skipping (have both eve and csv)
+behave2csv: 11228 20140911 8: skipping (have both eve and csv)
+behave2csv: 11325 20140918 1: skipping (have both eve and csv)
+behave2csv: 11325 20140918 1: skipping (have both eve and csv)
 behave2csv: 11325 20140918 1: skipping (have both eve and csv)
 behave2csv: 11325 20140918 2: skipping (have both eve and csv)
+behave2csv: 11325 20140918 2: skipping (have both eve and csv)
+behave2csv: 11325 20140918 2: skipping (have both eve and csv)
+behave2csv: 11325 20140918 3: skipping (have both eve and csv)
+behave2csv: 11325 20140918 3: skipping (have both eve and csv)
 behave2csv: 11325 20140918 3: skipping (have both eve and csv)
 behave2csv: 11325 20140918 4: skipping (have both eve and csv)
+behave2csv: 11325 20140918 4: skipping (have both eve and csv)
+behave2csv: 11325 20140918 4: skipping (have both eve and csv)
+behave2csv: 11325 20140918 6: skipping (have both eve and csv)
+behave2csv: 11325 20140918 6: skipping (have both eve and csv)
 behave2csv: 11325 20140918 6: skipping (have both eve and csv)
 behave2csv: 11325 20140918 7: skipping (have both eve and csv)
+behave2csv: 11325 20140918 7: skipping (have both eve and csv)
+behave2csv: 11325 20140918 7: skipping (have both eve and csv)
+behave2csv: 11325 20140918 8: skipping (have both eve and csv)
+behave2csv: 11325 20140918 8: skipping (have both eve and csv)
 behave2csv: 11325 20140918 8: skipping (have both eve and csv)
 behave2csv: 11325 20140918 5: skipping (have both eve and csv)
+behave2csv: 11325 20140918 5: skipping (have both eve and csv)
+behave2csv: 11325 20140918 5: skipping (have both eve and csv)
+behave2csv: 11265 20140923 1: skipping (have both eve and csv)
+behave2csv: 11265 20140923 1: skipping (have both eve and csv)
 behave2csv: 11265 20140923 1: skipping (have both eve and csv)
 behave2csv: 11265 20140923 2: skipping (have both eve and csv)
+behave2csv: 11265 20140923 2: skipping (have both eve and csv)
+behave2csv: 11265 20140923 2: skipping (have both eve and csv)
+behave2csv: 11265 20140923 3: skipping (have both eve and csv)
+behave2csv: 11265 20140923 3: skipping (have both eve and csv)
 behave2csv: 11265 20140923 3: skipping (have both eve and csv)
 behave2csv: 11265 20140923 4: skipping (have both eve and csv)
+behave2csv: 11265 20140923 4: skipping (have both eve and csv)
+behave2csv: 11265 20140923 4: skipping (have both eve and csv)
+behave2csv: 11265 20140923 5: skipping (have both eve and csv)
+behave2csv: 11265 20140923 5: skipping (have both eve and csv)
 behave2csv: 11265 20140923 5: skipping (have both eve and csv)
 behave2csv: 11265 20140923 6: skipping (have both eve and csv)
+behave2csv: 11265 20140923 6: skipping (have both eve and csv)
+behave2csv: 11265 20140923 6: skipping (have both eve and csv)
+behave2csv: 11265 20140923 7: skipping (have both eve and csv)
+behave2csv: 11265 20140923 7: skipping (have both eve and csv)
 behave2csv: 11265 20140923 7: skipping (have both eve and csv)
 behave2csv: 11265 20140923 8: skipping (have both eve and csv)
+behave2csv: 11265 20140923 8: skipping (have both eve and csv)
+behave2csv: 11265 20140923 8: skipping (have both eve and csv)
+behave2csv: 11319 20140924 1: skipping (have both eve and csv)
+behave2csv: 11319 20140924 1: skipping (have both eve and csv)
 behave2csv: 11319 20140924 1: skipping (have both eve and csv)
 behave2csv: 11319 20140924 2: skipping (have both eve and csv)
+behave2csv: 11319 20140924 2: skipping (have both eve and csv)
+behave2csv: 11319 20140924 2: skipping (have both eve and csv)
+behave2csv: 11319 20140924 3: skipping (have both eve and csv)
+behave2csv: 11319 20140924 3: skipping (have both eve and csv)
 behave2csv: 11319 20140924 3: skipping (have both eve and csv)
 behave2csv: 11319 20140924 4: skipping (have both eve and csv)
+behave2csv: 11319 20140924 4: skipping (have both eve and csv)
+behave2csv: 11319 20140924 4: skipping (have both eve and csv)
+behave2csv: 11319 20140924 5: skipping (have both eve and csv)
+behave2csv: 11319 20140924 5: skipping (have both eve and csv)
 behave2csv: 11319 20140924 5: skipping (have both eve and csv)
 behave2csv: 11319 20140924 6: skipping (have both eve and csv)
+behave2csv: 11319 20140924 6: skipping (have both eve and csv)
+behave2csv: 11319 20140924 6: skipping (have both eve and csv)
+behave2csv: 11319 20140924 7: skipping (have both eve and csv)
+behave2csv: 11319 20140924 7: skipping (have both eve and csv)
 behave2csv: 11319 20140924 7: skipping (have both eve and csv)
 behave2csv: 11319 20140924 8: skipping (have both eve and csv)
+behave2csv: 11319 20140924 8: skipping (have both eve and csv)
+behave2csv: 11319 20140924 8: skipping (have both eve and csv)
+behave2csv: 11322 20140918 1: skipping (have both eve and csv)
+behave2csv: 11322 20140918 1: skipping (have both eve and csv)
 behave2csv: 11322 20140918 1: skipping (have both eve and csv)
 behave2csv: 11322 20140918 2: skipping (have both eve and csv)
+behave2csv: 11322 20140918 2: skipping (have both eve and csv)
+behave2csv: 11322 20140918 2: skipping (have both eve and csv)
+behave2csv: 11322 20140918 3: skipping (have both eve and csv)
+behave2csv: 11322 20140918 3: skipping (have both eve and csv)
 behave2csv: 11322 20140918 3: skipping (have both eve and csv)
 behave2csv: 11322 20140918 4: skipping (have both eve and csv)
+behave2csv: 11322 20140918 4: skipping (have both eve and csv)
+behave2csv: 11322 20140918 4: skipping (have both eve and csv)
+behave2csv: 11322 20140918 6: skipping (have both eve and csv)
+behave2csv: 11322 20140918 6: skipping (have both eve and csv)
 behave2csv: 11322 20140918 6: skipping (have both eve and csv)
 behave2csv: 11322 20140918 7: skipping (have both eve and csv)
+behave2csv: 11322 20140918 7: skipping (have both eve and csv)
+behave2csv: 11322 20140918 7: skipping (have both eve and csv)
+behave2csv: 11322 20140918 8: skipping (have both eve and csv)
+behave2csv: 11322 20140918 8: skipping (have both eve and csv)
 behave2csv: 11322 20140918 8: skipping (have both eve and csv)
 behave2csv: 10891 20140925 1: skipping (have both eve and csv)
+behave2csv: 10891 20140925 1: skipping (have both eve and csv)
+behave2csv: 10891 20140925 1: skipping (have both eve and csv)
+behave2csv: 10891 20140925 2: skipping (have both eve and csv)
+behave2csv: 10891 20140925 2: skipping (have both eve and csv)
 behave2csv: 10891 20140925 2: skipping (have both eve and csv)
 behave2csv: 10891 20140925 3: skipping (have both eve and csv)
+behave2csv: 10891 20140925 3: skipping (have both eve and csv)
+behave2csv: 10891 20140925 3: skipping (have both eve and csv)
+behave2csv: 10891 20140925 4: skipping (have both eve and csv)
+behave2csv: 10891 20140925 4: skipping (have both eve and csv)
 behave2csv: 10891 20140925 4: skipping (have both eve and csv)
 behave2csv: 10891 20140925 5: skipping (have both eve and csv)
+behave2csv: 10891 20140925 5: skipping (have both eve and csv)
+behave2csv: 10891 20140925 5: skipping (have both eve and csv)
+behave2csv: 10891 20140925 6: skipping (have both eve and csv)
+behave2csv: 10891 20140925 6: skipping (have both eve and csv)
 behave2csv: 10891 20140925 6: skipping (have both eve and csv)
 behave2csv: 10891 20140925 7: skipping (have both eve and csv)
+behave2csv: 10891 20140925 7: skipping (have both eve and csv)
+behave2csv: 10891 20140925 7: skipping (have both eve and csv)
+behave2csv: 10891 20140925 8: skipping (have both eve and csv)
+behave2csv: 10891 20140925 8: skipping (have both eve and csv)
 behave2csv: 10891 20140925 8: skipping (have both eve and csv)
 behave2csv: 11280 20140926 1: skipping (have both eve and csv)
+behave2csv: 11280 20140926 1: skipping (have both eve and csv)
+behave2csv: 11280 20140926 2: skipping (have both eve and csv)
+behave2csv: 11280 20140926 1: skipping (have both eve and csv)
+behave2csv: 11280 20140926 2: skipping (have both eve and csv)
 behave2csv: 11280 20140926 2: skipping (have both eve and csv)
 behave2csv: 11280 20140926 3: skipping (have both eve and csv)
+behave2csv: 11280 20140926 3: skipping (have both eve and csv)
+behave2csv: 11280 20140926 3: skipping (have both eve and csv)
+behave2csv: 11280 20140926 4: skipping (have both eve and csv)
+behave2csv: 11280 20140926 4: skipping (have both eve and csv)
 behave2csv: 11280 20140926 4: skipping (have both eve and csv)
 behave2csv: 11280 20140926 5: skipping (have both eve and csv)
+behave2csv: 11280 20140926 5: skipping (have both eve and csv)
+behave2csv: 11280 20140926 5: skipping (have both eve and csv)
+behave2csv: 11280 20140926 6: skipping (have both eve and csv)
+behave2csv: 11280 20140926 6: skipping (have both eve and csv)
 behave2csv: 11280 20140926 6: skipping (have both eve and csv)
 behave2csv: 11280 20140926 7: skipping (have both eve and csv)
+behave2csv: 11280 20140926 7: skipping (have both eve and csv)
+behave2csv: 11280 20140926 7: skipping (have both eve and csv)
+behave2csv: 11280 20140926 8: skipping (have both eve and csv)
+behave2csv: 11280 20140926 8: skipping (have both eve and csv)
 behave2csv: 11280 20140926 8: skipping (have both eve and csv)
 behave2csv: 11326 20141006 1: skipping (have both eve and csv)
+behave2csv: 11326 20141006 1: skipping (have both eve and csv)
+behave2csv: 11326 20141006 1: skipping (have both eve and csv)
+behave2csv: 11326 20141006 2: skipping (have both eve and csv)
+behave2csv: 11326 20141006 2: skipping (have both eve and csv)
 behave2csv: 11326 20141006 2: skipping (have both eve and csv)
 behave2csv: 11326 20141006 3: skipping (have both eve and csv)
+behave2csv: 11326 20141006 3: skipping (have both eve and csv)
+behave2csv: 11326 20141006 3: skipping (have both eve and csv)
+behave2csv: 11326 20141006 4: skipping (have both eve and csv)
+behave2csv: 11326 20141006 4: skipping (have both eve and csv)
 behave2csv: 11326 20141006 4: skipping (have both eve and csv)
 behave2csv: 11326 20141006 5: skipping (have both eve and csv)
+behave2csv: 11326 20141006 5: skipping (have both eve and csv)
+behave2csv: 11326 20141006 5: skipping (have both eve and csv)
+behave2csv: 11326 20141006 6: skipping (have both eve and csv)
+behave2csv: 11326 20141006 6: skipping (have both eve and csv)
 behave2csv: 11326 20141006 6: skipping (have both eve and csv)
 behave2csv: 11326 20141006 7: skipping (have both eve and csv)
+behave2csv: 11326 20141006 7: skipping (have both eve and csv)
+behave2csv: 11326 20141006 7: skipping (have both eve and csv)
+behave2csv: 11326 20141006 8: skipping (have both eve and csv)
+behave2csv: 11326 20141006 8: skipping (have both eve and csv)
 behave2csv: 11326 20141006 8: skipping (have both eve and csv)
 behave2csv: 11216 20141008 1: skipping (have both eve and csv)
+behave2csv: 11216 20141008 1: skipping (have both eve and csv)
+behave2csv: 11216 20141008 1: skipping (have both eve and csv)
+behave2csv: 11216 20141008 2: skipping (have both eve and csv)
+behave2csv: 11216 20141008 2: skipping (have both eve and csv)
 behave2csv: 11216 20141008 2: skipping (have both eve and csv)
 behave2csv: 11216 20141008 3: skipping (have both eve and csv)
+behave2csv: 11216 20141008 3: skipping (have both eve and csv)
+behave2csv: 11216 20141008 3: skipping (have both eve and csv)
+behave2csv: 11216 20141008 4: skipping (have both eve and csv)
+behave2csv: 11216 20141008 4: skipping (have both eve and csv)
 behave2csv: 11216 20141008 4: skipping (have both eve and csv)
 behave2csv: 11216 20141008 5: skipping (have both eve and csv)
+behave2csv: 11216 20141008 5: skipping (have both eve and csv)
+behave2csv: 11216 20141008 5: skipping (have both eve and csv)
+behave2csv: 11216 20141008 6: skipping (have both eve and csv)
+behave2csv: 11216 20141008 6: skipping (have both eve and csv)
 behave2csv: 11216 20141008 6: skipping (have both eve and csv)
 behave2csv: 11216 20141008 7: skipping (have both eve and csv)
+behave2csv: 11216 20141008 7: skipping (have both eve and csv)
+behave2csv: 11216 20141008 7: skipping (have both eve and csv)
+behave2csv: 11216 20141008 8: skipping (have both eve and csv)
+behave2csv: 11216 20141008 8: skipping (have both eve and csv)
 behave2csv: 11216 20141008 8: skipping (have both eve and csv)
 behave2csv: 11324 20141009 1: skipping (have both eve and csv)
+behave2csv: 11324 20141009 1: skipping (have both eve and csv)
+behave2csv: 11324 20141009 1: skipping (have both eve and csv)
+behave2csv: 11324 20141009 2: skipping (have both eve and csv)
+behave2csv: 11324 20141009 2: skipping (have both eve and csv)
 behave2csv: 11324 20141009 2: skipping (have both eve and csv)
 behave2csv: 11324 20141009 3: skipping (have both eve and csv)
+behave2csv: 11324 20141009 3: skipping (have both eve and csv)
+behave2csv: 11324 20141009 3: skipping (have both eve and csv)
+behave2csv: 11324 20141009 4: skipping (have both eve and csv)
+behave2csv: 11324 20141009 4: skipping (have both eve and csv)
 behave2csv: 11324 20141009 4: skipping (have both eve and csv)
 behave2csv: 11324 20141009 6: skipping (have both eve and csv)
+behave2csv: 11324 20141009 6: skipping (have both eve and csv)
+behave2csv: 11324 20141009 6: skipping (have both eve and csv)
+behave2csv: 11324 20141009 7: skipping (have both eve and csv)
+behave2csv: 11324 20141009 7: skipping (have both eve and csv)
 behave2csv: 11324 20141009 7: skipping (have both eve and csv)
 behave2csv: 11324 20141009 8: skipping (have both eve and csv)
+behave2csv: 11324 20141009 8: skipping (have both eve and csv)
+behave2csv: 11324 20141009 8: skipping (have both eve and csv)
+behave2csv: 11324 20141009 5: skipping (have both eve and csv)
+behave2csv: 11324 20141009 5: skipping (have both eve and csv)
 behave2csv: 11324 20141009 5: skipping (have both eve and csv)
 behave2csv: 11317 20141009 1: skipping (have both eve and csv)
+behave2csv: 11317 20141009 1: skipping (have both eve and csv)
+behave2csv: 11317 20141009 1: skipping (have both eve and csv)
+behave2csv: 11317 20141009 2: skipping (have both eve and csv)
+behave2csv: 11317 20141009 2: skipping (have both eve and csv)
 behave2csv: 11317 20141009 2: skipping (have both eve and csv)
 behave2csv: 11317 20141009 3: skipping (have both eve and csv)
+behave2csv: 11317 20141009 3: skipping (have both eve and csv)
+behave2csv: 11317 20141009 3: skipping (have both eve and csv)
+behave2csv: 11317 20141009 4: skipping (have both eve and csv)
 behave2csv: 11317 20141009 4: skipping (have both eve and csv)
 behave2csv: 11317 20141009 5: skipping (have both eve and csv)
+behave2csv: 11317 20141009 5: skipping (have both eve and csv)
+behave2csv: 11317 20141009 4: skipping (have both eve and csv)
+behave2csv: 11317 20141009 6: skipping (have both eve and csv)
+behave2csv: 11317 20141009 6: skipping (have both eve and csv)
+behave2csv: 11317 20141009 5: skipping (have both eve and csv)
+behave2csv: 11317 20141009 7: skipping (have both eve and csv)
 behave2csv: 11317 20141009 6: skipping (have both eve and csv)
 behave2csv: 11317 20141009 7: skipping (have both eve and csv)
 behave2csv: 11317 20141009 8: skipping (have both eve and csv)
+behave2csv: 11317 20141009 7: skipping (have both eve and csv)
+behave2csv: 11317 20141009 8: skipping (have both eve and csv)
+behave2csv: 11317 20141009 8: skipping (have both eve and csv)
+behave2csv: 11314 20141020 1: skipping (have both eve and csv)
+behave2csv: 11314 20141020 1: skipping (have both eve and csv)
+behave2csv: 11314 20141020 2: skipping (have both eve and csv)
 behave2csv: 11314 20141020 1: skipping (have both eve and csv)
 behave2csv: 11314 20141020 2: skipping (have both eve and csv)
 behave2csv: 11314 20141020 3: skipping (have both eve and csv)
+behave2csv: 11314 20141020 2: skipping (have both eve and csv)
+behave2csv: 11314 20141020 3: skipping (have both eve and csv)
+behave2csv: 11314 20141020 3: skipping (have both eve and csv)
+behave2csv: 11314 20141020 4: skipping (have both eve and csv)
+behave2csv: 11314 20141020 4: skipping (have both eve and csv)
 behave2csv: 11314 20141020 4: skipping (have both eve and csv)
 behave2csv: 11314 20141020 5: skipping (have both eve and csv)
+behave2csv: 11314 20141020 5: skipping (have both eve and csv)
+behave2csv: 11314 20141020 5: skipping (have both eve and csv)
+behave2csv: 11314 20141020 6: skipping (have both eve and csv)
+behave2csv: 11314 20141020 6: skipping (have both eve and csv)
 behave2csv: 11314 20141020 6: skipping (have both eve and csv)
 behave2csv: 11314 20141020 7: skipping (have both eve and csv)
+behave2csv: 11314 20141020 7: skipping (have both eve and csv)
+behave2csv: 11314 20141020 7: skipping (have both eve and csv)
+behave2csv: 11314 20141020 8: skipping (have both eve and csv)
+behave2csv: 11314 20141020 8: skipping (have both eve and csv)
 behave2csv: 11314 20141020 8: skipping (have both eve and csv)
 behave2csv: 11282 20141030 1: skipping (have both eve and csv)
+behave2csv: 11282 20141030 1: skipping (have both eve and csv)
+behave2csv: 11282 20141030 1: skipping (have both eve and csv)
+behave2csv: 11282 20141030 2: skipping (have both eve and csv)
+behave2csv: 11282 20141030 2: skipping (have both eve and csv)
 behave2csv: 11282 20141030 2: skipping (have both eve and csv)
 behave2csv: 11282 20141030 3: skipping (have both eve and csv)
+behave2csv: 11282 20141030 3: skipping (have both eve and csv)
+behave2csv: 11282 20141030 3: skipping (have both eve and csv)
+behave2csv: 11282 20141030 4: skipping (have both eve and csv)
+behave2csv: 11282 20141030 4: skipping (have both eve and csv)
 behave2csv: 11282 20141030 4: skipping (have both eve and csv)
 behave2csv: 11282 20141030 5: skipping (have both eve and csv)
+behave2csv: 11282 20141030 5: skipping (have both eve and csv)
+behave2csv: 11282 20141030 5: skipping (have both eve and csv)
+behave2csv: 11282 20141030 6: skipping (have both eve and csv)
+behave2csv: 11282 20141030 6: skipping (have both eve and csv)
 behave2csv: 11282 20141030 6: skipping (have both eve and csv)
 behave2csv: 11282 20141030 7: skipping (have both eve and csv)
+behave2csv: 11282 20141030 7: skipping (have both eve and csv)
+behave2csv: 11282 20141030 7: skipping (have both eve and csv)
+behave2csv: 11282 20141030 8: skipping (have both eve and csv)
+behave2csv: 11282 20141030 8: skipping (have both eve and csv)
 behave2csv: 11282 20141030 8: skipping (have both eve and csv)
 behave2csv: 11329 20141105 1: skipping (have both eve and csv)
+behave2csv: 11329 20141105 1: skipping (have both eve and csv)
+behave2csv: 11329 20141105 1: skipping (have both eve and csv)
+behave2csv: 11329 20141105 2: skipping (have both eve and csv)
+behave2csv: 11329 20141105 2: skipping (have both eve and csv)
 behave2csv: 11329 20141105 2: skipping (have both eve and csv)
 behave2csv: 11329 20141105 3: skipping (have both eve and csv)
+behave2csv: 11329 20141105 3: skipping (have both eve and csv)
+behave2csv: 11329 20141105 3: skipping (have both eve and csv)
+behave2csv: 11329 20141105 4: skipping (have both eve and csv)
+behave2csv: 11329 20141105 4: skipping (have both eve and csv)
 behave2csv: 11329 20141105 4: skipping (have both eve and csv)
 behave2csv: 11329 20141105 5: skipping (have both eve and csv)
+behave2csv: 11329 20141105 5: skipping (have both eve and csv)
+behave2csv: 11329 20141105 5: skipping (have both eve and csv)
+behave2csv: 11329 20141105 6: skipping (have both eve and csv)
+behave2csv: 11329 20141105 6: skipping (have both eve and csv)
 behave2csv: 11329 20141105 6: skipping (have both eve and csv)
 behave2csv: 11329 20141105 7: skipping (have both eve and csv)
+behave2csv: 11329 20141105 7: skipping (have both eve and csv)
+behave2csv: 11329 20141105 7: skipping (have both eve and csv)
+behave2csv: 11329 20141105 8: skipping (have both eve and csv)
+behave2csv: 11329 20141105 8: skipping (have both eve and csv)
 behave2csv: 11329 20141105 8: skipping (have both eve and csv)
 behave2csv: 11338 20141110 1: skipping (have both eve and csv)
+behave2csv: 11338 20141110 1: skipping (have both eve and csv)
+behave2csv: 11338 20141110 1: skipping (have both eve and csv)
+behave2csv: 11338 20141110 2: skipping (have both eve and csv)
+behave2csv: 11338 20141110 2: skipping (have both eve and csv)
 behave2csv: 11338 20141110 2: skipping (have both eve and csv)
 behave2csv: 11338 20141110 3: skipping (have both eve and csv)
+behave2csv: 11338 20141110 3: skipping (have both eve and csv)
+behave2csv: 11338 20141110 3: skipping (have both eve and csv)
+behave2csv: 11338 20141110 4: skipping (have both eve and csv)
+behave2csv: 11338 20141110 4: skipping (have both eve and csv)
 behave2csv: 11338 20141110 4: skipping (have both eve and csv)
 behave2csv: 11338 20141110 5: skipping (have both eve and csv)
+behave2csv: 11338 20141110 5: skipping (have both eve and csv)
+behave2csv: 11338 20141110 5: skipping (have both eve and csv)
+behave2csv: 11338 20141110 6: skipping (have both eve and csv)
+behave2csv: 11338 20141110 6: skipping (have both eve and csv)
+behave2csv: 11338 20141110 7: skipping (have both eve and csv)
 behave2csv: 11338 20141110 6: skipping (have both eve and csv)
 behave2csv: 11338 20141110 7: skipping (have both eve and csv)
 behave2csv: 11338 20141110 8: skipping (have both eve and csv)
+behave2csv: 11338 20141110 7: skipping (have both eve and csv)
+behave2csv: 11338 20141110 8: skipping (have both eve and csv)
+behave2csv: 11338 20141110 8: skipping (have both eve and csv)
+behave2csv: 11331 20141120 1: skipping (have both eve and csv)
+behave2csv: 11331 20141120 1: skipping (have both eve and csv)
 behave2csv: 11331 20141120 1: skipping (have both eve and csv)
 behave2csv: 11331 20141120 4: skipping (have both eve and csv)
+behave2csv: 11331 20141120 4: skipping (have both eve and csv)
+behave2csv: 11331 20141120 4: skipping (have both eve and csv)
+behave2csv: 11331 20141120 5: skipping (have both eve and csv)
+behave2csv: 11331 20141120 5: skipping (have both eve and csv)
 behave2csv: 11331 20141120 5: skipping (have both eve and csv)
 behave2csv: 11331 20141120 6: skipping (have both eve and csv)
+behave2csv: 11331 20141120 6: skipping (have both eve and csv)
+behave2csv: 11331 20141120 6: skipping (have both eve and csv)
+behave2csv: 11331 20141120 2: skipping (have both eve and csv)
+behave2csv: 11331 20141120 2: skipping (have both eve and csv)
 behave2csv: 11331 20141120 2: skipping (have both eve and csv)
 behave2csv: 11331 20141120 3: skipping (have both eve and csv)
+behave2csv: 11331 20141120 3: skipping (have both eve and csv)
+behave2csv: 11331 20141120 3: skipping (have both eve and csv)
+behave2csv: 11331 20141120 7: skipping (have both eve and csv)
+behave2csv: 11331 20141120 7: skipping (have both eve and csv)
 behave2csv: 11331 20141120 7: skipping (have both eve and csv)
 behave2csv: 11323 20141209 4: skipping (have both eve and csv)
+behave2csv: 11323 20141209 4: skipping (have both eve and csv)
+behave2csv: 11323 20141209 4: skipping (have both eve and csv)
+behave2csv: 11323 20141209 1: skipping (have both eve and csv)
+behave2csv: 11323 20141209 1: skipping (have both eve and csv)
 behave2csv: 11323 20141209 1: skipping (have both eve and csv)
 behave2csv: 11323 20141209 2: skipping (have both eve and csv)
+behave2csv: 11323 20141209 2: skipping (have both eve and csv)
+behave2csv: 11323 20141209 2: skipping (have both eve and csv)
+behave2csv: 11323 20141209 3: skipping (have both eve and csv)
+behave2csv: 11323 20141209 3: skipping (have both eve and csv)
 behave2csv: 11323 20141209 3: skipping (have both eve and csv)
 behave2csv: 11323 20141209 5: skipping (have both eve and csv)
+behave2csv: 11323 20141209 5: skipping (have both eve and csv)
+behave2csv: 11323 20141209 5: skipping (have both eve and csv)
+behave2csv: 11323 20141209 6: skipping (have both eve and csv)
+behave2csv: 11323 20141209 6: skipping (have both eve and csv)
+behave2csv: 11323 20141209 7: skipping (have both eve and csv)
 behave2csv: 11323 20141209 6: skipping (have both eve and csv)
 behave2csv: 11323 20141209 7: skipping (have both eve and csv)
 behave2csv: 11323 20141209 8: skipping (have both eve and csv)
+behave2csv: 11323 20141209 7: skipping (have both eve and csv)
+behave2csv: 11323 20141209 8: skipping (have both eve and csv)
+behave2csv: 11323 20141209 8: skipping (have both eve and csv)
+behave2csv: 11323 20141209 4: skipping (have both eve and csv)
+behave2csv: 11323 20141209 4: skipping (have both eve and csv)
 behave2csv: 11323 20141209 4: skipping (have both eve and csv)
 behave2csv: 11345 20141229 1: skipping (have both eve and csv)
+behave2csv: 11345 20141229 1: skipping (have both eve and csv)
+behave2csv: 11345 20141229 1: skipping (have both eve and csv)
+behave2csv: 11345 20141229 2: skipping (have both eve and csv)
+behave2csv: 11345 20141229 2: skipping (have both eve and csv)
 behave2csv: 11345 20141229 2: skipping (have both eve and csv)
 behave2csv: 11345 20141229 3: skipping (have both eve and csv)
+behave2csv: 11345 20141229 3: skipping (have both eve and csv)
+behave2csv: 11345 20141229 3: skipping (have both eve and csv)
+behave2csv: 11345 20141229 4: skipping (have both eve and csv)
+behave2csv: 11345 20141229 4: skipping (have both eve and csv)
 behave2csv: 11345 20141229 4: skipping (have both eve and csv)
 behave2csv: 11345 20141229 5: skipping (have both eve and csv)
+behave2csv: 11345 20141229 5: skipping (have both eve and csv)
+behave2csv: 11345 20141229 5: skipping (have both eve and csv)
+behave2csv: 11345 20141229 6: skipping (have both eve and csv)
+behave2csv: 11345 20141229 6: skipping (have both eve and csv)
 behave2csv: 11345 20141229 6: skipping (have both eve and csv)
 behave2csv: 11345 20141229 7: skipping (have both eve and csv)
+behave2csv: 11345 20141229 7: skipping (have both eve and csv)
+behave2csv: 11345 20141229 7: skipping (have both eve and csv)
+behave2csv: 11345 20141229 8: skipping (have both eve and csv)
+behave2csv: 11345 20141229 8: skipping (have both eve and csv)
 behave2csv: 11345 20141229 8: skipping (have both eve and csv)
 behave2csv: 11353 20141230 1: skipping (have both eve and csv)
+behave2csv: 11353 20141230 1: skipping (have both eve and csv)
+behave2csv: 11353 20141230 1: skipping (have both eve and csv)
+behave2csv: 11353 20141230 2: skipping (have both eve and csv)
+behave2csv: 11353 20141230 2: skipping (have both eve and csv)
 behave2csv: 11353 20141230 2: skipping (have both eve and csv)
 behave2csv: 11353 20141230 3: skipping (have both eve and csv)
+behave2csv: 11353 20141230 3: skipping (have both eve and csv)
+behave2csv: 11353 20141230 3: skipping (have both eve and csv)
+behave2csv: 11353 20141230 4: skipping (have both eve and csv)
+behave2csv: 11353 20141230 4: skipping (have both eve and csv)
 behave2csv: 11353 20141230 4: skipping (have both eve and csv)
 behave2csv: 11353 20141230 5: skipping (have both eve and csv)
+behave2csv: 11353 20141230 5: skipping (have both eve and csv)
+behave2csv: 11353 20141230 5: skipping (have both eve and csv)
+behave2csv: 11353 20141230 6: skipping (have both eve and csv)
+behave2csv: 11353 20141230 6: skipping (have both eve and csv)
 behave2csv: 11353 20141230 6: skipping (have both eve and csv)
 behave2csv: 11353 20141230 7: skipping (have both eve and csv)
+behave2csv: 11353 20141230 7: skipping (have both eve and csv)
+behave2csv: 11353 20141230 7: skipping (have both eve and csv)
+behave2csv: 11353 20141230 8: skipping (have both eve and csv)
+behave2csv: 11353 20141230 8: skipping (have both eve and csv)
 behave2csv: 11353 20141230 8: skipping (have both eve and csv)
 behave2csv: 11366 20150430 1: skipping (have both eve and csv)
+behave2csv: 11366 20150430 1: skipping (have both eve and csv)
+behave2csv: 11366 20150430 1: skipping (have both eve and csv)
+behave2csv: 11366 20150430 2: skipping (have both eve and csv)
+behave2csv: 11366 20150430 2: skipping (have both eve and csv)
 behave2csv: 11366 20150430 2: skipping (have both eve and csv)
 behave2csv: 11366 20150430 3: skipping (have both eve and csv)
+behave2csv: 11366 20150430 3: skipping (have both eve and csv)
+behave2csv: 11366 20150430 3: skipping (have both eve and csv)
+behave2csv: 11366 20150430 4: skipping (have both eve and csv)
+behave2csv: 11366 20150430 4: skipping (have both eve and csv)
 behave2csv: 11366 20150430 4: skipping (have both eve and csv)
 behave2csv: 11366 20150430 5: skipping (have both eve and csv)
+behave2csv: 11366 20150430 5: skipping (have both eve and csv)
+behave2csv: 11366 20150430 5: skipping (have both eve and csv)
+behave2csv: 11366 20150430 6: skipping (have both eve and csv)
+behave2csv: 11366 20150430 6: skipping (have both eve and csv)
 behave2csv: 11366 20150430 6: skipping (have both eve and csv)
 behave2csv: 11366 20150430 7: skipping (have both eve and csv)
+behave2csv: 11366 20150430 7: skipping (have both eve and csv)
+behave2csv: 11366 20150430 7: skipping (have both eve and csv)
+behave2csv: 11366 20150430 8: skipping (have both eve and csv)
+behave2csv: 11366 20150430 8: skipping (have both eve and csv)
 behave2csv: 11366 20150430 8: skipping (have both eve and csv)
 NO FS for 11320
+NO FS for 11320
+NO FS for 11320
+no MRI for 11320 in /data/Luna1/Raw/MultiModal//11320
+no MRI for 11320 in /data/Luna1/Raw/MultiModal//11320
 no MRI for 11320 in /data/Luna1/Raw/MultiModal//11320
 10822: have skipfile, remove FinalDataDir/10822//MEG/skipme*!
+10822: have skipfile, remove FinalDataDir/10822//MEG/skipme*!
+10822: have skipfile, remove FinalDataDir/10822//MEG/skipme*!
+10873: have skipfile, remove FinalDataDir/10873//MEG/skipme*!
+10873: have skipfile, remove FinalDataDir/10873//MEG/skipme*!
 10873: have skipfile, remove FinalDataDir/10873//MEG/skipme*!
 11228: have skipfile, remove FinalDataDir/11228//MEG/skipme*!
+11228: have skipfile, remove FinalDataDir/11228//MEG/skipme*!
+11228: have skipfile, remove FinalDataDir/11228//MEG/skipme*!
+11250: have skipfile, remove FinalDataDir/11250//MEG/skipme*!
+11250: have skipfile, remove FinalDataDir/11250//MEG/skipme*!
 11250: have skipfile, remove FinalDataDir/11250//MEG/skipme*!
 11252: have skipfile, remove FinalDataDir/11252//MEG/skipme*!
+11252: have skipfile, remove FinalDataDir/11252//MEG/skipme*!
+11252: have skipfile, remove FinalDataDir/11252//MEG/skipme*!
+11253: have skipfile, remove FinalDataDir/11253//MEG/skipme*!
+11253: have skipfile, remove FinalDataDir/11253//MEG/skipme*!
 11253: have skipfile, remove FinalDataDir/11253//MEG/skipme*!
 11265: have skipfile, remove FinalDataDir/11265//MEG/skipme*!
+11265: have skipfile, remove FinalDataDir/11265//MEG/skipme*!
+11265: have skipfile, remove FinalDataDir/11265//MEG/skipme*!
+11281: have skipfile, remove FinalDataDir/11281//MEG/skipme*!
+11281: have skipfile, remove FinalDataDir/11281//MEG/skipme*!
 11281: have skipfile, remove FinalDataDir/11281//MEG/skipme*!
 11282: have skipfile, remove FinalDataDir/11282//MEG/skipme*!
+11282: have skipfile, remove FinalDataDir/11282//MEG/skipme*!
+11282: have skipfile, remove FinalDataDir/11282//MEG/skipme*!
+11288: have skipfile, remove FinalDataDir/11288//MEG/skipme*!
+11288: have skipfile, remove FinalDataDir/11288//MEG/skipme*!
 11288: have skipfile, remove FinalDataDir/11288//MEG/skipme*!
 11310: have skipfile, remove FinalDataDir/11310//MEG/skipme*!
+11310: have skipfile, remove FinalDataDir/11310//MEG/skipme*!
+11310: have skipfile, remove FinalDataDir/11310//MEG/skipme*!
+11311: have skipfile, remove FinalDataDir/11311//MEG/skipme*!
+11311: have skipfile, remove FinalDataDir/11311//MEG/skipme*!
 11311: have skipfile, remove FinalDataDir/11311//MEG/skipme*!
 11313: have skipfile, remove FinalDataDir/11313//MEG/skipme*!
+11313: have skipfile, remove FinalDataDir/11313//MEG/skipme*!
+11313: have skipfile, remove FinalDataDir/11313//MEG/skipme*!
+11314: have skipfile, remove FinalDataDir/11314//MEG/skipme*!
+11314: have skipfile, remove FinalDataDir/11314//MEG/skipme*!
 11314: have skipfile, remove FinalDataDir/11314//MEG/skipme*!
 11315: have skipfile, remove FinalDataDir/11315//MEG/skipme*!
+11315: have skipfile, remove FinalDataDir/11315//MEG/skipme*!
+11315: have skipfile, remove FinalDataDir/11315//MEG/skipme*!
+11318: have skipfile, remove FinalDataDir/11318//MEG/skipme*!
+11318: have skipfile, remove FinalDataDir/11318//MEG/skipme*!
 11318: have skipfile, remove FinalDataDir/11318//MEG/skipme*!
 11319: have skipfile, remove FinalDataDir/11319//MEG/skipme*!
+11319: have skipfile, remove FinalDataDir/11319//MEG/skipme*!
+11319: have skipfile, remove FinalDataDir/11319//MEG/skipme*!
+11320: have skipfile, remove FinalDataDir/11320//MEG/skipme*!
+11320: have skipfile, remove FinalDataDir/11320//MEG/skipme*!
 11320: have skipfile, remove FinalDataDir/11320//MEG/skipme*!
 11322: have skipfile, remove FinalDataDir/11322//MEG/skipme*!
+11322: have skipfile, remove FinalDataDir/11322//MEG/skipme*!
+11322: have skipfile, remove FinalDataDir/11322//MEG/skipme*!
+11324: have skipfile, remove FinalDataDir/11324//MEG/skipme*!
+11324: have skipfile, remove FinalDataDir/11324//MEG/skipme*!
 11324: have skipfile, remove FinalDataDir/11324//MEG/skipme*!
 11326: have skipfile, remove FinalDataDir/11326//MEG/skipme*!
+11326: have skipfile, remove FinalDataDir/11326//MEG/skipme*!
+11326: have skipfile, remove FinalDataDir/11326//MEG/skipme*!
+11335: have skipfile, remove FinalDataDir/11335//MEG/skipme*!
+11335: have skipfile, remove FinalDataDir/11335//MEG/skipme*!
 11335: have skipfile, remove FinalDataDir/11335//MEG/skipme*!
 11337: have skipfile, remove FinalDataDir/11337//MEG/skipme*!
+11337: have skipfile, remove FinalDataDir/11337//MEG/skipme*!
+11337: have skipfile, remove FinalDataDir/11337//MEG/skipme*!
+11343: have skipfile, remove FinalDataDir/11343//MEG/skipme*!
+11343: have skipfile, remove FinalDataDir/11343//MEG/skipme*!
 11343: have skipfile, remove FinalDataDir/11343//MEG/skipme*!
 11350: have skipfile, remove FinalDataDir/11350//MEG/skipme*!
+11350: have skipfile, remove FinalDataDir/11350//MEG/skipme*!
+11350: have skipfile, remove FinalDataDir/11350//MEG/skipme*!
+## 10637
+## 10637
 ## 10637
 already have maxfilter and ICA for 10637
+already have maxfilter and ICA for 10637
+already have maxfilter and ICA for 10637
 ## 10638
+## 10638
+## 10638
+already have maxfilter and ICA for 10638
+already have maxfilter and ICA for 10638
+## 10662
 already have maxfilter and ICA for 10638
 ## 10662
 already have maxfilter and ICA for 10662
+## 10662
 ## 10711
+already have maxfilter and ICA for 10662
+already have maxfilter and ICA for 10662
+## 10711
+already have maxfilter and ICA for 10711
+## 10711
+## 10767
 already have maxfilter and ICA for 10711
 ## 10767
 already have maxfilter and ICA for 10767
+already have maxfilter and ICA for 10711
+## 10772
+## 10767
+already have maxfilter and ICA for 10767
+already have maxfilter and ICA for 10767
+## 10772
+already have maxfilter and ICA for 10772
 ## 10772
 already have maxfilter and ICA for 10772
 ## 10811
+already have maxfilter and ICA for 10772
+## 10811
+already have maxfilter and ICA for 10811
+## 10811
+already have maxfilter and ICA for 10811
+## 10814
 already have maxfilter and ICA for 10811
 ## 10814
 already have maxfilter and ICA for 10814
+## 10814
+already have maxfilter and ICA for 10814
+## 10822
+already have maxfilter and ICA for 10814
+## 10822
 ## 10822
 * do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run1_ds_sss_raw.fif 
 10822:1 started 
+* do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run1_ds_sss_raw.fif 
+10822:1 started 
           rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_1.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run1_ds_sss_raw.fif 
+          rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_1.log # remove procfile to retry
+10822:1 started 
+          rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_1.log # remove procfile to retry
+	[2015-04-21 13:14] running maxfilter on 10822_20140703 1
+	[2015-04-21 13:25] finished sss 10822_20140703 1
+	[2015-04-21 13:25] finished trans 10822_20140703 1
+	[2015-04-21 13:25] finished maxfilter on 10822_20140703 1
+	[2015-04-21 13:14] running maxfilter on 10822_20140703 1
+	[2015-04-21 13:25] finished sss 10822_20140703 1
+	[2015-04-21 13:25] finished trans 10822_20140703 1
+	[2015-04-21 13:25] finished maxfilter on 10822_20140703 1
 	[2015-04-21 13:14] running maxfilter on 10822_20140703 1
 	[2015-04-21 13:25] finished sss 10822_20140703 1
 	[2015-04-21 13:25] finished trans 10822_20140703 1
@@ -645,6 +1931,20 @@ already have maxfilter and ICA for 10814
 * do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run2_ds_sss_raw.fif 
 10822:2 started 
           rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_2.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run2_ds_sss_raw.fif 
+* do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run2_ds_sss_raw.fif 
+10822:2 started 
+	[2015-04-21 13:25] running maxfilter on 10822_20140703 2
+	[2015-04-21 13:36] finished sss 10822_20140703 2
+	[2015-04-21 13:36] finished trans 10822_20140703 2
+	[2015-04-21 13:36] finished maxfilter on 10822_20140703 2
+10822:2 started 
+          rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_2.log # remove procfile to retry
+          rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_2.log # remove procfile to retry
+	[2015-04-21 13:25] running maxfilter on 10822_20140703 2
+	[2015-04-21 13:36] finished sss 10822_20140703 2
+	[2015-04-21 13:36] finished trans 10822_20140703 2
+	[2015-04-21 13:36] finished maxfilter on 10822_20140703 2
 	[2015-04-21 13:25] running maxfilter on 10822_20140703 2
 	[2015-04-21 13:36] finished sss 10822_20140703 2
 	[2015-04-21 13:36] finished trans 10822_20140703 2
@@ -652,11 +1952,39 @@ already have maxfilter and ICA for 10814
 * do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run3_ds_sss_raw.fif 
 10822:3 started 
           rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_3.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run3_ds_sss_raw.fif 
+10822:3 started 
+          rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_3.log # remove procfile to retry
+	[2015-04-21 13:36] running maxfilter on 10822_20140703 3
+	[2015-04-21 13:47] finished sss 10822_20140703 3
+	[2015-04-21 13:48] finished trans 10822_20140703 3
+	[2015-04-21 13:48] finished maxfilter on 10822_20140703 3
+* do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run3_ds_sss_raw.fif 
+	[2015-04-21 13:36] running maxfilter on 10822_20140703 3
+	[2015-04-21 13:47] finished sss 10822_20140703 3
+	[2015-04-21 13:48] finished trans 10822_20140703 3
+	[2015-04-21 13:48] finished maxfilter on 10822_20140703 3
+10822:3 started 
+          rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_3.log # remove procfile to retry
 	[2015-04-21 13:36] running maxfilter on 10822_20140703 3
 	[2015-04-21 13:47] finished sss 10822_20140703 3
 	[2015-04-21 13:48] finished trans 10822_20140703 3
 	[2015-04-21 13:48] finished maxfilter on 10822_20140703 3
 * do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run4_ds_sss_raw.fif 
+10822:4 started 
+          rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_4.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run4_ds_sss_raw.fif 
+	[2015-04-21 13:48] running maxfilter on 10822_20140703 4
+	[2015-04-21 13:55] finished sss 10822_20140703 4
+	[2015-04-21 13:55] finished trans 10822_20140703 4
+	[2015-04-21 13:55] finished maxfilter on 10822_20140703 4
+10822:4 started 
+          rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_4.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run4_ds_sss_raw.fif 
+	[2015-04-21 13:48] running maxfilter on 10822_20140703 4
+	[2015-04-21 13:55] finished sss 10822_20140703 4
+	[2015-04-21 13:55] finished trans 10822_20140703 4
+	[2015-04-21 13:55] finished maxfilter on 10822_20140703 4
 10822:4 started 
           rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_4.log # remove procfile to retry
 	[2015-04-21 13:48] running maxfilter on 10822_20140703 4
@@ -670,26 +1998,85 @@ already have maxfilter and ICA for 10814
 	[2015-04-21 14:06] finished sss 10822_20140703 5
 	[2015-04-21 14:06] finished trans 10822_20140703 5
 	[2015-04-21 14:06] finished maxfilter on 10822_20140703 5
+* do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run5_ds_sss_raw.fif 
+10822:5 started 
+          rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_5.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/10822/MEG/10822_clock_run5_ds_sss_raw.fif 
+	[2015-04-21 13:55] running maxfilter on 10822_20140703 5
+	[2015-04-21 14:06] finished sss 10822_20140703 5
+	[2015-04-21 14:06] finished trans 10822_20140703 5
+	[2015-04-21 14:06] finished maxfilter on 10822_20140703 5
+10822:5 started 
+          rm /data/Luna1/Multimodal/Clock/10822/MEG/maxfilter_5.log # remove procfile to retry
+already did 10822:6
+	[2015-04-21 13:55] running maxfilter on 10822_20140703 5
+	[2015-04-21 14:06] finished sss 10822_20140703 5
+	[2015-04-21 14:06] finished trans 10822_20140703 5
+	[2015-04-21 14:06] finished maxfilter on 10822_20140703 5
 already did 10822:6
 already did 10822:7
+already did 10822:7
+already did 10822:6
 already did 10822:8
-[2016-04-29 04:31] 10822 has only  3 maxfiltered FIFs
+already did 10822:8
+already did 10822:7
+already did 10822:8
+[2016-05-02 13:51] 10822 has only  3 maxfiltered FIFs
+[2016-05-02 13:51] 10822 has only  3 maxfiltered FIFs
+## 10873
 ## 10873
 already have maxfilter and ICA for 10873
+[2016-05-02 13:51] 10822 has only  3 maxfiltered FIFs
+already have maxfilter and ICA for 10873
+## 10891
 ## 10891
 already have maxfilter and ICA for 10891
+## 10873
+already have maxfilter and ICA for 10891
 ## 10895
+already have maxfilter and ICA for 10873
+## 10895
+## 10891
 already have maxfilter and ICA for 10895
 ## 10997
+already have maxfilter and ICA for 10895
+already have maxfilter and ICA for 10891
 already have maxfilter and ICA for 10997
+## 10997
+## 10895
 ## 11162
+already have maxfilter and ICA for 10997
+already have maxfilter and ICA for 10895
+already have maxfilter and ICA for 11162
+## 11162
+## 10997
+## 11178
+already have maxfilter and ICA for 11162
+already have maxfilter and ICA for 10997
+already have maxfilter and ICA for 11178
+## 11178
+## 11162
+## 11216
 already have maxfilter and ICA for 11162
 ## 11178
 already have maxfilter and ICA for 11178
+already have maxfilter and ICA for 11178
+## 11216
 ## 11216
 * do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run1_ds_sss_raw.fif 
 11216:1 started 
           rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_1.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run1_ds_sss_raw.fif 
+11216:1 started 
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_1.log # remove procfile to retry
+	[2015-04-20 12:00] running maxfilter on 11216 1
+	[2015-04-20 12:06] finished maxfilter on 11216 1
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run1_ds_sss_raw.fif 
+	[2015-04-20 12:00] running maxfilter on 11216 1
+	[2015-04-20 12:06] finished maxfilter on 11216 1
+11216:1 started 
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_1.log # remove procfile to retry
+already did 11216:2
 	[2015-04-20 12:00] running maxfilter on 11216 1
 	[2015-04-20 12:06] finished maxfilter on 11216 1
 already did 11216:2
@@ -698,17 +2085,58 @@ already did 11216:2
           rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_3.log # remove procfile to retry
 	[2015-04-28 16:18] running maxfilter on 11216 3
 	[2015-04-28 16:23] failed to sss 11216 3
+already did 11216:2
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run3_ds_sss_raw.fif 
+11216:3 started 
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_3.log # remove procfile to retry
+	[2015-04-28 16:18] running maxfilter on 11216 3
+	[2015-04-28 16:23] failed to sss 11216 3
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run3_ds_sss_raw.fif 
+11216:3 started 
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_3.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run4_ds_sss_raw.fif 
+11216:4 started 
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_4.log # remove procfile to retry
+	[2015-04-28 16:18] running maxfilter on 11216 3
+	[2015-04-28 16:23] failed to sss 11216 3
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run4_ds_sss_raw.fif 
+11216:4 started 
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_4.log # remove procfile to retry
+	[2015-04-20 12:06] running maxfilter on 11216 4
+	[2015-04-20 12:06] finished maxfilter on 11216 4
+	[2015-04-20 12:06] running maxfilter on 11216 4
+	[2015-04-20 12:06] finished maxfilter on 11216 4
 * do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run4_ds_sss_raw.fif 
 11216:4 started 
           rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_4.log # remove procfile to retry
 	[2015-04-20 12:06] running maxfilter on 11216 4
 	[2015-04-20 12:06] finished maxfilter on 11216 4
 already did 11216:5
+already did 11216:5
+already did 11216:5
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run6_ds_sss_raw.fif 
 * do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run6_ds_sss_raw.fif 
 11216:6 started 
           rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_6.log # remove procfile to retry
+11216:6 started 
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_6.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run6_ds_sss_raw.fif 
 	[2015-04-20 12:06] running maxfilter on 11216 6
 	[2015-04-20 12:06] finished maxfilter on 11216 6
+11216:6 started 
+	[2015-04-20 12:06] running maxfilter on 11216 6
+	[2015-04-20 12:06] finished maxfilter on 11216 6
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_6.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run7_ds_sss_raw.fif 
+	[2015-04-20 12:06] running maxfilter on 11216 6
+	[2015-04-20 12:06] finished maxfilter on 11216 6
+11216:7 started 
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_7.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run7_ds_sss_raw.fif 
+	[2015-04-20 12:06] running maxfilter on 11216 7
+	[2015-04-20 12:06] finished maxfilter on 11216 7
+11216:7 started 
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_7.log # remove procfile to retry
 * do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run7_ds_sss_raw.fif 
 11216:7 started 
           rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_7.log # remove procfile to retry
@@ -717,119 +2145,347 @@ already did 11216:5
 * do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run8_ds_sss_raw.fif 
 11216:8 started 
           rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_8.log # remove procfile to retry
+	[2015-04-20 12:06] running maxfilter on 11216 7
+	[2015-04-20 12:06] finished maxfilter on 11216 7
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run8_ds_sss_raw.fif 
+11216:8 started 
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_8.log # remove procfile to retry
 	[2015-04-20 12:06] running maxfilter on 11216 8
 	[2015-04-20 12:06] finished maxfilter on 11216 8
-[2016-04-29 04:31] 11216 has only  2 maxfiltered FIFs
+	[2015-04-20 12:06] running maxfilter on 11216 8
+	[2015-04-20 12:06] finished maxfilter on 11216 8
+* do not have /data/Luna1/Multimodal/Clock/11216/MEG/11216_clock_run8_ds_sss_raw.fif 
+11216:8 started 
+          rm /data/Luna1/Multimodal/Clock/11216/MEG/maxfilter_8.log # remove procfile to retry
+	[2015-04-20 12:06] running maxfilter on 11216 8
+	[2015-04-20 12:06] finished maxfilter on 11216 8
+[2016-05-02 13:51] 11216 has only  2 maxfiltered FIFs
+## 11228
+[2016-05-02 13:51] 11216 has only  2 maxfiltered FIFs
+[2016-05-02 13:51] 11216 has only  2 maxfiltered FIFs
+already have maxfilter and ICA for 11228
+## 11228
+## 11229
 ## 11228
 already have maxfilter and ICA for 11228
+already have maxfilter and ICA for 11229
+## 11229
+already have maxfilter and ICA for 11228
+## 11243
 ## 11229
 already have maxfilter and ICA for 11229
 ## 11243
+already have maxfilter and ICA for 11229
+already have maxfilter and ICA for 11243
+## 11243
+already have maxfilter and ICA for 11243
+## 11246
 already have maxfilter and ICA for 11243
 ## 11246
 already have maxfilter and ICA for 11246
+## 11246
+already have maxfilter and ICA for 11246
+## 11250
+already have maxfilter and ICA for 11246
+## 11250
+already have maxfilter and ICA for 11250
 ## 11250
 already have maxfilter and ICA for 11250
 ## 11252
+already have maxfilter and ICA for 11250
+## 11252
 already have maxfilter and ICA for 11252
+## 11252
+already have maxfilter and ICA for 11252
+## 11253
+## 11253
+already have maxfilter and ICA for 11252
+already have maxfilter and ICA for 11253
 ## 11253
 already have maxfilter and ICA for 11253
 ## 11255
+already have maxfilter and ICA for 11253
+## 11255
+## 11255
+already have maxfilter and ICA for 11255
+## 11258
+already have maxfilter and ICA for 11255
 already have maxfilter and ICA for 11255
 ## 11258
 already have maxfilter and ICA for 11258
+## 11258
+already have maxfilter and ICA for 11258
+## 11262
+already have maxfilter and ICA for 11258
+## 11262
+already have maxfilter and ICA for 11262
 ## 11262
 already have maxfilter and ICA for 11262
 ## 11263
+already have maxfilter and ICA for 11262
+## 11263
+already have maxfilter and ICA for 11263
+## 11263
 already have maxfilter and ICA for 11263
 ## 11265
+already have maxfilter and ICA for 11263
+## 11265
+## 11265
+already have maxfilter and ICA for 11265
 already have maxfilter and ICA for 11265
 ## 11274
+already have maxfilter and ICA for 11265
+## 11274
+## 11274
+already have maxfilter and ICA for 11274
 already have maxfilter and ICA for 11274
 ## 11275
+already have maxfilter and ICA for 11274
+## 11275
+## 11275
+already have maxfilter and ICA for 11275
+already have maxfilter and ICA for 11275
 already have maxfilter and ICA for 11275
 ## 11277
+## 11277
+## 11277
+already have maxfilter and ICA for 11277
 already have maxfilter and ICA for 11277
 ## 11278
+already have maxfilter and ICA for 11277
+## 11278
+## 11278
+already have maxfilter and ICA for 11278
+already have maxfilter and ICA for 11278
 already have maxfilter and ICA for 11278
 ## 11279
+## 11279
+## 11279
+already have maxfilter and ICA for 11279
 already have maxfilter and ICA for 11279
 ## 11280
+already have maxfilter and ICA for 11279
+## 11280
+## 11280
+already have maxfilter and ICA for 11280
+already have maxfilter and ICA for 11280
+## 11281
 already have maxfilter and ICA for 11280
 ## 11281
 already have maxfilter and ICA for 11281
+## 11281
+already have maxfilter and ICA for 11281
+## 11282
+already have maxfilter and ICA for 11281
+## 11282
+already have maxfilter and ICA for 11282
 ## 11282
 already have maxfilter and ICA for 11282
 ## 11287
+already have maxfilter and ICA for 11282
+## 11287
+## 11287
+already did 11287:1
+already did 11287:1
 already did 11287:1
 already did 11287:2
+already did 11287:2
+already did 11287:2
+already did 11287:3
+already did 11287:3
 already did 11287:3
 already did 11287:4
+already did 11287:4
+already did 11287:4
+already did 11287:5
+already did 11287:5
 already did 11287:5
 already did 11287:6
+already did 11287:6
+already did 11287:6
+missing 11287:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/11287_clock_bad_run7.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11287:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/11287_clock_bad_run7.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11287:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/11287_clock_bad_run7.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11287:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/11287_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2016-04-29 04:31] 11287 has only  6 maxfiltered FIFs
+missing 11287:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/11287_clock_bad_run8.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11287:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11287/MEG/11287_clock_bad_run8.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+[2016-05-02 13:51] 11287 has only  6 maxfiltered FIFs
+[2016-05-02 13:51] 11287 has only  6 maxfiltered FIFs
+[2016-05-02 13:51] 11287 has only  6 maxfiltered FIFs
+## 11288
+## 11288
 ## 11288
 already have maxfilter and ICA for 11288
+already have maxfilter and ICA for 11288
+already have maxfilter and ICA for 11288
+## 11302
+## 11302
 ## 11302
 already have maxfilter and ICA for 11302
+already have maxfilter and ICA for 11302
+already have maxfilter and ICA for 11302
+## 11304
+## 11304
 ## 11304
 already have maxfilter and ICA for 11304
+already have maxfilter and ICA for 11304
+already have maxfilter and ICA for 11304
+## 11305
+## 11305
 ## 11305
 already have maxfilter and ICA for 11305
+already have maxfilter and ICA for 11305
+already have maxfilter and ICA for 11305
+## 11310
+## 11310
 ## 11310
 already have maxfilter and ICA for 11310
+already have maxfilter and ICA for 11310
+already have maxfilter and ICA for 11310
+## 11311
+## 11311
 ## 11311
 already have maxfilter and ICA for 11311
+already have maxfilter and ICA for 11311
+## 11313
 ## 11313
 already have maxfilter and ICA for 11313
+already have maxfilter and ICA for 11313
 ## 11314
+## 11314
+already have maxfilter and ICA for 11311
+already have maxfilter and ICA for 11314
+## 11313
 already have maxfilter and ICA for 11314
 ## 11315
+already have maxfilter and ICA for 11313
+## 11315
+already have maxfilter and ICA for 11315
+## 11314
 already have maxfilter and ICA for 11315
 ## 11316
+already have maxfilter and ICA for 11314
+## 11316
+already have maxfilter and ICA for 11316
+## 11315
 already have maxfilter and ICA for 11316
 ## 11317
+already have maxfilter and ICA for 11315
+## 11317
+already have maxfilter and ICA for 11317
+## 11316
 already have maxfilter and ICA for 11317
 ## 11318
+## 11318
 already have maxfilter and ICA for 11318
+already have maxfilter and ICA for 11318
+already have maxfilter and ICA for 11316
 ## 11319
+## 11319
+## 11317
+already have maxfilter and ICA for 11319
 already have maxfilter and ICA for 11319
 ## 11320
+already have maxfilter and ICA for 11317
+## 11320
+already have maxfilter and ICA for 11320
+## 11318
 already have maxfilter and ICA for 11320
 ## 11321
+already have maxfilter and ICA for 11318
+## 11321
+already have maxfilter and ICA for 11321
+## 11319
 already have maxfilter and ICA for 11321
 ## 11322
+## 11322
+already have maxfilter and ICA for 11319
+already have maxfilter and ICA for 11322
 already have maxfilter and ICA for 11322
 ## 11323
+## 11320
+## 11323
+already have maxfilter and ICA for 11323
+already have maxfilter and ICA for 11320
 already have maxfilter and ICA for 11323
 ## 11324
+## 11321
+## 11324
+already have maxfilter and ICA for 11324
+already have maxfilter and ICA for 11321
 already have maxfilter and ICA for 11324
 ## 11325
+## 11322
+## 11325
+already have maxfilter and ICA for 11325
+already have maxfilter and ICA for 11322
 already have maxfilter and ICA for 11325
 ## 11326
+## 11323
+## 11326
 already have maxfilter and ICA for 11326
+already have maxfilter and ICA for 11323
+## 11328
+already have maxfilter and ICA for 11326
+## 11324
 ## 11328
 already have maxfilter and ICA for 11328
 ## 11329
+already have maxfilter and ICA for 11324
+already have maxfilter and ICA for 11328
 already have maxfilter and ICA for 11329
+## 11325
+## 11329
 ## 11331
+already have maxfilter and ICA for 11325
+already have maxfilter and ICA for 11329
+## 11326
+## 11331
+already have maxfilter and ICA for 11326
 * do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run1_ds_sss_raw.fif 
 11331:1 started 
           rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_1.log # remove procfile to retry
+## 11328
 	[2015-04-28 16:20] running maxfilter on 11331 1
 	[2015-04-28 16:20] failed to sss 11331 1
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run1_ds_sss_raw.fif 
+11331:1 started 
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_1.log # remove procfile to retry
+already have maxfilter and ICA for 11328
+	[2015-04-28 16:20] running maxfilter on 11331 1
+	[2015-04-28 16:20] failed to sss 11331 1
+## 11329
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run2_ds_sss_raw.fif 
+11331:2 started 
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_2.log # remove procfile to retry
+already have maxfilter and ICA for 11329
 * do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run2_ds_sss_raw.fif 
 11331:2 started 
           rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_2.log # remove procfile to retry
 	[2015-04-21 13:17] running maxfilter on 11331 2
 	[2015-04-21 13:17] failed to sss 11331 2
+## 11331
+	[2015-04-21 13:17] running maxfilter on 11331 2
+	[2015-04-21 13:17] failed to sss 11331 2
 * do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run3_ds_sss_raw.fif 
 11331:3 started 
           rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_3.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run3_ds_sss_raw.fif 
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run1_ds_sss_raw.fif 
+11331:3 started 
+	[2015-04-21 13:17] running maxfilter on 11331 3
+	[2015-04-21 13:17] failed to sss 11331 3
+11331:1 started 
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_3.log # remove procfile to retry
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_1.log # remove procfile to retry
+	[2015-04-28 16:20] running maxfilter on 11331 1
+	[2015-04-28 16:20] failed to sss 11331 1
 	[2015-04-21 13:17] running maxfilter on 11331 3
 	[2015-04-21 13:17] failed to sss 11331 3
 * do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run4_ds_sss_raw.fif 
@@ -837,11 +2493,41 @@ already have maxfilter and ICA for 11329
           rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_4.log # remove procfile to retry
 	[2015-04-21 13:17] running maxfilter on 11331 4
 	[2015-04-21 13:17] failed to sss 11331 4
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run2_ds_sss_raw.fif 
+11331:2 started 
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_2.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run4_ds_sss_raw.fif 
+11331:4 started 
+	[2015-04-21 13:17] running maxfilter on 11331 2
+	[2015-04-21 13:17] failed to sss 11331 2
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_4.log # remove procfile to retry
 * do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run5_ds_sss_raw.fif 
 11331:5 started 
           rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_5.log # remove procfile to retry
+	[2015-04-21 13:17] running maxfilter on 11331 4
+	[2015-04-21 13:17] failed to sss 11331 4
 	[2015-04-21 13:17] running maxfilter on 11331 5
 	[2015-04-21 13:17] failed to sss 11331 5
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run3_ds_sss_raw.fif 
+11331:3 started 
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_3.log # remove procfile to retry
+	[2015-04-21 13:17] running maxfilter on 11331 3
+	[2015-04-21 13:17] failed to sss 11331 3
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run5_ds_sss_raw.fif 
+11331:5 started 
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_5.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run6_ds_sss_raw.fif 
+11331:6 started 
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_6.log # remove procfile to retry
+	[2015-04-21 13:17] running maxfilter on 11331 5
+	[2015-04-21 13:17] failed to sss 11331 5
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run4_ds_sss_raw.fif 
+11331:4 started 
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_4.log # remove procfile to retry
+	[2015-04-21 13:18] running maxfilter on 11331 6
+	[2015-04-21 13:18] failed to sss 11331 6
+	[2015-04-21 13:17] running maxfilter on 11331 4
+	[2015-04-21 13:17] failed to sss 11331 4
 * do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run6_ds_sss_raw.fif 
 11331:6 started 
           rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_6.log # remove procfile to retry
@@ -850,73 +2536,227 @@ already have maxfilter and ICA for 11329
 * do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run7_ds_sss_raw.fif 
 11331:7 started 
           rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_7.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run5_ds_sss_raw.fif 
+11331:5 started 
+	[2015-04-21 13:18] running maxfilter on 11331 7
+	[2015-04-21 13:18] failed to sss 11331 7
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_5.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run7_ds_sss_raw.fif 
+11331:7 started 
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_7.log # remove procfile to retry
+	[2015-04-21 13:17] running maxfilter on 11331 5
+	[2015-04-21 13:17] failed to sss 11331 5
 	[2015-04-21 13:18] running maxfilter on 11331 7
 	[2015-04-21 13:18] failed to sss 11331 7
 missing 11331:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2016-04-29 04:31] 11331 has only  0 maxfiltered FIFs
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run6_ds_sss_raw.fif 
+11331:6 started 
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_6.log # remove procfile to retry
+missing 11331:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_bad_run8.txt)
+	[2015-04-21 13:18] running maxfilter on 11331 6
+	[2015-04-21 13:18] failed to sss 11331 6
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+[2016-05-02 13:51] 11331 has only  0 maxfiltered FIFs
 ## 11335
+* do not have /data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_run7_ds_sss_raw.fif 
+11331:7 started 
+          rm /data/Luna1/Multimodal/Clock/11331/MEG/maxfilter_7.log # remove procfile to retry
+	[2015-04-21 13:18] running maxfilter on 11331 7
+	[2015-04-21 13:18] failed to sss 11331 7
 already have maxfilter and ICA for 11335
+[2016-05-02 13:51] 11331 has only  0 maxfiltered FIFs
 ## 11336
+missing 11331:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11331/MEG/11331_clock_bad_run8.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+## 11335
 already have maxfilter and ICA for 11336
 ## 11337
+already have maxfilter and ICA for 11335
+[2016-05-02 13:51] 11331 has only  0 maxfiltered FIFs
 already have maxfilter and ICA for 11337
+## 11336
 ## 11338
+## 11335
+already have maxfilter and ICA for 11336
+already have maxfilter and ICA for 11335
+## 11337
+already have maxfilter and ICA for 11338
+## 11336
+already have maxfilter and ICA for 11337
+## 11342
+already have maxfilter and ICA for 11336
+## 11338
+## 11337
+already have maxfilter and ICA for 11338
+missing 11342:1 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run1.txt)
+already have maxfilter and ICA for 11337
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+## 11342
+## 11338
+missing 11342:2 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run2.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 already have maxfilter and ICA for 11338
 ## 11342
 missing 11342:1 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run1.txt)
+missing 11342:3 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run3.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:1 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run1.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:2 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run2.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:4 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run4.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11342:2 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run2.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11342:3 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run3.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:5 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run5.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:3 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run3.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11342:4 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run4.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:6 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run6.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:4 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run4.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:5 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run5.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run7.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11342:5 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run5.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11342:6 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run6.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run8.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:6 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run6.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11342:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run7.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+missing 11342:7 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run7.txt)
+/data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
+[2016-05-02 13:51] 11342 has only  0 maxfiltered FIFs
+missing 11342:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
 missing 11342:8 bad channel txt file (/data/Luna1/Multimodal/Clock/11342/MEG/11342_clock_bad_run8.txt)
 /data/Luna1/EmoClockMEG/03_01_maxFilter.bash ended with error!
-[2016-04-29 04:31] 11342 has only  0 maxfiltered FIFs
 ## 11343
+[2016-05-02 13:51] 11342 has only  0 maxfiltered FIFs
 already have maxfilter and ICA for 11343
+[2016-05-02 13:51] 11342 has only  0 maxfiltered FIFs
 ## 11344
+## 11343
+## 11343
 already have maxfilter and ICA for 11344
+already have maxfilter and ICA for 11343
+already have maxfilter and ICA for 11343
 ## 11345
+## 11344
+## 11344
 already have maxfilter and ICA for 11345
+already have maxfilter and ICA for 11344
+## 11346
+## 11345
+already have maxfilter and ICA for 11344
+already have maxfilter and ICA for 11346
+already have maxfilter and ICA for 11345
+## 11347
+## 11346
+## 11345
+already have maxfilter and ICA for 11347
+already have maxfilter and ICA for 11345
+## 11350
 ## 11346
 already have maxfilter and ICA for 11346
+already have maxfilter and ICA for 11350
+already have maxfilter and ICA for 11346
+## 11347
+## 11353
 ## 11347
 already have maxfilter and ICA for 11347
+already have maxfilter and ICA for 11347
 ## 11350
+## 11350
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run1_ds_sss_raw.fif 
 already have maxfilter and ICA for 11350
+11353:1 started 
+already have maxfilter and ICA for 11350
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_1.log # remove procfile to retry
 ## 11353
+## 11353
+	[2015-04-28 16:08] running maxfilter on 11353 1
+	[2015-04-28 16:14] failed to sss 11353 1
 * do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run1_ds_sss_raw.fif 
 11353:1 started 
           rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_1.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run1_ds_sss_raw.fif 
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run2_ds_sss_raw.fif 
+11353:1 started 
 	[2015-04-28 16:08] running maxfilter on 11353 1
 	[2015-04-28 16:14] failed to sss 11353 1
+11353:2 started 
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_1.log # remove procfile to retry
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_2.log # remove procfile to retry
 * do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run2_ds_sss_raw.fif 
 11353:2 started 
           rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_2.log # remove procfile to retry
+	[2015-04-28 16:08] running maxfilter on 11353 1
+	[2015-04-28 16:14] failed to sss 11353 1
 	[2015-04-20 18:17] running maxfilter on 11353 2
 	[2015-04-20 18:31] failed to sss 11353 2
+	[2015-04-20 18:17] running maxfilter on 11353 2
+	[2015-04-20 18:31] failed to sss 11353 2
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run2_ds_sss_raw.fif 
+11353:2 started 
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_2.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run3_ds_sss_raw.fif 
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run3_ds_sss_raw.fif 
+	[2015-04-20 18:17] running maxfilter on 11353 2
+	[2015-04-20 18:31] failed to sss 11353 2
+11353:3 started 
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_3.log # remove procfile to retry
+11353:3 started 
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_3.log # remove procfile to retry
+	[2015-04-20 18:31] running maxfilter on 11353 3
+	[2015-04-20 18:45] failed to sss 11353 3
+	[2015-04-20 18:31] running maxfilter on 11353 3
+	[2015-04-20 18:45] failed to sss 11353 3
 * do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run3_ds_sss_raw.fif 
 11353:3 started 
           rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_3.log # remove procfile to retry
 	[2015-04-20 18:31] running maxfilter on 11353 3
 	[2015-04-20 18:45] failed to sss 11353 3
 already did 11353:4
+already did 11353:4
+already did 11353:4
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run5_ds_sss_raw.fif 
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run5_ds_sss_raw.fif 
+11353:5 started 
+11353:5 started 
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_5.log # remove procfile to retry
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_5.log # remove procfile to retry
 * do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run5_ds_sss_raw.fif 
 11353:5 started 
           rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_5.log # remove procfile to retry
 	[2015-04-20 18:45] running maxfilter on 11353 5
+	[2015-04-20 18:45] running maxfilter on 11353 5
+	[2015-04-20 18:45] running maxfilter on 11353 5
 * do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run6_ds_sss_raw.fif 
 11353:6 started 
           rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_6.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run6_ds_sss_raw.fif 
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run6_ds_sss_raw.fif 
+11353:6 started 
+	[2015-04-21 12:22] running maxfilter on 11353 6
+	[2015-04-21 12:29] failed to sss 11353 6
+11353:6 started 
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_6.log # remove procfile to retry
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_6.log # remove procfile to retry
+	[2015-04-21 12:22] running maxfilter on 11353 6
+	[2015-04-21 12:29] failed to sss 11353 6
 	[2015-04-21 12:22] running maxfilter on 11353 6
 	[2015-04-21 12:29] failed to sss 11353 6
 * do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run7_ds_sss_raw.fif 
@@ -924,11 +2764,37 @@ already did 11353:4
           rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_7.log # remove procfile to retry
 	[2015-04-21 12:29] running maxfilter on 11353 7
 	[2015-04-21 12:35] failed to sss 11353 7
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run7_ds_sss_raw.fif 
+11353:7 started 
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_7.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run7_ds_sss_raw.fif 
+11353:7 started 
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_7.log # remove procfile to retry
+	[2015-04-21 12:29] running maxfilter on 11353 7
+	[2015-04-21 12:35] failed to sss 11353 7
+	[2015-04-21 12:29] running maxfilter on 11353 7
+	[2015-04-21 12:35] failed to sss 11353 7
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run8_ds_sss_raw.fif 
+11353:8 started 
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_8.log # remove procfile to retry
+* do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run8_ds_sss_raw.fif 
+11353:8 started 
+	[2015-04-21 12:35] running maxfilter on 11353 8
+	[2015-04-21 12:42] failed to sss 11353 8
+          rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_8.log # remove procfile to retry
 * do not have /data/Luna1/Multimodal/Clock/11353/MEG/11353_clock_run8_ds_sss_raw.fif 
 11353:8 started 
           rm /data/Luna1/Multimodal/Clock/11353/MEG/maxfilter_8.log # remove procfile to retry
 	[2015-04-21 12:35] running maxfilter on 11353 8
 	[2015-04-21 12:42] failed to sss 11353 8
-[2016-04-29 04:31] 11353 has only  1 maxfiltered FIFs
+	[2015-04-21 12:35] running maxfilter on 11353 8
+	[2015-04-21 12:42] failed to sss 11353 8
+[2016-05-02 13:51] 11353 has only  1 maxfiltered FIFs
 ## 11366
+[2016-05-02 13:51] 11353 has only  1 maxfiltered FIFs
+[2016-05-02 13:51] 11353 has only  1 maxfiltered FIFs
+already have maxfilter and ICA for 11366
+## 11366
+## 11366
+already have maxfilter and ICA for 11366
 already have maxfilter and ICA for 11366
